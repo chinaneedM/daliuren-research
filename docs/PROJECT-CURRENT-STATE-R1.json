@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.13",
+  "state_version": "0.5.14",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
   "default_branch": "main",
   "phase": "FOUNDATION",
-  "last_completed_work_unit": "STUDY-0011-VOL1-P6_P9-INDEPENDENT-FIRST-PASS",
+  "last_completed_work_unit": "STUDY-0015-P9-CLASSICAL-TEXT-CROSSCHECK",
   "statuses": {
     "repository_authorized": true,
     "foundational_docs": "CI_VERIFIED_AT_INIT_R1",
@@ -14,7 +14,7 @@
     "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_9_DIRECTLY_INSPECTED; DIGITAL_EDITION_UNVERIFIED",
     "deterministic_chart_core": "NOT_STARTED",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "JINZHEN_P8_MENG_ZHONG_JI_REVIEWED; P8_P9_LIFECYCLE_FIVE_PHASE_VS_STEM_LU_BLADE_AND_VERIFICATION_CLAIM_JOINTLY_DISCUSSING; P9_EARTH_FETAL_AND_YIN_BLADE_VARIANTS_OPEN; P10_TEXT_NOT_YET_SEEN"
+    "joint_study": "JINZHEN_PRINTED_P9_SECTION5_ACTIVE; INDEPENDENT_CLASSICAL_TEXT_CROSSCHECK_FOR_EARTH_FETAL_ZI_DONE; P9_EARTH_FETAL_SCOPE_AND_YIN_BLADE_VARIANTS_STILL_OPEN; P10_NOT_SEEN"
   },
   "invariants": [
     "REMOTE_HEAD_AND_TREE_ONLY_CURRENT_SOURCE_OF_TRUTH",
@@ -53,7 +53,8 @@
     "study/SESSION-0011-JINZHEN-VOL1-PP6-9-FOUNDATIONS-R1.md",
     "study/SESSION-0012-JINZHEN-P8-THREE-PUNISHMENTS-DEEP-READ-R1.md",
     "study/SESSION-0013-JINZHEN-P8-MENGZHONGJI-AND-THREE-GROUPS-R1.md",
-    "study/SESSION-0014-JINZHEN-PP8-9-FIVE-PHASE-LIFECYCLE-LU-YANGREN-R1.md"
+    "study/SESSION-0014-JINZHEN-PP8-9-FIVE-PHASE-LIFECYCLE-LU-YANGREN-R1.md",
+    "study/SESSION-0015-JINZHEN-P9-EARTH-FETAL-AND-YIN-BLADE-CROSSCHECK-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -65,15 +66,15 @@
     "DLR-OPEN-0007",
     "DLR-OPEN-0008"
   ],
-  "highest_priority_next_action": "Stay with physical Jinzhen p8-p9 life-cycle section until the reader is ready: clarify five-phase 十二长生 vs ten-stem 禄 and five-yang-stem 羊刃 with yin-stems omitted in this specific printed version. Discuss '屡试屡验' as author-attributed empirical confidence, not a scientific validation. Preserve p9 earth-fetal 子 exception and yin blade across-edition question DLR-OPEN-0007. Only move to p10 after p9 issues adequately considered and actual page text obtained.",
+  "highest_priority_next_action": "At physical Jinzhen vol I section 5 printed p9, jointly examine the difference between standard 五行十二长生土胎午 and classical fetal-spirit use 戊己胎子 recorded online in 六壬大全; investigate whether the book restricts this to pregnancy context. Keep yin-blade p9 vs online p101 version issue OPEN (DLR-OPEN-0007), do not equate 寄宫 with blade judgment. After p9 discussion is appropriately closed, continue the book in order from the p9 section 2 heading and p10 only when original p10 text is available. Do not redo resolved p8 Meng-Zhong-Ji or create the missing three steps.",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
     "section": "卷之一《壬式起课方法》第一节第5项《十二长生运》：印刷第8—9页",
     "page": 9,
-    "completed": "实体p6-9已初核；三刑历史异说留档；四孟四仲四季阶段性讨论；本轮进一步讨论p8-9作者五行长生、十干禄刃分层与所谓屡试屡验的教学主张，明确取法已读≠证实效度；实体p9土胎子特殊说法和阴干无刃的跨章节版次分歧仍未决",
-    "next": "根据用户继续讨论p9特殊土胎子、羊刃或该段其余问题；合适时再按原书p9第二节题头转向p10《起大六壬课的步骤》原文（具体三难点尚未取得）。不把作者自述的屡试屡验冒充客观预测验证",
+    "completed": "实体p6-9已初核；三刑历史异说留档；四孟四仲四季阶段性讨论；本轮进一步讨论p8-9作者五行长生、十干禄刃分层与所谓屡试屡验的教学主张，明确取法已读≠证实效度；实体p9土胎子特殊说法和阴干无刃的跨章节版次分歧仍未决；助手另作 SESSION-0015 独立古典网络录文对勘：确认《六壬大全》胎产语境中戊己土胎子与午两取法的传统文本线索，此为旁证未核古页，双方尚未共同裁决p9的适用边界",
+    "next": "继续共同辨析印刷p9土胎子属于五行阶段还是胎孕类神的不同适用层级，及阴干无刃/寄宫刃的语境；保留DLR-OPEN-0007。合适时从p9第二节题头依序阅读p10，但当前p10正文尚未取得，不得虚构三难点。",
     "assistant_independent_review": "导论p1-5基于私人校录；卷一p6-9本轮实体图片核读；p8三刑正文再次放大逐字核查，独立研究见SESSION-0012。私人旧手写批注不读不记",
     "joint_discussion_mode": "读者为多年术数实践者，基础干支五行只核印刷准确性；深讲六壬特用、规则分歧、疑难和可检验断法。旧手写批注不采集、不索引、不作为读者当前观点；仅当次明确口述与实体印刷原文分别记录。"
   },
