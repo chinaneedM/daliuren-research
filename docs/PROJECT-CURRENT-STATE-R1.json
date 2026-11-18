@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.16",
+  "state_version": "0.5.17",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
   "default_branch": "main",
   "phase": "FOUNDATION",
-  "last_completed_work_unit": "STUDY-0017-PRINTED-P10_11-LAYOUT-VS-CALCULATION-DISCUSSION",
+  "last_completed_work_unit": "STUDY-0018-P11-EARTH-PLATE-VISIBILITY-AND-MONTH-GENERAL-TEACHING-CLARITY",
   "statuses": {
     "repository_authorized": true,
     "foundational_docs": "CI_VERIFIED_AT_INIT_R1",
@@ -14,7 +14,7 @@
     "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_15_DIRECTLY_INSPECTED_IN_USER_PHOTOS; DIGITAL_EDITION_UNVERIFIED; PRINTED_P16_NOT_SEEN",
     "deterministic_chart_core": "NOT_STARTED",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "JINZHEN_VOL1_SECTION2_PRINTED_P10_11_JOINT_DISCUSSION_ON_STEPS_AND_CHART_VERTICAL_ORDER; P12_15_ASSISTANT_INDEPENDENT_FIRST_PASS_ONLY_NOT_JOINTLY_COMPLETED; OLD_P9_ISSUES_PRESERVED"
+    "joint_study": "JINZHEN_VOL1_P11_JOINT_DISCUSSION_MONTH_GENERAL_ALIGNED_TO_EARTH_TIME_CONFIRMED; SOFTWARE_UI_USER_PREFERENCE_PYRAMID_PLUS_VISIBLE_EARTH_PLATE_RECORDED; P12_15_ONLY_ASSISTANT_FIRST_PASS; OLD_P9_ISSUES_PRESERVED"
   },
   "invariants": [
     "REMOTE_HEAD_AND_TREE_ONLY_CURRENT_SOURCE_OF_TRUTH",
@@ -68,15 +68,15 @@
     "DLR-OPEN-0007",
     "DLR-OPEN-0008"
   ],
-  "highest_priority_next_action": "Continue printed Jinzhen vol I section 2 p11 then p12 in source order: distinguish p10 demonstration display 天地盘/四课/三传 versus p11 author's customary 金字塔 三传/四课/天地盘, and user-supplied app screenshot with latter; independent chart calculation unaffected by display arrangement. The note SOFTWARE-DESIGN-NOTE-0001 keeps 2 render-mode options undecided as to default. Next jointly check month-general on time and ten-stem lodging into four lessons on printed p12–14; do not treat p12–15 independent inspection as joint completion, or re-open p9 topic as blocker.",
+  "highest_priority_next_action": "Continue source-order joint study from physical printed Jinzhen p11–12: the user clearly explains 卯将辰时 as 天盘卯对准地盘辰, and prefers a pyramid full-chart UI explicitly displaying both fixed earth-plate and positioned heaven-plate branches (book's implicit earth plate is seen as pedagogically confusing). User preference was recorded as preferred default in SOFTWARE-DESIGN-NOTE-0001; no software implemented. Next examine p12 ten-stem lodging and derive p13–14 four lessons step-by-step. Do not infer anything from handwritten old notes; current spoken explanation only.",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
     "section": "卷之一《壬式起课方法》第二节《起大六壬课的步骤》，印刷第10—11页：三项难点、四个起课步骤、月将加时及完整课式上下排列",
     "page": 11,
-    "completed": "用户明确要求顺序推进并已新交印刷p10–15六张照片；助手独立核读全部六页的印刷内容，未读取手写批注，详SESSION-0016；双方共同讨论目前仅开始p10三个难点/四步总览及月将加时，不能把p11–15独立初读当双方学完；p9土胎子和阴刃疑点继续以DLR-OPEN-0007跟踪，不阻塞本节。 本轮读者提供另一六壬排盘软件截图，指出p10教材样例天地盘/四课/三传，与作者p11自述和截图的三传/四课/天地盘金字塔式不同；双方已明确此为版面呈现问题，不可改变算法流程。已原创登记软件双布局候选NOTE-0001，尚未决定默认界面；截图不同课例不可当教材数值核算。",
-    "next": "从p11地盘固定、月将加时的具体对应继续；然后依p12十干寄宫入四课及p13–14四课推导按原书顺序研习。纵向布局两种模式留作软件UI候选，不预先锁定默认。",
+    "completed": "用户明确要求顺序推进并已新交印刷p10–15六张照片；助手独立核读全部六页的印刷内容，未读取手写批注，详SESSION-0016；双方共同讨论目前仅开始p10三个难点/四步总览及月将加时，不能把p11–15独立初读当双方学完；p9土胎子和阴刃疑点继续以DLR-OPEN-0007跟踪，不阻塞本节。 本轮读者提供另一六壬排盘软件截图，指出p10教材样例天地盘/四课/三传，与作者p11自述和截图的三传/四课/天地盘金字塔式不同；双方已明确此为版面呈现问题，不可改变算法流程。已原创登记软件双布局候选NOTE-0001，尚未决定默认界面；截图不同课例不可当教材数值核算。 用户当次口头说明：此前书页隐藏地盘使初学较困难，其当前对卯将辰时的简明理解是天盘卯对准地盘辰；偏好金字塔式软件课盘并在宫位上明确同时显示天盘与固定地盘。该意见作为当次口头交流记录，不读取或保存旧书面批注。软件候选默认方案已在NOTE-0001前向补充，但尚未编码或验收。",
+    "next": "从p11明示地盘固定而可隐写的表述进入p12十干寄宫，手算庚日寄申如何取第一课，继续第二至第四课；软件默认可视地盘的用户偏好作为设计约束，与起课规则分离。",
     "assistant_independent_review": "导论p1–5私人校录初核，卷一p6–9原照片已读；最新实体印刷p10–15新照片在本轮逐页人工复查，均仅处理印刷正文，不识读、不记录旧手写笔记；详见SESSION-0016。",
     "joint_discussion_mode": "已有多年术数经验的读者与助手双向逐段研究；对基础讲清其在六壬里的具体操作和边界，不要求用户立即回答较高阶研究题；原则上按页顺序推进，未决问题另存。私人原图和手写批注绝不入公开仓库。"
   },
