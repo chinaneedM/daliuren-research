@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.10",
+  "state_version": "0.5.11",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -14,7 +14,7 @@
     "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_9_DIRECTLY_INSPECTED; DIGITAL_EDITION_UNVERIFIED",
     "deterministic_chart_core": "NOT_STARTED",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "LIUREN_JINZHEN_PP6_9_PHYSICAL_FIRST_PASS; P6_YIN_YANG_DYNAMIC_AND_LIQI_JOINT_FOLLOWUP; EXPERIENCE_LEVEL_RECOGNIZED; LEGACY_HANDWRITTEN_ANNOTATIONS_EXCLUDED; VOL1_SECTION2_P10_NEXT"
+    "joint_study": "JINZHEN_VOL1_PP6_9_ASSISTANT_INITIAL_READ; P8_THREE_PUNISHMENTS_REOPENED_FOR_IN_DEPTH_JOINT_DISCUSSION; P10_NOT_YET_RESUMED"
   },
   "invariants": [
     "REMOTE_HEAD_AND_TREE_ONLY_CURRENT_SOURCE_OF_TRUTH",
@@ -50,7 +50,8 @@
     "study/SESSION-0008-JINZHEN-STUDY-DIFFICULTY-AND-LIZHI-R1.md",
     "study/SESSION-0009-JINZHEN-INTRO-P1-5-INDEPENDENT-REVIEW-R1.md",
     "study/SESSION-0010-JINZHEN-READING-LIST-AND-LIQI-R1.md",
-    "study/SESSION-0011-JINZHEN-VOL1-PP6-9-FOUNDATIONS-R1.md"
+    "study/SESSION-0011-JINZHEN-VOL1-PP6-9-FOUNDATIONS-R1.md",
+    "study/SESSION-0012-JINZHEN-P8-THREE-PUNISHMENTS-DEEP-READ-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -59,18 +60,19 @@
     "DLR-OPEN-0004",
     "DLR-OPEN-0005",
     "DLR-OPEN-0006",
-    "DLR-OPEN-0007"
+    "DLR-OPEN-0007",
+    "DLR-OPEN-0008"
   ],
-  "highest_priority_next_action": "Resume physical Liuren Jinzhen vol I section 2 at printed p10 when reader provides new page images; user already knows generic stem/branch/five-phase correspondences. Preserve old marginalia exclusion preference; p6 explicitly links dynamic yin-yang to Liqi, trace later operational criteria without speculative completion. Keep source-specific p9 yin-blade issues open.",
+  "highest_priority_next_action": "Continue jointly studying exactly physical Jinzhen p8 三刑. Reader corrected assistant's premature claim that vol I first section was finished. Compare two-branch penalty priorities (寅巳生刑、巳申合刑、申寅冲刑、丑未冲刑), all-three-in-三传 no-order reading, self-punishment without repeated identical branches, and directed 伏吟三传 derivation. External unbound 六壬大全 text disputes 申刑寅/未刑丑; keep source-specific and unresolved. Wait to advance to p9 remainder or p10 until user's study progression warrants.",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
-    "section": "卷之一《壬式起课方法》第一节《学习大六壬前必须掌握的基础知识》末尾；第二节标题开始",
-    "page": 9,
-    "completed": "导论p1-5此前讨论与复核、卷一p6-9实体正文初读；本轮共同补议p6阴阳盈虚转化为理气核心线索，用户具有多年术数基础；不将旧手写边注当作研究资料",
-    "next": "卷一第二节《起大六壬课的步骤》从p9标题转入p10；待新印刷页照片，按印刷正文逐段讨论；继续追踪p6阴阳转化的具体判断条件（DLR-OPEN-0006），不重讲五行干支通识",
-    "assistant_independent_review": "导论p1-5基于私人初校；卷一p6-9本轮直接核读四张新实体照片，详SESSION-0011",
+    "section": "卷之一《壬式起课方法》第一节《学习大六壬前必须掌握的基础知识》—第8页“三刑”专段继续",
+    "page": 8,
+    "completed": "助手已直接核读实体卷一印刷p6–9、完成首轮逐页检查；共同讨论p6阴阳与p8三刑已展开但三刑尚未学完，不能因已看到p9就认定第一节结束；此前跳到p10为进度判断过早，已按用户纠正退回p8",
+    "next": "继续p8三刑深究：四课/天地盘二支相刑遇生合冲如何判主次；三传全见寅巳申/丑戌未何以不论顺序；辰午酉亥自刑无需同支重见与四课全见的条件。另区分伏吟课以刑递取中末传的次序规则，研习完再恢复p8-9其余内容；不进入p10",
+    "assistant_independent_review": "导论p1-5基于私人校录；卷一p6-9本轮实体图片核读；p8三刑正文再次放大逐字核查，独立研究见SESSION-0012。私人旧手写批注不读不记",
     "joint_discussion_mode": "读者为多年术数实践者，基础干支五行只核印刷准确性；深讲六壬特用、规则分歧、疑难和可检验断法。旧手写批注不采集、不索引、不作为读者当前观点；仅当次明确口述与实体印刷原文分别记录。"
   },
   "research_vision": "HISTORICAL_INHERITANCE_PLUS_SKEPTICAL_TESTING_PLUS_VERSIONED_INNOVATION_NO_PREASSUMED_100_PERCENT_PREDICTION"
