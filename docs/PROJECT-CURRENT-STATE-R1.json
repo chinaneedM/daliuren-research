@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.4",
+  "state_version": "0.5.5",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -14,7 +14,7 @@
     "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_PP1_5_VERIFIED; DIGITAL_EDITION_UNVERIFIED",
     "deterministic_chart_core": "NOT_STARTED",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "LIUREN_JINZHEN_INTRO_P1_PARAS1_3_REVIEWED; P1_HEAVEN_EARTH_PLATES_PREPARED_NOT_COMPLETED; VALIDITY_AND_PREDICTION_LIMITS_OPEN"
+    "joint_study": "LIUREN_JINZHEN_INTRO_P1_PARAS1_3_REVIEWED; PARA4_PLATE_TERMINOLOGY_DISCUSSION_STARTED_NOT_COMPLETED; VALIDITY_AND_PREDICTION_LIMITS_OPEN"
   },
   "invariants": [
     "REMOTE_HEAD_AND_TREE_ONLY_CURRENT_SOURCE_OF_TRUTH",
@@ -55,15 +55,15 @@
     "DLR-OPEN-0004",
     "DLR-OPEN-0005"
   ],
-  "highest_priority_next_action": "Continue Liuren Jinzhen introduction p1 immediately after the first three discussed paragraphs, with heaven/earth plate and month-general-on-hour; use SESSION-0007 as prepared comparative analysis, not finished reading. Confirm exact printed plate-label wording with private original and user before marking section complete; keep predictive validity question independent.",
+  "highest_priority_next_action": "Continue exact Liuren Jinzhen introduction p1 paragraph 4 together: confirm printed heaven/earth-plate wording, explain month-general-on-hour and distinguish relative 上神/下神 from four-course 阴神/阳神. Do not mark para 4 complete or skip to later pages without user confirmation.",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
     "section": "大六壬与大六壬学习",
     "page": 1,
-    "completed": "导论p1前三段初议；延伸讨论同课异事、时间信息假说与百分之百预测力问题，正文未继续",
-    "next": "第1页天地盘段落：古籍在线文本对照及亥将加午手算例已准备；等待双方讨论及实体印刷字面复核，尚未完成该段"
+    "completed": "导论p1前三段初议；第四段天地盘/术语讨论已开始但未完成；同课异事、时间信息与预测有效性为延伸议题",
+    "next": "第1页第4段续读，核原印盘名、月将加时语义及上下神/阴阳神异名范围；不提前跳到下一段"
   },
   "research_vision": "HISTORICAL_INHERITANCE_PLUS_SKEPTICAL_TESTING_PLUS_VERSIONED_INNOVATION_NO_PREASSUMED_100_PERCENT_PREDICTION"
 }
