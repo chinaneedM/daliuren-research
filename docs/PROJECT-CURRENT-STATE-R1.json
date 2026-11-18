@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.4.0",
+  "state_version": "0.4.1",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -40,7 +40,8 @@
     "study/SESSION-0001-INPUT-CONTRACT-R1.md",
     "docs/RESEARCH-BATCH-0003-LIUREN-JINZHEN-PHYSICAL-TOC.md",
     "study/SESSION-0002-LIUREN-JINZHEN-INTRO-REVIEW.md",
-    "study/SESSION-0003-SANSHI-FIRST-PARAGRAPH-R1.md"
+    "study/SESSION-0003-SANSHI-FIRST-PARAGRAPH-R1.md",
+    "docs/JOINT-STUDY-METHOD-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -49,5 +50,13 @@
     "DLR-OPEN-0004"
   ],
   "highest_priority_next_action": "Continue joint study of 六壬金针 introduction p1 paragraph 2, test the claim that ancient 术数 applied solely to 三式 against historical source categories. Preserve user book's p1 printing as-is and separately check apparent 天地盘 label reversal against p6+ and historical chart rules; obtain rights-clear text only for future chapters.",
-  "important_note": "STUDY-0001 studied user photo of printed introduction p1 paragraph 1. Historical 三式 evidence is online transcription of 四库全书总目, not original facsimile. User photographs/handwriting and complete printed modern text are not in the public repository. Current research notes should not imply empirical predictive validation; inspect new exact HEAD Actions."
+  "important_note": "Learning mission clarified in docs/PROJECT-CHARTER-R1.md and continuity protocol: whole-book, paragraph-by-paragraph joint analysis of 六壬金针 to deepen user understanding and accumulate project-verifiable knowledge; historical/software work is secondary, not a reason to skip. User photos/modern full text private; Tianwen core unchanged. Latest study location p1 para1. Revalidate exact HEAD Actions after commit.",
+  "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
+  "current_study_location": {
+    "book": "北海闲人《六壬金针》",
+    "section": "大六壬与大六壬学习",
+    "page": 1,
+    "completed": "第一段（三式并称）的初步研习",
+    "next": "第二段，术数历史用语及类别分野；继续逐段讨论；勿跳页"
+  }
 }
