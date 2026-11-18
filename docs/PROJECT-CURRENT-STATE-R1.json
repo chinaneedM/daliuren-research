@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.2",
+  "state_version": "0.5.3",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -44,7 +44,8 @@
     "docs/JOINT-STUDY-METHOD-R1.md",
     "study/SESSION-0004-TIME-AS-SYMBOL-R1.md",
     "study/SESSION-0005-SAME-CHART-DIFFERENT-QUERENT-R1.md",
-    "study/SESSION-0006-UNCERTAINTY-AND-VALIDITY-R1.md"
+    "study/SESSION-0006-UNCERTAINTY-AND-VALIDITY-R1.md",
+    "docs/LONG-TERM-RESEARCH-VISION-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -54,7 +55,7 @@
     "DLR-OPEN-0005"
   ],
   "highest_priority_next_action": "Keep whole-book reading in order; next p1 paragraph on heaven/earth plates. Independently preserve predictive efficacy question (DLR-OPEN-0005), do not divert into claiming or disproving total validity without pre-registered evidence.",
-  "important_note": "STUDY-0002B records epistemic point: no reliable repeatable evidence of 100% divination prediction or established general efficacy; separate mathematical proof, empirical physical revision, historical chart rules and empirical prediction. Exact-head Actions check needed after this commit.",
+  "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
@@ -62,5 +63,6 @@
     "page": 1,
     "completed": "导论p1前三段初议；延伸讨论同课异事、时间信息假说与百分之百预测力问题，正文未继续",
     "next": "仍继续第1页天地盘段落，长期保留断课有效性与适用边界问题"
-  }
+  },
+  "research_vision": "HISTORICAL_INHERITANCE_PLUS_SKEPTICAL_TESTING_PLUS_VERSIONED_INNOVATION_NO_PREASSUMED_100_PERCENT_PREDICTION"
 }
