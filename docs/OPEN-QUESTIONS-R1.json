@@ -57,6 +57,14 @@
       "title": "《六壬金针》实体本p9阴干无刃与同题在线卷二阴干有刃、土胎额外子位的规则边界",
       "required_evidence": "以用户实体书卷二p101及后续实际页照片为准核“阴干羊刃”和长生/胎位完整文字；明确网络文本的底本、印次和转录准确性。分别复核土胎午与子兼用的含义、干禄与五行旺的模型边界，寻找同书对应课例并标注所采用规则版本。",
       "next_action": "Continue sequential book reading. When physical Jinzhen volume II p101 section 8 is reached, compare original print with publicly hosted online chapter did=820; do not predeclare contradiction or silently resolve yin-blade variants. Search references to 土胎子 after p9 without stalling chapter order."
+    },
+    {
+      "id": "DLR-OPEN-0008",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "《六壬金针》p8三刑在四课/天地盘与三传中的条件、方向和伏吟递刑之辨",
+      "required_evidence": "实体印刷《六壬金针》p8已核：两支刑生合冲主次、三传三支全见不拘顺序、自刑不强求同支重复。待本书卷一伏吟起课及卷二判断具体例证，并以版本绑定的《六壬大全》《大六壬探原》原页校对未刑丑/申刑寅方向异说、四课上神全见与四课全见的概念是否相同；用可复算合法课式检验顺序、适用范围及冲突权重。",
+      "next_action": "Do not advance to physical p10 yet. Continue collaborative close-reading of Jinzhen p8, separate directed 三刑 for 伏吟起传 from unordered 三支全见 for 断课 recognition. Distinguish user printed source, unbound online classical transcriptions, and independently constructed examples. Upon later book sections, test legal arrangements, exceptions and author-priority choices."
     }
   ]
 }
