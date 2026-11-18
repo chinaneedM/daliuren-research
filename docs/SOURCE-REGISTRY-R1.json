@@ -221,6 +221,46 @@
       ],
       "limits": "网页未注明与用户实体本同印次、同底本；不是纸书卷二p101的直接核读。若将来的实体p101原字不同，应按事实分层保留，不静默替换。本来源不支持预测准确率结论。",
       "rights": "REFERENCE_LINK_AND_ORIGINAL_COMPARATIVE_NOTE_ONLY; NO_MODERN_TEXT_REPRINT"
+    },
+    {
+      "id": "DLR-WIT-0014",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://zh.wikisource.org/wiki/六壬大全/11",
+      "provider": "维基文库《六壬大全》在线转录（另有四库全书本卷09对应录文）",
+      "evidence_grade": "HISTORICAL_ONLINE_TRANSCRIPTION_UNBOUND",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "胎财生气妻怀孕条明确记戊己土胎在子，同时记有人取午",
+        "文献语境为胎孕类断；两网络卷次不能简单计为两个独立见证"
+      ],
+      "limits": "未核古籍原页和版本关系；不证明《六壬金针》直接取材，不证明占断效果。对照页：https://zh.wikisource.org/zh-hans/六壬大全_(四库全书本)/卷09",
+      "rights": "LINK_AND_SHORT_PUBLIC_DOMAIN_CITATION_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0015",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://libokang.com/zh-hant/classics/liuren/六壬粹言/",
+      "provider": "Libo《六壬粹言》在线古文及现代译注",
+      "evidence_grade": "HISTORICAL_ONLINE_TRANSCRIPTION_EDITION_UNBOUND",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "古文部分保留戊己日子为胎财的说法和土神歌子上有胞胎"
+      ],
+      "limits": "未核古刻；现代译注不可视作原字；与《六壬大全》同文关联待考。",
+      "rights": "LINK_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0016",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://libokang.com/classics/liuren/大六壬金铰剪/",
+      "provider": "Libo《大六壬金铰剪》在线古文及现代译注",
+      "evidence_grade": "DIFFERENT_WORK_ONLINE_TEXT_EDITION_UNBOUND",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "十干寄宫段有阳干寄禄宫、阴干寄刃位"
+      ],
+      "limits": "此处主要用来叙述寄宫，不可自动等同《六壬金针》p9断课羊刃，未核历史实物。",
+      "rights": "LINK_AND_ORIGINAL_ANALYSIS_ONLY"
     }
   ]
 }
