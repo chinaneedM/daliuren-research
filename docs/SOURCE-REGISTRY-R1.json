@@ -193,6 +193,20 @@
       ],
       "limits": "目录相近不足以证明正文复用、书籍改题、版本先后或逐页等同；现代书目的段落和图像不得复制入公开仓库。",
       "rights": "CATALOG_FACTS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0012",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.shidianguji.com/book/SK0000A/chapter/1kgsnqnt293j6",
+      "provider": "识典古籍《四库全书总目》之《六壬大全》提要在线文本",
+      "evidence_grade": "HISTORICAL_BIBLIOGRAPHIC_ONLINE_TRANSCRIPTION_NOT_FACSIMILE",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "在线提要有“六壬与遁甲、太乙，世谓之三式”",
+        "属于古典书目层的三式并称证据，不能反推三式术理同一"
+      ],
+      "limits": "未直接核对相应《四库全书总目》版面影像或不同版本异文，不足裁决三式概念的最早年代，也无预测有效性证明。",
+      "rights": "SHORT_HISTORICAL_CITATION_ONLY"
     }
   ]
 }
