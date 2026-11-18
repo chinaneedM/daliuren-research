@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.6",
+  "state_version": "0.5.7",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -14,7 +14,7 @@
     "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_PP1_5_VERIFIED; DIGITAL_EDITION_UNVERIFIED",
     "deterministic_chart_core": "NOT_STARTED",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "JINZHEN_INTRO_P1_PLATES_DISCUSSION_WITH_TEXTUAL_ERROR_OPEN; P2_STUDY_DIFFICULTIES_AND_P3_P4_STRENGTH_CLAIMS_OVERVIEW_DISCUSSION; P4_LEARNING_STEPS_NEXT"
+    "joint_study": "JINZHEN_INTRO_P1_5_ASSISTANT_INDEPENDENT_FIRST_PASS; USER_P1_4_SELECTIVE_DISCUSSION; P4_P5_CLOSING_DISCUSSION_NEXT; P6_TEXT_UNAVAILABLE"
   },
   "invariants": [
     "REMOTE_HEAD_AND_TREE_ONLY_CURRENT_SOURCE_OF_TRUTH",
@@ -47,7 +47,8 @@
     "study/SESSION-0006-UNCERTAINTY-AND-VALIDITY-R1.md",
     "docs/LONG-TERM-RESEARCH-VISION-R1.md",
     "study/SESSION-0007-JINZHEN-HEAVEN-EARTH-PLATE-P1-R1.md",
-    "study/SESSION-0008-JINZHEN-STUDY-DIFFICULTY-AND-LIZHI-R1.md"
+    "study/SESSION-0008-JINZHEN-STUDY-DIFFICULTY-AND-LIZHI-R1.md",
+    "study/SESSION-0009-JINZHEN-INTRO-P1-5-INDEPENDENT-REVIEW-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -56,15 +57,17 @@
     "DLR-OPEN-0004",
     "DLR-OPEN-0005"
   ],
-  "highest_priority_next_action": "Continue cover-to-cover Jinzhen introduction at physical p4 after the marked '理致' sentence: discuss author's four learning steps, then p4-p5 conclusion. Explicitly preserve p1 plate-label typo as open; p2-4 were discussed at synopsis level, no book passages skipped.",
+  "highest_priority_next_action": "Follow new assistant-led review rule: read every available original passage independently regardless of selective user annotations. Continue Liuren Jinzhen introduction p4 four study phases and p4-p5 rereading advice; disclose gaps, do not treat solo first-pass as jointly finished. Vol I p6 content not yet supplied or safely verified.",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
     "section": "大六壬与大六壬学习",
     "page": 4,
-    "completed": "导论p1前三段初议；第4段天地盘关键概念和术语已讨论（原印疑误未裁决）；p2三类难学原因与p3-4四项优点已概览讨论，读者重点标注的理致句在p4；不把概览称为全部逐字校勘",
-    "next": "按原书顺序研习p4：作者列出的学壬四步及建议；随后阅读p4-5的导论收束。若发现漏段，先补读；卷一p6尚未开始"
+    "completed": "导论p1关键术语与天地盘、p2学习困难和p3-4作者所称优势已选择性讨论；助手已基于私人校录独立逐段复查p1-5（不等于每段均与用户讨论完）",
+    "next": "接p4学壬四阶段与p4-5反刍阅读结语，重点查缺补漏；然后在取得可靠原书文字后进入卷一p6。不得要求用户逐段复述现有p1-5材料",
+    "assistant_independent_review": "导论印刷p1-5已基于此前私人Word初校独立通读，未重看照片；见SESSION-0009",
+    "joint_discussion_mode": "用户自行通读并重点标注；助手覆盖核读每段并主动指出有意义的疑问，铺垫简述"
   },
   "research_vision": "HISTORICAL_INHERITANCE_PLUS_SKEPTICAL_TESTING_PLUS_VERSIONED_INNOVATION_NO_PREASSUMED_100_PERCENT_PREDICTION"
 }
