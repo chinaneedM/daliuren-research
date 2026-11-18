@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.9",
+  "state_version": "0.5.10",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -14,7 +14,7 @@
     "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_9_DIRECTLY_INSPECTED; DIGITAL_EDITION_UNVERIFIED",
     "deterministic_chart_core": "NOT_STARTED",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "LIUREN_JINZHEN_VOL1_PP6_9_PHYSICAL_PHOTOS_DIRECT_READ_INDEPENDENT_FIRST_PASS; YIN_BLADE_AND_EARTH_FETAL_EXCEPTION_OPEN; VOL1_SECOND_SECTION_P10_NEXT"
+    "joint_study": "LIUREN_JINZHEN_PP6_9_PHYSICAL_FIRST_PASS; P6_YIN_YANG_DYNAMIC_AND_LIQI_JOINT_FOLLOWUP; EXPERIENCE_LEVEL_RECOGNIZED; LEGACY_HANDWRITTEN_ANNOTATIONS_EXCLUDED; VOL1_SECTION2_P10_NEXT"
   },
   "invariants": [
     "REMOTE_HEAD_AND_TREE_ONLY_CURRENT_SOURCE_OF_TRUTH",
@@ -61,17 +61,17 @@
     "DLR-OPEN-0006",
     "DLR-OPEN-0007"
   ],
-  "highest_priority_next_action": "Continue source-ordered co-study from Liuren Jinzhen physical vol I section 2 p10. Four user photos directly verify p6-9; p9's 'three difficulties' list is NOT shown. Keep p9 source-specific yin-yang blade and earth fetal-stage exception as DLR-OPEN-0007; reconcile only when actual later pages are reached. User will supply more physical photos, not required to narrate each paragraph.",
+  "highest_priority_next_action": "Resume physical Liuren Jinzhen vol I section 2 at printed p10 when reader provides new page images; user already knows generic stem/branch/five-phase correspondences. Preserve old marginalia exclusion preference; p6 explicitly links dynamic yin-yang to Liqi, trace later operational criteria without speculative completion. Keep source-specific p9 yin-blade issues open.",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
     "section": "卷之一《壬式起课方法》第一节《学习大六壬前必须掌握的基础知识》末尾；第二节标题开始",
     "page": 9,
-    "completed": "用户实体书图片已直接核读导论p1-5及卷一p6-9；卷一第一节1—5项(阴阳五行天干地支十二长生/禄刃)助手逐段初议，保留读者手写注释私人边界；p9阴干无刃/网络后文有刃、土胎子另说待核，不把独立核读当双方全部逐字完成",
-    "next": "卷一第二节《起大六壬课的步骤》从p9末尾题头转p10续读，待用户提供p10起实体照片；根据具体文字核起课三难点，不得按常识预填",
+    "completed": "导论p1-5此前讨论与复核、卷一p6-9实体正文初读；本轮共同补议p6阴阳盈虚转化为理气核心线索，用户具有多年术数基础；不将旧手写边注当作研究资料",
+    "next": "卷一第二节《起大六壬课的步骤》从p9标题转入p10；待新印刷页照片，按印刷正文逐段讨论；继续追踪p6阴阳转化的具体判断条件（DLR-OPEN-0006），不重讲五行干支通识",
     "assistant_independent_review": "导论p1-5基于私人初校；卷一p6-9本轮直接核读四张新实体照片，详SESSION-0011",
-    "joint_discussion_mode": "用户自行通读并重点标注；助手覆盖核读每段并主动指出有意义的疑问，铺垫简述"
+    "joint_discussion_mode": "读者为多年术数实践者，基础干支五行只核印刷准确性；深讲六壬特用、规则分歧、疑难和可检验断法。旧手写批注不采集、不索引、不作为读者当前观点；仅当次明确口述与实体印刷原文分别记录。"
   },
   "research_vision": "HISTORICAL_INHERITANCE_PLUS_SKEPTICAL_TESTING_PLUS_VERSIONED_INNOVATION_NO_PREASSUMED_100_PERCENT_PREDICTION"
 }
