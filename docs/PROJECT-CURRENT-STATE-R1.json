@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.12",
+  "state_version": "0.5.13",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -14,7 +14,7 @@
     "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_9_DIRECTLY_INSPECTED; DIGITAL_EDITION_UNVERIFIED",
     "deterministic_chart_core": "NOT_STARTED",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "JINZHEN_P8_THREE_PUNISHMENTS_SCOPECLOSED_DEEP_RESEARCH_ISSUE_OPEN; P8_MENG_ZHONG_JI_DISCUSSION; P8_12_STAGES_NEXT; P10_NOT_YET_RESUMED"
+    "joint_study": "JINZHEN_P8_MENG_ZHONG_JI_REVIEWED; P8_P9_LIFECYCLE_FIVE_PHASE_VS_STEM_LU_BLADE_AND_VERIFICATION_CLAIM_JOINTLY_DISCUSSING; P9_EARTH_FETAL_AND_YIN_BLADE_VARIANTS_OPEN; P10_TEXT_NOT_YET_SEEN"
   },
   "invariants": [
     "REMOTE_HEAD_AND_TREE_ONLY_CURRENT_SOURCE_OF_TRUTH",
@@ -52,7 +52,8 @@
     "study/SESSION-0010-JINZHEN-READING-LIST-AND-LIQI-R1.md",
     "study/SESSION-0011-JINZHEN-VOL1-PP6-9-FOUNDATIONS-R1.md",
     "study/SESSION-0012-JINZHEN-P8-THREE-PUNISHMENTS-DEEP-READ-R1.md",
-    "study/SESSION-0013-JINZHEN-P8-MENGZHONGJI-AND-THREE-GROUPS-R1.md"
+    "study/SESSION-0013-JINZHEN-P8-MENGZHONGJI-AND-THREE-GROUPS-R1.md",
+    "study/SESSION-0014-JINZHEN-PP8-9-FIVE-PHASE-LIFECYCLE-LU-YANGREN-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -64,15 +65,15 @@
     "DLR-OPEN-0007",
     "DLR-OPEN-0008"
   ],
-  "highest_priority_next_action": "Resume exact Jinzhen printed p8 section 5 十二长生运 (continues p9) after discussion of 四孟四仲四季. Reader knows generic five-phase/stem-branch correspondences, prioritize source-specific Water/Earth shared life cycle, special Earth fetal location, stem Lu vs five-phase stage distinctions and printed yin-blade exception. Do not skip to p10 before discussing p8-9; keep Liuren Shehai Meng Zhong Ji tie-breaker candidate for later sect-nine-lesson check.",
+  "highest_priority_next_action": "Stay with physical Jinzhen p8-p9 life-cycle section until the reader is ready: clarify five-phase 十二长生 vs ten-stem 禄 and five-yang-stem 羊刃 with yin-stems omitted in this specific printed version. Discuss '屡试屡验' as author-attributed empirical confidence, not a scientific validation. Preserve p9 earth-fetal 子 exception and yin blade across-edition question DLR-OPEN-0007. Only move to p10 after p9 issues adequately considered and actual page text obtained.",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
-    "section": "卷之一《壬式起课方法》第一节第8页：三刑后孟仲季段已讨论；下段十二长生运",
-    "page": 8,
-    "completed": "助手已核导论p1-5及卷一p6-9印刷文本；三刑核心规则阶段性讨论、深层争议留DLR-OPEN-0008；本轮依原书p8讨论四孟四仲四季及跨八字/斗数用语，强调作者通常不称四死；第一节尚未宣告双方研习完成",
-    "next": "按原书p8第5项十二长生运继续、随后p9禄刃及十二长生例外；在现有书页讨论后才进入p9末尾第二节和p10。已识别涉害法要用孟仲季，待宗门九课正文核实本书具体取传法",
+    "section": "卷之一《壬式起课方法》第一节第5项《十二长生运》：印刷第8—9页",
+    "page": 9,
+    "completed": "实体p6-9已初核；三刑历史异说留档；四孟四仲四季阶段性讨论；本轮进一步讨论p8-9作者五行长生、十干禄刃分层与所谓屡试屡验的教学主张，明确取法已读≠证实效度；实体p9土胎子特殊说法和阴干无刃的跨章节版次分歧仍未决",
+    "next": "根据用户继续讨论p9特殊土胎子、羊刃或该段其余问题；合适时再按原书p9第二节题头转向p10《起大六壬课的步骤》原文（具体三难点尚未取得）。不把作者自述的屡试屡验冒充客观预测验证",
     "assistant_independent_review": "导论p1-5基于私人校录；卷一p6-9本轮实体图片核读；p8三刑正文再次放大逐字核查，独立研究见SESSION-0012。私人旧手写批注不读不记",
     "joint_discussion_mode": "读者为多年术数实践者，基础干支五行只核印刷准确性；深讲六壬特用、规则分歧、疑难和可检验断法。旧手写批注不采集、不索引、不作为读者当前观点；仅当次明确口述与实体印刷原文分别记录。"
   },
