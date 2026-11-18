@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0.0",
   "updated_on": "2026-11-18",
-  "evidence_note": "User physical 六壬金针 cover, TOC (2pp), introductory pp1–5, and new printed pp6–9 directly inspected in user-provided photographs (2026-11-18); private annotations never redistributed. Source-page coverage does not establish publisher/printing or validate the complete book. 2026-11-18 sequential continuation: six additional private user physical photographs of printed pp10–15 inspected by visual reading of PRINT only; handwritten markings ignored entirely. P16 not received.",
+  "evidence_note": "User physical 六壬金针 cover, TOC (2pp), introductory pp1–5, and new printed pp6–9 directly inspected in user-provided photographs (2026-11-18); private annotations never redistributed. Source-page coverage does not establish publisher/printing or validate the complete book. 2026-11-18 sequential continuation: six additional private user physical photographs of printed pp10–15 inspected by visual reading of PRINT only; handwritten markings ignored entirely. P16 not received. On 2026-11-18 user supplied printed p16 of physical Jinzhen and a separate privately photographed printed p1 of 大六壬指南 vol1; both examined only for print, marginal handwriting not read or recorded; no photos in public repository.",
   "entries": [
     {
       "id": "DLR-SRC-0001",
       "work_title": "六壬金针",
       "author_attribution": "北海闲人",
       "user_holds_physical": true,
-      "user_edition": "COVER_TOC_AND_PRINTED_PP1_15_PHOTOGRAPHED; IMPRINT_ISBN_PRINTING_UNVERIFIED",
+      "user_edition": "COVER_TOC_AND_PRINTED_PP1_16_PHOTOGRAPHED; IMPRINT_ISBN_PRINTING_UNVERIFIED",
       "source_class": "USER_PHYSICAL_EXCERPT_VERIFIED_BIBLIOGRAPHIC",
       "online_location": "https://book.chineseculture.co.uk/book/7",
       "digital_status": "PUBLIC_FILE_LEADS_FOUND_EDITION_AND_LICENSE_UNVERIFIED",
       "redistribution_rights": "UNKNOWN",
       "full_text_stored": false,
-      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested. RESEARCH-0002 searched for complete, edition-bound table of contents and rights-clear digitization; none verified. 《大六壬心法指要》 is a DIFFERENT work and not a substitute. RESEARCH-0003: User supplied own physical book photos (cover, two TOC pages, printed pp.1-5); user separately reports 269 pp. Photo-verified book title 六壬金针 / 北海闲人, TOC first essay p1, four volumes start pp6/48/107/144, last advertised section 杂占 p262. Photos contain private handwritten notes: never upload or transcribe into public repo. Exact imprint, print year, ISBN not shown. Online PDF page count agreement does NOT establish content identity. 2026-11-18 SESSION-0011: four NEW clear photographs show original printed pp6-9 (945x2048 each): first section basics yin-yang, five phases, stems, branches, shengwang, lu and yangren; second section title at bottom of p9. Photos include the reader's handwritten marginal notes; do not upload or reproduce annotations. Actual page text was independently read in this session, further printed text after p9 not yet available. p9 note: five-yin-stems-have-no-blade differs from online third-party transcript of same-title later chapter claiming yin-stem blades, require print-version matching. 2026-11-18 SESSION-0016: user supplied private photos of printed pp10–15 in order; photos not uploaded publicly and all handwritten marks expressly excluded from reading. p10–14 vol I section 2 '起大六壬课的步骤' describes three study difficulties, four steps, example 乙酉年亥月卯将辰时庚子日, hidden fixed earth plate, ten-stem lodging and four lessons; p15 introduces 月将的确定 with 亥将/戌将 switching examples. This is assistant independent coverage, not six pages jointly finished. P16 and later text not seen."
+      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested. RESEARCH-0002 searched for complete, edition-bound table of contents and rights-clear digitization; none verified. 《大六壬心法指要》 is a DIFFERENT work and not a substitute. RESEARCH-0003: User supplied own physical book photos (cover, two TOC pages, printed pp.1-5); user separately reports 269 pp. Photo-verified book title 六壬金针 / 北海闲人, TOC first essay p1, four volumes start pp6/48/107/144, last advertised section 杂占 p262. Photos contain private handwritten notes: never upload or transcribe into public repo. Exact imprint, print year, ISBN not shown. Online PDF page count agreement does NOT establish content identity. 2026-11-18 SESSION-0011: four NEW clear photographs show original printed pp6-9 (945x2048 each): first section basics yin-yang, five phases, stems, branches, shengwang, lu and yangren; second section title at bottom of p9. Photos include the reader's handwritten marginal notes; do not upload or reproduce annotations. Actual page text was independently read in this session, further printed text after p9 not yet available. p9 note: five-yin-stems-have-no-blade differs from online third-party transcript of same-title later chapter claiming yin-stem blades, require print-version matching. 2026-11-18 SESSION-0016: user supplied private photos of printed pp10–15 in order; photos not uploaded publicly and all handwritten marks expressly excluded from reading. p10–14 vol I section 2 '起大六壬课的步骤' describes three study difficulties, four steps, example 乙酉年亥月卯将辰时庚子日, hidden fixed earth plate, ten-stem lodging and four lessons; p15 introduces 月将的确定 with 亥将/戌将 switching examples. This is assistant independent coverage, not six pages jointly finished. P16 and later text not seen. 2026-11-18 SESSION-0020: new private printed p16 received; completes visible twelve mid-qi to month-general stem/branch correspondence together with p15. Author explicitly allows switching to new month general for all hours of the date the relevant mid-qi occurs, as his advocated practice. The same p16 starts following chapter 占时的选用; remainder beyond this page not obtained. Handwriting ignored."
     },
     {
       "id": "DLR-SRC-0002",
@@ -27,7 +27,7 @@
       "digital_status": "CLASSICAL_ONLINE_TEXT_PARTIAL_EDITION_UNBOUND",
       "redistribution_rights": "MODERN_EDITION_UNVERIFIED",
       "full_text_stored": false,
-      "notes": "Verified a 2013 华龄 publisher catalog edition (222 pages, ISBN 9787516902271, 郑同编校) with five-part volume outline, but user physical printing not matched. Separately, classical online site lists four volumes and notes its current accessible text lacks last two; cannot equate. 2026-11-18 RESEARCH-0002: 2016 心一堂书目称以1790三得堂木刻本为底本，清文德堂五卷另有馆藏目录；未阅原页。四卷网文的合卷或缺漏性质未裁决。"
+      "notes": "Verified a 2013 华龄 publisher catalog edition (222 pages, ISBN 9787516902271, 郑同编校) with five-part volume outline, but user physical printing not matched. Separately, classical online site lists four volumes and notes its current accessible text lacks last two; cannot equate. 2026-11-18 RESEARCH-0002: 2016 心一堂书目称以1790三得堂木刻本为底本，清文德堂五卷另有馆藏目录；未阅原页。四卷网文的合卷或缺漏性质未裁决。 2026-11-18 SESSION-0020: user provided photographed printed p1 headed 六壬指南卷一 / 大六壬心印赋. Text maps the twelve mid-qi to month generals, traditional branch aliases, and describes adding month general to 正时. The edition/imprint/printing is not established from this single print page, which appears to include a printed editorial footnote. This image is NOT independently verified as a historical original/facsimile; photos with handwritten annotations remain private and handwriting is not read."
     }
   ],
   "external_witnesses": [
@@ -277,6 +277,36 @@
       ],
       "limits": "Modern printed book copyright not cleared; physical photos contain old handwritten private annotations and are not copied, indexed or transcribed. pp11–15 separately scanned by assistant but not yet jointly discussed as finished. p16 not provided. Imprint/printing unverified.",
       "rights": "PRIVATE_USER_PROVIDED_FOR_READING_ONLY_NO_PUBLIC_UPLOAD"
+    },
+    {
+      "id": "DLR-WIT-0018",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 六壬金针 p16, private photo; alongside previously checked p15",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_DIRECT_PRINTED_P16_EDITION_METADATA_UNVERIFIED",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "Printed p16 gives remaining ten middle-qi→month-general mappings from 谷雨酉 to 大寒子, complementing p15 雨水亥 and 春分戌",
+        "Author explicitly states different books vary in switching and advocates using the new month general for the whole calendar day of middle-qi, regardless of exact hour",
+        "The heading 四 占时的选用 and discussion of 正时/活时 begin on the bottom of p16"
+      ],
+      "limits": "The user supplied personal handwritten annotations, which were not read or recorded. No exact imprint/printing; no p17 or later direct photo in this turn. This page does not prove a physically precise solar transit boundary or divination efficacy.",
+      "rights": "PRIVATE_PHOTO_ONLY_ORIGINAL_SUMMARY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0019",
+      "related_source": "DLR-SRC-0002",
+      "url": null,
+      "provider": "User-supplied modern printed page labelled 六壬指南卷一 大六壬心印赋, first page; private photo",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_DIRECT_PRINTED_EXCERPT_EDITION_UNBOUND_NOT_ORIGINAL_FACSIMILE",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "The visible page provides twelve month-general traditional names 登明 河魁 从魁 传送 小吉 胜光 太乙 天罡 太冲 功曹 大吉 神后 with middle-qi associations",
+        "The text describes adding that month general to the querent's 正时 and distributing twelve branches to form 天盘",
+        "Printed text says 雨水后 春分后 etc; this page alone does not uniquely decide exact instant vs whole-day switching"
+      ],
+      "limits": "No imprint/edition/printing binding for this specific photographed copy; visible modern footnote. Do not label as original Qing printing or assume literal identity to an earlier historical witness. Handwriting ignored; page image/private data excluded from public repository. Distinct book from 六壬金针.",
+      "rights": "PRIVATE_PHOTO_ONLY_ORIGINAL_SUMMARY_NO_PUBLIC_REPRODUCTION"
     }
   ]
 }
