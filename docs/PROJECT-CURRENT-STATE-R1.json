@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.24",
+  "state_version": "0.5.25",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
   "default_branch": "main",
   "phase": "FOUNDATION",
-  "last_completed_work_unit": "STUDY-0020-P15_16-MONTH-GENERALS-VS-GUIDE-PRINT-INITIAL_COMPARISON",
+  "last_completed_work_unit": "STUDY-0021-JINZHEN-PP16_17-ZHENGSHI-HUOSHI-DAYNIGHT-STUDY",
   "statuses": {
     "repository_authorized": true,
     "foundational_docs": "CI_VERIFIED_AT_INIT_R1",
     "historical_overview": "TOPIC_SKELETON_ESTABLISHED_PHYSICAL_TOC_ADDED",
-    "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_16_DIRECTLY_INSPECTED; GUIDE_VOL1_PRINTED_P1_USER_PHOTO_EDITION_UNKNOWN; FULL_DIGITAL_EDITIONS_NOT_VERIFIED",
+    "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_17_DIRECTLY_INSPECTED; GUIDE_VOL1_PRINTED_P1_USER_PHOTO_EDITION_UNKNOWN; FULL_DIGITAL_EDITIONS_NOT_VERIFIED",
     "deterministic_chart_core": "NOT_STARTED",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "JINZHEN_VOL1_SECTION3_P15_16_TWELVE_MONTH_GENERAL_CORRESPONDENCES_AND_SWITCHING_BOUNDARIES_INITIAL_JOINT_DISCUSSION; GUIDE_VOL1_PHYSICAL_PRINTED_P1_CROSS_REVIEW_WITHOUT_EDITION_BINDING; P16_SECTION4_OPENING_SEEN_NOT_JOINTLY_STUDIED"
+    "joint_study": "JINZHEN_VOL1_SECTION3_AUTHOR_MIDQI_WHOLE_DAY_SWITCH_SELECTED_AS_STUDY_DEFAULT_WITH_ALT_OPEN; SECTION4_P16_17_ZHENGSHI_HUOSHI_DAY_NIGHT_RULES_DISCUSSION_ACTIVE; SECTION5_P17_HEADER_ONLY_UNDER_PREVIEW; NO_P18"
   },
   "invariants": [
     "REMOTE_HEAD_AND_TREE_ONLY_CURRENT_SOURCE_OF_TRUTH",
@@ -60,7 +60,8 @@
     "study/SESSION-0017-JINZHEN-PP12-13-STEM-LODGING-FIRST-LESSON-JOINT.md",
     "study/SESSION-0018-JINZHEN-PP13-14-FOUR-LESSONS-JOINT-CLOSE-R1.md",
     "study/SESSION-0019-JINZHEN-P14-15-SECTION2-CLOSE-AND-MONTH-GENERAL-OPEN-R1.md",
-    "study/SESSION-0020-JINZHEN-P15-16-MONTH-GENERALS-VS-GUIDE-VOL1-R1.md"
+    "study/SESSION-0020-JINZHEN-P15-16-MONTH-GENERALS-VS-GUIDE-VOL1-R1.md",
+    "study/SESSION-0021-JINZHEN-P16-17-ZHENGSHI-HUOSHI-DAYNIGHT-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -72,15 +73,15 @@
     "DLR-OPEN-0007",
     "DLR-OPEN-0008"
   ],
-  "highest_priority_next_action": "Current joint study now Jinzhen printed vol I section3 月将的确定 pp15-16: source-based complete twelve 中气→月将 correspondences and user's newly supplied printed 大六壬指南 vol1 p1 traditional month-general names; distinguish fixed correspondence from changing annual mid-qi times, and verify Jinzhen author specifically permits full calendar day switch while Guide '中气后' page alone cannot settle exact moment. Discuss whether 月将 has any role beyond heaven-plate positioning only with later bound source evidence; avoid assuming same switching convention. Next, in book order, start p16 lower half vol I section4 占时的选用 正时/活时 once current issue settled. No p17 seen; only read book print not handwritten annotations. See SESSION-0020.",
+  "highest_priority_next_action": "Reader explicitly directs temporarily following 北海闲人 Jinzhen p16 mid-qi changeover-calendar-day convention as present study baseline, leaving historical instant-vs-day rule dispute for future sources and cases. Study is now physical p16-17 vol I section4 占时的选用: 正时=actual question time branch; 活时=branch selected by oral random choice, lots or stroke counting. Author generally assigns self 正时, others 活时, exception urgent others 正时. p17 explicitly defines 昼 hours 卯辰巳午未申 and 夜 hours 酉戌亥子丑寅 for 昼夜贵人, and determines it by selected 占时 rather than actual 正时; source examples actual 申 + drawn 子→夜贵, actual 丑 + drawn 卯→昼贵. Actual sunset mentioned separately for judgments involving 月将, application uncertain. Do not invent >12 stroke mapping or validate prediction. Section5 宗门九课 begins at p17 bottom, but p18 original not seen; continue in order.",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
-    "section": "卷之一《壬式起课方法》第三节《月将的确定》，印刷第15—16页（对照用户另附《大六壬指南》卷一印刷第一页）",
-    "page": 16,
-    "completed": "用户明确要求顺序推进并已新交印刷p10–15六张照片；助手独立核读全部六页的印刷内容，未读取手写批注，详SESSION-0016；双方共同讨论目前仅开始p10三个难点/四步总览及月将加时，不能把p11–15独立初读当双方学完；p9土胎子和阴刃疑点继续以DLR-OPEN-0007跟踪，不阻塞本节。 本轮读者提供另一六壬排盘软件截图，指出p10教材样例天地盘/四课/三传，与作者p11自述和截图的三传/四课/天地盘金字塔式不同；双方已明确此为版面呈现问题，不可改变算法流程。已原创登记软件双布局候选NOTE-0001，尚未决定默认界面；截图不同课例不可当教材数值核算。 用户当次口头说明：此前书页隐藏地盘使初学较困难，其当前对卯将辰时的简明理解是天盘卯对准地盘辰；偏好金字塔式软件课盘并在宫位上明确同时显示天盘与固定地盘。该意见作为当次口头交流记录，不读取或保存旧书面批注。软件候选默认方案已在NOTE-0001前向补充，但尚未编码或验收。 本轮读者当前口头明确理解并与实体p12—13互证：庚日庚寄固定地盘申宫，卯将辰时天盘未在申上，故第一课写为上未下庚；此不是把地盘申全局改名庚。读者建议未来软件直接显示十干寄宫附标记，已列为设计候选并记SESSION-0017；仍未实现程序。 本轮用户口头按照印刷页正确复述第二课（午/未）、第三课（亥/子）、第四课（戌/亥），并说明以日干庚起前两课、日支子起后两课，四课从右向左书写；双方共同检查并明确四课中的上神与地盘同名宫位链式取用，盘不重新旋转。SESSION-0018 已记录，不能由一书推广所有古书同式。 本轮用户当次明确指出p14干上神/支上神与干阳、日阳、辰阳等并列别名过多，且左邻列容易与盘内宫位混淆。重新核对实体p14印刷：第一课=干阳/日阳，第二课=干阴/日阴，第三课=支阳/辰阳，第四课=支阴/辰阴。强调‘左面’仅指右起书写的列次，不是天盘左右移位；‘辰阳’不是辰时，‘阳阴’不应自动判吉凶。已前向补SESSION-0018和设计NOTE-0001。 本轮明确澄清：‘干上神’在书例是单独的未、‘支上神’是单独的亥；第一课是上未下庚的完整两层关系，第三课是上亥下子，其他各课亦为两项整体。印本p14把上神同第一课等并列，是存在省称/转喻的文字歧义（此为现代分析，并非作者明示），不可将一个上神与一整课定义为相同数据对象。补勘已记SESSION-0018。 本轮进一步精确澄清干阳/日阳等古典称谓在不同语境可能既指该课上神单个地支，也作课列整体的代称；不宜一概限定为整体或单字。以《六壬指南》《六壬粹言》古文网络录文作旁证（非版次绑定原页），前向勘误SESSION-0018；软件需把上神字段、上下二字完整课对象及术语标签分开。 本轮用户明确认同先厘清歧义，再遵循书中先列九宗门名称（不抢学取传细则）、十二天将名称、十干寄宫歌诀的顺序收束第二节，并指出已进入第三节。助手重新查看印刷p14—15正文，核对九宗门九名、十二天将次序、寄宫歌诀开头及p15月将亥/戌两段。该节按中气节点解释月将：雨水至春分亥将、春分至谷雨戌将；未查到p16纸书，不补写全年表。详SESSION-0019。 本轮用户明确表示月将与中气对应是固定规则，主要用于起天地盘，并提供《六壬金针》p16印刷照片及另一纸本《大六壬指南》卷一p1；助手仅核印刷字样，完成十二中气—月将地支—别名表。指出《金针》p16明确倡导在交中气的整日即可改用新将（不论具体交时），而指南图页‘某中气后’未足以唯一证明其采用精确交气瞬间换将。软件需版本化换将边界及时间区约定，另存月建与月将，不抢先推定月将只用于一切占断的单一功能。详SESSION-0020。",
-    "next": "先与用户辨析月将是否仅作为起天地盘参数（目前可直接支持这是它在起课中的基础作用），并核实换将按交气当日与按实际交时之差；随后按本书p16下方进入第四节《占时的选用》正时/活时，相关后续页面尚未收到。",
+    "section": "卷之一《壬式起课方法》第四节《占时的选用》，实体印刷第16—17页；第17页下方第五节《宗门九课的起法》仅见开端",
+    "page": 17,
+    "completed": "用户明确要求顺序推进并已新交印刷p10–15六张照片；助手独立核读全部六页的印刷内容，未读取手写批注，详SESSION-0016；双方共同讨论目前仅开始p10三个难点/四步总览及月将加时，不能把p11–15独立初读当双方学完；p9土胎子和阴刃疑点继续以DLR-OPEN-0007跟踪，不阻塞本节。 本轮读者提供另一六壬排盘软件截图，指出p10教材样例天地盘/四课/三传，与作者p11自述和截图的三传/四课/天地盘金字塔式不同；双方已明确此为版面呈现问题，不可改变算法流程。已原创登记软件双布局候选NOTE-0001，尚未决定默认界面；截图不同课例不可当教材数值核算。 用户当次口头说明：此前书页隐藏地盘使初学较困难，其当前对卯将辰时的简明理解是天盘卯对准地盘辰；偏好金字塔式软件课盘并在宫位上明确同时显示天盘与固定地盘。该意见作为当次口头交流记录，不读取或保存旧书面批注。软件候选默认方案已在NOTE-0001前向补充，但尚未编码或验收。 本轮读者当前口头明确理解并与实体p12—13互证：庚日庚寄固定地盘申宫，卯将辰时天盘未在申上，故第一课写为上未下庚；此不是把地盘申全局改名庚。读者建议未来软件直接显示十干寄宫附标记，已列为设计候选并记SESSION-0017；仍未实现程序。 本轮用户口头按照印刷页正确复述第二课（午/未）、第三课（亥/子）、第四课（戌/亥），并说明以日干庚起前两课、日支子起后两课，四课从右向左书写；双方共同检查并明确四课中的上神与地盘同名宫位链式取用，盘不重新旋转。SESSION-0018 已记录，不能由一书推广所有古书同式。 本轮用户当次明确指出p14干上神/支上神与干阳、日阳、辰阳等并列别名过多，且左邻列容易与盘内宫位混淆。重新核对实体p14印刷：第一课=干阳/日阳，第二课=干阴/日阴，第三课=支阳/辰阳，第四课=支阴/辰阴。强调‘左面’仅指右起书写的列次，不是天盘左右移位；‘辰阳’不是辰时，‘阳阴’不应自动判吉凶。已前向补SESSION-0018和设计NOTE-0001。 本轮明确澄清：‘干上神’在书例是单独的未、‘支上神’是单独的亥；第一课是上未下庚的完整两层关系，第三课是上亥下子，其他各课亦为两项整体。印本p14把上神同第一课等并列，是存在省称/转喻的文字歧义（此为现代分析，并非作者明示），不可将一个上神与一整课定义为相同数据对象。补勘已记SESSION-0018。 本轮进一步精确澄清干阳/日阳等古典称谓在不同语境可能既指该课上神单个地支，也作课列整体的代称；不宜一概限定为整体或单字。以《六壬指南》《六壬粹言》古文网络录文作旁证（非版次绑定原页），前向勘误SESSION-0018；软件需把上神字段、上下二字完整课对象及术语标签分开。 本轮用户明确认同先厘清歧义，再遵循书中先列九宗门名称（不抢学取传细则）、十二天将名称、十干寄宫歌诀的顺序收束第二节，并指出已进入第三节。助手重新查看印刷p14—15正文，核对九宗门九名、十二天将次序、寄宫歌诀开头及p15月将亥/戌两段。该节按中气节点解释月将：雨水至春分亥将、春分至谷雨戌将；未查到p16纸书，不补写全年表。详SESSION-0019。 本轮用户明确表示月将与中气对应是固定规则，主要用于起天地盘，并提供《六壬金针》p16印刷照片及另一纸本《大六壬指南》卷一p1；助手仅核印刷字样，完成十二中气—月将地支—别名表。指出《金针》p16明确倡导在交中气的整日即可改用新将（不论具体交时），而指南图页‘某中气后’未足以唯一证明其采用精确交气瞬间换将。软件需版本化换将边界及时间区约定，另存月建与月将，不抢先推定月将只用于一切占断的单一功能。详SESSION-0020。 本轮用户明确选择暂依北海闲人《六壬金针》交中气当日用新月将作为本阶段学习规则，异说待后续案例和古籍再议，非已证预测效度。用户新发实体印刷p17，已与p16衔接：正时=占者动念/他人问事实际时间；活时=另取时支（口报地支或1—12、拈阄、写字笔画）；一般自占正时、代占活时，急事可正时。p17起昼夜贵人用‘占时’而非实际‘正时’，固定昼卯至申六时、夜酉至寅六时，例申时抽子用夜贵、丑时抽卯用昼贵；关于判断中用月将时参照实际日出日落另存语境疑问，不混同。第17页下部第五节标题及总览可见，未取得p18。仅处理原书印刷，不记录手写注释。详SESSION-0021。",
+    "next": "继续讨论第16—17页第四节正时/活时的取用条件、十二时支及昼夜贵人例子；如无新的问题，则按原书顺序进入第17页下半第五节《宗门九课的起法》总论，待取得第18页原书再继续九法细则。不重开换将问题阻塞学习。",
     "assistant_independent_review": "导论p1–5私人校录初核，卷一p6–9原照片已读；最新实体印刷p10–15新照片在本轮逐页人工复查，均仅处理印刷正文，不识读、不记录旧手写笔记；详见SESSION-0016。",
     "joint_discussion_mode": "已有多年术数经验的读者与助手双向逐段研究；对基础讲清其在六壬里的具体操作和边界，不要求用户立即回答较高阶研究题；原则上按页顺序推进，未决问题另存。私人原图和手写批注绝不入公开仓库。"
   },
