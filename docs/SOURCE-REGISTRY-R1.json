@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "updated_on": "2026-11-18",
-  "evidence_note": "User-reported physical books only; specific edition, full content, online source and license not yet verified.",
+  "evidence_note": "Physical copies are user-reported; historical witnesses are primarily catalogs/transcriptions. No original facsimile has been verified; no modern work full text stored.",
   "entries": [
     {
       "id": "DLR-SRC-0001",
@@ -14,7 +14,7 @@
       "digital_status": "PUBLIC_FILE_LEADS_FOUND_EDITION_AND_LICENSE_UNVERIFIED",
       "redistribution_rights": "UNKNOWN",
       "full_text_stored": false,
-      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested."
+      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested. RESEARCH-0002 searched for complete, edition-bound table of contents and rights-clear digitization; none verified. 《大六壬心法指要》 is a DIFFERENT work and not a substitute."
     },
     {
       "id": "DLR-SRC-0002",
@@ -27,7 +27,7 @@
       "digital_status": "CLASSICAL_ONLINE_TEXT_PARTIAL_EDITION_UNBOUND",
       "redistribution_rights": "MODERN_EDITION_UNVERIFIED",
       "full_text_stored": false,
-      "notes": "Verified a 2013 华龄 publisher catalog edition (222 pages, ISBN 9787516902271, 郑同编校) with five-part volume outline, but user physical printing not matched. Separately, classical online site lists four volumes and notes its current accessible text lacks last two; cannot equate."
+      "notes": "Verified a 2013 华龄 publisher catalog edition (222 pages, ISBN 9787516902271, 郑同编校) with five-part volume outline, but user physical printing not matched. Separately, classical online site lists four volumes and notes its current accessible text lacks last two; cannot equate. 2026-11-18 RESEARCH-0002: 2016 心一堂书目称以1790三得堂木刻本为底本，清文德堂五卷另有馆藏目录；未阅原页。四卷网文的合卷或缺漏性质未裁决。"
     }
   ],
   "external_witnesses": [
@@ -103,6 +103,64 @@
         "Advertised 269 pages"
       ],
       "limits": "No table of contents, exact publisher, edition, licensed digital text verified.",
+      "rights": "BIBLIOGRAPHY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0006",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://books.google.com/books/about/大六壬指南_清初木刻五卷足本.html?id=fsvRDAAAQBAJ",
+      "provider": "Google Books - 心一堂 2016 影印重刊书目",
+      "evidence_grade": "MODERN_EDITION_CATALOG_EDITORIAL_CLAIM",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "2016-09-30; ISBN 9789888317271; 书目记402页",
+        "出版说明自述底本为虚白庐藏乾隆庚戌(1790)三得堂木刻本",
+        "出版说明将心印赋注、指掌赋注、会纂、占验、神煞列为五个组成部分",
+        "说明提及民国江东书局、扫叶山房石印本"
+      ],
+      "limits": "现代2016年书目及出版者说明，不是已核读1790原页，也未独立核实编者版本谱系；其他零售书目有384页记载，页数口径未裁决。",
+      "rights": "BIBLIOGRAPHY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0007",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.guoxuedashi.com/shumu/gj-698375ei.html",
+      "provider": "国学大师网古籍馆藏目录",
+      "evidence_grade": "SECONDARY_CATALOG_ONLY",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "《六壬指南五卷》目录著录",
+        "清文德堂刻本；莱州市图书馆；3册"
+      ],
+      "limits": "仅目录信息，无数字原页；3册是装订册数，不等于3卷；作者条目标记庄广之，与其他目录庄公远之异待核。",
+      "rights": "BIBLIOGRAPHY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0008",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.guoxuedashi.com/a/4160vfzn/",
+      "provider": "国学大师网《六壬指南注解》在线分卷目录",
+      "evidence_grade": "ONLINE_TABLE_OF_CONTENTS_EDITION_UNBOUND",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "目录直接列卷一心印、卷二指掌、卷三会纂占验、卷之四神煞",
+        "该页简介却称全书五卷"
+      ],
+      "limits": "同一页面五卷简介与四个卷级链接之间有内部口径不一；真实底本、节录/合卷/缺卷性质无法凭菜单确定；未核读原版影像。",
+      "rights": "NO_TEXT_REPUBLICATION_PERMISSION_VERIFIED"
+    },
+    {
+      "id": "DLR-WIT-0009",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.xinyi.hk/goods.php?id=147",
+      "provider": "星易图书网《大六壬心法指要》书目和目录",
+      "evidence_grade": "MODERN_DIFFERENT_WORK_TOC_ONLY",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "北海闲人《大六壬心法指要》；台湾武陵出版社；ISBN 9789573513193",
+        "公开目录有起课方法、课式要素、类象、分类占四组主题"
+      ],
+      "limits": "这是与《六壬金针》不同的一部现代书！可用于建立参考主题词表，不能替代《六壬金针》目录或证明其任何章节。",
       "rights": "BIBLIOGRAPHY_ONLY"
     }
   ]

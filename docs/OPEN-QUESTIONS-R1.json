@@ -8,7 +8,7 @@
       "status": "OPEN",
       "title": "可合法共同研读的两书数字文本与具体版次核实",
       "required_evidence": "准确的目录、在线文本/扫描及其版本归属、可公开使用范围；现代整理本与历史原文分开",
-      "next_action": "搜索馆藏与合法线上资源，登记准确链接、访问状态、授权范围，避免上传未经授权全文"
+      "next_action": "Continue free authoritative library/author/publisher catalogs for 六壬金针, verify exact contents and lawful reading scope; do not ingest or publish unlicensed PDF. 《指南》可先依公开书目与原文节选进行有限研究。"
     },
     {
       "id": "DLR-OPEN-0002",
@@ -16,7 +16,7 @@
       "status": "OPEN",
       "title": "两书主题对照与首次共同研习专题",
       "required_evidence": "两本书可核实的目录和章次结构",
-      "next_action": "完成主题交叉索引，选一项可按原文追溯的共同研习起点"
+      "next_action": "Use docs/CHAPTER-TOPIC-CROSSWALK-R1.md as preliminary topic index; begin study/SESSION-0001-INPUT-CONTRACT-R1.md, verify manual input semantics against dated/original reference before implementing algorithms."
     },
     {
       "id": "DLR-OPEN-0003",
@@ -24,7 +24,7 @@
       "status": "OPEN",
       "title": "大六壬指南五卷与四卷在线文本编排及版系关系",
       "required_evidence": "Version-specific complete tables of contents and source edition or physical witness; no automatic conflation of volume numbers",
-      "next_action": "Compare 华龄2013 five-volume catalog and online four-volume scheme, then locate an identified older original/facsimile and reconstruct content mapping."
+      "next_action": "Locate and inspect 1790 三得堂 edition pages or other identified witnesses; compare the 2016 five-volume edition and 4-volume online content; do not infer merger solely from chapter names."
     }
   ]
 }

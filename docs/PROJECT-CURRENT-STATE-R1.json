@@ -1,16 +1,16 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.1.1",
+  "state_version": "0.2.0",
   "last_updated_date": "2026-11-18",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
   "default_branch": "main",
   "phase": "FOUNDATION",
-  "last_completed_work_unit": "RESEARCH-0001",
+  "last_completed_work_unit": "RESEARCH-0002",
   "statuses": {
     "repository_authorized": true,
     "foundational_docs": "CI_VERIFIED_AT_INIT_R1",
-    "historical_overview": "NOT_STARTED",
+    "historical_overview": "TOPIC_SKELETON_ESTABLISHED_EDITION_MAPPING_OPEN",
     "digital_books_verified": "PARTIAL_BIBLIOGRAPHIC_ONLY",
     "deterministic_chart_core": "NOT_STARTED",
     "divination_explanation": "NOT_STARTED"
@@ -33,13 +33,16 @@
     "docs/DIGITAL-SOURCE-POLICY-R1.md",
     "docs/SOURCE-REGISTRY-R1.json",
     "docs/OPEN-QUESTIONS-R1.json",
-    "docs/RESEARCH-BATCH-0001-DIGITAL-SOURCE-BASELINE.md"
+    "docs/RESEARCH-BATCH-0001-DIGITAL-SOURCE-BASELINE.md",
+    "docs/RESEARCH-BATCH-0002-GUIDE-EDITION-CROSSWALK.md",
+    "docs/CHAPTER-TOPIC-CROSSWALK-R1.md",
+    "study/SESSION-0001-INPUT-CONTRACT-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
     "DLR-OPEN-0002",
     "DLR-OPEN-0003"
   ],
-  "highest_priority_next_action": "Find a rights-clear and edition-bound reusable online text/TOC for 六壬金针; collate 五卷 vs 四卷 六壬指南 accounts; design chapter-topic crosswalk before beginning joint lesson.",
-  "important_note": "Foundation CI ran successfully at exact INIT-R1 commit abf584afa53f0e0cada7e941a3a9248474fcea14. New commits require new exact-HEAD CI inspection."
+  "highest_priority_next_action": "Seek verifiable rights-clear 六壬金针 contents; examine identified 《指南》 original pages for 4/5-volume textual mapping, while starting manual-input day/hour/month-general study. No automatic chart implementation until rule sources and test examples are checked.",
+  "important_note": "RESEARCH-0002 recorded directory-level five-volume historical leads and tentative topical crosswalk, not facsimile verification. Check GitHub Actions against actual live HEAD following this commit."
 }
