@@ -10,10 +10,11 @@
       "user_holds_physical": true,
       "user_edition": "NOT_VERIFIED",
       "source_class": "USER_REPORTED_BIBLIOGRAPHIC",
-      "online_location": null,
-      "digital_status": "NOT_VERIFIED",
+      "online_location": "https://book.chineseculture.co.uk/book/7",
+      "digital_status": "PUBLIC_FILE_LEADS_FOUND_EDITION_AND_LICENSE_UNVERIFIED",
       "redistribution_rights": "UNKNOWN",
-      "full_text_stored": false
+      "full_text_stored": false,
+      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested."
     },
     {
       "id": "DLR-SRC-0002",
@@ -23,9 +24,86 @@
       "user_edition": "华龄出版社；印次及编校信息未核实",
       "source_class": "USER_REPORTED_BIBLIOGRAPHIC",
       "online_location": null,
-      "digital_status": "NOT_VERIFIED",
+      "digital_status": "CLASSICAL_ONLINE_TEXT_PARTIAL_EDITION_UNBOUND",
       "redistribution_rights": "MODERN_EDITION_UNVERIFIED",
-      "full_text_stored": false
+      "full_text_stored": false,
+      "notes": "Verified a 2013 华龄 publisher catalog edition (222 pages, ISBN 9787516902271, 郑同编校) with five-part volume outline, but user physical printing not matched. Separately, classical online site lists four volumes and notes its current accessible text lacks last two; cannot equate."
+    }
+  ],
+  "external_witnesses": [
+    {
+      "id": "DLR-WIT-0001",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://aus.zxhsd.com/kgsm/ts/2013/01/31/2464792.shtml",
+      "provider": "新华书店海外站商品书目",
+      "evidence_grade": "PUBLISHER_RETAIL_CATALOG",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "华龄出版社",
+        "郑同编校",
+        "2013-01",
+        "ISBN 9787516902271",
+        "222 pages",
+        "五卷目录含心印赋、指掌赋、会纂指南、占验指南、神煞指南"
+      ],
+      "limits": "Catalog does not prove the user's copy matches, historical edition descent, or exact source wording.",
+      "rights": "BIBLIOGRAPHY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0002",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://libokang.com/classics/liuren/%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/",
+      "provider": "Libo 康立波国学在线古籍页面",
+      "evidence_grade": "READABLE_TRANSCRIPTION_EDITION_UNBOUND",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "Accessible page has book text, modern translations and annotated explanation",
+        "Page describes four-volume scheme and states only first two volumes included in its current base"
+      ],
+      "limits": "Specific underlying physical edition and transcription fidelity unverified; translation/commentary are modern content; 4vs5 discrepancy unresolved.",
+      "rights": "NO_TEXT_REPUBLICATION_PERMISSION_VERIFIED"
+    },
+    {
+      "id": "DLR-WIT-0003",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=437989",
+      "provider": "中国哲学书电子化计划 wiki 页面",
+      "evidence_grade": "SEARCH_INDEX_ONLY",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "Search index shows 六壬指南, 陈公献, era 明, edition/base 暂缺"
+      ],
+      "limits": "Direct page open returned HTTP 403 this session; do not describe as direct text review or verified edition.",
+      "rights": "NOT_CHECKED"
+    },
+    {
+      "id": "DLR-WIT-0004",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://book.chineseculture.co.uk/book/7",
+      "provider": "第三方 Calibre-Web 书目",
+      "evidence_grade": "THIRD_PARTY_FILE_LISTING",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "Title 北海闲人《六壬金针》",
+        "Page count advertised 269",
+        "Browser-read/PDF listed"
+      ],
+      "limits": "Exact pages and edition not examined; origin, author consent, download/redistribution license unknown.",
+      "rights": "UNVERIFIED_DO_NOT_INGEST"
+    },
+    {
+      "id": "DLR-WIT-0005",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.zhouyi529.com/370.html",
+      "provider": "第三方书目广告",
+      "evidence_grade": "COMMERCIAL_BOOK_CATALOG_ONLY",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "Listed as 北海闲人著",
+        "Advertised 269 pages"
+      ],
+      "limits": "No table of contents, exact publisher, edition, licensed digital text verified.",
+      "rights": "BIBLIOGRAPHY_ONLY"
     }
   ]
 }

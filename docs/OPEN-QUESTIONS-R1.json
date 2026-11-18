@@ -17,6 +17,14 @@
       "title": "两书主题对照与首次共同研习专题",
       "required_evidence": "两本书可核实的目录和章次结构",
       "next_action": "完成主题交叉索引，选一项可按原文追溯的共同研习起点"
+    },
+    {
+      "id": "DLR-OPEN-0003",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "大六壬指南五卷与四卷在线文本编排及版系关系",
+      "required_evidence": "Version-specific complete tables of contents and source edition or physical witness; no automatic conflation of volume numbers",
+      "next_action": "Compare 华龄2013 five-volume catalog and online four-volume scheme, then locate an identified older original/facsimile and reconstruct content mapping."
     }
   ]
 }
