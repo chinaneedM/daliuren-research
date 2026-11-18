@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "updated_on": "2026-11-18",
+  "evidence_note": "User-reported physical books only; specific edition, full content, online source and license not yet verified.",
+  "entries": [
+    {
+      "id": "DLR-SRC-0001",
+      "work_title": "六壬金针",
+      "author_attribution": "北海闲人",
+      "user_holds_physical": true,
+      "user_edition": "NOT_VERIFIED",
+      "source_class": "USER_REPORTED_BIBLIOGRAPHIC",
+      "online_location": null,
+      "digital_status": "NOT_VERIFIED",
+      "redistribution_rights": "UNKNOWN",
+      "full_text_stored": false
+    },
+    {
+      "id": "DLR-SRC-0002",
+      "work_title": "大六壬指南",
+      "author_attribution": "陈公献",
+      "user_holds_physical": true,
+      "user_edition": "华龄出版社；印次及编校信息未核实",
+      "source_class": "USER_REPORTED_BIBLIOGRAPHIC",
+      "online_location": null,
+      "digital_status": "NOT_VERIFIED",
+      "redistribution_rights": "MODERN_EDITION_UNVERIFIED",
+      "full_text_stored": false
+    }
+  ]
+}

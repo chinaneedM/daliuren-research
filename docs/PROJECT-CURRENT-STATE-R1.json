@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "state_version": "0.1.0",
+  "last_updated_date": "2026-11-18",
+  "project": "大六壬·共同研习、历史考据与软件构建",
+  "repository": "chinaneedM/daliuren-research",
+  "default_branch": "main",
+  "phase": "FOUNDATION",
+  "last_completed_work_unit": "INIT-R1",
+  "statuses": {
+    "repository_authorized": true,
+    "foundational_docs": "COMMITTED_PENDING_CI",
+    "historical_overview": "NOT_STARTED",
+    "digital_books_verified": "NOT_STARTED",
+    "deterministic_chart_core": "NOT_STARTED",
+    "divination_explanation": "NOT_STARTED"
+  },
+  "invariants": [
+    "REMOTE_HEAD_AND_TREE_ONLY_CURRENT_SOURCE_OF_TRUTH",
+    "SOURCE_LEVELS_AND_EDITION_BOUNDARIES",
+    "BREADTH_BEFORE_EXHAUSTIVE_DEPTH",
+    "INDEPENDENT_SCHOOLS_AND_DISCIPLINES",
+    "DETERMINISTIC_CHART_SEPARATE_FROM_DIVINATION_INTERPRETATION",
+    "PUBLIC_REPOSITORY_ZERO_PAID_SERVICES",
+    "NO_UNLICENSED_BOOK_FULLTEXT",
+    "DO_NOT_CHANGE_TIANWEN_CORE",
+    "FORWARD_ONLY_MATERIAL_CORRECTIONS"
+  ],
+  "current_work_files": [
+    "docs/PROJECT-CHARTER-R1.md",
+    "docs/RESEARCH-ROADMAP-R1.md",
+    "docs/SOFTWARE-ARCHITECTURE-R1.md",
+    "docs/DIGITAL-SOURCE-POLICY-R1.md",
+    "docs/SOURCE-REGISTRY-R1.json",
+    "docs/OPEN-QUESTIONS-R1.json"
+  ],
+  "pending_issue_ids": [
+    "DLR-OPEN-0001",
+    "DLR-OPEN-0002"
+  ],
+  "highest_priority_next_action": "Locate and verify legitimate online editions/reading copies and tables of contents for 六壬金针 and 大六壬指南, then prepare a topic crosswalk.",
+  "important_note": "Only semantic state is stored here. Discover live HEAD and Actions every time."
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "updated_on": "2026-11-18",
+  "entries": [
+    {
+      "id": "DLR-OPEN-0001",
+      "priority": "P0",
+      "status": "OPEN",
+      "title": "可合法共同研读的两书数字文本与具体版次核实",
+      "required_evidence": "准确的目录、在线文本/扫描及其版本归属、可公开使用范围；现代整理本与历史原文分开",
+      "next_action": "搜索馆藏与合法线上资源，登记准确链接、访问状态、授权范围，避免上传未经授权全文"
+    },
+    {
+      "id": "DLR-OPEN-0002",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "两书主题对照与首次共同研习专题",
+      "required_evidence": "两本书可核实的目录和章次结构",
+      "next_action": "完成主题交叉索引，选一项可按原文追溯的共同研习起点"
+    }
+  ]
+}
