@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0.0",
   "updated_on": "2026-11-18",
-  "evidence_note": "User physical 六壬金针 cover, TOC (2pp), introductory pp1–5, and new printed pp6–9 directly inspected in user-provided photographs (2026-11-18); private annotations never redistributed. Source-page coverage does not establish publisher/printing or validate the complete book.",
+  "evidence_note": "User physical 六壬金针 cover, TOC (2pp), introductory pp1–5, and new printed pp6–9 directly inspected in user-provided photographs (2026-11-18); private annotations never redistributed. Source-page coverage does not establish publisher/printing or validate the complete book. 2026-11-18 sequential continuation: six additional private user physical photographs of printed pp10–15 inspected by visual reading of PRINT only; handwritten markings ignored entirely. P16 not received.",
   "entries": [
     {
       "id": "DLR-SRC-0001",
       "work_title": "六壬金针",
       "author_attribution": "北海闲人",
       "user_holds_physical": true,
-      "user_edition": "COVER_TOC_AND_PRINTED_PP1_9_PHOTOGRAPHED; IMPRINT_ISBN_PRINTING_UNVERIFIED",
+      "user_edition": "COVER_TOC_AND_PRINTED_PP1_15_PHOTOGRAPHED; IMPRINT_ISBN_PRINTING_UNVERIFIED",
       "source_class": "USER_PHYSICAL_EXCERPT_VERIFIED_BIBLIOGRAPHIC",
       "online_location": "https://book.chineseculture.co.uk/book/7",
       "digital_status": "PUBLIC_FILE_LEADS_FOUND_EDITION_AND_LICENSE_UNVERIFIED",
       "redistribution_rights": "UNKNOWN",
       "full_text_stored": false,
-      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested. RESEARCH-0002 searched for complete, edition-bound table of contents and rights-clear digitization; none verified. 《大六壬心法指要》 is a DIFFERENT work and not a substitute. RESEARCH-0003: User supplied own physical book photos (cover, two TOC pages, printed pp.1-5); user separately reports 269 pp. Photo-verified book title 六壬金针 / 北海闲人, TOC first essay p1, four volumes start pp6/48/107/144, last advertised section 杂占 p262. Photos contain private handwritten notes: never upload or transcribe into public repo. Exact imprint, print year, ISBN not shown. Online PDF page count agreement does NOT establish content identity. 2026-11-18 SESSION-0011: four NEW clear photographs show original printed pp6-9 (945x2048 each): first section basics yin-yang, five phases, stems, branches, shengwang, lu and yangren; second section title at bottom of p9. Photos include the reader's handwritten marginal notes; do not upload or reproduce annotations. Actual page text was independently read in this session, further printed text after p9 not yet available. p9 note: five-yin-stems-have-no-blade differs from online third-party transcript of same-title later chapter claiming yin-stem blades, require print-version matching."
+      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested. RESEARCH-0002 searched for complete, edition-bound table of contents and rights-clear digitization; none verified. 《大六壬心法指要》 is a DIFFERENT work and not a substitute. RESEARCH-0003: User supplied own physical book photos (cover, two TOC pages, printed pp.1-5); user separately reports 269 pp. Photo-verified book title 六壬金针 / 北海闲人, TOC first essay p1, four volumes start pp6/48/107/144, last advertised section 杂占 p262. Photos contain private handwritten notes: never upload or transcribe into public repo. Exact imprint, print year, ISBN not shown. Online PDF page count agreement does NOT establish content identity. 2026-11-18 SESSION-0011: four NEW clear photographs show original printed pp6-9 (945x2048 each): first section basics yin-yang, five phases, stems, branches, shengwang, lu and yangren; second section title at bottom of p9. Photos include the reader's handwritten marginal notes; do not upload or reproduce annotations. Actual page text was independently read in this session, further printed text after p9 not yet available. p9 note: five-yin-stems-have-no-blade differs from online third-party transcript of same-title later chapter claiming yin-stem blades, require print-version matching. 2026-11-18 SESSION-0016: user supplied private photos of printed pp10–15 in order; photos not uploaded publicly and all handwritten marks expressly excluded from reading. p10–14 vol I section 2 '起大六壬课的步骤' describes three study difficulties, four steps, example 乙酉年亥月卯将辰时庚子日, hidden fixed earth plate, ten-stem lodging and four lessons; p15 introduces 月将的确定 with 亥将/戌将 switching examples. This is assistant independent coverage, not six pages jointly finished. P16 and later text not seen."
     },
     {
       "id": "DLR-SRC-0002",
@@ -261,6 +261,22 @@
       ],
       "limits": "此处主要用来叙述寄宫，不可自动等同《六壬金针》p9断课羊刃，未核历史实物。",
       "rights": "LINK_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0017",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned physical 六壬金针: six further private photographs of printed pp10–15",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_DIRECT_PRINTED_PP10_15_ASSISTANT_FIRST_PASS",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "Printed p10 lists three distinct learning difficulties, four start-a-chart steps and 乙酉年亥月卯将辰时庚子日 example",
+        "Printed pp11–12 explain fixed 地盘 and rotating 天盘; 月将卯 aligns with 占时辰",
+        "Printed pp12–14 explain ten-stem lodging and four lessons on example 庚子日",
+        "Printed p14 mentions 九宗门 and 天将; printed p15 begins 月将的确定 and gives rainwater-to-spring-equinox 亥将, spring-equinox-to-grain-rain 戌将"
+      ],
+      "limits": "Modern printed book copyright not cleared; physical photos contain old handwritten private annotations and are not copied, indexed or transcribed. pp11–15 separately scanned by assistant but not yet jointly discussed as finished. p16 not provided. Imprint/printing unverified.",
+      "rights": "PRIVATE_USER_PROVIDED_FOR_READING_ONLY_NO_PUBLIC_UPLOAD"
     }
   ]
 }
