@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0.0",
   "updated_on": "2026-11-18",
-  "evidence_note": "Physical copies are user-reported; historical witnesses are primarily catalogs/transcriptions. No original facsimile has been verified; no modern work full text stored.",
+  "evidence_note": "User physical 六壬金针 cover, TOC (two pages) and introductory pp1–5 were directly inspected in user-provided photographs; private annotations not stored or disclosed. Identifying ISBN/press/date and online PDF exact-edition match remain unverified. No book full text or photos stored.",
   "entries": [
     {
       "id": "DLR-SRC-0001",
       "work_title": "六壬金针",
       "author_attribution": "北海闲人",
       "user_holds_physical": true,
-      "user_edition": "NOT_VERIFIED",
-      "source_class": "USER_REPORTED_BIBLIOGRAPHIC",
+      "user_edition": "COVER_TOC_PREFACE_PHOTOGRAPHED; IMPRINT_ISBN_PRINTING_UNVERIFIED",
+      "source_class": "USER_PHYSICAL_EXCERPT_VERIFIED_BIBLIOGRAPHIC",
       "online_location": "https://book.chineseculture.co.uk/book/7",
       "digital_status": "PUBLIC_FILE_LEADS_FOUND_EDITION_AND_LICENSE_UNVERIFIED",
       "redistribution_rights": "UNKNOWN",
       "full_text_stored": false,
-      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested. RESEARCH-0002 searched for complete, edition-bound table of contents and rights-clear digitization; none verified. 《大六壬心法指要》 is a DIFFERENT work and not a substitute."
+      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested. RESEARCH-0002 searched for complete, edition-bound table of contents and rights-clear digitization; none verified. 《大六壬心法指要》 is a DIFFERENT work and not a substitute. RESEARCH-0003: User supplied own physical book photos (cover, two TOC pages, printed pp.1-5); user separately reports 269 pp. Photo-verified book title 六壬金针 / 北海闲人, TOC first essay p1, four volumes start pp6/48/107/144, last advertised section 杂占 p262. Photos contain private handwritten notes: never upload or transcribe into public repo. Exact imprint, print year, ISBN not shown. Online PDF page count agreement does NOT establish content identity."
     },
     {
       "id": "DLR-SRC-0002",
@@ -160,8 +160,39 @@
         "北海闲人《大六壬心法指要》；台湾武陵出版社；ISBN 9789573513193",
         "公开目录有起课方法、课式要素、类象、分类占四组主题"
       ],
-      "limits": "这是与《六壬金针》不同的一部现代书！可用于建立参考主题词表，不能替代《六壬金针》目录或证明其任何章节。",
+      "limits": "这是与《六壬金针》不同的一部现代书！可用于建立参考主题词表，不能替代《六壬金针》目录或证明其任何章节。 RESEARCH-0003 evidence correction: User's physical 六壬金针 has a nearly identical 4-volume TOC down to subsections; titles differ but may reflect reissue/reworking/renaming. Earlier 'different work' was title-level only, not evidence of independent text. Relation remains OPEN.",
       "rights": "BIBLIOGRAPHY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0010",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned physical 六壬金针: 8 photographs supplied privately",
+      "evidence_grade": "USER_OWNED_PHYSICAL_PHOTO_DIRECT_TOC_AND_PAGES_1_5",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "Cover: 六壬金针; 北海闲人",
+        "Two TOC pages readable, four major volumes start at p6, p48, p107, p144; introduction begins p1",
+        "Vol I sections start pages 6,9,15,16,17,31,35,36,38; Vol II begins 48; Vol III 107; Vol IV 144",
+        "Intro pages printed numbers 1-5 inspected; pp6+ not yet inspected",
+        "User reports 269 pages for their own physical copy; not established by the photographed colophon"
+      ],
+      "limits": "No copyright/imprint page photographed; photos only excerpt; private handwritten annotations exist and are not evidence of printed author text. Photos have not been stored in the public repository, and user handwriting will not be reproduced.",
+      "rights": "USER_PROVIDED_FOR_PRIVATE_COMPARISON_NO_PUBLIC_UPLOAD"
+    },
+    {
+      "id": "DLR-WIT-0011",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.xinyi.hk/goods.php?id=147",
+      "provider": "星易图书《大六壬心法指要》完整目录网页（复核）",
+      "evidence_grade": "PUBLISHER_RETAIL_CATALOG_CONTENT_PARALLEL_ONLY",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "《大六壬心法指要》公开目录与《六壬金针》实体目录四卷结构及绝大多数小节排序同位",
+        "具体小节题名存在差异，如 天将的定法 vs 天将的起法、入手判断的准备工作 vs 课式要素概述、空亡的分析 vs 空亡分析"
+      ],
+      "limits": "目录相近不足以证明正文复用、书籍改题、版本先后或逐页等同；现代书目的段落和图像不得复制入公开仓库。",
+      "rights": "CATALOG_FACTS_ONLY"
     }
   ]
 }

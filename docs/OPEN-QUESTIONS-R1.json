@@ -8,7 +8,7 @@
       "status": "OPEN",
       "title": "可合法共同研读的两书数字文本与具体版次核实",
       "required_evidence": "准确的目录、在线文本/扫描及其版本归属、可公开使用范围；现代整理本与历史原文分开",
-      "next_action": "Continue free authoritative library/author/publisher catalogs for 六壬金针, verify exact contents and lawful reading scope; do not ingest or publish unlicensed PDF. 《指南》可先依公开书目与原文节选进行有限研究。"
+      "next_action": "Exact 六壬金针 physical four-volume TOC was directly inspected from user photos (RESEARCH-0003). P0 remains OPEN for publisher/imprint/authorized digital full text and matching the 269-page online file; do not upload photos, handwriting or unlicensed full text. Begin joint reading from inspected intro pp1-5, then obtain limited legal access to first lesson pp6ff."
     },
     {
       "id": "DLR-OPEN-0002",
@@ -16,7 +16,7 @@
       "status": "OPEN",
       "title": "两书主题对照与首次共同研习专题",
       "required_evidence": "两本书可核实的目录和章次结构",
-      "next_action": "Use docs/CHAPTER-TOPIC-CROSSWALK-R1.md as preliminary topic index; begin study/SESSION-0001-INPUT-CONTRACT-R1.md, verify manual input semantics against dated/original reference before implementing algorithms."
+      "next_action": "Full physical TOC now available. Study can begin with actual introduction pp1–5, with the first structured lesson at vol I p6 ('学习大六壬前必须掌握的基础知识'); ask only for limited necessary passage pages; no repeated full-book photography."
     },
     {
       "id": "DLR-OPEN-0003",
@@ -25,6 +25,14 @@
       "title": "大六壬指南五卷与四卷在线文本编排及版系关系",
       "required_evidence": "Version-specific complete tables of contents and source edition or physical witness; no automatic conflation of volume numbers",
       "next_action": "Locate and inspect 1790 三得堂 edition pages or other identified witnesses; compare the 2016 five-volume edition and 4-volume online content; do not infer merger solely from chapter names."
+    },
+    {
+      "id": "DLR-OPEN-0004",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "《六壬金针》与《大六壬心法指要》的目录高度相似及正文/版本关系",
+      "required_evidence": "Both works' identified edition pages, copyright/publisher information, parallel passages under permission, publication dates and revision statements. Titles and parallel TOC alone cannot prove identity.",
+      "next_action": "Compare physical copyright/imprint page when available; check authority/publisher statements and limited corresponding passages; do not merge book identities or text provenance before independent verification."
     }
   ]
 }
