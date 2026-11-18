@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "updated_on": "2026-11-18",
-  "evidence_note": "User physical 六壬金针 cover, TOC (2pp), introductory pp1–5, and new printed pp6–9 directly inspected in user-provided photographs (2026-11-18); private annotations never redistributed. Source-page coverage does not establish publisher/printing or validate the complete book. 2026-11-18 sequential continuation: six additional private user physical photographs of printed pp10–15 inspected by visual reading of PRINT only; handwritten markings ignored entirely. P16 not received. On 2026-11-18 user supplied printed p16 of physical Jinzhen and a separate privately photographed printed p1 of 大六壬指南 vol1; both examined only for print, marginal handwriting not read or recorded; no photos in public repository. Printed p17 of Jinzhen privately photographed and reviewed 2026-11-18; handwritten notes excluded, photos never published. 2026-11-18 user physically submitted privately photographed printed pp18–20 of 六壬金针, separately documented in SESSION-0023; all handwritten annotations excluded.",
+  "evidence_note": "User physical 六壬金针 cover, TOC (2pp), introductory pp1–5, and new printed pp6–9 directly inspected in user-provided photographs (2026-11-18); private annotations never redistributed. Source-page coverage does not establish publisher/printing or validate the complete book. 2026-11-18 sequential continuation: six additional private user physical photographs of printed pp10–15 inspected by visual reading of PRINT only; handwritten markings ignored entirely. P16 not received. On 2026-11-18 user supplied printed p16 of physical Jinzhen and a separate privately photographed printed p1 of 大六壬指南 vol1; both examined only for print, marginal handwriting not read or recorded; no photos in public repository. Printed p17 of Jinzhen privately photographed and reviewed 2026-11-18; handwritten notes excluded, photos never published. 2026-11-18 user physically submitted privately photographed printed pp18–20 of 六壬金针, separately documented in SESSION-0023; all handwritten annotations excluded. 2026-11-18 new third book only USER-REPORTED physical ownership; online Yuding transcription collected as unbound witness, modern print not yet directly read; see SESSION-0024.",
   "entries": [
     {
       "id": "DLR-SRC-0001",
@@ -28,6 +28,19 @@
       "redistribution_rights": "MODERN_EDITION_UNVERIFIED",
       "full_text_stored": false,
       "notes": "Verified a 2013 华龄 publisher catalog edition (222 pages, ISBN 9787516902271, 郑同编校) with five-part volume outline, but user physical printing not matched. Separately, classical online site lists four volumes and notes its current accessible text lacks last two; cannot equate. 2026-11-18 RESEARCH-0002: 2016 心一堂书目称以1790三得堂木刻本为底本，清文德堂五卷另有馆藏目录；未阅原页。四卷网文的合卷或缺漏性质未裁决。 2026-11-18 SESSION-0020: user provided photographed printed p1 headed 六壬指南卷一 / 大六壬心印赋. Text maps the twelve mid-qi to month generals, traditional branch aliases, and describes adding month general to 正时. The edition/imprint/printing is not established from this single print page, which appears to include a printed editorial footnote. This image is NOT independently verified as a historical original/facsimile; photos with handwritten annotations remain private and handwriting is not read."
+    },
+    {
+      "id": "DLR-SRC-0003",
+      "work_title": "御定六壬直指",
+      "author_attribution": "Historical compiler/annotator identity and authorial layers not yet edition-verified; modern user-held print整理: 李峰（海南出版社）",
+      "user_holds_physical": true,
+      "user_edition": "USER_REPORTS_HAINAN_PRESS_LI_FENG_ORGANIZED_PRINT; PHYSICAL_EDITION_COPYRIGHT_PAGE_AND_TARGET_PAGES_NOT_EXAMINED",
+      "source_class": "USER_REPORTED_PHYSICAL_HELD_BIBLIOGRAPHIC_LEAD",
+      "online_location": "https://www.shidianguji.com/book/SDZJ0728/chapter/1kg328b67xgcr",
+      "digital_status": "PUBLIC_ONLINE_TRANSCRIPTION_UNBOUND_TO_USER_PHYSICAL_EDITION",
+      "redistribution_rights": "UNVERIFIED_MODERN_EDITION_RIGHTS",
+      "full_text_stored": false,
+      "notes": "2026-11-18 current user reports owning 李峰整理 海南出版社《御定六壬直指》; recalls differing nine-method order and a special 课体 discussion. Bookstore catalogs support modern 海南出版社/李峰整理 edition existence, but individual year/printing user copy not checked. 识典古籍 online text indexes 起例/取三传法, nine methods named 克贼,比用,涉害,遥克,昴星,伏吟,返吟,别责,八专 and separately 课体, 元首,重审,知一...; online text has obvious OCR/transcription irregularities; not claimed as exact modern print. Online annotator metadata [清]李峰 and modern editor 李峰 require independent person-identity and edition investigation; never automatically conflate. Compare Jinzhen p18 始入课 with Yuding online 一下贼、余无克=重审课 as potential terminology difference, not proven algorithm conflict. See SESSION-0024."
     }
   ],
   "external_witnesses": [
@@ -339,6 +352,21 @@
       ],
       "limits": "Images include historical handwritten personal annotations; only printed original is examined, never annotations. Current reader has not yet acknowledged understanding of p19 example. Source imprint and printing remain unverified; pp21 onward not provided.",
       "rights": "PRIVATE_PHOTOS_ONLY_PUBLIC_ORIGINAL_SUMMARY_NOT_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0022",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.shidianguji.com/book/SDZJ0728/chapter/1kg328b67xgcr",
+      "provider": "识典古籍在线《御定六壬直指》起例及课体转录（用户海南版尚未核对）",
+      "evidence_grade": "PUBLIC_ONLINE_TRANSCRIPTION_EDITED_EDITION_AND_ORIGINAL_UNBOUND",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "Online 取三传九式 order 克贼 比用 涉害 遥克 昴星 伏吟 返吟 别责 八专",
+        "Online 课体 includes 元首/重审 and multiple other categories; defines single 下贼上 with no other 克 as 重审",
+        "Old textual courtly ethics comparisons for 元首/重审 appear in online text"
+      ],
+      "limits": "Cannot claim the modern 海南/李峰 user copy reads identically or that the online text is primary facsimile; visible transcription oddities (日曰/己已) and unclear original historical attribution. This is a text witness locator, not conclusive character-level collation.",
+      "rights": "REFERENCE_LINK_AND_ORIGINAL_SHORT_SUMMARY_ONLY"
     }
   ]
 }
