@@ -1,20 +1,20 @@
 {
   "schema_version": "1.0.0",
   "updated_on": "2026-11-18",
-  "evidence_note": "User physical 六壬金针 cover, TOC (two pages) and introductory pp1–5 were directly inspected in user-provided photographs; private annotations not stored or disclosed. Identifying ISBN/press/date and online PDF exact-edition match remain unverified. No book full text or photos stored.",
+  "evidence_note": "User physical 六壬金针 cover, TOC (2pp), introductory pp1–5, and new printed pp6–9 directly inspected in user-provided photographs (2026-11-18); private annotations never redistributed. Source-page coverage does not establish publisher/printing or validate the complete book.",
   "entries": [
     {
       "id": "DLR-SRC-0001",
       "work_title": "六壬金针",
       "author_attribution": "北海闲人",
       "user_holds_physical": true,
-      "user_edition": "COVER_TOC_PREFACE_PHOTOGRAPHED; IMPRINT_ISBN_PRINTING_UNVERIFIED",
+      "user_edition": "COVER_TOC_AND_PRINTED_PP1_9_PHOTOGRAPHED; IMPRINT_ISBN_PRINTING_UNVERIFIED",
       "source_class": "USER_PHYSICAL_EXCERPT_VERIFIED_BIBLIOGRAPHIC",
       "online_location": "https://book.chineseculture.co.uk/book/7",
       "digital_status": "PUBLIC_FILE_LEADS_FOUND_EDITION_AND_LICENSE_UNVERIFIED",
       "redistribution_rights": "UNKNOWN",
       "full_text_stored": false,
-      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested. RESEARCH-0002 searched for complete, edition-bound table of contents and rights-clear digitization; none verified. 《大六壬心法指要》 is a DIFFERENT work and not a substitute. RESEARCH-0003: User supplied own physical book photos (cover, two TOC pages, printed pp.1-5); user separately reports 269 pp. Photo-verified book title 六壬金针 / 北海闲人, TOC first essay p1, four volumes start pp6/48/107/144, last advertised section 杂占 p262. Photos contain private handwritten notes: never upload or transcribe into public repo. Exact imprint, print year, ISBN not shown. Online PDF page count agreement does NOT establish content identity."
+      "notes": "Third-party Calibre listing claims 269-page PDF / browser read; publisher, edition, copyright license and author authorization not established. Link is research locator only; no PDF ingested. RESEARCH-0002 searched for complete, edition-bound table of contents and rights-clear digitization; none verified. 《大六壬心法指要》 is a DIFFERENT work and not a substitute. RESEARCH-0003: User supplied own physical book photos (cover, two TOC pages, printed pp.1-5); user separately reports 269 pp. Photo-verified book title 六壬金针 / 北海闲人, TOC first essay p1, four volumes start pp6/48/107/144, last advertised section 杂占 p262. Photos contain private handwritten notes: never upload or transcribe into public repo. Exact imprint, print year, ISBN not shown. Online PDF page count agreement does NOT establish content identity. 2026-11-18 SESSION-0011: four NEW clear photographs show original printed pp6-9 (945x2048 each): first section basics yin-yang, five phases, stems, branches, shengwang, lu and yangren; second section title at bottom of p9. Photos include the reader's handwritten marginal notes; do not upload or reproduce annotations. Actual page text was independently read in this session, further printed text after p9 not yet available. p9 note: five-yin-stems-have-no-blade differs from online third-party transcript of same-title later chapter claiming yin-stem blades, require print-version matching."
     },
     {
       "id": "DLR-SRC-0002",
@@ -207,6 +207,20 @@
       ],
       "limits": "未直接核对相应《四库全书总目》版面影像或不同版本异文，不足裁决三式概念的最早年代，也无预测有效性证明。",
       "rights": "SHORT_HISTORICAL_CITATION_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0013",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=820",
+      "provider": "第三方网络转录：《六壬金针》二·八《十二长生运的分析》",
+      "evidence_grade": "MODERN_THIRD_PARTY_ONLINE_TRANSCRIPTION_EDITION_UNBOUND",
+      "accessed_date": "2026-11-18",
+      "facts_checked": [
+        "网页文字表示十二长生依五行同长生、水土同生于申",
+        "网页称阴干按寄宫起羊刃，列出乙辰丁己未辛戌癸丑；实体本卷一p9称五阴干无刃"
+      ],
+      "limits": "网页未注明与用户实体本同印次、同底本；不是纸书卷二p101的直接核读。若将来的实体p101原字不同，应按事实分层保留，不静默替换。本来源不支持预测准确率结论。",
+      "rights": "REFERENCE_LINK_AND_ORIGINAL_COMPARATIVE_NOTE_ONLY; NO_MODERN_TEXT_REPRINT"
     }
   ]
 }
