@@ -33,6 +33,14 @@
       "title": "《六壬金针》与《大六壬心法指要》的目录高度相似及正文/版本关系",
       "required_evidence": "Both works' identified edition pages, copyright/publisher information, parallel passages under permission, publication dates and revision statements. Titles and parallel TOC alone cannot prove identity.",
       "next_action": "Compare physical copyright/imprint page when available; check authority/publisher statements and limited corresponding passages; do not merge book identities or text provenance before independent verification."
+    },
+    {
+      "id": "DLR-OPEN-0005",
+      "priority": "P2",
+      "status": "OPEN",
+      "title": "占断预测能力的验证与适用边界：是否存在事前可测的准确性优势",
+      "required_evidence": "Specify measurable prediction tasks, fixed rule versions, pre-registered conditions and predictions, independently checked outcomes, baseline comparison, complete success/failure/uncertain counts and protection of private case data. No conclusion of 100% accuracy without extraordinary repeatable evidence.",
+      "next_action": "At appropriate future chapters, design ethically safe, anonymized pre-registered case protocol separating calculable chart rules, internally consistent interpretation, and empirical forecast performance. Keep unresolved without blocking full-book study."
     }
   ]
 }
