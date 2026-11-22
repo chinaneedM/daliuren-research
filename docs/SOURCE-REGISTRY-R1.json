@@ -432,6 +432,24 @@
       ],
       "limits": "Only printed body analyzed; handwritten old annotations intentionally excluded. Exact modern printing unverified. p27 and remainder of 八专 not available, so no claim of reading full seventh method.",
       "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0027",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned printed 北海闲人 六壬金针 physical p27 photograph; printed text directly inspected in conversation",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P27_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "Page top completes p26 preceding example: 亥 as initial, transmissions 亥卯未; preceding conditions require p26 context",
+        "Section labeled 2: only two lessons without upper/lower overcoming use 八专; explicitly do not use 遥克法 when only two lessons",
+        "Yang example inferred 庚申 day: four lessons 亥/庚, 寅/亥, 亥/申, 寅/亥; counting from first upper 亥 forward two branch steps to 丑, middle and final first upper 亥: 丑亥亥",
+        "Yin example inferred 己未 day: four lessons 巳/己, 卯/巳, 巳/未, 卯/巳; start fourth upper 卯 backward two steps to 丑, middle and final first upper 巳: 丑巳巳",
+        "Start of eighth method 伏吟: 月将 equals 占时, twelve upper and lower branches coincide; 癸 day lodging 丑 gives upper overcoming lower, initial 丑 then punishments 丑刑戌 戌刑未, resulting 丑戌未",
+        "Both examples directly support distinction between written lower stem versus earth-palace source equivalence; not conclusive proof of generalized two-lesson definition"
+      ],
+      "limits": "Printed physical page 27 only; print run unknown. Private handwritten annotations wholly excluded from analysis/storage. Page p28 not provided; method 八专 prior section 1 on p26 not re-opened during this turn. Assistant independently examined and explained cases; reader not yet confirmed each derivation.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
     }
   ]
 }
