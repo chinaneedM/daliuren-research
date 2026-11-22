@@ -213,10 +213,11 @@
     {
       "id": "DLR-OPEN-0027",
       "priority": "P2",
-      "status": "OPEN",
+      "status": "CLOSED",
       "title": "第1—76页实体原图复审完整性：本轮第16页原照片尚未重新定位",
       "required_evidence": "2026-11-22 independent re-review from user private Library photos directly reopened exact modern printed p1–15 and p17–76, total 75/76 distinct pages. Library chronological source list contained a non-book chart image and another-classic photo between p15 and p17; no directly accessible p16 original print source was established this turn. User previously said all pages were shared. Existing GitHub study summaries are not a substitute for source in a new independent audit. Do not infer user failed to share; do not claim p16 photo reviewed this turn, reconstruct p16 from adjacent pp15/17, or ask user to reupload while other source routes remain.",
-      "next_action": "Attempt to recover exact previously shared p16 print from conversation/Project/Library surfaces and verify its source page number; if obtained, privately inspect only printed text and update SESSION-0049 front-matter/coverage log by an explicit forward addendum, never rewriting historical audit evidence. In the meantime, continue unaffected p76 and later sections."
+      "next_action": "Attempt to recover exact previously shared p16 print from conversation/Project/Library surfaces and verify its source page number; if obtained, privately inspect only printed text and update SESSION-0049 front-matter/coverage log by an explicit forward addendum, never rewriting historical audit evidence. In the meantime, continue unaffected p76 and later sections.",
+      "resolution": "2026-11-22: User supplied the physical printed p16 image again and assistant independently examined its printed text. The historical source registry already had DLR-WIT-0018 from 2026-11-18, proving the page was previously shared and recorded; the preceding session's failure was an image retrieval gap, not an earlier missing delivery. All p1–76 print photos now directly revisited across successive 2026-11-22 responses; this closes ONLY image completeness, not per-case math verification or predictive validity."
     }
   ]
 }
