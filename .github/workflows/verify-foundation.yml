@@ -16,3 +16,5 @@ jobs:
           python-version: '3.11'
       - name: Validate foundation
         run: python scripts/verify_project_state.py
+      - name: Verify limited plate and four-lesson math
+        run: python -m unittest discover -s tests -v

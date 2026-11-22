@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.55",
+  "state_version": "0.5.56",
   "last_updated_date": "2026-11-22",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -12,9 +12,10 @@
     "foundational_docs": "CI_VERIFIED_AT_INIT_R1",
     "historical_overview": "TOPIC_SKELETON_ESTABLISHED_PHYSICAL_TOC_ADDED",
     "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_47_DIRECTLY_INSPECTED; GUIDE_VOL1_PRINTED_P1_USER_PHOTO_EDITION_UNKNOWN; FULL_DIGITAL_EDITIONS_NOT_VERIFIED",
-    "deterministic_chart_core": "NOT_STARTED",
+    "deterministic_chart_core": "PARTIAL: FIXED_EARTH_HEAVEN_PLATE_AND_FOUR_LESSONS_ONLY; NO_TRANSMISSIONS_OR_GENERALS",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "JINZHEN_P39_47_XUNJIE_ALL_PRINTED_PAGES_ASSISTANT_DIRECTLY_READ; USER_JOINTLY_STATED_HISTORICAL_MENTAL_CHART_HARD_MODERN_COMPUTER_AUTOMATES; P43_PRACTICE_AND_P46_47_COMPLETE_EXAMPLE_ASSISTANT_INDEPENDENTLY_CHECKED_NOT_FULLY_JOINT_HAND_WORKED; P46_FOUR_MENG_CLASSIFICATION_OPEN; NEXT_VOL2_P48_NOT_PROVIDED"
+    "joint_study": "JINZHEN_P39_47_XUNJIE_ALL_PRINTED_PAGES_ASSISTANT_DIRECTLY_READ; USER_JOINTLY_STATED_HISTORICAL_MENTAL_CHART_HARD_MODERN_COMPUTER_AUTOMATES; P43_PRACTICE_AND_P46_47_COMPLETE_EXAMPLE_ASSISTANT_INDEPENDENTLY_CHECKED_NOT_FULLY_JOINT_HAND_WORKED; P46_FOUR_MENG_CLASSIFICATION_OPEN; NEXT_VOL2_P48_NOT_PROVIDED",
+    "software_tests": "8_UNIT_TESTS_LOCAL_PASS; GITHUB_ACTIONS_ENFORCES_UNIT_TESTS; RECHECK_HEAD_CI"
   },
   "invariants": [
     "REMOTE_HEAD_AND_TREE_ONLY_CURRENT_SOURCE_OF_TRUTH",
@@ -84,7 +85,11 @@
     "study/SESSION-0040-JINZHEN-PP36-38-DUNGAN-XUN-WUZI-FIRST-REVIEW-R1.md",
     "docs/DUNGAN-DUAL-ALGORITHM-DATA-CONTRACT-R1.md",
     "study/SESSION-0041-JINZHEN-PP39-47-RAPID-CHART-COMPLETE-READ-R1.md",
-    "docs/RAPID-CHART-MENTAL-AND-SOFTWARE-VERIFICATION-R1.md"
+    "docs/RAPID-CHART-MENTAL-AND-SOFTWARE-VERIFICATION-R1.md",
+    "docs/SOFTWARE-IMPLEMENTATION-0001-PLATE-FOUR-LESSONS-R1.md",
+    "daliuren/__init__.py",
+    "daliuren/foundation.py",
+    "tests/test_foundation.py"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -104,7 +109,7 @@
     "DLR-OPEN-0015"
   ],
   "highest_priority_next_action": "第九节《迅捷起课法》p38–47已获整段印刷材料并由助手核读，读者强调古法心算排盘现代可由软件自动完成；按原书顺序转卷之二《壬式要素分析》p48第一节《入手判断的准备工作》（正文尚未提供）。保留p46将丑戌误归四孟的印刷疑点DLR-OPEN-0015以及p37两条遁干疑点，不阻塞整书主线；继续独立软件、全称显示及方形天地盘，不改天问。",
-  "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions.",
+  "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions. 2026-11-22 added a limited, independently unit-tested Earth/Heaven plate and four-lesson module without advancing reading beyond p47. CI check must still match each live HEAD.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
@@ -115,5 +120,6 @@
     "assistant_independent_review": "导论p1–5及卷一印刷p6–22用户实体页图像均已独立阅读其印刷部分；p22涉害两例和下半遥克开头可见，但双方目前仍讨论涉害。历史手写批注绝不读取、分析、索引或记录；材料不上传公开仓库。 2026-11-22：新增SESSION-0030是依据此前可靠书页核读档案的独立推演，不是本轮直接看新原图；p23仍不可用。 2026-11-22 newly received physical printed p23 photographed page: print-only directly visible, first two examples and two tie-break scenarios independently observed; joint discussion has only reached basic 遥克 description and 支神/上神 terminology. p24 has not been received. Source witness DLR-WIT-0023. 2026-11-22: user-supplied printed p24 newly directly inspected as source DLR-WIT-0024, fifth 昴星 rules and two printed examples manually derived, printed sixth 别责 opening only. This is independent coverage, not a claim that reader has jointly finished p24; no p25. 2026-11-22: print-only p25–26 directly examined (DLR-WIT-0025/0026), sixth 别责 full visible rule and examples as assistant independent study; early seventh 八专 section visible on p26 but continues beyond, p27 not received. 2026-11-22 SESSION-0034: reconstructed from prior evidence records, not from newly viewed original page; hypothetical 甲寅/卯将寅时 lesson example distinguishes three written pairs vs two residence-normalized sources; original p27 unavailable and no joint 八专 closure. 2026-11-22 newly directly inspected physical printed p27 (DLR-WIT-0027), excluding all handwriting; 八专 two-lesson subcase both yang and yin examples, plus 伏吟 definition/癸 example. p28 remains absent. 2026-11-22 physical print p28 & p29 both newly directly viewed (DLR-WIT-0028/0029); excluded handwriting; assistant independently checked 4 special 癸/乙 examples and 4 rigid-day examples plus remaining soft-day rule opening, reader discussed only broad split; p30 unavailable. 2026-11-22 user-supplied printed p30, p31 newly directly examined with handwriting excluded: completed independent reading of ninth method 返吟 through last case; next sixth section 天将 intro visible, p32 unseen. Four cases have been hand-calculated but not jointly confirmed by reader. p30 second case contradictory printed conquest direction registered open. 2026-11-22 p32-35 print-only photos reopened/verified; p31 prior print witness retained, source authority modern printed physical edition unknown. P34 and p35 visible but not counted as completed joint lesson. 2026-11-22 printed p36–38 newly supplied and directly read; p37 同页 五子元遁 辰/酉书面与列表矛盾 discovered and tracked as DLR-OPEN-0014; p38 new section header read, p39 unavailable; reader has not verbally confirmed detailed derivations. 2026-11-22 directly received and print-read p39-47 inclusive, no handwriting; p43 two inverse plate location drills, p46-47 complete 甲午日丑将戌时 case independently recomputed and ambiguous p46 四孟/四季 nomenclature highlighted; p48 not yet provided.",
     "joint_discussion_mode": "已有多年术数经验的读者与助手双向逐段研究；对基础讲清其在六壬里的具体操作和边界，不要求用户立即回答较高阶研究题；原则上按页顺序推进，未决问题另存。私人原图和手写批注绝不入公开仓库。"
   },
-  "research_vision": "HISTORICAL_INHERITANCE_PLUS_SKEPTICAL_TESTING_PLUS_VERSIONED_INNOVATION_NO_PREASSUMED_100_PERCENT_PREDICTION"
+  "research_vision": "HISTORICAL_INHERITANCE_PLUS_SKEPTICAL_TESTING_PLUS_VERSIONED_INNOVATION_NO_PREASSUMED_100_PERCENT_PREDICTION",
+  "software_last_completed_work_unit": "SOFTWARE-0001-PLATE-FOUR-LESSONS-PURE-FUNCTIONS-AND-UNIT-TESTS"
 }
