@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check foundation state only. This is NOT a Daliuren chart test."""
+"""Check state consistency. Limited chart-math tests run as a separate CI step."""
 import json
 from pathlib import Path
 
@@ -40,7 +40,7 @@ def verify():
         "Unexpected modern full text status; review rights and update this gate first"
     )
     print("PASS: foundational records and semantic handoff are internally consistent.")
-    print("NOTE: No Daliuren chart/interpretation algorithm has been tested.")
+    print("NOTE: Only limited plate/four-lesson tests run separately; no full chart or divination validation.")
 
 if __name__ == "__main__":
     verify()

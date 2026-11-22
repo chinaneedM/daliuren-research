@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.61",
+  "state_version": "0.5.62",
   "last_updated_date": "2026-11-22",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -90,7 +90,8 @@
     "daliuren/__init__.py",
     "daliuren/foundation.py",
     "tests/test_foundation.py",
-    "study/SESSION-0042-JINZHEN-VOL2-PP48-52-ENTRY-JUDGMENT-INITIAL-READ-R1.md"
+    "study/SESSION-0042-JINZHEN-VOL2-PP48-52-ENTRY-JUDGMENT-INITIAL-READ-R1.md",
+    "study/SESSION-0043-JINZHEN-VOL2-P52-RICHEN-READING-GATE-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -127,7 +128,8 @@
     },
     "next": "按原书顺序进入卷二第二节《四课的构成要素分析》，从印刷p52下半已见的‘日辰’定义开始，后续依实际提供的印刷页逐段核读；不提前将第一节的作者70%经验主张当作已验证的毕法效果。",
     "assistant_independent_review": "2026-11-22 read user-owned printed p48–52 photos for volume II section I, except ignored all handwriting. Only printed source and independent analytical notes; no external classical witness verified this turn.",
-    "joint_discussion_mode": "已学过六壬的读者与助手双向研习；先尊重主教材章序，独立初读与双方完成逐段讨论分别记录，不复述旧手写批注。"
+    "joint_discussion_mode": "已学过六壬的读者与助手双向研习；先尊重主教材章序，独立初读与双方完成逐段讨论分别记录，不复述旧手写批注。",
+    "assistant_preparation": "2026-11-22：恢复卷二第二节p52下半‘日辰’开头。以p50八门‘日/外事门、辰/内事门’和卷一p12–14庚子日卯将辰时四课作为已核桥梁，准备术语核对和研究问题。此次未取得p52新节逐字正文，新节未由双方讨论或学完；详SESSION-0043。"
   },
   "research_vision": "HISTORICAL_INHERITANCE_PLUS_SKEPTICAL_TESTING_PLUS_VERSIONED_INNOVATION_NO_PREASSUMED_100_PERCENT_PREDICTION",
   "software_last_completed_work_unit": "SOFTWARE-0001-PLATE-FOUR-LESSONS-PURE-FUNCTIONS-AND-UNIT-TESTS"
