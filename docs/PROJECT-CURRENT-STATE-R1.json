@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.62",
+  "state_version": "0.5.63",
   "last_updated_date": "2026-11-22",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -11,10 +11,10 @@
     "repository_authorized": true,
     "foundational_docs": "CI_VERIFIED_AT_INIT_R1",
     "historical_overview": "TOPIC_SKELETON_ESTABLISHED_PHYSICAL_TOC_ADDED",
-    "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_47_DIRECTLY_INSPECTED; GUIDE_VOL1_PRINTED_P1_USER_PHOTO_EDITION_UNKNOWN; FULL_DIGITAL_EDITIONS_NOT_VERIFIED",
+    "digital_books_verified": "LIUREN_JINZHEN_USER_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_56_PRIVATE_PHOTOS; PHYSICAL_EDITION_NOT_BOUND; NO_RIGHTS_TO_REPUBLISH; OTHER_BOOK_DIGITAL_EDITION_NOT_VERIFIED",
     "deterministic_chart_core": "PARTIAL: FIXED_EARTH_HEAVEN_PLATE_AND_FOUR_LESSONS_ONLY; NO_TRANSMISSIONS_OR_GENERALS",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "VOL2_SECTION1_P48_52_MAIN_CONCEPTS_JOINTLY_DISCUSSED; SOURCE_PRINT_ASSISTANT_DIRECTLY_REVIEWED; HISTORICAL_NUMBERS_AND_BIFA_70_PERCENT_UNVERIFIED; NEXT_SECTION2_P52_LOWER",
+    "joint_study": "VOL2_SECTION1_P48_52_TOP_MAIN_POINTS_JOINTLY_DISCUSSSED; VOL2_SECTION2_P52_LOWER_ENTRY_PLUS_PP53_56_SOURCE_PHOTOS; PP53_56_ASSISTANT_INDEPENDENT_REVIEW_ONLY; JOINT_FRONTIER_STILL_P52_LOWER; P57_NOT_SEEN",
     "software_tests": "8_UNIT_TESTS_LOCAL_PASS; GITHUB_ACTIONS_ENFORCES_UNIT_TESTS; RECHECK_HEAD_CI"
   },
   "invariants": [
@@ -91,7 +91,8 @@
     "daliuren/foundation.py",
     "tests/test_foundation.py",
     "study/SESSION-0042-JINZHEN-VOL2-PP48-52-ENTRY-JUDGMENT-INITIAL-READ-R1.md",
-    "study/SESSION-0043-JINZHEN-VOL2-P52-RICHEN-READING-GATE-R1.md"
+    "study/SESSION-0043-JINZHEN-VOL2-P52-RICHEN-READING-GATE-R1.md",
+    "study/SESSION-0044-JINZHEN-VOL2-PP53-56-RICHEN-DAY-STEM-DAY-BRANCH-FIRST-READ-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -112,24 +113,26 @@
     "DLR-OPEN-0016",
     "DLR-OPEN-0017",
     "DLR-OPEN-0018",
-    "DLR-OPEN-0019"
+    "DLR-OPEN-0019",
+    "DLR-OPEN-0020"
   ],
-  "highest_priority_next_action": "按原书顺序进入卷二第二节《四课的构成要素分析》，从印刷p52下半已见的‘日辰’定义开始，后续依实际提供的印刷页逐段核读；不提前将第一节的作者70%经验主张当作已验证的毕法效果。",
+  "highest_priority_next_action": "按原书顺序，从p52下半的日辰起头衔接p53的干支象义参照和日干代表对象，再讨论p54–55具体课例的六项干上神判断，最后到p56日支。此批是助手独立初读，尚无用户逐段新观点；p56末涉及邵彦和课案未完，后续p57尚未见。",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions. 2026-11-22 added a limited, independently unit-tested Earth/Heaven plate and four-lesson module without advancing reading beyond p47. CI check must still match each live HEAD.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
-    "section": "卷之二《壬式要素分析》第一节《入手判断的准备工作》p48–52上半主要段落已由双方按顺序讨论；p52下半第二节《四课的构成要素分析》尚未开始。",
+    "section": "卷之二《壬式要素分析》第一节p48–52上半主要论点已共同讨论。第二节《四课的构成要素分析》p52下半题头已见，用户本次追加p53、54、55、56印刷照片，助手独立初读；第二节尚未由双方逐段共同研习。",
     "page": 52,
     "completed": "卷之一p1–47保留此前实物核读和双方讨论分账，详SESSION-0001至0041。用户本轮提供现代实体印刷p48、49、50、51、52共五页；助手仅看印刷正文完成第一节初读：模仿课例之不足，类神选择与吉凶旺衰，多类神与类象组合，课传与八门，铸印课同一象组合跨占类取象，课体/毕法赋结构及作者70%以上主张。新章段并未得到用户逐段观点或认可，不能称第一节双方完整学完。印本印次尚未验证；书页照片/旧手写批注绝不上传或整理。 2026-11-22联合续记：读者已读p48作者‘以类神为核心’，并对p48–49占宅日支、占财‘财爻’、占官青龙/官星/德神/太阴/催官符及类神/类象混称提出质疑，读到‘类之所在，视占所在’。双方辨析术语：青龙太阴确属卷一已学天将；在线六壬古文录文存在财爻官星词，但六壬课传并无六爻卦爻位；采用类神=本次被选观察对象，类象=象义和关系集合的分层现代规范。p49‘凶而休，则吉凶’疑应‘事凶’，登记DLR-OPEN-0019，尚未版本裁决。第49页其余与p50–52未共同逐段完成。详SESSION-0042续记和JOINT-STUDY-METHOD-R1。 2026-11-22用户纠正了前轮对p49原印字的识读：正确为占官‘青龙、官星、德神、太阳、催官符’，不是‘太阴’；助手重新查看实体印刷p49确认，前向勘误，非原书异文。用户继续讨论p49课体特点/整体感觉的形而上性，并读到p50《心镜》《课经》六十四课、《毕法赋》百条法则、《六壬经纬》九十二课体及占断八门、六十四课+一百法则+八门应学习的作者结语。各传统书籍先记为未来通读后扩展线索，课体结构判断与象义经验分开。p50铸印课及p51–52尚未由读者共同逐段讨论。详SESSION-0042新勘误。 2026-11-22读者进一步口头讨论p50–51课体价值：提出课体是特定课传表现形式及条件化象义，主张其主要教学价值在于将分散信息组合成完整判断，强调占事不搭界不能机械断吉凶，并联系《天问》未来推命需要的信息组合能力。助手依p50–51印刷核对支持作者'课体只是某方面特点''从点连线'及铸印课多种象义，但指出书页未提供古人严格统计的证据，‘统计归纳’只作为未验证历史假说。六壬与天问仅迁移通用方法、不混规则。详SESSION-0042追加。 2026-11-22双方补全p51–52《毕法赋》末段：读者明确复述一百句总诀的‘典型类象组合+代表象意’结构及本书对释义/特例/变格/类格的介绍，强调后续重点研究，并注意北海作者声称70%以上课能直接套用。此比例未有统计口径，不等同断课准确率。至此本节核心论点已共同讨论，保留原书细节、传统出处及应用有效性为未决，下一段是p52第二节。",
     "joint_discussion_frontier": {
       "page": 52,
       "paragraph": "第一节《入手判断的准备工作》结束；下一段从p52下半‘二 四课的构成要素分析’及其‘日辰’开头开始"
     },
-    "next": "按原书顺序进入卷二第二节《四课的构成要素分析》，从印刷p52下半已见的‘日辰’定义开始，后续依实际提供的印刷页逐段核读；不提前将第一节的作者70%经验主张当作已验证的毕法效果。",
-    "assistant_independent_review": "2026-11-22 read user-owned printed p48–52 photos for volume II section I, except ignored all handwriting. Only printed source and independent analytical notes; no external classical witness verified this turn.",
+    "next": "按原书顺序，从p52下半的日辰起头衔接p53的干支象义参照和日干代表对象，再讨论p54–55具体课例的六项干上神判断，最后到p56日支。此批是助手独立初读，尚无用户逐段新观点；p56末涉及邵彦和课案未完，后续p57尚未见。",
+    "assistant_independent_review": "2026-11-22 read user-owned printed p48–52 photos for volume II section I, except ignored all handwriting. Only printed source and independent analytical notes; no external classical witness verified this turn. 2026-11-22 NEW: user privately supplied four images in upload order p54,p55,p56,p53 (last photo lacks clear printed page number, identified as p53 by contiguous page54 opening ‘日干代表胎儿’); assistant verified printed text pp53–56 only. p53 treats day-stem/day-branch contextual representative roles and begins day-stem analysis; p54 six criteria after claiming five plus Jiazi-dated sample; p55 symbolic reading; p56 begins day-branch analysis, ends in an unfinished 邵彦和 example. Printed p57 not seen. The new section is NOT jointly completed, no handwriting read or preserved.",
     "joint_discussion_mode": "已学过六壬的读者与助手双向研习；先尊重主教材章序，独立初读与双方完成逐段讨论分别记录，不复述旧手写批注。",
-    "assistant_preparation": "2026-11-22：恢复卷二第二节p52下半‘日辰’开头。以p50八门‘日/外事门、辰/内事门’和卷一p12–14庚子日卯将辰时四课作为已核桥梁，准备术语核对和研究问题。此次未取得p52新节逐字正文，新节未由双方讨论或学完；详SESSION-0043。"
+    "assistant_preparation": "2026-11-22：恢复卷二第二节p52下半‘日辰’开头。以p50八门‘日/外事门、辰/内事门’和卷一p12–14庚子日卯将辰时四课作为已核桥梁，准备术语核对和研究问题。此次未取得p52新节逐字正文，新节未由双方讨论或学完；详SESSION-0043。",
+    "assistant_printed_coverage": "Volume II section 2: p52 lower printed heading known from prior user photo; p53–56 user private printed text directly inspected 2026-11-22 in reconstructed order p53,p54,p55,p56. No p57 source yet."
   },
   "research_vision": "HISTORICAL_INHERITANCE_PLUS_SKEPTICAL_TESTING_PLUS_VERSIONED_INNOVATION_NO_PREASSUMED_100_PERCENT_PREDICTION",
   "software_last_completed_work_unit": "SOFTWARE-0001-PLATE-FOUR-LESSONS-PURE-FUNCTIONS-AND-UNIT-TESTS"

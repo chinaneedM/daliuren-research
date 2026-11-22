@@ -153,6 +153,14 @@
       "title": "卷二p49：类神凶而休后的“则吉凶”疑似印刷脱误",
       "required_evidence": "私人实体印刷p49正文对应语句，平行句‘吉而旺，则事吉’以及后句‘凶而休，则吉凶’可见；若论证原意‘则事凶’，须找到另一独立印次、作者同题段落或其他可版次绑定证据，区分排字／编校／作者表述。用户手写旧批注不作为证据。",
       "next_action": "暂保留纸本原词及疑误标记，原创释义注明‘按语义疑应为事凶’，不以语义推测覆盖原文；以后版本校勘处理，不阻塞卷二顺读。"
+    },
+    {
+      "id": "DLR-OPEN-0020",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "卷二p53–56：日辰角色映射、干上神六项判断与一课多义的事前选择规则",
+      "required_evidence": "User-owned printed p53–56 (upload order p54,p55,p56,p53) states day stem/branch symbolic role is occupation-dependent: spouse, relatives, hierarchy, direction, people/places, body/location. p54 has 'five aspects' introduction yet six numbered tests; the Jiazi case has stem upper 未 = 妻财/木墓/天空/无寅未合冲刑破害/不旬空/旬遁辛=官鬼暗鬼. p55 uses one chart for personality, education, lifespan stages, promotion, marriage, retirement, and a conditional illness/death interpretation, but no prospectively constrained selector or independently checked outcome is shown. Need verify original printed p52 lower through p57 continuation, relevant book definitions, cross-case consistency and conditional applicability; later compare separate classical editions with attribution bound.",
+      "next_action": "Jointly study in source order from p52 lower through p53–56; reproduce structural p54 chart while logging historical author interpretations separately. Distinguish question type, referent, stem/branch role, primary class god, six criteria, constraints, exceptions, and prospective evidence. Do not code deterministic fate/medical statements or treat a book example as actual verified forecast. The count discrepancy is a printed editorial issue, not evidence any of six checks is dispensable."
     }
   ]
 }
