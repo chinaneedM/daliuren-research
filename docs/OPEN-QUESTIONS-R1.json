@@ -121,6 +121,30 @@
       "title": "《六壬金针》p46甲午日丑将戌时例中将丑戌称作“四孟神”的分类疑误",
       "required_evidence": "实体印刷p46的原句把丑和戌称为四孟神，但同书p8与p39–40归四孟寅巳申亥、四季辰戌丑未；核其他独立印次书影确认是排字、编辑或作者书稿表述问题。别把纸书原句静默换成四季。",
       "next_action": "暂保留原书所见“四孟神”并注明二者依据同书分类实为四季、相位+3可使孟对孟仲对仲季对季而不影响甲午日丑将戌时四课巳甲/申巳/酉午/子酉及三传申亥寅。等后期版本系统校勘再核对其他实体来源；不阻塞卷二继续学习。见SESSION-0041。"
+    },
+    {
+      "id": "DLR-OPEN-0016",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "卷二p48–49：同一占问有多个类神时如何事前选主辅并处理矛盾",
+      "required_evidence": "实体印刷p48–49 gives 宅/财/官 class-god examples, with several candidate gods for 官; study subsequent same-book examples for scope, priority, selection and contradiction-handling. Distinguish choice of 类神, branch/stem relative, prosperity, positive/negative conditions, and question type. Do not impose rules not yet printed.",
+      "next_action": "First jointly discuss author p48–49; wait for examples and later class-god chapters before establishing stable selection decision trees. Prespecify selection if designing empirical evaluation; leave historical author wording unchanged."
+    },
+    {
+      "id": "DLR-OPEN-0017",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "卷二p50–51：课体灵活组合与事后附会的分界",
+      "required_evidence": "Print-only 铸印课 巳戌卯 example permits multiple occupation, illness, work and travel readings. Collect whether the same book defines ex-ante circumstances and counterexamples that choose a specific reading; preserve meaning as historical interpretation and test outcomes separately in ethical, anonymized preregistered cases.",
+      "next_action": "Discuss first-section combination theory with reader, record examples as author interpretations without medical diagnostic claims; do not turn unrestricted multi-meaning imagery into verified prediction rules."
+    },
+    {
+      "id": "DLR-OPEN-0018",
+      "priority": "P2",
+      "status": "OPEN",
+      "title": "卷二p50–52：《毕法赋》出处、课体数量与70%以上套用比例的证据级别",
+      "required_evidence": "Modern author claims 64 groupings (心镜/课经), 100 maxims (毕法赋), 92 groupings (六壬经纬), historical authorship from 凌福之 and 邵彦和 cases, and greater-than-70-percent practical coverage. Each must be checked independently against identified editions, provenance and a defined denominator/sample if assessing percentage.",
+      "next_action": "Prioritize full sequential reading of 六壬金针; do not sidetrack into full classical comparison now. Record 70% as the author's unverified empirical assertion, not as study outcome or software performance target."
     }
   ]
 }

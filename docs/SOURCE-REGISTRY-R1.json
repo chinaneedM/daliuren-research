@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "updated_on": "2026-11-22",
-  "evidence_note": "User physical 六壬金针 cover, TOC (2pp), introductory pp1–5, and new printed pp6–9 directly inspected in user-provided photographs (2026-11-18); private annotations never redistributed. Source-page coverage does not establish publisher/printing or validate the complete book. 2026-11-18 sequential continuation: six additional private user physical photographs of printed pp10–15 inspected by visual reading of PRINT only; handwritten markings ignored entirely. P16 not received. On 2026-11-18 user supplied printed p16 of physical Jinzhen and a separate privately photographed printed p1 of 大六壬指南 vol1; both examined only for print, marginal handwriting not read or recorded; no photos in public repository. Printed p17 of Jinzhen privately photographed and reviewed 2026-11-18; handwritten notes excluded, photos never published. 2026-11-18 user physically submitted privately photographed printed pp18–20 of 六壬金针, separately documented in SESSION-0023; all handwritten annotations excluded. 2026-11-18 new third book only USER-REPORTED physical ownership; online Yuding transcription collected as unbound witness, modern print not yet directly read; see SESSION-0024. 2026-11-18: user additionally supplied printed p21 photo. Printed 比用法 three cases and start of 涉害法 read; personal handwritten annotations ignored; photo not redistributed. See SESSION-0028. 2026-11-18 user newly provided physical Jinzhen printed p22; only printed text inspected: two 涉害 孟仲季 worked examples, author preference for 孟仲季 over actual 涉害深浅, and start of 遥克法. Historical handwriting ignored and image not publicly redistributed. 2026-11-22: a new user's physical printed p23 photo directly visible, only print inspected; private handwriting excluded and never redistributed. Full p23 not yet jointly discussed. 2026-11-22: newly supplied private physical printed p24 directly observed for fifth method 昴星 and sixth 别责 heading/opening; handwritten markings ignored and image never republished. 2026-11-22: user supplied private printed p25 and p26 images. Print inspected for sixth 别责 and beginning seventh 八专; no handwritten annotations read or publicly retained.",
+  "evidence_note": "User physical 六壬金针 cover, TOC (2pp), introductory pp1–5, and new printed pp6–9 directly inspected in user-provided photographs (2026-11-18); private annotations never redistributed. Source-page coverage does not establish publisher/printing or validate the complete book. 2026-11-18 sequential continuation: six additional private user physical photographs of printed pp10–15 inspected by visual reading of PRINT only; handwritten markings ignored entirely. P16 not received. On 2026-11-18 user supplied printed p16 of physical Jinzhen and a separate privately photographed printed p1 of 大六壬指南 vol1; both examined only for print, marginal handwriting not read or recorded; no photos in public repository. Printed p17 of Jinzhen privately photographed and reviewed 2026-11-18; handwritten notes excluded, photos never published. 2026-11-18 user physically submitted privately photographed printed pp18–20 of 六壬金针, separately documented in SESSION-0023; all handwritten annotations excluded. 2026-11-18 new third book only USER-REPORTED physical ownership; online Yuding transcription collected as unbound witness, modern print not yet directly read; see SESSION-0024. 2026-11-18: user additionally supplied printed p21 photo. Printed 比用法 three cases and start of 涉害法 read; personal handwritten annotations ignored; photo not redistributed. See SESSION-0028. 2026-11-18 user newly provided physical Jinzhen printed p22; only printed text inspected: two 涉害 孟仲季 worked examples, author preference for 孟仲季 over actual 涉害深浅, and start of 遥克法. Historical handwriting ignored and image not publicly redistributed. 2026-11-22: a new user's physical printed p23 photo directly visible, only print inspected; private handwriting excluded and never redistributed. Full p23 not yet jointly discussed. 2026-11-22: newly supplied private physical printed p24 directly observed for fifth method 昴星 and sixth 别责 heading/opening; handwritten markings ignored and image never republished. 2026-11-22: user supplied private printed p25 and p26 images. Print inspected for sixth 别责 and beginning seventh 八专; no handwritten annotations read or publicly retained. 2026-11-22: five more private photos printed p48-52 directly observed; vol2 section1 ends on upper p52, section2 begins lower p52. Only printed matter analyzed; old handwriting excluded, no photos copied to GitHub. Joint discussion of this new section not completed.",
   "entries": [
     {
       "id": "DLR-SRC-0001",
@@ -748,6 +748,82 @@
         "Ends mental exercise and section 九 迅捷起课法"
       ],
       "limits": "Other general mapping entries independently inferred from printed examples and prior section; user has not verbally confirmed every calculation. Handwritten prior annotations not read or recorded; publication imprint not independently identified.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0048",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p48 photo, printed text privately inspected 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P48_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "Volume II 壬式要素分析 starts; first section 一 入手判断的准备工作",
+        "Author criticizes copying old judgments before learning basics and states 类神 as a usual focus of judgment",
+        "类神 described as symbol representing queried person, event or thing; examples 宅→日支, 财→财爻, 官→青龙/官星/德神/太阴/催官符; paragraph continues to p49"
+      ],
+      "limits": "Printed type only; handwritten old notes, marginalia and annotations are excluded from reading, analysis, indexing and public record. Physical edition/imprint remains unverified. Independently read by assistant; reader has not yet jointly reviewed individual conclusions.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0049",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p49 photo, printed text privately inspected 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P49_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "类神可以一事多取; author claims favorable and flourishing 类神 generally favors the matter while unfavorable/weakened tends opposite",
+        "Class-god selection and analysis presented as basic judgment knowledge",
+        "课传 described as mainly four lessons plus three transmissions, with Heaven/Earth plates used as positional references; discusses combination of constituent elements"
+      ],
+      "limits": "Printed type only; handwritten old notes, marginalia and annotations are excluded from reading, analysis, indexing and public record. Physical edition/imprint remains unverified. Independently read by assistant; reader has not yet jointly reviewed individual conclusions.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0050",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p50 photo, printed text privately inspected 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P50_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "Author attributes various combinations to 心镜/课经 (64 course types), 毕法赋 (100 rules), 六壬经纬 (92 course types); counts are claims in this modern printed work not independently verified",
+        "八门 named 占时先锋、月将值事、日外事、辰内事、初传发端、中传移易、末传归计、年命变体",
+        "铸印课: 巳戌卯 used by author to illustrate context-dependent possible symbolic readings; no empirical validation of those proposed outcomes"
+      ],
+      "limits": "Printed type only; handwritten old notes, marginalia and annotations are excluded from reading, analysis, indexing and public record. Physical edition/imprint remains unverified. Independently read by assistant; reader has not yet jointly reviewed individual conclusions.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0051",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p51 photo, printed text privately inspected 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P51_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "Author cautions that fixed 课体 interpretation can be irrelevant to actual question and promotes conditional, flexible class-symbol combinations",
+        "Author argues 六十四课 should be studied for structure rather than assumed universal direct outcomes",
+        "Author prefers 毕法赋 as practical; attributes summary to 宋代凌福之 based on 邵彦和占验, without presenting primary historical proof",
+        "Begins 毕法赋 structure of a hundred main formulas, each combination plus suggested meaning"
+      ],
+      "limits": "Printed type only; handwritten old notes, marginalia and annotations are excluded from reading, analysis, indexing and public record. Physical edition/imprint remains unverified. Independently read by assistant; reader has not yet jointly reviewed individual conclusions.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0052",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p52 photo, printed text privately inspected 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P52_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "Continues 毕法赋 structure: verse meaning summary, examples, special cases, 变格, 类格, and author's claim that more than 70 percent of courses can be roughly judged using 毕法赋",
+        "First section 一 入手判断的准备工作 finishes in the upper part of p52",
+        "Lower part begins 第二节 二 四课的构成要素分析 and mentions 日辰, but this new section is not yet part of joint discussion"
+      ],
+      "limits": "Printed type only; handwritten old notes, marginalia and annotations are excluded from reading, analysis, indexing and public record. Physical edition/imprint remains unverified. Independently read by assistant; reader has not yet jointly reviewed individual conclusions.",
       "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
     }
   ]
