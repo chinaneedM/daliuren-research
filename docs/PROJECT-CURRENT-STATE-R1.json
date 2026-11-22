@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.57",
+  "state_version": "0.5.58",
   "last_updated_date": "2026-11-22",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
   "default_branch": "main",
   "phase": "FOUNDATION",
-  "last_completed_work_unit": "STUDY-0042-VOL2-PP48_52-PRINT-FIRST-READ-JOINT-DISCUSSION-PENDING",
+  "last_completed_work_unit": "STUDY-0042-JOINT-PP48_49-CLASS_GOD_CLASS_IMAGE_TERMS_PRINT_VARIANT_REVIEW",
   "statuses": {
     "repository_authorized": true,
     "foundational_docs": "CI_VERIFIED_AT_INIT_R1",
@@ -14,7 +14,7 @@
     "digital_books_verified": "LIUREN_JINZHEN_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_47_DIRECTLY_INSPECTED; GUIDE_VOL1_PRINTED_P1_USER_PHOTO_EDITION_UNKNOWN; FULL_DIGITAL_EDITIONS_NOT_VERIFIED",
     "deterministic_chart_core": "PARTIAL: FIXED_EARTH_HEAVEN_PLATE_AND_FOUR_LESSONS_ONLY; NO_TRANSMISSIONS_OR_GENERALS",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "VOL2_SECTION1_P48_52_PRINT_DIRECTLY_READ_ASSISTANT_FIRST_REVIEW; USER_UPLOADED_ALL_FIVE_PAGES; JOINT_PARAGRAPH_DISCUSSION_PENDING; VOL2_SECTION2_P52_LOWER_NOT_STUDIED",
+    "joint_study": "VOL2_SECTION1_PP48_52_PRINT_ASSISTANT_READ; USER_AND_ASSISTANT_JOINTLY_DISCUSS_PP48_49_CLASS_GOD_CLASS_IMAGE_TERMS; P49_REMAINDER_AND_PP50_52_JOINT_DISCUSSION_PENDING; P52_SECTION2_NOT_STARTED",
     "software_tests": "8_UNIT_TESTS_LOCAL_PASS; GITHUB_ACTIONS_ENFORCES_UNIT_TESTS; RECHECK_HEAD_CI"
   },
   "invariants": [
@@ -110,21 +110,22 @@
     "DLR-OPEN-0015",
     "DLR-OPEN-0016",
     "DLR-OPEN-0017",
-    "DLR-OPEN-0018"
+    "DLR-OPEN-0018",
+    "DLR-OPEN-0019"
   ],
-  "highest_priority_next_action": "双方按原书顺序共同讨论卷二第一节p48–49类神选取、旺衰和判断的前提，再讨论p50–52八门/铸印课/毕法赋。五张印刷页已到，不必重复索图；待本节讨论结束后再转p52下半第二节。软件基础部分已存在，不代替教材主线。",
+  "highest_priority_next_action": "从第49页‘选取和分析类象，要掌握哪些知识？’继续双方讨论，逐步进入课传构成、p50占断八门及铸印课、p51–52《毕法赋》，不跳到p52下半第二节。p49印刷疑误和类神多选优先级留OPEN。",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions. 2026-11-22 added a limited, independently unit-tested Earth/Heaven plate and four-lesson module without advancing reading beyond p47. CI check must still match each live HEAD.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
     "section": "卷之二《壬式要素分析》第一节《入手判断的准备工作》：印刷p48–52上半已由助手直接核读。p52下半为第二节《四课的构成要素分析》开始，尚不进入该新节。",
     "page": 52,
-    "completed": "卷之一p1–47保留此前实物核读和双方讨论分账，详SESSION-0001至0041。用户本轮提供现代实体印刷p48、49、50、51、52共五页；助手仅看印刷正文完成第一节初读：模仿课例之不足，类神选择与吉凶旺衰，多类神与类象组合，课传与八门，铸印课同一象组合跨占类取象，课体/毕法赋结构及作者70%以上主张。新章段并未得到用户逐段观点或认可，不能称第一节双方完整学完。印本印次尚未验证；书页照片/旧手写批注绝不上传或整理。",
+    "completed": "卷之一p1–47保留此前实物核读和双方讨论分账，详SESSION-0001至0041。用户本轮提供现代实体印刷p48、49、50、51、52共五页；助手仅看印刷正文完成第一节初读：模仿课例之不足，类神选择与吉凶旺衰，多类神与类象组合，课传与八门，铸印课同一象组合跨占类取象，课体/毕法赋结构及作者70%以上主张。新章段并未得到用户逐段观点或认可，不能称第一节双方完整学完。印本印次尚未验证；书页照片/旧手写批注绝不上传或整理。 2026-11-22联合续记：读者已读p48作者‘以类神为核心’，并对p48–49占宅日支、占财‘财爻’、占官青龙/官星/德神/太阴/催官符及类神/类象混称提出质疑，读到‘类之所在，视占所在’。双方辨析术语：青龙太阴确属卷一已学天将；在线六壬古文录文存在财爻官星词，但六壬课传并无六爻卦爻位；采用类神=本次被选观察对象，类象=象义和关系集合的分层现代规范。p49‘凶而休，则吉凶’疑应‘事凶’，登记DLR-OPEN-0019，尚未版本裁决。第49页其余与p50–52未共同逐段完成。详SESSION-0042续记和JOINT-STUDY-METHOD-R1。",
     "joint_discussion_frontier": {
-      "page": 48,
-      "paragraph": "第一节起头，重点为先学原理、类神的定义及为何同一占事可能多个类神"
+      "page": 49,
+      "paragraph": "已讨论‘类之所在，视占所在’与类神、类象术语；下一段从‘选取和分析类象，要掌握哪些知识？’及后续课传定义继续"
     },
-    "next": "按书序先就卷二第一节p48–49作者'以类神为核心'及类神取舍/旺衰条件作双方讨论，然后依次处理p49–52课传组合、占断八门、铸印课及《毕法赋》主张。p52下半第二节正文仅作为页面边界见到，不得跳读；DLR-OPEN-0016–0018保留以后核实；先不声称断课已证有效。",
+    "next": "从第49页‘选取和分析类象，要掌握哪些知识？’继续双方讨论，逐步进入课传构成、p50占断八门及铸印课、p51–52《毕法赋》，不跳到p52下半第二节。p49印刷疑误和类神多选优先级留OPEN。",
     "assistant_independent_review": "2026-11-22 read user-owned printed p48–52 photos for volume II section I, except ignored all handwriting. Only printed source and independent analytical notes; no external classical witness verified this turn.",
     "joint_discussion_mode": "已学过六壬的读者与助手双向研习；先尊重主教材章序，独立初读与双方完成逐段讨论分别记录，不复述旧手写批注。"
   },

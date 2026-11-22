@@ -127,8 +127,8 @@
       "priority": "P1",
       "status": "OPEN",
       "title": "卷二p48–49：同一占问有多个类神时如何事前选主辅并处理矛盾",
-      "required_evidence": "实体印刷p48–49 gives 宅/财/官 class-god examples, with several candidate gods for 官; study subsequent same-book examples for scope, priority, selection and contradiction-handling. Distinguish choice of 类神, branch/stem relative, prosperity, positive/negative conditions, and question type. Do not impose rules not yet printed.",
-      "next_action": "First jointly discuss author p48–49; wait for examples and later class-god chapters before establishing stable selection decision trees. Prespecify selection if designing empirical evaluation; leave historical author wording unchanged."
+      "required_evidence": "实体印刷p48–49 gives 宅/财/官 class-god examples, with several candidate gods for 官; study subsequent same-book examples for scope, priority, selection and contradiction-handling. Distinguish choice of 类神, branch/stem relative, prosperity, positive/negative conditions, and question type. Do not impose rules not yet printed. 2026-11-22 joint p48-49 clarification: 类神 as selected in-quiry referent vs 类象 as a broader class of symbolic properties/relations, do not conflate; source's multiple 求官 candidates include verified twelve generals 青龙/太阴 and historically present '官星/财爻' wording (only unbound online classical transcripts corroborate these forms). Need define 德神/催官符 and choice priority separately.",
+      "next_action": "Proceed in original order from p49 类之所在、视占所在 to 课传构成, and later look for author-defined selectors/priority/conflict resolution. No unverified class-symbol selection should be hardcoded. Preserve user's request for stable explicit modern terminology."
     },
     {
       "id": "DLR-OPEN-0017",
@@ -145,6 +145,14 @@
       "title": "卷二p50–52：《毕法赋》出处、课体数量与70%以上套用比例的证据级别",
       "required_evidence": "Modern author claims 64 groupings (心镜/课经), 100 maxims (毕法赋), 92 groupings (六壬经纬), historical authorship from 凌福之 and 邵彦和 cases, and greater-than-70-percent practical coverage. Each must be checked independently against identified editions, provenance and a defined denominator/sample if assessing percentage.",
       "next_action": "Prioritize full sequential reading of 六壬金针; do not sidetrack into full classical comparison now. Record 70% as the author's unverified empirical assertion, not as study outcome or software performance target."
+    },
+    {
+      "id": "DLR-OPEN-0019",
+      "priority": "P2",
+      "status": "OPEN",
+      "title": "卷二p49：类神凶而休后的“则吉凶”疑似印刷脱误",
+      "required_evidence": "私人实体印刷p49正文对应语句，平行句‘吉而旺，则事吉’以及后句‘凶而休，则吉凶’可见；若论证原意‘则事凶’，须找到另一独立印次、作者同题段落或其他可版次绑定证据，区分排字／编校／作者表述。用户手写旧批注不作为证据。",
+      "next_action": "暂保留纸本原词及疑误标记，原创释义注明‘按语义疑应为事凶’，不以语义推测覆盖原文；以后版本校勘处理，不阻塞卷二顺读。"
     }
   ]
 }
