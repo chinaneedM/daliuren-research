@@ -621,6 +621,134 @@
       ],
       "limits": "Printed p38 only; p39 not received; no old handwritten material read, author usage claim not verified across schools.",
       "rights": "PRIVATE_PRINT_ONLY_ORIGINAL_SUMMARY"
+    },
+    {
+      "id": "DLR-WIT-0039",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p39 photo, directly inspected print 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P39_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p39 displays fixed square twelve-earth-branch board and a sample sky board with earth 子→heaven 辰",
+        "Mental blackboard method says earth plate fixed, sky plate a relative shifted circular placement"
+      ],
+      "limits": "No explicit full input for that printed sample recovered from the adjacent page on this turn; only visible p39. Handwritten prior annotations not read or recorded; publication imprint not independently identified.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0040",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p40 photo, directly inspected print 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P40_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p40 reiterates 四孟 寅巳申亥 / 四仲 子午卯酉 / 四季 辰戌丑未 and 六冲 pairs",
+        "Hypothetical 子 month-general at 子 hour is 伏吟; at 丑 generally 退连茹, 寅 generally 退间传; 卯 same 孟仲季 class shifted"
+      ],
+      "limits": "Book warns 'generally' and exceptions; no unconditional mapping from hour alone. Handwritten prior annotations not read or recorded; publication imprint not independently identified.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0041",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p41 photo, directly inspected print 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P41_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p41 continues hypothetical 子将 at 辰/巳/午/未 hours with same-group 三合, 六冲 offset and 返吟 examples",
+        "At 子将午时 opposition creates 返吟; others describe same fixed relative rotation"
+      ],
+      "limits": "Illustrations and mental labels apply only under hypothetical 子 month-general. Handwritten prior annotations not read or recorded; publication imprint not independently identified.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0042",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p42 photo, directly inspected print 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P42_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p42 continues hypothetical 子将 at 申/酉/戌/亥 hours; includes 进间传/进连茹 typical labels",
+        "Completes 12-hour cycle for assumed 子将"
+      ],
+      "limits": "No prediction evidence or universal hour-only labels. Handwritten prior annotations not read or recorded; publication imprint not independently identified.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0043",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p43 photo, directly inspected print 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P43_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p43 exercises ask 亥将午时 earth 申辰子未 upper branches and 未将酉时 heaven 午申亥卯 lower branches",
+        "Starts step three: memorize nine methods and conditions, emphasizing initial use upper branch for 克法 and related filters"
+      ],
+      "limits": "Exercise answers assistant independently calculated, not printed on p43. Handwritten prior annotations not read or recorded; publication imprint not independently identified.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0044",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p44 photo, directly inspected print 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P44_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p44 continues abbreviated 九宗门 entry checks for 昴星、别责、八专、返吟无克 and starts heavenly-general relative-position mnemonics",
+        "Heavenly general order indexed from 贵人: front 腾蛇朱雀六合勾陈青龙; back 天后太阴玄武太常白虎天空; book uses one-character shorthand"
+      ],
+      "limits": "Book-specific mnemonic is not a standalone independent calculator; all generals retain full names in modern UI. Handwritten prior annotations not read or recorded; publication imprint not independently identified.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0045",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p45 photo, directly inspected print 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P45_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p45 discusses heavenly-general 孟仲季, opposition, three-harmony and fixed nobleman forward/backward arrangements",
+        "Provides quiz-like questions about relative heavenly-general identities"
+      ],
+      "limits": "Independent partial read of printed text, not every case manually verified jointly. Handwritten prior annotations not read or recorded; publication imprint not independently identified.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0046",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p46 photo, directly inspected print 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P46_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p46 begins the complete exercise 甲午日丑将戌时; says heavenly plate advances by three positions, 同孟仲季相对",
+        "p46 printed text calls 丑戌 '四孟神', conflicting with their known 四季 status within the same work",
+        "Four lessons computed via 甲寄寅 and 日支午: first 巳/甲, second 申/巳, third 酉/午, fourth 子/酉"
+      ],
+      "limits": "Terminology mismatch is flagged as possible printed typo without assigning author blame; old handwritten annotations excluded. Handwritten prior annotations not read or recorded; publication imprint not independently identified.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0047",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned modern printed 北海闲人《六壬金针》 physical p47 photo, directly inspected print 2026-11-22",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P47_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p47 evaluates two 下贼上 candidates 申 and 酉, uses 甲阳日比用 to choose 申 and derives transmission 申亥寅",
+        "戌时夜占, 甲日夜贵 on heavenly 未; 未 over earth 辰 leads nobleman forward and full heavenly-general mapping examples",
+        "Ends mental exercise and section 九 迅捷起课法"
+      ],
+      "limits": "Other general mapping entries independently inferred from printed examples and prior section; user has not verbally confirmed every calculation. Handwritten prior annotations not read or recorded; publication imprint not independently identified.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
     }
   ]
 }
