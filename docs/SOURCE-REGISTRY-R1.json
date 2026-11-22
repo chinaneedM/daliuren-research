@@ -515,6 +515,63 @@
       ],
       "limits": "Only printed body direct visual review, handwritten annotations excluded; exact edition and p32 text not checked. Jointly studying next section has not commenced.",
       "rights": "PRIVATE_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0032",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-supplied owned physical modern printed 北海闲人《六壬金针》 p32 photograph; directly inspected printed body",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P32_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p32 contains all day stem group and day/night nobleman placement examples and uses the word 贵 to align to a particular heaven-plate branch",
+        "p32 uses 对 and calls it 乘, and also 作 with examples; sentence 4 begins defining 乘/临"
+      ],
+      "limits": "Source limited to directly visible printed body; handwriting excluded. Exact edition unknown; only given page, not independent early printed original.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_ORIGINAL_ANALYSIS_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0033",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-supplied owned physical modern printed 北海闲人《六壬金针》 p33 photograph; directly inspected printed body",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P33_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p33: 天将与天盘支的 relation is 乘 or 作, and the corresponding earth-palace relation is 临; examples 贵人乘亥/临午 and 白虎乘丑/临寅",
+        "p33 贵人顺逆分界 looks to the fixed earth palace beneath nobleman riding heaven branch: 亥子丑寅卯辰 versus 巳午未申酉戌",
+        "p33 丁亥日 戌将巳时 example shows heavenly branch 亥 over earth 午 and nobleman placed at heaven 亥"
+      ],
+      "limits": "Printed text and square diagram reviewed; handwritten marks excluded; source page belongs to modern edition with unknown imprint.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_ORIGINAL_ANALYSIS_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0034",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-supplied owned physical modern printed 北海闲人《六壬金针》 p34 photograph; directly inspected printed body",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P34_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p34 continues a 丁亥日 example with twelve heaven-generals attached to the lesson and the three transmissions",
+        "printed method distinguishes book-style abbreviated heaven-generals and attaches general to each 四课 upper branch and 三传 branch"
+      ],
+      "limits": "Only print reviewed; user did not jointly recheck all case arithmetic in current discussion; handwriting excluded.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_ORIGINAL_ANALYSIS_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0035",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-supplied owned physical modern printed 北海闲人《六壬金针》 p35 photograph; directly inspected printed body",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P35_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p35 upper part closes previous twelve-general display example",
+        "p35 begins next section 七 课传中六亲的确定, computing six relatives by day-stem five-phase relation; explanatory caveat about generals not themselves direct 六亲 objects"
+      ],
+      "limits": "Only print reviewed; next section not yet jointly discussed and not marked completed; handwriting excluded.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_ORIGINAL_ANALYSIS_NO_PUBLIC_REPRODUCTION"
     }
   ]
 }
