@@ -185,6 +185,22 @@
       "title": "《六壬金针》印刷p62辛巳日俱生例：亥将申时题头与四课不一致（寅时候选）",
       "required_evidence": "User printed p62 heading visibly reads 亥将申时辛巳日. Four lessons shown traditional right-to-left: ①未/辛 ②辰/未 ③寅/巳 ④亥/寅. Fixed plate rule with stem 辛寄戌, monthly general 亥 and hour 申 gives +3 and ①丑/辛 ②辰/丑 ③申/巳 ④亥/申. If hour 寅, offset+9, all four match printed exactly. Check separate source/printing and image reading before asserting a corrected original; no handwritten annotations are evidence. A separate publicly accessible online transcription of the SAME modern-book section at https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=814 directly reads '例如：亥将寅时辛巳日' and presents the same four lessons. This corroborates the 寅时 correction candidate from deterministic recomputation, but online copy is not bound to a verified edition and could reflect editorial transcription correction. Original user's p62 visible print still remains '申时'.",
       "next_action": "Keep side-by-side original printed title 申 and online transcription 寅; use +9 shift to validate all four lessons. Seek a second physical print/facsimile edition or publisher's erratum for adjudication. Do not erase printed evidence."
+    },
+    {
+      "id": "DLR-OPEN-0024",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "卷二第三节p69–76：类神与发用重合、初中末角色、三传多组取象及冲突取舍边界",
+      "required_evidence": "Eight user-owned modern printed pp69–76; p69 explicitly says 类神 may not enter transmissions nor necessarily be at initial; nine dimensions of 發用 can be selectively composed; p70–74 treats 初中末 as stage, intermediary and ending plus occupation-specific human roles; p75–76 contain 合局/进退/回环/传生传克/俱空 and severe result sayings. Book's order is clear, but rules for selecting/weighting competing structural signs, choosing from nine dimensions, when to use phase vs person interpretation, and independent predictive evidence remain underdetermined.",
+      "next_action": "Following conclusion of p62–68 co-review, jointly read section3 p69–76 in order, prioritizing p69 distinction 类神/初传, p70 正时 vs 發用 as author's experience claim, p71–74 stage vs role, p75–76 competing structural signals. For every claim record preconditions, day-stem/day-branch role and provenance. Preserve original book maxims as heuristics, not absolute evidence."
+    },
+    {
+      "id": "DLR-OPEN-0025",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "《六壬金针》p69己丑日占行人例：亥将未时与亥丑卯三传及末传在支上不一致",
+      "required_evidence": "User physical p69 print reads 亥将未时己丑日占行人, 三传亥丑卯, 驿马亥发用, 初传在干上,末传在支上. For 月将亥加未时 offset +4, 己寄地盘未; four lessons①亥/己②卯/亥③巳/丑④酉/巳. If 初取亥, standard non-伏吟/non-反吟 consecutive 天盘递传 gives 亥卯未 (not 亥丑卯). 日支丑上的天盘神 is 巳, not 卯. Online third-party modern book transcription https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=815 repeats printed words, not independent proof of original author's correction. Nearby p70 庚寅日丑将卯时午辰寅 and 午空 are conditionally consistent with fixed plate; two incidents must be kept separate.",
+      "next_action": "Preserve all original printed figures and conditional narrative, verify nine-method gate and transmission recursion from p17–31 for 己丑/亥将未时 and the '干传支' term against specific Guide text in an edition-bound witness. Test alternative typo hypotheses only as clearly labeled candidates and do not silently replace p69 三传 or imply software currently computes 三传 automatically."
     }
   ]
 }
