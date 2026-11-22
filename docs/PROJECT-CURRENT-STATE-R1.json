@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.71",
+  "state_version": "0.5.72",
   "last_updated_date": "2026-11-22",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
   "default_branch": "main",
   "phase": "FOUNDATION",
-  "last_completed_work_unit": "STUDY-0047-VOL2_SECTION3_P69_76_INDEPENDENT_PRINT_REVIEW_WITH_P69_CONSISTENCY_CANDIDATE",
+  "last_completed_work_unit": "STUDY-0047-JOINT_P69_FA_YONG_CLASS_GOD_TYPE_AND_INSTANCE_R1",
   "statuses": {
     "repository_authorized": true,
     "foundational_docs": "CI_VERIFIED_AT_INIT_R1",
@@ -14,7 +14,7 @@
     "digital_books_verified": "LIUREN_JINZHEN_USER_PHYSICAL_COVER_TOC_AND_PRINTED_PP1_76_PRIVATE_PHOTOS; PRINTED_EDITION_UNBOUND; NO_RIGHTS_TO_REPUBLISH",
     "deterministic_chart_core": "PARTIAL: FIXED_EARTH_HEAVEN_PLATE_AND_FOUR_LESSONS_ONLY; NO_TRANSMISSIONS_OR_GENERALS",
     "divination_explanation": "NOT_STARTED",
-    "joint_study": "VOL2_SECTION1_P48_52_MAIN_POINTS_JOINT; SECTION2_P59_62_MNEMONIC_CORE_JOINT, PP63_68_ASSISTANT_ONLY; SECTION3_PP69_76_ASSISTANT_PRINTED_FULL_PASS_ONLY; SECTION4_P77_NOT_READ",
+    "joint_study": "VOL2_SECTION1_MAIN_POINTS_JOINT; VOL2_SECTION2_P59_62_MNEMONIC_CORE_JOINT_WITH_PP63_68_FINE_CASES_OPEN; VOL2_SECTION3_P69_FA_YONG_CLASS_GOD_NINE_DIMENSIONS_JOINT_CONCEPT_ONLY; PP70_76_ASSISTANT_FIRST_PASS; P77_NOT_READ",
     "software_tests": "8_UNIT_TESTS_LOCAL_PASS; GITHUB_ACTIONS_ENFORCES_UNIT_TESTS; RECHECK_HEAD_CI"
   },
   "invariants": [
@@ -124,19 +124,19 @@
     "DLR-OPEN-0024",
     "DLR-OPEN-0025"
   ],
-  "highest_priority_next_action": "不重复初传/四课基础：先有针对性关闭p62–68尚未联合手核的关键课例与局部取舍，再按第69页起将第三节发用九维与类神区别、初中末动态角色、三传合参及p69三传结构异常逐段共研；无须每段等量详析。直到p76后再进入p77《天将分析》，其正文目前未见。",
+  "highest_priority_next_action": "按第三节书序续谈p69类神在具体发用的选择条件与发用九维有何结构性/经验性不同，p69行人课一致性疑点DLR-OPEN-0025需单独核；再进入p70–76发用、中传、末传和综合分析。保留前节p62–68细部联合验算欠账；不能把九维信息筛选的主观显著性直接编码成已验证古法；下一节p77正文未提供。",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions. 2026-11-22 added a limited, independently unit-tested Earth/Heaven plate and four-lesson module without advancing reading beyond p47. CI check must still match each live HEAD.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
-    "section": "卷之二《壬式要素分析》第二节p62后的课例尚有联合复核，第三节《三传的构成要素分析》p69–76全部印刷正文已由助手独立核读并归档，但尚未用户逐项共同讨论。实体目录第四节《天将分析》p77开始，正文未提供。",
-    "page": 62,
-    "completed": "卷之一p1–47保留此前实物核读和双方讨论分账，详SESSION-0001至0041。用户本轮提供现代实体印刷p48、49、50、51、52共五页；助手仅看印刷正文完成第一节初读：模仿课例之不足，类神选择与吉凶旺衰，多类神与类象组合，课传与八门，铸印课同一象组合跨占类取象，课体/毕法赋结构及作者70%以上主张。新章段并未得到用户逐段观点或认可，不能称第一节双方完整学完。印本印次尚未验证；书页照片/旧手写批注绝不上传或整理。 2026-11-22联合续记：读者已读p48作者‘以类神为核心’，并对p48–49占宅日支、占财‘财爻’、占官青龙/官星/德神/太阴/催官符及类神/类象混称提出质疑，读到‘类之所在，视占所在’。双方辨析术语：青龙太阴确属卷一已学天将；在线六壬古文录文存在财爻官星词，但六壬课传并无六爻卦爻位；采用类神=本次被选观察对象，类象=象义和关系集合的分层现代规范。p49‘凶而休，则吉凶’疑应‘事凶’，登记DLR-OPEN-0019，尚未版本裁决。第49页其余与p50–52未共同逐段完成。详SESSION-0042续记和JOINT-STUDY-METHOD-R1。 2026-11-22用户纠正了前轮对p49原印字的识读：正确为占官‘青龙、官星、德神、太阳、催官符’，不是‘太阴’；助手重新查看实体印刷p49确认，前向勘误，非原书异文。用户继续讨论p49课体特点/整体感觉的形而上性，并读到p50《心镜》《课经》六十四课、《毕法赋》百条法则、《六壬经纬》九十二课体及占断八门、六十四课+一百法则+八门应学习的作者结语。各传统书籍先记为未来通读后扩展线索，课体结构判断与象义经验分开。p50铸印课及p51–52尚未由读者共同逐段讨论。详SESSION-0042新勘误。 2026-11-22读者进一步口头讨论p50–51课体价值：提出课体是特定课传表现形式及条件化象义，主张其主要教学价值在于将分散信息组合成完整判断，强调占事不搭界不能机械断吉凶，并联系《天问》未来推命需要的信息组合能力。助手依p50–51印刷核对支持作者'课体只是某方面特点''从点连线'及铸印课多种象义，但指出书页未提供古人严格统计的证据，‘统计归纳’只作为未验证历史假说。六壬与天问仅迁移通用方法、不混规则。详SESSION-0042追加。 2026-11-22双方补全p51–52《毕法赋》末段：读者明确复述一百句总诀的‘典型类象组合+代表象意’结构及本书对释义/特例/变格/类格的介绍，强调后续重点研究，并注意北海作者声称70%以上课能直接套用。此比例未有统计口径，不等同断课准确率。至此本节核心论点已共同讨论，保留原书细节、传统出处及应用有效性为未决，下一段是p52第二节。 2026-11-22双方新口头续读：用户已经结合本书p52下半至p54开头提出日辰两仪难懂、干阳支阴是相对比较、身与主名称冗余、日干因占问改变指代、旺相休囚定义前置不足，并确认p54–55甲子日详细案例应重点学其判断思路。我们的独立解析和六项复核写于SESSION-0044追加；不代表用户已逐项验算案例。 2026-11-22读者补充第54–55页案例教学价值：逐条信息的灵活类象组合可训练发散思维，而非背固定断语；助手指出发散产生候选、收敛依占事/类神及适用条件选择、验证独立进行。此为概念层联合讨论，并非逐项验算第54页六项或确认第55页各条演绎应验。 2026-11-22用户新一轮共同讨论概述：日支或辰在不同占类所指不同，支之吉凶分支本身及对日干的影响；其后《六壬断案》《会纂指南》《壬学琐记》课例对信息运用有启发。助手核读p57–59印刷正文并分层讨论；不等于古籍底本已核、课例已应验或用户已逐项共算。 2026-11-22双方续议p57俱生/脱气：用户质疑古籍描述的省略与须靠猜的问题；助手分离十二长生的双基准关系和日干对支上亥的五行泄气，指出并存不矛盾但宅占时优先权重缺少正式条件，并提醒所见是《金针》现代转述、非已核的《断案》原字。详SESSION-0045续记。 2026-11-22双方再次依p59–62读歌诀：用户认同四课=日干日支综合分析，强调歌诀→解释→例子的训练方式并质疑父母爻术语；助手从结构讲六亲，另网上比对《六壬大全》卷三《日辰》歌诀和《大六壬探原》有父母爻称呼，二者是无原页版次绑定之转录。还见到线上《六壬金针》同辛巳课题头‘亥将寅时’，与用户实体‘申时’不同，保持未决；详SESSION-0046续记。 2026-11-22读者针对p59–68四课口诀明确提出：前人总结的纲领句主要有辅助理解、学习和记忆的价值，不能因此认作绝对正确；特殊情况可另行思考。双方将口诀纲领、可复算结构、适用条件与实际验证分层，强调例外不得事后随意挽救断语。此为方法论共研，未追加p63–68逐例核验进度。",
+    "section": "卷之二第三节《三传的构成要素分析》p69关于发用/类神及九项观察维度已进行双方概念讨论，p69后例与p70–76的印刷正文由助手独立核读但未共同逐项讨论；卷二第二节p62–68例课尚有记录在案的未完细节。",
+    "page": 69,
+    "completed": "卷之一p1–47保留此前实物核读和双方讨论分账，详SESSION-0001至0041。用户本轮提供现代实体印刷p48、49、50、51、52共五页；助手仅看印刷正文完成第一节初读：模仿课例之不足，类神选择与吉凶旺衰，多类神与类象组合，课传与八门，铸印课同一象组合跨占类取象，课体/毕法赋结构及作者70%以上主张。新章段并未得到用户逐段观点或认可，不能称第一节双方完整学完。印本印次尚未验证；书页照片/旧手写批注绝不上传或整理。 2026-11-22联合续记：读者已读p48作者‘以类神为核心’，并对p48–49占宅日支、占财‘财爻’、占官青龙/官星/德神/太阴/催官符及类神/类象混称提出质疑，读到‘类之所在，视占所在’。双方辨析术语：青龙太阴确属卷一已学天将；在线六壬古文录文存在财爻官星词，但六壬课传并无六爻卦爻位；采用类神=本次被选观察对象，类象=象义和关系集合的分层现代规范。p49‘凶而休，则吉凶’疑应‘事凶’，登记DLR-OPEN-0019，尚未版本裁决。第49页其余与p50–52未共同逐段完成。详SESSION-0042续记和JOINT-STUDY-METHOD-R1。 2026-11-22用户纠正了前轮对p49原印字的识读：正确为占官‘青龙、官星、德神、太阳、催官符’，不是‘太阴’；助手重新查看实体印刷p49确认，前向勘误，非原书异文。用户继续讨论p49课体特点/整体感觉的形而上性，并读到p50《心镜》《课经》六十四课、《毕法赋》百条法则、《六壬经纬》九十二课体及占断八门、六十四课+一百法则+八门应学习的作者结语。各传统书籍先记为未来通读后扩展线索，课体结构判断与象义经验分开。p50铸印课及p51–52尚未由读者共同逐段讨论。详SESSION-0042新勘误。 2026-11-22读者进一步口头讨论p50–51课体价值：提出课体是特定课传表现形式及条件化象义，主张其主要教学价值在于将分散信息组合成完整判断，强调占事不搭界不能机械断吉凶，并联系《天问》未来推命需要的信息组合能力。助手依p50–51印刷核对支持作者'课体只是某方面特点''从点连线'及铸印课多种象义，但指出书页未提供古人严格统计的证据，‘统计归纳’只作为未验证历史假说。六壬与天问仅迁移通用方法、不混规则。详SESSION-0042追加。 2026-11-22双方补全p51–52《毕法赋》末段：读者明确复述一百句总诀的‘典型类象组合+代表象意’结构及本书对释义/特例/变格/类格的介绍，强调后续重点研究，并注意北海作者声称70%以上课能直接套用。此比例未有统计口径，不等同断课准确率。至此本节核心论点已共同讨论，保留原书细节、传统出处及应用有效性为未决，下一段是p52第二节。 2026-11-22双方新口头续读：用户已经结合本书p52下半至p54开头提出日辰两仪难懂、干阳支阴是相对比较、身与主名称冗余、日干因占问改变指代、旺相休囚定义前置不足，并确认p54–55甲子日详细案例应重点学其判断思路。我们的独立解析和六项复核写于SESSION-0044追加；不代表用户已逐项验算案例。 2026-11-22读者补充第54–55页案例教学价值：逐条信息的灵活类象组合可训练发散思维，而非背固定断语；助手指出发散产生候选、收敛依占事/类神及适用条件选择、验证独立进行。此为概念层联合讨论，并非逐项验算第54页六项或确认第55页各条演绎应验。 2026-11-22用户新一轮共同讨论概述：日支或辰在不同占类所指不同，支之吉凶分支本身及对日干的影响；其后《六壬断案》《会纂指南》《壬学琐记》课例对信息运用有启发。助手核读p57–59印刷正文并分层讨论；不等于古籍底本已核、课例已应验或用户已逐项共算。 2026-11-22双方续议p57俱生/脱气：用户质疑古籍描述的省略与须靠猜的问题；助手分离十二长生的双基准关系和日干对支上亥的五行泄气，指出并存不矛盾但宅占时优先权重缺少正式条件，并提醒所见是《金针》现代转述、非已核的《断案》原字。详SESSION-0045续记。 2026-11-22双方再次依p59–62读歌诀：用户认同四课=日干日支综合分析，强调歌诀→解释→例子的训练方式并质疑父母爻术语；助手从结构讲六亲，另网上比对《六壬大全》卷三《日辰》歌诀和《大六壬探原》有父母爻称呼，二者是无原页版次绑定之转录。还见到线上《六壬金针》同辛巳课题头‘亥将寅时’，与用户实体‘申时’不同，保持未决；详SESSION-0046续记。 2026-11-22读者针对p59–68四课口诀明确提出：前人总结的纲领句主要有辅助理解、学习和记忆的价值，不能因此认作绝对正确；特殊情况可另行思考。双方将口诀纲领、可复算结构、适用条件与实际验证分层，强调例外不得事后随意挽救断语。此为方法论共研，未追加p63–68逐例核验进度。 2026-11-22读者共同讨论p69：明确发用即初传；‘课心’反映此前类神重要性的教学立意；质疑‘类神出现在发用’混淆类别概念与具体取象实例；强调九维是完整分析清单，实占需根据所占事及信息实际显著性选择。我们将类神取象定义、具体类神实例、初传课位和两者是否重合分层，信息显著性选择标准暂保留开放，不虚称已共读p70–76。",
     "joint_discussion_frontier": {
-      "page": 62,
-      "paragraph": "本轮用户已依书序共同讨论p59–62的日干/日支综合判断定位、日上生/克日、日生/克上神、上神交叉生与各自俱生的纲目层次；并质疑六壬‘父母爻’命名，解释为六亲身份而非六爻卦位。具体p62辛巳例、p63–68诸组合及各案仍为助手独立初读，未逐项联合验算。"
+      "page": 69,
+      "paragraph": "已在第三节第69页就发用=初传、类神作为占事取象规则与其具体盘中实例的区别、‘类神出现在发用’作为一种重合简称、九个分析维度按占事与信息显著程度选择，形成双方口头讨论；初传余下第70–76页未逐段共同讨论。此前p62–68若干具体例课仍未逐条共同验算，属明确保留的研习细节欠账，不能当作已完成。"
     },
-    "next": "不重复初传/四课基础：先有针对性关闭p62–68尚未联合手核的关键课例与局部取舍，再按第69页起将第三节发用九维与类神区别、初中末动态角色、三传合参及p69三传结构异常逐段共研；无须每段等量详析。直到p76后再进入p77《天将分析》，其正文目前未见。",
+    "next": "按第三节书序续谈p69类神在具体发用的选择条件与发用九维有何结构性/经验性不同，p69行人课一致性疑点DLR-OPEN-0025需单独核；再进入p70–76发用、中传、末传和综合分析。保留前节p62–68细部联合验算欠账；不能把九维信息筛选的主观显著性直接编码成已验证古法；下一节p77正文未提供。",
     "assistant_independent_review": "2026-11-22 read user-owned printed p48–52 photos for volume II section I, except ignored all handwriting. Only printed source and independent analytical notes; no external classical witness verified this turn. 2026-11-22 NEW: user privately supplied four images in upload order p54,p55,p56,p53 (last photo lacks clear printed page number, identified as p53 by contiguous page54 opening ‘日干代表胎儿’); assistant verified printed text pp53–56 only. p53 treats day-stem/day-branch contextual representative roles and begins day-stem analysis; p54 six criteria after claiming five plus Jiazi-dated sample; p55 symbolic reading; p56 begins day-branch analysis, ends in an unfinished 邵彦和 example. Printed p57 not seen. The new section is NOT jointly completed, no handwriting read or preserved. 2026-11-22: User added private printed p57–59, after repeating p56; assistant independently read all three pages in sequence. Includes 2 宅墓课, missing traveler case with 行年, source claims and p59 三、四课分析 opening. User's handwriting/marginalia ignored and not copied. 2026-11-22: Nine new private printed pages p60–68 of section II directly inspected in full page order, handwriting ignored. Includes conditional day-stem judgement, multiple 生克脱 relationships, 干加支/支加干, 德神 compatibility claim, 墓/绝/死/空; new p62 亥将申时辛巳日 title contradicts its four lessons but 亥将寅时 reproduces all printed lessons. Assistant reviewed only, user did not co-verify all worked examples. 2026-11-22: user privately supplied modern book printed pp69–76 in order, third section 三传的构成要素分析 complete per physical TOC. Assistant independently read printed prose only, ignoring handwriting; p69 发用 example '亥将未时己丑日;三传亥丑卯' does not fit normal shift+4 middle/end or its '末传在支上' assertion; p70 庚寅日丑将卯时午辰寅 passes conditional shift+10 check. No three-transmission code yet; p77 not seen.",
     "joint_discussion_mode": "已学过六壬的读者与助手双向研习；先尊重主教材章序，独立初读与双方完成逐段讨论分别记录，不复述旧手写批注。",
     "assistant_preparation": "2026-11-22：恢复卷二第二节p52下半‘日辰’开头。以p50八门‘日/外事门、辰/内事门’和卷一p12–14庚子日卯将辰时四课作为已核桥梁，准备术语核对和研究问题。此次未取得p52新节逐字正文，新节未由双方讨论或学完；详SESSION-0043。",
