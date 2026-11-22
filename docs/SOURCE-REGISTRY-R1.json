@@ -41,6 +41,32 @@
       "redistribution_rights": "UNVERIFIED_MODERN_EDITION_RIGHTS",
       "full_text_stored": false,
       "notes": "2026-11-18 current user reports owning 李峰整理 海南出版社《御定六壬直指》; recalls differing nine-method order and a special 课体 discussion. Bookstore catalogs support modern 海南出版社/李峰整理 edition existence, but individual year/printing user copy not checked. 识典古籍 online text indexes 起例/取三传法, nine methods named 克贼,比用,涉害,遥克,昴星,伏吟,返吟,别责,八专 and separately 课体, 元首,重审,知一...; online text has obvious OCR/transcription irregularities; not claimed as exact modern print. Online annotator metadata [清]李峰 and modern editor 李峰 require independent person-identity and edition investigation; never automatically conflate. Compare Jinzhen p18 始入课 with Yuding online 一下贼、余无克=重审课 as potential terminology difference, not proven algorithm conflict. See SESSION-0024."
+    },
+    {
+      "id": "DLR-SRC-0004",
+      "work_title": "六壬大全（四库全书本）",
+      "author_attribution": "四库丛书所收本（作者与成书、具体版本未考订）",
+      "user_holds_physical": false,
+      "user_edition": "ONLINE_WIKISOURCE_TRANSCRIPTION_LABELED_SIKU_TEXT_NOT_FACSIMILE_COLLATED",
+      "source_class": "HISTORICAL_CLASSIC_ONLINE_TEXT",
+      "online_location": "https://zh.wikisource.org/zh/六壬大全_(四庫全書本)/卷03",
+      "digital_status": "PUBLIC_ONLINE_TEXT_READABLE_UNBOUND_TO_PRINT_IMAGE",
+      "redistribution_rights": "NOT_ESTABLISHED_FOR_DIGITAL_PAGE_CONTENT",
+      "full_text_stored": false,
+      "notes": "2026-11-22 checked online textual Chapter3 日辰 maxims in same order as modern 北海《六壬金针》 p59–68; no claim to original authorship, earliest composition, exact original characters or independent original-page collation."
+    },
+    {
+      "id": "DLR-SRC-0005",
+      "work_title": "大六壬探原（集说篇）",
+      "author_attribution": "在线版署袁树珊；版次及文本来源未核实",
+      "user_holds_physical": false,
+      "user_edition": "ONLINE_TRANSCRIPTION_UNBOUND_TO_HISTORICAL_PRINT",
+      "source_class": "HISTORICAL_CLASSIC_ONLINE_TEXT",
+      "online_location": "https://book.taiyi.me/卜/大六壬探原/大六壬探原(集说篇)",
+      "digital_status": "PUBLIC_ONLINE_TEXT_READABLE_UNBOUND_TO_PRINT_IMAGE",
+      "redistribution_rights": "NOT_ESTABLISHED_FOR_DIGITAL_PAGE_CONTENT",
+      "full_text_stored": false,
+      "notes": "Online 六壬 text uses 父母爻/兄弟爻/子孙爻 for 课传六亲关系. This demonstrates the term is not automatically proof of 六爻卦爻 structure or newly invented by 北海. Source transcription unbound to printing."
     }
   ],
   "external_witnesses": [
@@ -1054,6 +1080,46 @@
       ],
       "limits": "Book's claims of illness/death are unverified and not medical guidance. Only printed text reviewed; no old handwritten marginalia read, recorded, transcribed or made public. Physical printing/imprint and objective divination results not verified; assistant independently read, not jointly confirmed in detail.",
       "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-WEB-0001",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh/六壬大全_(四庫全書本)/卷03",
+      "provider": "Wikisource online labeled 四库全书本 六壬大全/卷三 日辰",
+      "evidence_grade": "PUBLIC_ONLINE_TEXT_DIRECTLY_READ_NOT_EDITION_IMAGE_BOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "Beginning of 《日辰》 series contains 日上生日/日上克日/日生上神/日克上神 and 互生俱生/互克/互脱 in order"
+      ],
+      "limits": "Not checked against an original Siku facsimile; wording and origins not independently collation-verified.",
+      "rights": "NO_ORIGINAL_CONTENT_REPUBLISHED"
+    },
+    {
+      "id": "DLR-WIT-WEB-0002",
+      "related_source": "DLR-SRC-0005",
+      "url": "https://book.taiyi.me/卜/大六壬探原/大六壬探原(集说篇)",
+      "provider": "太乙书局 online transcription of 大六壬探原 集说篇",
+      "evidence_grade": "PUBLIC_ONLINE_TEXT_DIRECTLY_READ_NOT_EDITION_IMAGE_BOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "In a 大六壬 课传 discussion, the online text uses 父母爻, 兄弟爻 and 子孙爻; indicates 爻 as six-kin terminology does not necessarily reference actual six-line hexagram positions"
+      ],
+      "limits": "No edition-specific image or chronology confirmed; do not infer direct borrowing between traditions.",
+      "rights": "NO_ORIGINAL_CONTENT_REPUBLISHED"
+    },
+    {
+      "id": "DLR-WIT-WEB-0003",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=814",
+      "provider": "Third-party online transcription of 北海闲人《六壬金针》第二卷第二节",
+      "evidence_grade": "PUBLIC_ONLINE_MODERN_TEXT_UNBOUND_TO_USER_PHYSICAL_EDITION",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "p62 corresponding 俱生 worked example heading appears 亥将寅时辛巳日, not user physical print's 亥将申时辛巳日",
+        "Online four lessons match original pictured four lessons and calculated 寅时 model"
+      ],
+      "limits": "Third-party transcription might have been silently corrected, not an independently proved separate physical edition or verified publisher erratum; no redistribution permission; don't store modern book passage.",
+      "rights": "NO_MODERN_TEXT_REPUBLICATION"
     }
   ]
 }
