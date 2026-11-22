@@ -450,6 +450,38 @@
       ],
       "limits": "Printed physical page 27 only; print run unknown. Private handwritten annotations wholly excluded from analysis/storage. Page p28 not provided; method 八专 prior section 1 on p26 not re-opened during this turn. Assistant independently examined and explained cases; reader not yet confirmed each derivation.",
       "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0028",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-supplied private physical printed 北海闲人 六壬金针 p28 photographed page; print-only direct visual review",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P28_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "乙日因乙寄辰，伏吟时乙木下贼辰土上，初传辰；因辰自刑，改取第三课上神即日支上神为中传，中传再自刑则以冲支为末传",
+        "癸丑及癸未两印刷课例都取丑戌未，作者声称癸日伏吟无论日支皆然",
+        "乙未伏吟三传辰未丑、乙酉伏吟三传辰酉卯；末传分别由未刑丑、酉自刑改取冲卯",
+        "印刷 p28 的自刑概括须与该页实际顺序一起理解"
+      ],
+      "limits": "Only modern printed body of the uploaded photograph was studied; all old handwritten notes and markings excluded. Exact printing not bound. User discussed overview, not each individual worked example.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_ORIGINAL_RESEARCH_SUMMARY"
+    },
+    {
+      "id": "DLR-WIT-0029",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-supplied private physical printed 北海闲人 六壬金针 p29 photographed page; print-only direct visual review",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_P29_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "Author turns to remaining eight stems by rigid/soft day: rigid day take first-lesson upper as first; if self-punishing first, take day branch as middle; if middle again self-punishing, use middle opposite branch as last",
+        "Printed rigid-day examples: 甲辰寅巳申, 戊寅巳申寅, 壬戌亥戌未, 壬辰亥辰戌",
+        "Soft day with no intra-lesson overcoming: start from third-lesson upper; if first self-punishing substitute first-lesson upper for middle, then middle punishment or its clash if middle is self-punishing",
+        "Page summarizes 伏吟 as first distinguishing overcoming vs none, then choosing punishment succession; p30 continuation and soft-day examples not received"
+      ],
+      "limits": "Only modern printed body of user-owned p29 page examined. Old handwriting entirely excluded, not indexed. The user has summarized the macro split; specific worked examples await joint confirmation. Printed p30 unavailable.",
+      "rights": "PRIVATE_PRINTED_PHOTO_ONLY_ORIGINAL_RESEARCH_SUMMARY"
     }
   ]
 }
