@@ -67,6 +67,32 @@
       "redistribution_rights": "NOT_ESTABLISHED_FOR_DIGITAL_PAGE_CONTENT",
       "full_text_stored": false,
       "notes": "Online 六壬 text uses 父母爻/兄弟爻/子孙爻 for 课传六亲关系. This demonstrates the term is not automatically proof of 六爻卦爻 structure or newly invented by 北海. Source transcription unbound to printing."
+    },
+    {
+      "id": "DLR-SRC-0006",
+      "work_title": "壬归（卷一提纲例约）",
+      "author_attribution": "作者和文本系统尚未以实体版本核定",
+      "user_holds_physical": false,
+      "user_edition": "ONLINE_TRANSCRIPTION_UNBOUND_TO_HISTORICAL_PRINT",
+      "source_class": "HISTORICAL_CLASSIC_ONLINE_TEXT",
+      "online_location": "https://gushu.net.cn/guji/易藏/术数/壬归-2.html",
+      "digital_status": "PUBLIC_ONLINE_TEXT_READABLE_UNBOUND_TO_PRINT_IMAGE",
+      "redistribution_rights": "NOT_ESTABLISHED_FOR_DIGITAL_PAGE_CONTENT",
+      "full_text_stored": false,
+      "notes": "2026-11-22 on-line parallel for p76透关：2/3在日辰范围、外透神须按日干六亲判断；又见二旬空配天空的说明。未经影像版次校勘，不立直接承袭关系。"
+    },
+    {
+      "id": "DLR-SRC-0007",
+      "work_title": "六壬粹言（卷三）",
+      "author_attribution": "线上署刘赤江；具体实物版本、OCR正确性未核",
+      "user_holds_physical": false,
+      "user_edition": "ONLINE_TRANSCRIPTION_UNBOUND_TO_HISTORICAL_PRINT",
+      "source_class": "HISTORICAL_CLASSIC_ONLINE_TEXT",
+      "online_location": "https://www.shidianguji.com/book/NCL06574A/chapter/1mjycluwkr3t5",
+      "digital_status": "PUBLIC_ONLINE_TEXT_READABLE_UNBOUND_TO_PRINT_IMAGE",
+      "redistribution_rights": "NOT_ESTABLISHED_FOR_DIGITAL_PAGE_CONTENT",
+      "full_text_stored": false,
+      "notes": "2026-11-22 on-line paragraph 递生格 states directed chain reaches 日干 with 六丙申亥寅、庚日戌午寅 examples. Some online characters corrupted; no historical facsimile checked."
     }
   ],
   "external_witnesses": [
@@ -1246,6 +1272,34 @@
       ],
       "limits": "Third-party copy may duplicate user printing/author error, not an independently verified other edition. No full modern work text reproduced or claimed to be licensed.",
       "rights": "NO_MODERN_TEXT_REPUBLICATION"
+    },
+    {
+      "id": "DLR-WIT-WEB-0005",
+      "related_source": "DLR-SRC-0006",
+      "url": "https://gushu.net.cn/guji/易藏/术数/壬归-2.html",
+      "provider": "古书网《壬归》未校网页录文",
+      "evidence_grade": "PUBLIC_ONLINE_HISTORICAL_TRANSCRIPTION_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "透关: 2 transmissions inside 日辰, one outside; outside one evaluated against 日干六亲",
+        "Online counterpart distinguishes two 旬空 from additional 天空"
+      ],
+      "limits": "Only unbound online text seen; original version/authorship and exact print glyphs not settled. No direct lineage or forecast validity established.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0006",
+      "related_source": "DLR-SRC-0007",
+      "url": "https://www.shidianguji.com/book/NCL06574A/chapter/1mjycluwkr3t5",
+      "provider": "识典古籍《六壬粹言》卷三在线录文",
+      "evidence_grade": "PUBLIC_ONLINE_HISTORICAL_TRANSCRIPTION_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-22",
+      "facts_checked": [
+        "递生 chain to 日干 with 申亥寅 for 丙日",
+        "Reverse-direction 戌午寅 for 庚日, though text has OCR anomalies"
+      ],
+      "limits": "Only unbound online text seen; original version/authorship and exact print glyphs not settled. No direct lineage or forecast validity established.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
     }
   ]
 }
