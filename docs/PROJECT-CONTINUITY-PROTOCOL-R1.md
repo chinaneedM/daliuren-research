@@ -49,3 +49,23 @@
 重新读取远端 HEAD、tree、最新提交、Actions、docs/PROJECT-CURRENT-STATE-R1.json
 及协议指定的工作文件，然后从最高优先级未完成事项继续推进。
 ```
+
+## 2026-11-24 — Compact restart and layered recovery (R1 compatible, user-authorized)
+
+The repository remains the sole authoritative project state; a new chat, model upgrade or context cutoff does not alter it. The canonical short restart is sufficient. This section supersedes earlier startup wording **only for loading/presentation of context and redundant retrieval**, not project goals, evidence standards, verification gates, source access/copyright rules, scope, approval requirements or publication safety.
+
+1. Resolve the named repository and its configured work branch from fresh remote metadata; pin reads to the newly discovered HEAD/tree. Inspect recent commits and relevant open PRs (including their base/head and unresolved status), exact-HEAD Actions with pagination when needed, and changes since the recorded substantive milestone. Do not confuse another branch's CI, queued checks, or chat recollection with accepted work. Recover failed/incomplete publication before proceeding where material. A stale or contradictory state is a reason to reconcile, not guess.
+2. Read this protocol, the designated authoritative state and current governing policies. Recover objectives, invariants, active work, next deliverable, unresolved blockers and required source/acceptance gates. Large JSON/MD and archives may be read, parsed, searched and cross-checked **in the tool layer**, exposing only the exact fields/sections material to the current decision; a path listing, a truncated response, or an empty file read is not evidence that file content was read. Retrieve exact Git blobs or a clean exact-HEAD checkout when ordinary reads fail. Preserve provenance and verify completeness of any claim that requires exhaustive coverage. Never assume an omitted detail is absent.
+3. Resolve all required current paths against the live tree; load the relevant current evidence, latest handoff, tests and dependencies. Historical completed files remain available and are opened on demand, not all injected into model context each restart. Expand to the full source or broader archive when a conflict, change, omission risk, unknown dependency or user request makes it necessary. Required risk/CI/evidence audits still apply; optimize execution and output, not truth criteria.
+4. Execute the highest material unfinished task directly; don't spend the session re-summarizing history or creating duplicate handoff documents. Use compact status reporting. Respect current user priority and project scope. Reuse existing indices/tools and avoid speculative complexity.
+5. At each meaningful work-unit boundary, preserve the actual result, source/evidence references, correction history, remaining gaps and concrete NEXT in existing canonical state/batch files, commit safely and verify remote publication/CI as required. A long task may use an early durable checkpoint; unfinished work must be explicitly marked. Keep summaries distinct from source evidence. Do not depend on a final chat summary being possible near the context limit. On interruption, reconstruct from the remote rather than asserting uncommitted chat work. Any optimization or model upgrade is permission to improve analysis, not to bypass rules or change previously accepted project scope.
+
+Do not add a second competing state database or cache a claimed live HEAD in a committed state file. If access or verification is incomplete, state the precise boundary and continue only safe, non-conflicting work. Recheck the branch before writing; use non-destructive updates.
+
+### 大六壬 adaptation
+Always recover `docs/PROJECT-CURRENT-STATE-R1.json` (including distinct joint-reading and assistant-review frontiers), `docs/JOINT-STUDY-METHOD-R1.md`, `docs/LONG-TERM-RESEARCH-VISION-R1.md`, charter, roadmap, architecture, digital-source policy, source registry and open-questions ledger. Resolve every `current_work_files` entry against the pinned tree. That growing list includes historical sessions and code; it is an inventory, not an instruction to emit all prior sessions in each conversation. Read the current page/section's sessions, recent follow-ups, applicable open issues and original private printed pages for new reading; retrieve older notes/code when relevant. Continue full-page/condition coverage, end-of-volume spiral review, independent correction and evidence separation. Do not infer private original-page access from a repository summary. No change to book frontier or software scope.
+
+Canonical restart:
+```text
+继续《大六壬》项目：chinaneedM/daliuren-research，main。按 docs/PROJECT-CONTINUITY-PROTOCOL-R1.md 的远端最新规范恢复并继续推进。
+```
