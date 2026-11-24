@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.81",
+  "state_version": "0.5.82",
   "last_updated_date": "2026-11-24",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
   "default_branch": "main",
   "phase": "FOUNDATION",
-  "last_completed_work_unit": "STUDY-0051_PP1_76_SECOND_PASS_FINITE_STRUCTURE_AND_INTERPRETATION_AUDIT",
+  "last_completed_work_unit": "METHOD_USER_CONFIRMED_VOLUME_END_SPIRAL_REVIEW_R1",
   "statuses": {
     "repository_authorized": true,
     "foundational_docs": "CI_VERIFIED_AT_INIT_R1",
@@ -130,7 +130,7 @@
     "DLR-OPEN-0026"
   ],
   "highest_priority_next_action": "按书序与用户共同详论第76页全部条件（递生递克、干支起止、进退间传、透关及俱空）；《壬归》甲子例四课/比用/三传手工算通，但透关空间“日辰之中”仍待定义；p77第四节《天将分析》原页未提供。p60–68、p69题头课例另保留未决。",
-  "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions. 2026-11-22 added a limited, independently unit-tested Earth/Heaven plate and four-lesson module without advancing reading beyond p47. CI check must still match each live HEAD.",
+  "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions. 2026-11-22 added a limited, independently unit-tested Earth/Heaven plate and four-lesson module without advancing reading beyond p47. CI check must still match each live HEAD. 2026-11-24 user approved mandatory end-of-volume spiral rereading and whole-book synthesis, documented in JOINT-STUDY-METHOD-R1 and continuity protocol. Prior SESSION-0051 exact HEAD CI verified successful before this method-only update. Joint page frontier unchanged.",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
