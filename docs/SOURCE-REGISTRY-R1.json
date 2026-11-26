@@ -1866,6 +1866,19 @@
       ],
       "limits": "No original edition image examined; not proof of direct transmission or divination efficacy.",
       "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0022",
+      "related_source": "DLR-SRC-0008",
+      "url": "https://www.shidianguji.com/book/7471275350006169615/chapter/1l02f6sbjol60",
+      "provider": "识典古籍在线全文《五行大义》卷二",
+      "evidence_grade": "PUBLIC_ONLINE_TEXT_READ_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "土生卯、胎子；水土共墓辰；另列土生巳及四季土生死"
+      ],
+      "limits": "未核古刻，录文疑字未裁决；不证明直接承袭或效验。",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
     }
   ]
 }
