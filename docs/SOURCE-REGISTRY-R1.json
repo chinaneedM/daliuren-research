@@ -1748,6 +1748,32 @@
       ],
       "limits": "Private print; historical source/edition and outcomes unverified; handwriting excluded.",
       "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-WEB-0016",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.yiology.mobi/books/%E5%8D%9C/%E5%A4%A7%E5%85%AD%E5%A3%AC/%E6%B3%A8%E9%87%8A%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/6",
+      "provider": "知行八字《注释大六壬指南》卷四",
+      "evidence_grade": "PUBLIC_SEARCH_INDEX_EXCERPT_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "卷四神煞分类及刑害相关条文的检索旁证"
+      ],
+      "limits": "Indexed excerpts only, no historical edition collation or empirical validation.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0017",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://qingyxinxi.cn/cangjingge/shu/daliuren-zhinan/19",
+      "provider": "《大六壬指南》卷四大六壬神煞指南（2）",
+      "evidence_grade": "PUBLIC_SEARCH_INDEX_EXCERPT_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "卷四神煞分类及刑害相关条文的检索旁证"
+      ],
+      "limits": "Indexed excerpts only, no historical edition collation or empirical validation.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
     }
   ]
 }
