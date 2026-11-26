@@ -1616,6 +1616,19 @@
       ],
       "limits": "Private print; edition, historical source and predictive outcomes unverified; handwriting excluded.",
       "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-WEB-0012",
+      "related_source": "DLR-SRC-0005",
+      "url": "https://dclef.com/xuanxuedocs/大六壬探原/002卷下%20论断篇.html",
+      "provider": "玄学原文《大六壬探原》卷下论断篇在线录文",
+      "evidence_grade": "PUBLIC_ONLINE_TRANSCRIPTION_NO_PRINT_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "Search excerpt records an opinion on 日干地盘空亡 and 壬申 example"
+      ],
+      "limits": "Only indexed excerpt consulted; full edition and context not verified, not definitive conflict resolution.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
     }
   ]
 }
