@@ -274,6 +274,14 @@
       "title": "卷二p60–68俱生双义、寄宫与日干参照、p63辛丑及庚寅课式疑误",
       "required_evidence": "SESSION-0061 direct p60–68 reread. p57 lifecycle 俱生13 vs p62 five-phase 俱生35, intersection3 among720 abstract structures; p63 辛丑 title D2 vs chart D5, correction candidates 午时 or 寅将; 庚寅 fourth 寅/酉 inconsistent with D7, p105 辰/酉 cross-evidence; p64 乙卯 辰临卯 uses lodging earth vs stem wood, p63 duplicate 脱干 candidate 脱支, p65/p67 leakage terminology. p60/65 癸巳 same four/trans but different 月将/占时. No empirical verification or edition collation.",
       "next_action": "Retain originals, compare independent editions and later rule usage, audit reference layers in volume II subsequent passes; no production rule changes."
+    },
+    {
+      "id": "DLR-OPEN-0035",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "九宗门全不比回退、同层并列及旧493普通课统计口径",
+      "required_evidence": "SESSION-0068 executable research baseline: strict 488 of 494 ordinary direct, 493 when fallback all no-parity candidates to Meng/Zhong/Ji; five ordinary no-parity, two fanyin no-parity, one ordinary tie. Previous SESSION-0064 did not state fallback. Need inspect p21–22 and p43 originals; distinguish candidate rule vs author and other schools. 7/16 bazhuan no direct contain remote candidates.",
+      "next_action": "Verify source and recompute prior 493-derived study counts with explicitly named strict and fallback candidate populations; do not silently change previous notes or production rules."
     }
   ]
 }
