@@ -199,7 +199,7 @@
       "priority": "P1",
       "status": "OPEN",
       "title": "《六壬金针》p69己丑日占行人例：亥将未时与亥丑卯三传及末传在支上不一致",
-      "required_evidence": "User physical p69 print reads 亥将未时己丑日占行人, 三传亥丑卯, 驿马亥发用, 初传在干上,末传在支上. For 月将亥加未时 offset +4, 己寄地盘未; four lessons①亥/己②卯/亥③巳/丑④酉/巳. If 初取亥, standard non-伏吟/non-反吟 consecutive 天盘递传 gives 亥卯未 (not 亥丑卯). 日支丑上的天盘神 is 巳, not 卯. Online third-party modern book transcription https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=815 repeats printed words, not independent proof of original author's correction. Nearby p70 庚寅日丑将卯时午辰寅 and 午空 are conditionally consistent with fixed plate; two incidents must be kept separate. 2026-11-24 Further p69 book-specific 孟仲季 diagnostic: 亥 and 酉 both lower-control yin candidates; 酉 at 巳孟 wins over 亥 at 未季, ordinary transmissions 酉丑巳. Given 己丑 day, 干上 and 支上 always opposite, hence stated endpoints 亥/卯 cannot both match under any single offset.",
+      "required_evidence": "User physical p69 print reads 亥将未时己丑日占行人, 三传亥丑卯, 驿马亥发用, 初传在干上,末传在支上. For 月将亥加未时 offset +4, 己寄地盘未; four lessons①亥/己②卯/亥③巳/丑④酉/巳. If 初取亥, standard non-伏吟/non-反吟 consecutive 天盘递传 gives 亥卯未 (not 亥丑卯). 日支丑上的天盘神 is 巳, not 卯. Online third-party modern book transcription https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=815 repeats printed words, not independent proof of original author's correction. Nearby p70 庚寅日丑将卯时午辰寅 and 午空 are conditionally consistent with fixed plate; two incidents must be kept separate. 2026-11-24 Further p69 book-specific 孟仲季 diagnostic: 亥 and 酉 both lower-control yin candidates; 酉 at 巳孟 wins over 亥 at 未季, ordinary transmissions 酉丑巳. Given 己丑 day, 干上 and 支上 always opposite, hence stated endpoints 亥/卯 cannot both match under any single offset.\nSESSION-0071 p69 fresh original: 己丑D4 strict 酉丑巳; 亥临未落空 though not xun void. 亥丑卯 in strict candidates only 己巳/己卯 D2, no fixed 己丑 input; with fixed 己丑 opposite lodging and branch, endpoints gap6 inconsistent with printed gap4.",
       "next_action": "Preserve all original printed figures and conditional narrative, verify nine-method gate and transmission recursion from p17–31 for 己丑/亥将未时 and the '干传支' term against specific Guide text in an edition-bound witness. Test alternative typo hypotheses only as clearly labeled candidates and do not silently replace p69 三传 or imply software currently computes 三传 automatically."
     },
     {
@@ -298,6 +298,14 @@
       "title": "卷二p61丙辰及p61–62甲午配将与卷一起贵人顺逆、昼夜规则冲突",
       "required_evidence": "SESSION-0070 fresh p60–68 originals: 丙辰申将丑时D7 夜贵酉临寅应顺，原图合逆；甲午未将卯时D4 昼贵丑临酉应逆，图合夜贵未临卯顺。Both branch transmissions match. p60/p65 same D8 day/night differs. Based on archived p31–34 rule notes and candidate script, not fresh p31 reread, no edition collation.",
       "next_action": "Reopen vol1 p31–35 original rules/old song, compare independent edition or chart source and exact time convention. Retain original diagram and candidate outputs; no production change."
+    },
+    {
+      "id": "DLR-OPEN-0038",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "卷二p75–76回环/透关计数、干支端点双向与传将递生递克的参照",
+      "required_evidence": "SESSION-0071 fresh p69–76 originals: 712 strict candidate inputs, positional U membership 132/345 vs distinct branches75/316, endpoint 16/13 overlap3. Original through-gate sentence truncated. Branch recurrence and general intrinsic element recurrence separately tested. Need independent original definitions, not empirical evidence.",
+      "next_action": "Review p77–84 general theory, then source-bound original 透关/传将 definitions, determine handling of repeated branches and endpoint overlaps. Preserve candidate and historical layers separately."
     }
   ]
 }
