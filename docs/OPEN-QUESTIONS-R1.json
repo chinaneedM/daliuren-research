@@ -280,7 +280,7 @@
       "priority": "P1",
       "status": "OPEN",
       "title": "九宗门全不比回退、同层并列及旧493普通课统计口径",
-      "required_evidence": "SESSION-0068 executable research baseline: strict 488 of 494 ordinary direct, 493 when fallback all no-parity candidates to Meng/Zhong/Ji; five ordinary no-parity, two fanyin no-parity, one ordinary tie. Previous SESSION-0064 did not state fallback. Need inspect p21–22 and p43 originals; distinguish candidate rule vs author and other schools. 7/16 bazhuan no direct contain remote candidates.",
+      "required_evidence": "SESSION-0068 executable research baseline: strict 488 of 494 ordinary direct, 493 when fallback all no-parity candidates to Meng/Zhong/Ji; five ordinary no-parity, two fanyin no-parity, one ordinary tie. Previous SESSION-0064 did not state fallback. Need inspect p21–22 and p43 originals; distinguish candidate rule vs author and other schools. 7/16 bazhuan no direct contain remote candidates.\nSESSION-0070: strict488 vs fallback493 recomputed; ghost condition same14, initial/end void7, all three union void10, trine108 vs110, remaining clash scope audit pending.",
       "next_action": "Verify source and recompute prior 493-derived study counts with explicitly named strict and fallback candidate populations; do not silently change previous notes or production rules."
     },
     {
@@ -290,6 +290,14 @@
       "title": "卷二p56–59参照对象与婚姻六合双克、父母兼败气的优先规则",
       "required_evidence": "SESSION-0069 fresh p48–59 images: p56 third upper vs first upper distinct from third upper vs day stem (228/720 bool disagreement); p58 六合 + each upper overcomes respective lower 4/720 under specified definition; p59 parent plus bath 36/720, 6 xun void, 6 landing void; p56 narrow day branch on lodging and overcoming day stem 12/720, 6 selected initial differs. These are structural candidates, no outcome validation.",
       "next_action": "Compare p60 continuation and later sections; do not encode unverified interpretive priorities. Confirm complete historical class definitions later."
+    },
+    {
+      "id": "DLR-OPEN-0037",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "卷二p61丙辰及p61–62甲午配将与卷一起贵人顺逆、昼夜规则冲突",
+      "required_evidence": "SESSION-0070 fresh p60–68 originals: 丙辰申将丑时D7 夜贵酉临寅应顺，原图合逆；甲午未将卯时D4 昼贵丑临酉应逆，图合夜贵未临卯顺。Both branch transmissions match. p60/p65 same D8 day/night differs. Based on archived p31–34 rule notes and candidate script, not fresh p31 reread, no edition collation.",
+      "next_action": "Reopen vol1 p31–35 original rules/old song, compare independent edition or chart source and exact time convention. Retain original diagram and candidate outputs; no production change."
     }
   ]
 }
