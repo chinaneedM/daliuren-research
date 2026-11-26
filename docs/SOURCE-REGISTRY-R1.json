@@ -1417,6 +1417,45 @@
       ],
       "limits": "Private print; edition and classical sources unbound, predictive outcomes not independently verified; handwritten annotations excluded.",
       "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-WEB-0007",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lqklr7vxuu",
+      "provider": "识典古籍《六壬大全》释十二将",
+      "evidence_grade": "PUBLIC_ONLINE_HISTORICAL_TRANSCRIPTION_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "释十二将 independent online section heading; content distinguishes verse/general exposition/individual commentary"
+      ],
+      "limits": "Online transcription, not checked against print/facsimile; no lineage or efficacy determination.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0008",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lqkhebdf02",
+      "provider": "识典古籍《六壬大全》十二将释",
+      "evidence_grade": "PUBLIC_ONLINE_HISTORICAL_TRANSCRIPTION_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "十二将释 independent online section heading; content distinguishes verse/general exposition/individual commentary"
+      ],
+      "limits": "Online transcription, not checked against print/facsimile; no lineage or efficacy determination.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0009",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lqkhebd2cy",
+      "provider": "识典古籍《六壬大全》天将总论",
+      "evidence_grade": "PUBLIC_ONLINE_HISTORICAL_TRANSCRIPTION_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "天将总论 independent online section heading; content distinguishes verse/general exposition/individual commentary"
+      ],
+      "limits": "Online transcription, not checked against print/facsimile; no lineage or efficacy determination.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
     }
   ]
 }
