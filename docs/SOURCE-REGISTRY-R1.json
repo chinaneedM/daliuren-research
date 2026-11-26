@@ -1629,6 +1629,46 @@
       ],
       "limits": "Only indexed excerpt consulted; full edition and context not verified, not definitive conflict resolution.",
       "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0013",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://qingyxinxi.cn/cangjingge/shu/daliuren-zhinan/11",
+      "provider": "大六壬指南卷三在线检索索引",
+      "evidence_grade": "PUBLIC_SEARCH_INDEX_EXCERPT_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "李梅公行人占验三 heading and chart",
+        "申酉空、酉戌落空; 甲申乙酉甲戌; nine-month arrival prediction"
+      ],
+      "limits": "Indexed excerpt only; no full source or facsimile collation, no independent historical outcome validation. For 指南 page internal find returned no match.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0014",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://libokang.com/classics/liuren/%E6%B3%A8%E8%A7%A3%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/",
+      "provider": "注解大六壬指南在线检索索引",
+      "evidence_grade": "PUBLIC_SEARCH_INDEX_EXCERPT_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "Same chart and unusual stem notation, may share transcription"
+      ],
+      "limits": "Indexed excerpt only; no full source or facsimile collation, no independent historical outcome validation. For 指南 page internal find returned no match.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0015",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.shidianguji.com/book/SDZJ0728/chapter/1kg328b67xszv",
+      "provider": "识典古籍御定六壬直指总论分论在线检索索引",
+      "evidence_grade": "PUBLIC_SEARCH_INDEX_EXCERPT_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "壬申地盘亥不算空、天盘日禄论空"
+      ],
+      "limits": "Indexed excerpt only; no full source or facsimile collation, no independent historical outcome validation. For 指南 page internal find returned no match.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
     }
   ]
 }
