@@ -1547,6 +1547,35 @@
       ],
       "limits": "Private print; edition, historical source and predictive outcomes unverified; old handwritten marks excluded.",
       "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-WEB-0010",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=810",
+      "provider": "第三方《六壬金针》卷一第七节录文",
+      "evidence_grade": "PUBLIC_ONLINE_TRANSCRIPTION_NO_PRINT_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "五类六亲由日干五行确定",
+        "天将通常以所乘支神论六亲"
+      ],
+      "limits": "Online text only, no new facsimile/physical page check or direct historical lineage determination.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0011",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1m1g2eil4r9ca",
+      "provider": "识典古籍《六壬大全·鬼》",
+      "evidence_grade": "PUBLIC_ONLINE_TRANSCRIPTION_NO_PRINT_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "同阴阳相克称鬼的限定",
+        "鬼衰败通常为宜、当时例外",
+        "与金针p85–88的并行条文"
+      ],
+      "limits": "Online text only, no new facsimile/physical page check or direct historical lineage determination.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
     }
   ]
 }
