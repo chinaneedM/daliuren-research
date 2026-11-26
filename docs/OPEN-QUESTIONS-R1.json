@@ -280,7 +280,7 @@
       "priority": "P1",
       "status": "OPEN",
       "title": "九宗门全不比回退、同层并列及旧493普通课统计口径",
-      "required_evidence": "SESSION-0068 executable research baseline: strict 488 of 494 ordinary direct, 493 when fallback all no-parity candidates to Meng/Zhong/Ji; five ordinary no-parity, two fanyin no-parity, one ordinary tie. Previous SESSION-0064 did not state fallback. Need inspect p21–22 and p43 originals; distinguish candidate rule vs author and other schools. 7/16 bazhuan no direct contain remote candidates.\nSESSION-0070: strict488 vs fallback493 recomputed; ghost condition same14, initial/end void7, all three union void10, trine108 vs110, remaining clash scope audit pending.",
+      "required_evidence": "SESSION-0068 executable research baseline: strict 488 of 494 ordinary direct, 493 when fallback all no-parity candidates to Meng/Zhong/Ji; five ordinary no-parity, two fanyin no-parity, one ordinary tie. Previous SESSION-0064 did not state fallback. Need inspect p21–22 and p43 originals; distinguish candidate rule vs author and other schools. 7/16 bazhuan no direct contain remote candidates.\nSESSION-0070: strict488 vs fallback493 recomputed; ghost condition same14, initial/end void7, all three union void10, trine108 vs110, remaining clash scope audit pending.\nSESSION-0075 completes p95–101 trine clash recalculation: strict108=23 king clash+5 nonking only+80 none; fallback110=23+5+82. Added 壬子D8、壬戌D8 no lesson clash. Full712 candidate trines116=25+5+86. Fallback rule remains open.",
       "next_action": "Verify source and recompute prior 493-derived study counts with explicitly named strict and fallback candidate populations; do not silently change previous notes or production rules."
     },
     {
@@ -330,6 +330,14 @@
       "title": "卷二p93–95空亡五原则取舍、月将空与救神空亡来源依赖",
       "required_evidence": "SESSION-0074 direct p93–95 upper, strict712: initial wealth marriage candidates vary by void definition23/2,22/3,20/21; initial solid later void union87, lodging-return13 vs strict endpoint0. In p94 printed and diagram alternatives same void pattern but different lodging/general. Rescue-all-void74,23 share ghost void source; 66 single rescue-source. Full abstract plates 月将落空 iff 占时支旬空. Source sharing is mathematical not efficacy. Need original editions and operational interpretation priorities.",
       "next_action": "Preserve distinct xun/fall/source/role/event-target fields; compare p95–101 and later historical audit. Do not implement fill or scoring without verified rule boundaries."
+    },
+    {
+      "id": "DLR-OPEN-0042",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "卷二p95–101同心格合破重叠、三六相呼及三合冲神搜索域",
+      "required_evidence": "SESSION-0075 fresh p95–101 upper: 上神六合60 (30生,30克), narrow 上下合10 of which6 both破; 交车互财3. Strict trines116: king clash in first/third14, second/fourth only11, additional day lodging/branch makes total30; nine of lesson king-clash carriers void. 三六相呼10, four simultaneous upper六合, six not; king positions5/3/2. These are candidate structures and selected scopes, not historical or empirical conclusions.",
+      "next_action": "Compare original 中神冲、三六相呼 and 同心格 conditions, effective clash positions/strength/void and role-specific priorities; do not convert counts into scores."
     }
   ]
 }
