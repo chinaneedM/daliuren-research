@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.172",
+  "state_version": "0.5.173",
   "last_updated_date": "2026-11-26",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
@@ -239,7 +239,7 @@
     "DLR-OPEN-0044"
   ],
   "highest_priority_next_action": "C1累计原文实际覆盖p1–106共106/106（导论5/5、卷一42/42、卷二59/59），原页覆盖完成；下一批以SESSION-0098–0128及原页证据登记为基础完成累计知识体系重建，核对覆盖无缺、跨卷依赖、术语与参照、规则冲突、课例及纠错，和0093–0097既有专项区分；共同p105、p106详例待议，卷三p107起待原页。",
-  "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions. 2026-11-22 added a limited, independently unit-tested Earth/Heaven plate and four-lesson module without advancing reading beyond p47. CI check must still match each live HEAD. 2026-11-24 user approved mandatory end-of-volume spiral rereading and whole-book synthesis, documented in JOINT-STUDY-METHOD-R1 and continuity protocol. Prior SESSION-0051 exact HEAD CI verified successful before this method-only update. Joint page frontier unchanged.",
+  "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions. 2026-11-22 added a limited, independently unit-tested Earth/Heaven plate and four-lesson module without advancing reading beyond p47. CI check must still match each live HEAD. 2026-11-24 user approved mandatory end-of-volume spiral rereading and whole-book synthesis, documented in JOINT-STUDY-METHOD-R1 and continuity protocol. Prior SESSION-0051 exact HEAD CI verified successful before this method-only update. Joint page frontier unchanged.\n2026-11-26 读者要求补齐私人Drive定位。实查索引原有p21–106共86条、缺p1–20；本轮从历史Library实际重开p1–20二十张实体印刷原页，核实页码（p1由导论标题、目录及p2承接定位），逐页补建私人索引。分页列举复核共106条、106个不同正文页码、无缺无重。原始影像目录实查为空；对历史p106原文件授权原始字节提取测试被拒，实际独立影像备份仍0/106；索引不是备份，不公开私人标识、不改变权限。此为资料管理检查点，不新增C1复读页数，不改变共同讨论与累计知识重建优先级。",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
   "current_study_location": {
     "book": "北海闲人《六壬金针》",
