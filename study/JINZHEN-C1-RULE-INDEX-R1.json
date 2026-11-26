@@ -1,0 +1,1827 @@
+{
+  "schema": "DLR_C1_RULE_INDEX_R1",
+  "source_id": "DLR-SRC-0001",
+  "concept_index": "study/JINZHEN-C1-CONCEPT-REFERENCE-INDEX-R1.json",
+  "scope": "C1 p1–106 核心规则目录，非逐条穷尽、非生产实现；页段及例证来自已归档原页审读，不代表本轮再开原页",
+  "kind_definitions": {
+    "DETERMINISTIC_WITHIN_RULESET": "在给定规则版本及充分输入内可重复计算，不保证历史唯一或占验",
+    "STRUCTURAL_CANDIDATE": "结构定义或前提有候选、争议、解释边界",
+    "TRADITIONAL_INTERPRETATION": "书内经验和条件解释，未独立实证",
+    "RESEARCH_HYPOTHESIS": "现代研究方案待检验"
+  },
+  "verification_definitions": {
+    "TABLE": "归档查表",
+    "DERIVED": "有限推导",
+    "IMPLEMENTED": "现有有限生产功能及既有测试",
+    "CHECKED": "既有档案有局部例课或有限结构检查，不代表本轮新跑或全域验证",
+    "PARTIAL": "规则或证据存在缺口",
+    "UNVALIDATED": "传统解释未独立实证",
+    "PROPOSED": "研究提案未实证"
+  },
+  "counts": {
+    "DETERMINISTIC_WITHIN_RULESET": 27,
+    "STRUCTURAL_CANDIDATE": 30,
+    "TRADITIONAL_INTERPRETATION": 8,
+    "RESEARCH_HYPOTHESIS": 4
+  },
+  "layers": {
+    "L1": 5,
+    "L2": 6,
+    "L3": 21,
+    "L4": 14,
+    "L5": 9,
+    "L6": 6,
+    "L7": 8
+  },
+  "entries": [
+    {
+      "id": "DLR-C1-R001",
+      "layer": "L1",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "干支阴阳五行",
+      "concept_ids": [
+        "DLR-C1-C001",
+        "DLR-C1-C002",
+        "DLR-C1-C005",
+        "DLR-C1-C006"
+      ],
+      "inputs": "合法干支符号",
+      "rule_or_condition": "甲子序均从0起，偶阳奇阴；干甲乙木丙丁火戊己土庚辛金壬癸水；支寅卯木巳午火辰戌丑未土申酉金亥子水",
+      "output": "各自本体属性",
+      "exceptions_and_limits": "不能拿寄宫替代日干五行",
+      "source_pages": "6–9",
+      "c1_sessions": "0099",
+      "issue_ids": [],
+      "example_or_counterexample": "乙木寄辰土",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "TABLE"
+    },
+    {
+      "id": "DLR-C1-R002",
+      "layer": "L1",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "五行有向生克",
+      "concept_ids": [
+        "DLR-C1-C002",
+        "DLR-C1-C003",
+        "DLR-C1-C004",
+        "DLR-C1-C057"
+      ],
+      "inputs": "两个对象的本体五行",
+      "rule_or_condition": "木火土金水循环，相生差1，相克差2；同类另计",
+      "output": "关系及方向",
+      "exceptions_and_limits": "生克不预设吉凶",
+      "source_pages": "6–7,35",
+      "c1_sessions": "0099,0110",
+      "issue_ids": [],
+      "example_or_counterexample": "丁火生戊土",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "TABLE"
+    },
+    {
+      "id": "DLR-C1-R003",
+      "layer": "L1",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "十干寄宫",
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C007",
+        "DLR-C1-C019"
+      ],
+      "inputs": "合法日干",
+      "rule_or_condition": "甲乙丙丁戊己庚辛壬癸依次寅辰巳未巳未申戌亥丑",
+      "output": "固定地盘宫",
+      "exceptions_and_limits": "仅定位，不变日干属性",
+      "source_pages": "12–15",
+      "c1_sessions": "0100",
+      "issue_ids": [],
+      "example_or_counterexample": "乙寄辰",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "PRODUCTION_LIMITED",
+      "verification_status": "IMPLEMENTED"
+    },
+    {
+      "id": "DLR-C1-R004",
+      "layer": "L1",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "孟仲季分类",
+      "concept_ids": [
+        "DLR-C1-C008",
+        "DLR-C1-C006"
+      ],
+      "inputs": "指定地支",
+      "rule_or_condition": "寅巳申亥孟，子午卯酉仲，辰戌丑未季",
+      "output": "组别",
+      "exceptions_and_limits": "涉害取所临地盘",
+      "source_pages": "8,22",
+      "c1_sessions": "0099,0104",
+      "issue_ids": [
+        "DLR-OPEN-0035"
+      ],
+      "example_or_counterexample": "寅孟午仲戌季",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "TABLE"
+    },
+    {
+      "id": "DLR-C1-R005",
+      "layer": "L1",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "天干五合",
+      "concept_ids": [
+        "DLR-C1-C009",
+        "DLR-C1-C005"
+      ],
+      "inputs": "两个天干",
+      "rule_or_condition": "甲己乙庚丙辛丁壬戊癸配对",
+      "output": "关系标签",
+      "exceptions_and_limits": "不自动合化",
+      "source_pages": "7,25–26,95",
+      "c1_sessions": "0099,0105,0126",
+      "issue_ids": [
+        "DLR-OPEN-0031"
+      ],
+      "example_or_counterexample": "丙辛合不等于铸印必按合论",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "TABLE"
+    },
+    {
+      "id": "DLR-C1-R006",
+      "layer": "L2",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "历法与日柱输入",
+      "concept_ids": [
+        "DLR-C1-C010",
+        "DLR-C1-C011",
+        "DLR-C1-C014",
+        "DLR-C1-C018"
+      ],
+      "inputs": "实际时刻、地点或明确给定日柱",
+      "rule_or_condition": "保存时区、日界、时制、实际太阳升落政策；没有政策不从时刻自动推出日柱",
+      "output": "日柱及来源或未知",
+      "exceptions_and_limits": "当前未实现公历推日柱",
+      "source_pages": "10–17,36",
+      "c1_sessions": "0100,0101,0111",
+      "issue_ids": [
+        "DLR-OPEN-0001"
+      ],
+      "example_or_counterexample": "手工癸酉不补造日期",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R007",
+      "layer": "L2",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "合法六十干支组合",
+      "concept_ids": [
+        "DLR-C1-C014",
+        "DLR-C1-C001",
+        "DLR-C1-C005",
+        "DLR-C1-C006"
+      ],
+      "inputs": "两个合法符号",
+      "rule_or_condition": "干支序同奇偶；甲子起同时步进60",
+      "output": "合法性及周期索引",
+      "exceptions_and_limits": "生产四课目前只校符号",
+      "source_pages": "36–37",
+      "c1_sessions": "0111",
+      "issue_ids": [],
+      "example_or_counterexample": "甲丑非法",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "DERIVED"
+    },
+    {
+      "id": "DLR-C1-R008",
+      "layer": "L2",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "正时活时选择",
+      "concept_ids": [
+        "DLR-C1-C010",
+        "DLR-C1-C011",
+        "DLR-C1-C012",
+        "DLR-C1-C013"
+      ],
+      "inputs": "预先记录真实时刻、取时法",
+      "rule_or_condition": "本书自占一般正时、代占一般活时、急事例外；报数1至12映射子至亥",
+      "output": "选定占时支及来源",
+      "exceptions_and_limits": "紧急阈值及正时边界未裁，不事后改时",
+      "source_pages": "16–17",
+      "c1_sessions": "0101",
+      "issue_ids": [],
+      "example_or_counterexample": "正时申抽子",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R009",
+      "layer": "L2",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "中气换月将",
+      "concept_ids": [
+        "DLR-C1-C015",
+        "DLR-C1-C018",
+        "DLR-C1-C021"
+      ],
+      "inputs": "中气日期及换将版本已定",
+      "rule_or_condition": "雨水亥春分戌谷雨酉小满申夏至未大暑午处暑巳秋分辰霜降卯小雪寅冬至丑大寒子；本书暂用交中气当日",
+      "output": "月将支",
+      "exceptions_and_limits": "精确交气候选保留；未实现节气计算",
+      "source_pages": "15–16",
+      "c1_sessions": "0101",
+      "issue_ids": [
+        "DLR-OPEN-0001"
+      ],
+      "example_or_counterexample": "换将会改变全四课",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R010",
+      "layer": "L2",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "月建及季节",
+      "concept_ids": [
+        "DLR-C1-C016",
+        "DLR-C1-C085"
+      ],
+      "inputs": "节界和历法政策明确",
+      "rule_or_condition": "立春起寅建依次一节一月；四时以月建等为参照",
+      "output": "月建与季节",
+      "exceptions_and_limits": "不等同月将；季末土旺区间未裁",
+      "source_pages": "103–104",
+      "c1_sessions": "0128",
+      "issue_ids": [
+        "DLR-OPEN-0033",
+        "DLR-OPEN-0043"
+      ],
+      "example_or_counterexample": "二月卯建",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R011",
+      "layer": "L2",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "贵人昼夜分类",
+      "concept_ids": [
+        "DLR-C1-C013",
+        "DLR-C1-C017",
+        "DLR-C1-C018"
+      ],
+      "inputs": "最终选定占时支",
+      "rule_or_condition": "卯至申昼，酉至寅夜",
+      "output": "昼夜类别",
+      "exceptions_and_limits": "实际日出入与正时另列",
+      "source_pages": "17,31–33",
+      "c1_sessions": "0101,0108,0109",
+      "issue_ids": [
+        "DLR-OPEN-0013"
+      ],
+      "example_or_counterexample": "申时抽子按夜贵",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R012",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "天地盘正反查",
+      "concept_ids": [
+        "DLR-C1-C013",
+        "DLR-C1-C015",
+        "DLR-C1-C019",
+        "DLR-C1-C020",
+        "DLR-C1-C021",
+        "DLR-C1-C022",
+        "DLR-C1-C023"
+      ],
+      "inputs": "已选月将M及占时t，子0",
+      "rule_or_condition": "D=(M-t) mod12；H(x)=x+D mod12；E(h)=h-D mod12",
+      "output": "十二宫双射",
+      "exceptions_and_limits": "不含历法换算；盘差不能恢复M、t",
+      "source_pages": "10–12,39–47",
+      "c1_sessions": "0100,0112–0114",
+      "issue_ids": [],
+      "example_or_counterexample": "144将时配对及1728宫",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "PRODUCTION_LIMITED",
+      "verification_status": "IMPLEMENTED"
+    },
+    {
+      "id": "DLR-C1-R013",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "四课生成",
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C024",
+        "DLR-C1-C025",
+        "DLR-C1-C026",
+        "DLR-C1-C027",
+        "DLR-C1-C028",
+        "DLR-C1-C029",
+        "DLR-C1-C030",
+        "DLR-C1-C031"
+      ],
+      "inputs": "日干、日支B及盘H",
+      "rule_or_condition": "R为寄宫；A=H(R),C=H(B)；上神A,H(A),C,H(C)；下位干,A,B,C；坐标R,A,B,C",
+      "output": "四课与课源",
+      "exceptions_and_limits": "保留四角色；首课用日干本体",
+      "source_pages": "12–14,26",
+      "c1_sessions": "0100,0106",
+      "issue_ids": [
+        "DLR-OPEN-0011"
+      ],
+      "example_or_counterexample": "庚子D11未午亥戌",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "PRODUCTION_LIMITED",
+      "verification_status": "IMPLEMENTED"
+    },
+    {
+      "id": "DLR-C1-R014",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "九宗门总分流",
+      "concept_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C040",
+        "DLR-C1-C031",
+        "DLR-C1-C032"
+      ],
+      "inputs": "完整四课及D",
+      "rule_or_condition": "D0伏吟、D6返吟单列；其余先课内克；无克且归一两课源八专；其余遥克；再无则四课昴星或三课别责",
+      "output": "分支、候选和来源",
+      "exceptions_and_limits": "全不比和同层边界不补造",
+      "source_pages": "17–31,43–44",
+      "c1_sessions": "0102–0108,0113",
+      "issue_ids": [
+        "DLR-OPEN-0009",
+        "DLR-OPEN-0011",
+        "DLR-OPEN-0035"
+      ],
+      "example_or_counterexample": "庚申D3不先走遥克",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R015",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "贼克优先候选",
+      "concept_ids": [
+        "DLR-C1-C034",
+        "DLR-C1-C035",
+        "DLR-C1-C032",
+        "DLR-C1-C025",
+        "DLR-C1-C026",
+        "DLR-C1-C039",
+        "DLR-C1-C040"
+      ],
+      "inputs": "各课实际下位及上神",
+      "rule_or_condition": "逐课判断上下克；有下贼优先下贼否则上克；记录来源后按上神去重",
+      "output": "候选支与来源",
+      "exceptions_and_limits": "不扩大到全盘；同支多来源不等于多候选",
+      "source_pages": "18–20",
+      "c1_sessions": "0102",
+      "issue_ids": [
+        "DLR-OPEN-0010",
+        "DLR-OPEN-0035"
+      ],
+      "example_or_counterexample": "乙丑D8扩大域错取戌",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R016",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "始入重审元首标签",
+      "concept_ids": [
+        "DLR-C1-C096",
+        "DLR-C1-C034",
+        "DLR-C1-C035",
+        "DLR-C1-C032"
+      ],
+      "inputs": "课内克来源已定",
+      "rule_or_condition": "一下贼无上克始入；一下贼兼上克重审；无下贼且一上克元首",
+      "output": "书内课体候选",
+      "exceptions_and_limits": "同支多源与不同书异名另核",
+      "source_pages": "18–20",
+      "c1_sessions": "0102",
+      "issue_ids": [
+        "DLR-OPEN-0010"
+      ],
+      "example_or_counterexample": "癸巳D10与辛巳D10同传不同标签",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R017",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "唯一优先上神取初传",
+      "concept_ids": [
+        "DLR-C1-C039",
+        "DLR-C1-C040",
+        "DLR-C1-C032"
+      ],
+      "inputs": "去重优先候选仅一",
+      "rule_or_condition": "取该课上神，留来源",
+      "output": "初传",
+      "exceptions_and_limits": "不是固定施克或受克者；先分特殊法",
+      "source_pages": "18–20",
+      "c1_sessions": "0102",
+      "issue_ids": [],
+      "example_or_counterexample": "癸巳D10丑亥酉",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R018",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "比用筛选",
+      "concept_ids": [
+        "DLR-C1-C036",
+        "DLR-C1-C039",
+        "DLR-C1-C040",
+        "DLR-C1-C032"
+      ],
+      "inputs": "优先候选多于一支",
+      "rule_or_condition": "筛与日干同阴阳的支；唯一则取，多则入后续候选筛选",
+      "output": "候选或未决",
+      "exceptions_and_limits": "全不比不可自行回退；遥克同比分支未裁",
+      "source_pages": "20–23",
+      "c1_sessions": "0102–0104",
+      "issue_ids": [
+        "DLR-OPEN-0035"
+      ],
+      "example_or_counterexample": "壬辰D3未戌中取戌",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R019",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "涉害孟仲季及同孟限定",
+      "concept_ids": [
+        "DLR-C1-C037",
+        "DLR-C1-C008",
+        "DLR-C1-C032",
+        "DLR-C1-C039"
+      ],
+      "inputs": "已进入涉害的直接克候选",
+      "rule_or_condition": "按所临地盘孟仲季优先；p43两个孟位下贼并列按课序",
+      "output": "唯一候选或未决",
+      "exceptions_and_limits": "不推广到全不比、上克或仲季并列；深浅法独立",
+      "source_pages": "21–22,43",
+      "c1_sessions": "0104,0113",
+      "issue_ids": [
+        "DLR-OPEN-0035"
+      ],
+      "example_or_counterexample": "戊辰D7子未寅；D6未裁",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R020",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "遥克取用",
+      "concept_ids": [
+        "DLR-C1-C038",
+        "DLR-C1-C036",
+        "DLR-C1-C039",
+        "DLR-C1-C005",
+        "DLR-C1-C025"
+      ],
+      "inputs": "无课内克且非特殊八专伏返",
+      "rule_or_condition": "先上神克日干蒿矢，无则日干克上神弹射；唯一或比用唯一才取",
+      "output": "初传或未决",
+      "exceptions_and_limits": "多候选同比分支未裁，不用寄宫克",
+      "source_pages": "22–24",
+      "c1_sessions": "0104",
+      "issue_ids": [
+        "DLR-OPEN-0009",
+        "DLR-OPEN-0035"
+      ],
+      "example_or_counterexample": "甲辰D9申巳寅",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R021",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "普通相因中末",
+      "concept_ids": [
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C043"
+      ],
+      "inputs": "已确定普通贼克或遥克初传u",
+      "rule_or_condition": "中=H(u)，末=H(中)",
+      "output": "有序三传",
+      "exceptions_and_limits": "特殊法不套；初传未决则不伪造",
+      "source_pages": "19,23",
+      "c1_sessions": "0102,0104",
+      "issue_ids": [],
+      "example_or_counterexample": "庚子D11戌酉申",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R022",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "昴星法",
+      "concept_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C022",
+        "DLR-C1-C023"
+      ],
+      "inputs": "非伏返、四课源全、无直接及遥克",
+      "rule_or_condition": "阳初H(酉)中第三末第一；阴初E(酉)中第一末第三",
+      "output": "三传",
+      "exceptions_and_limits": "阴日须反查，不用泛称替代具体法",
+      "source_pages": "24,43–44",
+      "c1_sessions": "0105,0113",
+      "issue_ids": [
+        "DLR-OPEN-0009"
+      ],
+      "example_or_counterexample": "戊申D1戌酉午、丁丑D9子辰戌",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R023",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "别责法",
+      "concept_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C009",
+        "DLR-C1-C063"
+      ],
+      "inputs": "非伏返、归一三课源、无直接及遥克",
+      "rule_or_condition": "刚日取合干寄宫上神；柔日取日支三合循环+4候选；中末皆第一上神",
+      "output": "三传",
+      "exceptions_and_limits": "柔日推广仍需文献",
+      "source_pages": "24–26",
+      "c1_sessions": "0105,0106",
+      "issue_ids": [
+        "DLR-OPEN-0009"
+      ],
+      "example_or_counterexample": "戊午D1寅午午、辛丑D3巳丑丑",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R024",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "八专法",
+      "concept_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C031",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042"
+      ],
+      "inputs": "非伏返，日支等寄宫归一两源",
+      "rule_or_condition": "有克仍用贼克等；无克阳初第一上神+2，阴初第四上神-2；中末第一上神",
+      "output": "三传",
+      "exceptions_and_limits": "无克不走遥克；重复传位保留",
+      "source_pages": "26–27",
+      "c1_sessions": "0106",
+      "issue_ids": [
+        "DLR-OPEN-0011"
+      ],
+      "example_or_counterexample": "庚申D3丑亥亥",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R025",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "伏吟取传",
+      "concept_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C062"
+      ],
+      "inputs": "D0，第一课以实际日干判克",
+      "rule_or_condition": "癸乙有克及刚无克初寄宫，柔无克初日支；初非自刑中取刑，初自刑换另一侧；中非自刑末取刑，中自刑取冲；刑后继子0为3,10,5,0,4,8,6,1,2,9,7,11",
+      "output": "三传",
+      "exceptions_and_limits": "断义刑与后继算法分离，柔无克印例不足",
+      "source_pages": "27–30",
+      "c1_sessions": "0106–0108",
+      "issue_ids": [
+        "DLR-OPEN-0008",
+        "DLR-OPEN-0009"
+      ],
+      "example_or_counterexample": "乙酉辰酉卯、壬辰亥辰戌",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R026",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "返吟有克与无克",
+      "concept_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C095"
+      ],
+      "inputs": "D6",
+      "rule_or_condition": "有克贼克比用涉害再相因；无克初日支驿马、中第三末第一；教学补充申子辰马寅、寅午戌马申、巳酉丑马亥、亥卯未马巳",
+      "output": "三传或未决",
+      "exceptions_and_limits": "戊辰戊戌全不比不硬取；四组马表非本页全载",
+      "source_pages": "30–31",
+      "c1_sessions": "0108",
+      "issue_ids": [
+        "DLR-OPEN-0009",
+        "DLR-OPEN-0012",
+        "DLR-OPEN-0035"
+      ],
+      "example_or_counterexample": "辛未D6巳丑辰",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R027",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "天将身份序列",
+      "concept_ids": [
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C048"
+      ],
+      "inputs": "本书天将规范",
+      "rule_or_condition": "贵人腾蛇朱雀六合勾陈青龙天空白虎太常玄武太阴天后",
+      "output": "序号及既有ID",
+      "exceptions_and_limits": "六合天空不与关系状态混淆",
+      "source_pages": "31–35",
+      "c1_sessions": "0108–0110",
+      "issue_ids": [],
+      "example_or_counterexample": "序差6空间对冲",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "TABLE"
+    },
+    {
+      "id": "DLR-C1-R028",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "贵人定位及布将",
+      "concept_ids": [
+        "DLR-C1-C017",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C048"
+      ],
+      "inputs": "日干、最终昼夜、H/E",
+      "rule_or_condition": "甲戊庚昼丑夜未、乙己子申、丙丁亥酉、壬癸巳卯、辛午寅；贵人N所临E(N)在亥子丑寅卯辰顺否则逆；将序=方向×(h-N) mod12",
+      "output": "天盘支配将双射",
+      "exceptions_and_limits": "不按N判顺逆；卷二图冲突另存",
+      "source_pages": "31–35",
+      "c1_sessions": "0108–0110",
+      "issue_ids": [
+        "DLR-OPEN-0013",
+        "DLR-OPEN-0037",
+        "DLR-OPEN-0044"
+      ],
+      "example_or_counterexample": "丁亥戌将巳时贵亥临午逆",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R029",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "天将单映射投影",
+      "concept_ids": [
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C025",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042"
+      ],
+      "inputs": "全盘配将已定",
+      "rule_or_condition": "主盘、四课、三传按同一天盘支查配将",
+      "output": "角色配将",
+      "exceptions_and_limits": "不重复起贵人",
+      "source_pages": "33–35",
+      "c1_sessions": "0109,0110",
+      "issue_ids": [],
+      "example_or_counterexample": "丁亥第二课巳与初巳皆天空",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R030",
+      "layer": "L3",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "天将本体五行",
+      "concept_ids": [
+        "DLR-C1-C047",
+        "DLR-C1-C056",
+        "DLR-C1-C044"
+      ],
+      "inputs": "明确当前候选表",
+      "rule_or_condition": "贵人土腾蛇火朱雀火六合木勾陈土青龙木天空土白虎金太常土玄武水太阴金天后水",
+      "output": "本体五行",
+      "exceptions_and_limits": "独立于乘支与地盘；历史待校",
+      "source_pages": "73,77–89",
+      "c1_sessions": "0121–0124",
+      "issue_ids": [
+        "DLR-OPEN-0039"
+      ],
+      "example_or_counterexample": "太常勾陈同土不等于乘支同五行",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R031",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "日旬与旬遁",
+      "concept_ids": [
+        "DLR-C1-C014",
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C069"
+      ],
+      "inputs": "合法日柱及查询支",
+      "rule_or_condition": "A=(日支序-日干序) mod12；x=(查询支-A) mod12；x小于10取第x干，否则null；空支A+10,A+11模12",
+      "output": "旬首、旬遁、旬空支对",
+      "exceptions_and_limits": "null是本旬无配干，不等于缺输入",
+      "source_pages": "36–37",
+      "c1_sessions": "0111",
+      "issue_ids": [
+        "DLR-OPEN-0014"
+      ],
+      "example_or_counterexample": "丁亥甲申旬午未空巳癸",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R032",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "五子元遁",
+      "concept_ids": [
+        "DLR-C1-C051",
+        "DLR-C1-C052"
+      ],
+      "inputs": "日干及查询支",
+      "rule_or_condition": "配干序=(2×日干序+查询支序) mod10",
+      "output": "十二支配干",
+      "exceptions_and_limits": "不补旬遁null；p37局部印字矛盾",
+      "source_pages": "37–38",
+      "c1_sessions": "0111",
+      "issue_ids": [
+        "DLR-OPEN-0014"
+      ],
+      "example_or_counterexample": "丁亥辰甲酉己巳乙",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R033",
+      "layer": "L4",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "支六亲",
+      "concept_ids": [
+        "DLR-C1-C053",
+        "DLR-C1-C003",
+        "DLR-C1-C004",
+        "DLR-C1-C005",
+        "DLR-C1-C020"
+      ],
+      "inputs": "日干及目标天盘支五行",
+      "rule_or_condition": "生我父母，同类兄弟，我生子孙，我克妻财，克我官鬼",
+      "output": "支六亲",
+      "exceptions_and_limits": "不以课下位作我；五类全称",
+      "source_pages": "35,85–92",
+      "c1_sessions": "0110,0123–0125",
+      "issue_ids": [],
+      "example_or_counterexample": "癸酉D7申父母卯子孙",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R034",
+      "layer": "L4",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "双遁干六亲",
+      "concept_ids": [
+        "DLR-C1-C054",
+        "DLR-C1-C055",
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C051",
+        "DLR-C1-C052"
+      ],
+      "inputs": "日干及各法配干",
+      "rule_or_condition": "五行六亲映射到各自遁干，无旬遁则该关系无值",
+      "output": "两套遁干六亲",
+      "exceptions_and_limits": "五子元遁六亲是推导；暗鬼效验未证",
+      "source_pages": "37–38,88–89",
+      "c1_sessions": "0111,0124",
+      "issue_ids": [
+        "DLR-OPEN-0014",
+        "DLR-OPEN-0029"
+      ],
+      "example_or_counterexample": "丁亥巳支兄弟、旬遁官鬼、五子父母",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R035",
+      "layer": "L4",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "将本体与乘支关系",
+      "concept_ids": [
+        "DLR-C1-C056",
+        "DLR-C1-C047",
+        "DLR-C1-C053",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C057"
+      ],
+      "inputs": "日干、将、乘支、地盘五行各自明确",
+      "rule_or_condition": "逐端点算生克，独立保存",
+      "output": "关系标签",
+      "exceptions_and_limits": "作鬼语境待裁，不用本体替支六亲",
+      "source_pages": "73,77–89",
+      "c1_sessions": "0121–0124",
+      "issue_ids": [
+        "DLR-OPEN-0039"
+      ],
+      "example_or_counterexample": "太常勾陈本体同克水、乘支同鬼不可达",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R036",
+      "layer": "L4",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "地支六合",
+      "concept_ids": [
+        "DLR-C1-C058",
+        "DLR-C1-C006",
+        "DLR-C1-C020"
+      ],
+      "inputs": "两支",
+      "rule_or_condition": "支序和 mod12=1",
+      "output": "六合标签",
+      "exceptions_and_limits": "合破可重叠",
+      "source_pages": "7,95–98",
+      "c1_sessions": "0099,0126–0127",
+      "issue_ids": [
+        "DLR-OPEN-0031"
+      ],
+      "example_or_counterexample": "寅亥合兼破",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R037",
+      "layer": "L4",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "地支六冲",
+      "concept_ids": [
+        "DLR-C1-C059",
+        "DLR-C1-C006",
+        "DLR-C1-C020"
+      ],
+      "inputs": "两支",
+      "rule_or_condition": "差 mod12=6",
+      "output": "六冲标签",
+      "exceptions_and_limits": "不直接断凶",
+      "source_pages": "7,99–101",
+      "c1_sessions": "0099,0127",
+      "issue_ids": [
+        "DLR-OPEN-0031"
+      ],
+      "example_or_counterexample": "子午冲",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "TABLE"
+    },
+    {
+      "id": "DLR-C1-R038",
+      "layer": "L4",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "地支六害",
+      "concept_ids": [
+        "DLR-C1-C060",
+        "DLR-C1-C006",
+        "DLR-C1-C020"
+      ],
+      "inputs": "两支",
+      "rule_or_condition": "支序和 mod12=7",
+      "output": "六害标签",
+      "exceptions_and_limits": "外合内害须明端点",
+      "source_pages": "7,98–101",
+      "c1_sessions": "0099,0127",
+      "issue_ids": [
+        "DLR-OPEN-0031"
+      ],
+      "example_or_counterexample": "申亥害",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R039",
+      "layer": "L4",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "地支六破",
+      "concept_ids": [
+        "DLR-C1-C061",
+        "DLR-C1-C058",
+        "DLR-C1-C020"
+      ],
+      "inputs": "两支",
+      "rule_or_condition": "子酉丑辰寅亥卯午巳申未戌六对",
+      "output": "六破标签",
+      "exceptions_and_limits": "不删除六合",
+      "source_pages": "7,95–101",
+      "c1_sessions": "0099,0126–0127",
+      "issue_ids": [
+        "DLR-OPEN-0031"
+      ],
+      "example_or_counterexample": "巳申合破并存",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "TABLE"
+    },
+    {
+      "id": "DLR-C1-R040",
+      "layer": "L4",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "刑关系及作用域",
+      "concept_ids": [
+        "DLR-C1-C062",
+        "DLR-C1-C059",
+        "DLR-C1-C058"
+      ],
+      "inputs": "明确支及位置",
+      "rule_or_condition": "子卯互刑，寅巳申与丑戌未有向环，辰午酉亥自刑候选；另识别三传集合和四课全见",
+      "output": "方向与候选",
+      "exceptions_and_limits": "断义、自刑范围与伏吟后继不合并",
+      "source_pages": "8,100–101",
+      "c1_sessions": "0099,0127",
+      "issue_ids": [
+        "DLR-OPEN-0008",
+        "DLR-OPEN-0031"
+      ],
+      "example_or_counterexample": "四上神全见2，字面全见4",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R041",
+      "layer": "L4",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "三合成员与中神",
+      "concept_ids": [
+        "DLR-C1-C063",
+        "DLR-C1-C065",
+        "DLR-C1-C008",
+        "DLR-C1-C041"
+      ],
+      "inputs": "指定支集合",
+      "rule_or_condition": "申子辰水中子、亥卯未木中卯、寅午戌火中午、巳酉丑金中酉",
+      "output": "成员和中神",
+      "exceptions_and_limits": "非自动成局；中神非中传",
+      "source_pages": "8,95–99",
+      "c1_sessions": "0099,0126–0127",
+      "issue_ids": [
+        "DLR-OPEN-0042"
+      ],
+      "example_or_counterexample": "巳丑酉中神酉非中传丑",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R042",
+      "layer": "L4",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "局五行与逐支六亲",
+      "concept_ids": [
+        "DLR-C1-C064",
+        "DLR-C1-C063",
+        "DLR-C1-C053"
+      ],
+      "inputs": "局候选及日干",
+      "rule_or_condition": "局五行独立映射日干；逐支六亲另存；四成员土局另列",
+      "output": "局关系候选",
+      "exceptions_and_limits": "成局化气未裁，纯六亲范围另核",
+      "source_pages": "8,75,87–92,104",
+      "c1_sessions": "0099,0121,0124–0125,0128",
+      "issue_ids": [
+        "DLR-OPEN-0029",
+        "DLR-OPEN-0040",
+        "DLR-OPEN-0042"
+      ],
+      "example_or_counterexample": "108三合无一组三支全等于局六亲",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R043",
+      "layer": "L4",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "交车合与外合内害",
+      "concept_ids": [
+        "DLR-C1-C066",
+        "DLR-C1-C058",
+        "DLR-C1-C060",
+        "DLR-C1-C007",
+        "DLR-C1-C027",
+        "DLR-C1-C029"
+      ],
+      "inputs": "A=H(R),C=H(B)，R寄宫B日支",
+      "rule_or_condition": "交车A合B且C合R；外合内害分别测R害B和B害C",
+      "output": "不同端点谓词",
+      "exceptions_and_limits": "交车两式同源，外合内害未裁",
+      "source_pages": "97–98",
+      "c1_sessions": "0126–0127",
+      "issue_ids": [
+        "DLR-OPEN-0031",
+        "DLR-OPEN-0042"
+      ],
+      "example_or_counterexample": "60交车；内害候选10与9交3",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R044",
+      "layer": "L4",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "各生互生各克互克",
+      "concept_ids": [
+        "DLR-C1-C067",
+        "DLR-C1-C003",
+        "DLR-C1-C004",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C057"
+      ],
+      "inputs": "A,C,日干e日支f",
+      "rule_or_condition": "各生A生e且C生f；互生A生f且C生e；各克互克同端点改克；双长生另列",
+      "output": "独立组合谓词",
+      "exceptions_and_limits": "俱生不合并三种条件",
+      "source_pages": "57–63",
+      "c1_sessions": "0117–0118",
+      "issue_ids": [
+        "DLR-OPEN-0021",
+        "DLR-OPEN-0034",
+        "DLR-OPEN-0036"
+      ],
+      "example_or_counterexample": "双长生13、各生35、交3",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R045",
+      "layer": "L4",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "各脱互脱与字面双脱干",
+      "concept_ids": [
+        "DLR-C1-C068",
+        "DLR-C1-C003",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C027",
+        "DLR-C1-C029"
+      ],
+      "inputs": "A,C,e,f",
+      "rule_or_condition": "各脱e生A且f生C；互脱e生C且f生A；字面双脱干e生A且e生C",
+      "output": "三组候选",
+      "exceptions_and_limits": "p63疑字未裁",
+      "source_pages": "56–63",
+      "c1_sessions": "0116–0118",
+      "issue_ids": [
+        "DLR-OPEN-0034"
+      ],
+      "example_or_counterexample": "甲子D3各脱非双脱干",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R046",
+      "layer": "L4",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "干支互临与乱首赘婿",
+      "concept_ids": [
+        "DLR-C1-C057",
+        "DLR-C1-C007",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C096"
+      ],
+      "inputs": "A=H(R),C=H(B)",
+      "rule_or_condition": "A=B为支临干，C=R为干临支；再依具体条文确定生克端点",
+      "output": "位置与关系",
+      "exceptions_and_limits": "互临非充分格局条件",
+      "source_pages": "64–68",
+      "c1_sessions": "0119",
+      "issue_ids": [
+        "DLR-OPEN-0022",
+        "DLR-OPEN-0034"
+      ],
+      "example_or_counterexample": "丁卯D4卯克未土而生丁火",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R047",
+      "layer": "L5",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "旬空落空及来源",
+      "concept_ids": [
+        "DLR-C1-C069",
+        "DLR-C1-C070",
+        "DLR-C1-C071",
+        "DLR-C1-C072",
+        "DLR-C1-C073",
+        "DLR-C1-C023"
+      ],
+      "inputs": "旬空支集合V、H/E",
+      "rule_or_condition": "旬空h属于V，落空E(h)属于V；分别记来源h、E(h)",
+      "output": "两布尔与空源集合",
+      "exceptions_and_limits": "天空不参与；落空可有旬遁",
+      "source_pages": "36–37,92–95,106",
+      "c1_sessions": "0111,0125–0126,0128",
+      "issue_ids": [
+        "DLR-OPEN-0030",
+        "DLR-OPEN-0041"
+      ],
+      "example_or_counterexample": "癸酉D7戌旬空巳落空同源戌",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R048",
+      "layer": "L5",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "五行十二长生基础阶段",
+      "concept_ids": [
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C077",
+        "DLR-C1-C078",
+        "DLR-C1-C082",
+        "DLR-C1-C083",
+        "DLR-C1-C084"
+      ],
+      "inputs": "指定参照五行及所查支",
+      "rule_or_condition": "木亥火寅土申金巳水申起0；长生沐浴冠带临官帝旺衰病死墓绝胎养顺行；阶段为支序差模12",
+      "output": "基础阶段",
+      "exceptions_and_limits": "土额外子胎附标另裁，不套十干逆行",
+      "source_pages": "8–9,101–106",
+      "c1_sessions": "0099,0127–0128",
+      "issue_ids": [
+        "DLR-OPEN-0007",
+        "DLR-OPEN-0032",
+        "DLR-OPEN-0043"
+      ],
+      "example_or_counterexample": "申为癸水长生、申临丑为金墓",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R049",
+      "layer": "L5",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "日禄查表",
+      "concept_ids": [
+        "DLR-C1-C079",
+        "DLR-C1-C077"
+      ],
+      "inputs": "日干",
+      "rule_or_condition": "甲乙丙丁戊己庚辛壬癸依次寅卯巳午巳午申酉亥子",
+      "output": "日禄支",
+      "exceptions_and_limits": "临官不能代禄",
+      "source_pages": "9,65–66,102–105",
+      "c1_sessions": "0099,0119,0128",
+      "issue_ids": [
+        "DLR-OPEN-0032"
+      ],
+      "example_or_counterexample": "己禄午而土临官亥",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R050",
+      "layer": "L5",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "旺禄、羊刃与土胎争议",
+      "concept_ids": [
+        "DLR-C1-C080",
+        "DLR-C1-C081",
+        "DLR-C1-C075",
+        "DLR-C1-C078"
+      ],
+      "inputs": "日干及书内版本",
+      "rule_or_condition": "旺禄与帝旺单列；p9戊己旺子，具体全表回原页；p9阴干无刃，p102–103阴刃乙辰丁己未辛戌癸丑；土常规午胎与额外子胎并列",
+      "output": "版本候选标签",
+      "exceptions_and_limits": "不擅定旺禄/阳刃未核表项，不取版本并集",
+      "source_pages": "9,102–103",
+      "c1_sessions": "0099,0128",
+      "issue_ids": [
+        "DLR-OPEN-0007",
+        "DLR-OPEN-0032"
+      ],
+      "example_or_counterexample": "阴干寄宫刃首课D0命中30，另口径0",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R051",
+      "layer": "L5",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "天地盘双向阶段及筛选",
+      "concept_ids": [
+        "DLR-C1-C082",
+        "DLR-C1-C083",
+        "DLR-C1-C084",
+        "DLR-C1-C086",
+        "DLR-C1-C075",
+        "DLR-C1-C079"
+      ],
+      "inputs": "明确日干本体、天盘支、地盘宫",
+      "rule_or_condition": "首课上向日干五行查天盘支；反向天盘支五行查地盘宫；p105上向阶段0,1,4,6,7,8,9加禄，反向0,1,6,8,9",
+      "output": "方向化阶段候选",
+      "exceptions_and_limits": "筛选不删除原属性，不以临官代禄",
+      "source_pages": "105–106",
+      "c1_sessions": "0128",
+      "issue_ids": [
+        "DLR-OPEN-0033",
+        "DLR-OPEN-0043"
+      ],
+      "example_or_counterexample": "720域误用临官差42",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R052",
+      "layer": "L5",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "四时旺相休囚死",
+      "concept_ids": [
+        "DLR-C1-C085",
+        "DLR-C1-C016",
+        "DLR-C1-C086"
+      ],
+      "inputs": "季节主五行明确",
+      "rule_or_condition": "同主旺、主生相、生主休、克主囚、主克死；返本条件另列",
+      "output": "候选季节状态",
+      "exceptions_and_limits": "季末土旺界限未裁；无月建不判",
+      "source_pages": "103–105",
+      "c1_sessions": "0128",
+      "issue_ids": [
+        "DLR-OPEN-0033",
+        "DLR-OPEN-0043"
+      ],
+      "example_or_counterexample": "春木主，火相水休金囚土死",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R053",
+      "layer": "L5",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "空亡解释原则",
+      "concept_ids": [
+        "DLR-C1-C074",
+        "DLR-C1-C072",
+        "DLR-C1-C073",
+        "DLR-C1-C101",
+        "DLR-C1-C087"
+      ],
+      "inputs": "结构空亡、事前占问及相关条件",
+      "rule_or_condition": "按作者整体气势、局部状态、具体类神、月将与寄宫的分项原则提出解释",
+      "output": "迟、虚、短暂等解释候选",
+      "exceptions_and_limits": "不改空亡布尔；整体判据未明",
+      "source_pages": "92–95",
+      "c1_sessions": "0125–0126",
+      "issue_ids": [
+        "DLR-OPEN-0030",
+        "DLR-OPEN-0041"
+      ],
+      "example_or_counterexample": "丁丑D1三传两空源不直接断无",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED"
+    },
+    {
+      "id": "DLR-C1-R054",
+      "layer": "L5",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "长生阶段条件取象",
+      "concept_ids": [
+        "DLR-C1-C076",
+        "DLR-C1-C075",
+        "DLR-C1-C091",
+        "DLR-C1-C085",
+        "DLR-C1-C082"
+      ],
+      "inputs": "阶段、占问、参照、附加条件",
+      "rule_or_condition": "长生可取学堂生气，木子火卯沐浴旺相吉将可取生，墓绝依目标及状态解释",
+      "output": "传统解释候选",
+      "exceptions_and_limits": "不把阶段直接定吉凶；保留金巳等例外",
+      "source_pages": "101–103",
+      "c1_sessions": "0127–0128",
+      "issue_ids": [
+        "DLR-OPEN-0032"
+      ],
+      "example_or_counterexample": "金巳长生仍有火克金",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED"
+    },
+    {
+      "id": "DLR-C1-R055",
+      "layer": "L5",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "长短期旺衰取舍",
+      "concept_ids": [
+        "DLR-C1-C085",
+        "DLR-C1-C086",
+        "DLR-C1-C087",
+        "DLR-C1-C101"
+      ],
+      "inputs": "事前指定时间跨度",
+      "rule_or_condition": "作者长期偏天地盘、短期偏四时",
+      "output": "传统分析倾向",
+      "exceptions_and_limits": "不是确定权重，两乙日例有多个变量",
+      "source_pages": "103–106",
+      "c1_sessions": "0128",
+      "issue_ids": [
+        "DLR-OPEN-0033",
+        "DLR-OPEN-0043"
+      ],
+      "example_or_counterexample": "乙巳D7卯空、乙丑D7卯不空",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED"
+    },
+    {
+      "id": "DLR-C1-R056",
+      "layer": "L6",
+      "kind": "RESEARCH_HYPOTHESIS",
+      "name": "占问目标事前分解",
+      "concept_ids": [
+        "DLR-C1-C087",
+        "DLR-C1-C088",
+        "DLR-C1-C102"
+      ],
+      "inputs": "明确占事主体对象期限",
+      "rule_or_condition": "预先分达成、持续、获益等目标，记录缺项",
+      "output": "占问契约候选",
+      "exceptions_and_limits": "不是古法唯一流程，不事后改目标",
+      "source_pages": "48–52,53–59,98",
+      "c1_sessions": "0115–0117,0127",
+      "issue_ids": [
+        "DLR-OPEN-0016",
+        "DLR-OPEN-0020"
+      ],
+      "example_or_counterexample": "辛丑交车互财兼双死",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PROPOSED"
+    },
+    {
+      "id": "DLR-C1-R057",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "干支角色取象",
+      "concept_ids": [
+        "DLR-C1-C088",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C001",
+        "DLR-C1-C098"
+      ],
+      "inputs": "明确占问及相对角色",
+      "rule_or_condition": "日干常为主体，日支依占问可为对方宅等",
+      "output": "传统角色候选",
+      "exceptions_and_limits": "角色阴阳不等于本体阴阳，不凭类象判断现实人格",
+      "source_pages": "53–59",
+      "c1_sessions": "0116–0117",
+      "issue_ids": [
+        "DLR-OPEN-0020",
+        "DLR-OPEN-0036"
+      ],
+      "example_or_counterexample": "同事先职位同职再年龄",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED"
+    },
+    {
+      "id": "DLR-C1-R058",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "类神类别及实例",
+      "concept_ids": [
+        "DLR-C1-C089",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C087",
+        "DLR-C1-C053",
+        "DLR-C1-C044",
+        "DLR-C1-C095"
+      ],
+      "inputs": "占问及书内已见候选类别",
+      "rule_or_condition": "占财查妻财；占官青龙官星德神太阳等候选；结合盘位",
+      "output": "候选类别与实例",
+      "exceptions_and_limits": "无统一主辅取舍，不作现实获财升迁结论",
+      "source_pages": "48–52",
+      "c1_sessions": "0115",
+      "issue_ids": [
+        "DLR-OPEN-0016",
+        "DLR-OPEN-0019"
+      ],
+      "example_or_counterexample": "太阳不误为太阴",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED"
+    },
+    {
+      "id": "DLR-C1-R059",
+      "layer": "L6",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "类神搜索域及角色",
+      "concept_ids": [
+        "DLR-C1-C092",
+        "DLR-C1-C090",
+        "DLR-C1-C025",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042"
+      ],
+      "inputs": "类别明确且课传已定",
+      "rule_or_condition": "标第一第三课和三传重点域，保留全四课扩展域；位置去重角色不删",
+      "output": "各域候选",
+      "exceptions_and_limits": "优先非排他；年命另域",
+      "source_pages": "48–49,75–76",
+      "c1_sessions": "0115,0121",
+      "issue_ids": [
+        "DLR-OPEN-0016",
+        "DLR-OPEN-0024"
+      ],
+      "example_or_counterexample": "488域优先遗漏妻财23官鬼30",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R060",
+      "layer": "L6",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "年命与神煞入口",
+      "concept_ids": [
+        "DLR-C1-C093",
+        "DLR-C1-C094",
+        "DLR-C1-C095"
+      ],
+      "inputs": "个人相关资料及规则版本",
+      "rule_or_condition": "分别记录本命行年及已见神煞候选，缺必要输入未定",
+      "output": "候选及缺失原因",
+      "exceptions_and_limits": "卷三未学，不能填造年命或宣称完整算法",
+      "source_pages": "59,65–72,80,86–90,99",
+      "c1_sessions": "0117,0119,0120,0122,0124–0127",
+      "issue_ids": [
+        "DLR-OPEN-0021",
+        "DLR-OPEN-0028"
+      ],
+      "example_or_counterexample": "古例行年缺完整输入",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R061",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "天将类象与乘支纲领",
+      "concept_ids": [
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C047",
+        "DLR-C1-C053",
+        "DLR-C1-C091"
+      ],
+      "inputs": "将、乘支、占问明确",
+      "rule_or_condition": "作者将主事、乘支司吉凶；合象另查位置和状态",
+      "output": "传统解释候选",
+      "exceptions_and_limits": "不排除本体生克，不凭将判实际违法等",
+      "source_pages": "77–85",
+      "c1_sessions": "0122–0123",
+      "issue_ids": [
+        "DLR-OPEN-0028",
+        "DLR-OPEN-0039"
+      ],
+      "example_or_counterexample": "贵人乘支为妻财非固定财",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED"
+    },
+    {
+      "id": "DLR-C1-R062",
+      "layer": "L7",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "课体结构与适用域",
+      "concept_ids": [
+        "DLR-C1-C096",
+        "DLR-C1-C033",
+        "DLR-C1-C091",
+        "DLR-C1-C087"
+      ],
+      "inputs": "预先声明组合条件、来源及占问",
+      "rule_or_condition": "取传门、结构标签、传统解释分别记录",
+      "output": "课体候选",
+      "exceptions_and_limits": "毕法赋套用率非命中率，不事后选格",
+      "source_pages": "50–52",
+      "c1_sessions": "0115",
+      "issue_ids": [
+        "DLR-OPEN-0017",
+        "DLR-OPEN-0018"
+      ],
+      "example_or_counterexample": "铸印结构与火金解释分层",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R063",
+      "layer": "L7",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "三传过程及内外角色",
+      "concept_ids": [
+        "DLR-C1-C097",
+        "DLR-C1-C098",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C032"
+      ],
+      "inputs": "初中末、占问明确",
+      "rule_or_condition": "初中末可表开始过程结果；内外依角色及位置说明",
+      "output": "条件性解释",
+      "exceptions_and_limits": "非固定时间跨度，不设全局内外字段",
+      "source_pages": "24–25,69–76",
+      "c1_sessions": "0105,0120–0121",
+      "issue_ids": [
+        "DLR-OPEN-0024",
+        "DLR-OPEN-0038"
+      ],
+      "example_or_counterexample": "488域初传出现跨两侧62、来源双侧41",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED"
+    },
+    {
+      "id": "DLR-C1-R064",
+      "layer": "L7",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "三传组合与回环透关",
+      "concept_ids": [
+        "DLR-C1-C043",
+        "DLR-C1-C096",
+        "DLR-C1-C097",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042"
+      ],
+      "inputs": "四课与三传已定",
+      "rule_or_condition": "回环候选为三传支均在四课上神集合；透关、前引后从、进退茹间传独立列有序条件",
+      "output": "结构候选",
+      "exceptions_and_limits": "透关残句未裁；两传在课非充分条件",
+      "source_pages": "73–76",
+      "c1_sessions": "0121",
+      "issue_ids": [
+        "DLR-OPEN-0038"
+      ],
+      "example_or_counterexample": "488域回环69、恰两传247",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL"
+    },
+    {
+      "id": "DLR-C1-R065",
+      "layer": "L7",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "夹克与攒眉",
+      "concept_ids": [
+        "DLR-C1-C099",
+        "DLR-C1-C100",
+        "DLR-C1-C056",
+        "DLR-C1-C047",
+        "DLR-C1-C057"
+      ],
+      "inputs": "初传支、所临宫、天将本体、日干明确",
+      "rule_or_condition": "夹克=宫与将分别克初传支；攒眉=初传支及宫分别克日干",
+      "output": "两种结构",
+      "exceptions_and_limits": "不互相等同，不作实际病灾判断",
+      "source_pages": "73,86",
+      "c1_sessions": "0121,0124",
+      "issue_ids": [
+        "DLR-OPEN-0040"
+      ],
+      "example_or_counterexample": "甲子D3昼夜可改变夹克",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED"
+    },
+    {
+      "id": "DLR-C1-R066",
+      "layer": "L7",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "六亲制化与救神",
+      "concept_ids": [
+        "DLR-C1-C100",
+        "DLR-C1-C053",
+        "DLR-C1-C054",
+        "DLR-C1-C064",
+        "DLR-C1-C072",
+        "DLR-C1-C085",
+        "DLR-C1-C087"
+      ],
+      "inputs": "占问、具体作用对象、状态与方向",
+      "rule_or_condition": "子孙制鬼、父母生身等传统解释；另查候选存在与状态",
+      "output": "制化解释候选",
+      "exceptions_and_limits": "求官鬼未必凶，共现不等于有效制化",
+      "source_pages": "85–95",
+      "c1_sessions": "0123–0126",
+      "issue_ids": [
+        "DLR-OPEN-0029",
+        "DLR-OPEN-0040",
+        "DLR-OPEN-0041"
+      ],
+      "example_or_counterexample": "488域鬼及子孙共现130",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED"
+    },
+    {
+      "id": "DLR-C1-R067",
+      "layer": "L7",
+      "kind": "RESEARCH_HYPOTHESIS",
+      "name": "信息同源依赖标识",
+      "concept_ids": [
+        "DLR-C1-C073",
+        "DLR-C1-C031",
+        "DLR-C1-C032",
+        "DLR-C1-C090",
+        "DLR-C1-C102"
+      ],
+      "inputs": "位置ID、角色ID、来源及依赖已记",
+      "rule_or_condition": "同位置共享支属性，同空源可跨位置，派生边另标",
+      "output": "依赖图候选",
+      "exceptions_and_limits": "不假定统计独立或权重，不删角色",
+      "source_pages": "3,21,80,92–95",
+      "c1_sessions": "0098,0104,0122,0125–0127",
+      "issue_ids": [
+        "DLR-OPEN-0041"
+      ],
+      "example_or_counterexample": "癸酉D7卯第二课兼初传",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PROPOSED"
+    },
+    {
+      "id": "DLR-C1-R068",
+      "layer": "L7",
+      "kind": "RESEARCH_HYPOTHESIS",
+      "name": "整体气势与冲突管理",
+      "concept_ids": [
+        "DLR-C1-C101",
+        "DLR-C1-C100",
+        "DLR-C1-C102",
+        "DLR-C1-C087"
+      ],
+      "inputs": "冻结占问、输入及规则版本",
+      "rule_or_condition": "逐项记成立、不成立、输入不足、规则未裁，保留证据及冲突；先固定气势候选再检验",
+      "output": "判断状态和解释候选",
+      "exceptions_and_limits": "无统一评分，不能结果反推气势",
+      "source_pages": "4,48–52,93–106",
+      "c1_sessions": "0098,0115,0125–0128",
+      "issue_ids": [
+        "DLR-OPEN-0005",
+        "DLR-OPEN-0006",
+        "DLR-OPEN-0016",
+        "DLR-OPEN-0017",
+        "DLR-OPEN-0041",
+        "DLR-OPEN-0043"
+      ],
+      "example_or_counterexample": "空亡不因成功删除",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PROPOSED"
+    },
+    {
+      "id": "DLR-C1-R069",
+      "layer": "L7",
+      "kind": "RESEARCH_HYPOTHESIS",
+      "name": "来意及实际效验比较",
+      "concept_ids": [
+        "DLR-C1-C087",
+        "DLR-C1-C091",
+        "DLR-C1-C097",
+        "DLR-C1-C102"
+      ],
+      "inputs": "预先冻结问事、输入、基准和评价",
+      "rule_or_condition": "对照正时、发用、干上等入口，记录成功失败未知及反馈",
+      "output": "验证方案入口",
+      "exceptions_and_limits": "未实施，不能声称提高准确率",
+      "source_pages": "69–72",
+      "c1_sessions": "0120",
+      "issue_ids": [
+        "DLR-OPEN-0005",
+        "DLR-OPEN-0026"
+      ],
+      "example_or_counterexample": "事前对照待设计",
+      "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PROPOSED"
+    }
+  ]
+}
