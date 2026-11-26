@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_on": "2026-11-24",
+  "updated_on": "2026-11-26",
   "entries": [
     {
       "id": "DLR-OPEN-0001",
@@ -218,6 +218,14 @@
       "required_evidence": "2026-11-22 independent re-review from user private Library photos directly reopened exact modern printed p1–15 and p17–76, total 75/76 distinct pages. Library chronological source list contained a non-book chart image and another-classic photo between p15 and p17; no directly accessible p16 original print source was established this turn. User previously said all pages were shared. Existing GitHub study summaries are not a substitute for source in a new independent audit. Do not infer user failed to share; do not claim p16 photo reviewed this turn, reconstruct p16 from adjacent pp15/17, or ask user to reupload while other source routes remain.",
       "next_action": "Attempt to recover exact previously shared p16 print from conversation/Project/Library surfaces and verify its source page number; if obtained, privately inspect only printed text and update SESSION-0049 front-matter/coverage log by an explicit forward addendum, never rewriting historical audit evidence. In the meantime, continue unaffected p76 and later sections.",
       "resolution": "2026-11-22: User supplied the physical printed p16 image again and assistant independently examined its printed text. The historical source registry already had DLR-WIT-0018 from 2026-11-18, proving the page was previously shared and recorded; the preceding session's failure was an image retrieval gap, not an earlier missing delivery. All p1–76 print photos now directly revisited across successive 2026-11-22 responses; this closes ONLY image completeness, not per-case math verification or predictive validity."
+    },
+    {
+      "id": "DLR-OPEN-0028",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "卷二p77–85神将分工、空陷参照及多义条件选择",
+      "required_evidence": "Direct private printed p77–85, SESSION-0054. Distinguish general identity, mounted heaven branch, earth palace, day stem/branch and query. Email and promotion chart core values reproduced; p80 亥 nonvoid on void 辰 vs 辰 itself void, p84 玄武 classic vs gloss, p80 repeated 子乘龙合 and 传将逆行 wording. No independent outcome/edition verification.",
+      "next_action": "Jointly read in order, check classical witnesses after initial book study; distinguish source claim, calculated predicate and empirical result. Keep p76 unresolved items and do not advance joint frontier automatically."
     }
   ]
 }
