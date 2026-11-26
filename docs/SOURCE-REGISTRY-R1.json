@@ -444,7 +444,8 @@
         "Physical printed page marked 23 follows vol I fourth method 遥克 after p22",
         "No intra-lesson upward/downward overcoming; example of second lesson upper 申 overcoming day stem 甲 uses 申 as initial, transmissions 申巳戌 (蒿矢)",
         "Another example of second lesson upper 寅 overcome by day stem 庚 takes 寅 as initial, transmissions 寅巳申 (弹射)",
-        "After the single-candidate examples, visible print introduces 比用 selection if two upper gods overcome day stem, or if day stem overcomes two upper gods while none overcome the day stem"
+        "After the single-candidate examples, visible print introduces 比用 selection if two upper gods overcome day stem, or if day stem overcomes two upper gods while none overcome the day stem",
+        "2026-11-26 SESSION-0104 forward correction: earlier entry 申巳戌 is an erroneous transcription, original print and D9 calculation both 申巳寅. Full four remote examples checked; p24 opening completes 午酉子."
       ],
       "limits": "Edition and imprint still unbound. Does not establish full original text outside printed p23. All handwriting on private photo excluded from reading, storage and publication. Reader's joint discussion currently only addresses general conditions and whether 支神 means 上神 in this passage; detailed multi-candidate examples not yet jointly checked. p24 not received.",
       "rights": "PRIVATE_PHOTO_ONLY_ORIGINAL_SUMMARY_NO_PUBLIC_REPRODUCTION"
@@ -462,7 +463,8 @@
         "Yin (柔) day: earth-plate branch under heaven-plate 酉 as first, first-lesson upper as middle, third-lesson upper as last; name 冬蛇掩目",
         "Printed case 辰将卯时 戊申日: initial 戌, middle 酉, last 午",
         "Printed case 丑将辰时 丁丑日: initial 子, middle 辰, last 戌",
-        "Printed sixth method 别责法 heading and initial paragraph begin at bottom of this page"
+        "Printed sixth method 别责法 heading and initial paragraph begin at bottom of this page",
+        "2026-11-26 SESSION-0104 private page retrieved and opening completes p23; p24 full C1 audit pending."
       ],
       "limits": "Not bound to exact print edition or complete following page. This page's positive examples do not fully resolve the meaning of 四课全 in every special case. This session is assistant independent print interpretation; reader has only supplied page, not yet discussed its full operation. Personal historical handwritten annotations not read, indexed, stored or published.",
       "rights": "PRIVATE_PHOTO_ONLY_ORIGINAL_SUMMARY_NO_PUBLIC_REPRODUCTION"
@@ -1981,6 +1983,19 @@
       ],
       "limits": "Private print; handwriting excluded; historical edition and outcomes unverified.",
       "rights": "PRIVATE_PRINTED_PHOTO_ONLY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0107",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned private physical printed 六壬金针 p21–22, re-opened from historical Library images",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "SESSION-0104 C1 actual p21–22 direct printed-page reread; biyong three examples, shehai two examples, remote-overcoming entry, p23 bridge."
+      ],
+      "limits": "Private image location recorded outside public repository; raw-byte migration denied; full original backup not verified; edition and efficacy unverified.",
+      "rights": "PRIVATE_PHOTO_ONLY_ORIGINAL_SUMMARY_NO_PUBLIC_REPRODUCTION"
     }
   ]
 }
