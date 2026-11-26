@@ -55,8 +55,8 @@
       "priority": "P1",
       "status": "OPEN",
       "title": "《六壬金针》实体本p9阴干无刃与同题在线卷二阴干有刃、土胎额外子位的规则边界",
-      "required_evidence": "以用户实体书卷二p101及后续实际页照片为准核“阴干羊刃”和长生/胎位完整文字；明确网络文本的底本、印次和转录准确性。分别复核土胎午与子兼用的含义、干禄与五行旺的模型边界，寻找同书对应课例并标注所采用规则版本。 New online classical crosscheck SESSION-0015: 《六壬大全》卷11/四库本卷09胎财生气妻怀孕条 explicitly records 戊己土胎在子 and an alternative 午; 《六壬粹言》 online text also uses 子 as fetal spirit, but the underlying historical printing is not examined.",
-      "next_action": "Discuss physical p9 earth-fetal 子 in context: regular water-earth lifecycle gives 土胎午; classical 胎财生气胎神 usage explicitly permits 子 with 午 as alternative, but conditions are not yet fully established. Later verify physical volume II p101 yin-blade statement against online did=820, and vol IV p165 fetal cases. Do not claim that p101 paper was read or that p9 has been jointly closed."
+      "required_evidence": "以用户实体书卷二p101及后续实际页照片为准核“阴干羊刃”和长生/胎位完整文字；明确网络文本的底本、印次和转录准确性。分别复核土胎午与子兼用的含义、干禄与五行旺的模型边界，寻找同书对应课例并标注所采用规则版本。 New online classical crosscheck SESSION-0015: 《六壬大全》卷11/四库本卷09胎财生气妻怀孕条 explicitly records 戊己土胎在子 and an alternative 午; 《六壬粹言》 online text also uses 子 as fetal spirit, but the underlying historical printing is not examined.\n2026-11-26 actual p102–103 directly reviewed: yin stem lodging as blade explicitly lists 乙辰、丁己未、辛戌、癸丑; contradiction with previously directly read p9 now confirmed within user print, no need to rely on online did=820. Current p9 photo not reopened; no edition resolution. 五行大义 full online section soil胎子 and alternative soil positions confirms historical diversity, not direct lineage.",
+      "next_action": "Keep both p9 and p102–103 yin blade rules; compare classical definitions and practical cases; review p130 and p165 fetal usage; don't silently merge or select production default."
     },
     {
       "id": "DLR-OPEN-0008",
@@ -250,6 +250,14 @@
       "title": "卷二p95–101合刑冲破害参照、三六相呼、中神、武科例与p101疑字",
       "required_evidence": "Direct printed p95 lower–101 upper; SESSION-0057. Seven distinct four-lesson layouts computed; p97 half-combination without middle branch; p98 寅亥 simultaneously 合/破; p99 甲戌 hour stem discrepancy, 重审 vs narrow 始入, 太阴临卯 and 乙奇 notation unresolved. p101 子酉卯午 called 冲 and 丑辰未戌 called 害; all four are 破 under vol I. Mod-12 proof of upper/lower clash; 720 abstract configurations enumerate two all-self-punishment branch sets, not actual prediction frequency. Historical outcomes not independently verified. User jointly discussed relationship-based interpretation of 合 and multi-party 三合; online indexed 卷四 大六壬神煞指南 matches directed 刑 verses and 六害 wording, classification is not new independent algorithm. Need full edition collation; distinguish pure relative clauses from trine-group relatives. 2026-11-26 second review: cross-car pair equations identical (60/720 abstract configurations), double upper/lower 六合 requires d0/6 (10/720), constructed 乙酉 d4 三六相呼 without upper pair 六合; distinct pure relatives require all earth, separate from trine. Indexed 指南 annotation proposes alternate generals matching 甲昼贵丑 reverse; 朱雀乘亥 has ordinary 乙旬遁, not necessarily void stem issue. Actual 亥 night input conflicts; full ctext/taiyi source unavailable in open, no facsimile. Keep p101 original text and all historical conditions.",
       "next_action": "Retain through volume II review; next section VIII p101 lower, p102+ not received."
+    },
+    {
+      "id": "DLR-OPEN-0032",
+      "priority": "P1",
+      "status": "OPEN",
+      "title": "卷二p101–103长生、生克、禄旺刃、病死墓绝及胎父的取用条件",
+      "required_evidence": "SESSION-0058 direct print: longsheng metal-fire and earth-metal normally overrides 克/脱 in interpretation except bilateral harm/leak; 沐浴 wood子/fire卯 takes 生 iff 旺相吉将 per author examples; 病位 three of five phases leak, 火申财土寅鬼; 甲申 D4 double死 structure recomputed; distinguish death stage vs 神煞死气 and season. 玄胎 ordinary distinct all-Meng triple requires d3/9; not sufficient for actual nine-method chart. 胎父 referents/void scope, 墓绝 global-local priority, mnemonic coverage and medical/empirical limitations open. p9 yin blade conflict DLR-OPEN-0007. 五行大义 online text not edition-collated.",
+      "next_action": "Joint study and targeted second review; connect section IX seasonal and heaven-earth strength after p104–106 supplied; retain through volume II spiral reread and later p130/p165."
     }
   ]
 }
