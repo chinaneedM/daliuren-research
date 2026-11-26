@@ -1774,6 +1774,45 @@
       ],
       "limits": "Indexed excerpts only, no historical edition collation or empirical validation.",
       "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0018",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://ctext.org/wiki.pl?chapter=443151&if=gb&remap=gb",
+      "provider": "中国哲学书电子化计划《六壬指南注解》卷三",
+      "evidence_grade": "PUBLIC_SEARCH_INDEX_EXCERPT_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "indexed 武科例 and chart; page open 403"
+      ],
+      "limits": "Indexed excerpt only, not edition-bound or independent historical outcome evidence.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0019",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.taiyi.me/book/index?id=214254543474757",
+      "provider": "太乙书局《注解大六壬指南》卷三检索片段",
+      "evidence_grade": "PUBLIC_SEARCH_INDEX_EXCERPT_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "annotation reports chart inconsistency; opened page mismatched"
+      ],
+      "limits": "Indexed excerpt only, not edition-bound or independent historical outcome evidence.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
+    },
+    {
+      "id": "DLR-WIT-WEB-0020",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://libokang.com/classics/liuren/%E6%B3%A8%E8%A7%A3%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/",
+      "provider": "注解大六壬指南检索片段",
+      "evidence_grade": "PUBLIC_SEARCH_INDEX_EXCERPT_NO_FACSIMILE_COLLATION",
+      "accessed_date": "2026-11-26",
+      "facts_checked": [
+        "alternative generals and 朱雀乘亥遁乙 explanation"
+      ],
+      "limits": "Indexed excerpt only, not edition-bound or independent historical outcome evidence.",
+      "rights": "BIBLIOGRAPHIC_FACTS_AND_ORIGINAL_ANALYSIS_ONLY"
     }
   ]
 }
