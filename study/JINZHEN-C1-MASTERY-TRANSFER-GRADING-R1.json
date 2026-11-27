@@ -1,0 +1,478 @@
+{
+  "schema": "DLR_C1_MASTERY_TRANSFER_GRADING_R1",
+  "date": "2026-11-27",
+  "exam_commit": "1d3485e0d12c0016de3f426c6450b24415ae4ccc",
+  "answer_commit": "b34f57d5afa6cbbfb4e71693f83a144bc2ff72e5",
+  "original_score": 100,
+  "score": 40,
+  "maximum": 40,
+  "criteria": "冻结40分标准，每题≥4且总分≥34、无关键错误",
+  "critical_errors_found": [],
+  "grades": [
+    {
+      "id": "T01",
+      "criteria": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 5,
+      "max": 5,
+      "reason": "T01 阴丁八专，两源、无课内克；第四卯退二至丑，中末巳；上下生克叙述一致。"
+    },
+    {
+      "id": "T02",
+      "criteria": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 5,
+      "max": 5,
+      "reason": "T02 阳戊昴星，四源无克无遥，地盘酉上巳，第三申中、第一丑末；不反查。"
+    },
+    {
+      "id": "T03",
+      "criteria": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 5,
+      "max": 5,
+      "reason": "T03 普通全不比，第二下贼午、第三下贼戌，同为阳，完整保留两候选和条件三传；未把涉害回退作为默认。"
+    },
+    {
+      "id": "T04",
+      "criteria": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 5,
+      "max": 5,
+      "reason": "T04 阴辛别责，三源无克无遥；酉顺进四辰丑，中末酉，明确柔日推广候选和非天盘再查。"
+    },
+    {
+      "id": "T05",
+      "criteria": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 5,
+      "max": 5,
+      "reason": "T05 壬伏吟初亥自刑，中改第三寅，寅刑巳末；无克阳取干，区别断义刑与取传。"
+    },
+    {
+      "id": "T06",
+      "criteria": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 5,
+      "max": 5,
+      "reason": "T06 夜贵未临辰顺行，完整12将一致，辰宫依据p47且保留p33疑字。"
+    },
+    {
+      "id": "T07",
+      "criteria": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 5,
+      "max": 5,
+      "reason": "T07 唯一下贼未，未亥卯；甲申旬午未空；七角色状态、来源均匹配；未/卯各自跨角色，未与亥共享未空源。"
+    },
+    {
+      "id": "T08",
+      "criteria": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 5,
+      "max": 5,
+      "reason": "T08 卯月木旺火相土死金囚水休，季节囚、丑生申、申临丑墓分层；长短期为条件倾向，未知和季末未裁正确。"
+    }
+  ],
+  "verification": {
+    "A": [
+      {
+        "id": "T01",
+        "d": 10,
+        "lessons": "巳/丁、卯/巳、巳/未、卯/巳",
+        "src": "未巳未巳",
+        "u": [
+          "巳",
+          "卯",
+          "巳",
+          "卯"
+        ],
+        "relations": [
+          "同",
+          "上生下",
+          "上生下",
+          "上生下"
+        ],
+        "down": [],
+        "up": [],
+        "candidates": [],
+        "same": [],
+        "remoteUp": [],
+        "remoteDown": [],
+        "gate": "八专",
+        "trans": "丑巳巳",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "T02",
+        "d": 8,
+        "lessons": "丑/戊、酉/丑、申/子、辰/申",
+        "src": "巳丑子申",
+        "u": [
+          "丑",
+          "酉",
+          "申",
+          "辰"
+        ],
+        "relations": [
+          "同",
+          "下生上",
+          "上生下",
+          "上生下"
+        ],
+        "down": [],
+        "up": [],
+        "candidates": [],
+        "same": [],
+        "remoteUp": [],
+        "remoteDown": [],
+        "gate": "昴星",
+        "trans": "巳申丑",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "T03",
+        "d": 7,
+        "lessons": "亥/乙、午/亥、戌/卯、巳/戌",
+        "src": "辰亥卯戌",
+        "u": [
+          "亥",
+          "午",
+          "戌",
+          "巳"
+        ],
+        "relations": [
+          "上生下",
+          "下贼",
+          "下贼",
+          "上生下"
+        ],
+        "down": [
+          2,
+          3
+        ],
+        "up": [],
+        "candidates": [
+          "午",
+          "戌"
+        ],
+        "same": [],
+        "remoteUp": [],
+        "remoteDown": [
+          "戌"
+        ],
+        "gate": "贼克/全不比",
+        "trans": null,
+        "conditionals": [
+          "午丑申",
+          "戌巳子"
+        ],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "T04",
+        "d": 11,
+        "lessons": "酉/辛、申/酉、申/酉、未/申",
+        "src": "戌酉酉申",
+        "u": [
+          "酉",
+          "申",
+          "申",
+          "未"
+        ],
+        "relations": [
+          "同",
+          "同",
+          "同",
+          "上生下"
+        ],
+        "down": [],
+        "up": [],
+        "candidates": [],
+        "same": [],
+        "remoteUp": [],
+        "remoteDown": [],
+        "gate": "别责",
+        "trans": "丑酉酉",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "T05",
+        "d": 0,
+        "lessons": "亥/壬、亥/亥、寅/寅、寅/寅",
+        "src": "亥亥寅寅",
+        "u": [
+          "亥",
+          "亥",
+          "寅",
+          "寅"
+        ],
+        "relations": [
+          "同",
+          "同",
+          "同",
+          "同"
+        ],
+        "down": [],
+        "up": [],
+        "candidates": [],
+        "same": [],
+        "remoteUp": [],
+        "remoteDown": [],
+        "gate": "伏吟",
+        "trans": "亥寅巳",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      }
+    ],
+    "B06": {
+      "id": "T06",
+      "d": 3,
+      "daytime": false,
+      "noble": "未",
+      "seat": "辰",
+      "direction": 1,
+      "map": [
+        "青龙",
+        "天空",
+        "白虎",
+        "太常",
+        "玄武",
+        "太阴",
+        "天后",
+        "贵人",
+        "腾蛇",
+        "朱雀",
+        "六合",
+        "勾陈"
+      ],
+      "map_match": true
+    },
+    "C07": {
+      "id": "T07",
+      "d": 4,
+      "lessons": "卯/壬、未/卯、申/辰、子/申",
+      "src": "亥卯辰申",
+      "u": [
+        "卯",
+        "未",
+        "申",
+        "子"
+      ],
+      "relations": [
+        "下生上",
+        "下贼",
+        "下生上",
+        "下生上"
+      ],
+      "down": [
+        2
+      ],
+      "up": [],
+      "candidates": [
+        "未"
+      ],
+      "same": [],
+      "remoteUp": [
+        "未"
+      ],
+      "remoteDown": [],
+      "gate": "贼克",
+      "trans": "未亥卯",
+      "conditionals": [],
+      "xun_start": "甲申",
+      "voids": [
+        "午",
+        "未"
+      ],
+      "rows": [
+        {
+          "role": "第一课上神",
+          "h": "卯",
+          "seat": "亥",
+          "xun": false,
+          "fall": false,
+          "xun_source": null,
+          "fall_source": null,
+          "match": true
+        },
+        {
+          "role": "第二课上神",
+          "h": "未",
+          "seat": "卯",
+          "xun": true,
+          "fall": false,
+          "xun_source": "未",
+          "fall_source": null,
+          "match": true
+        },
+        {
+          "role": "第三课上神",
+          "h": "申",
+          "seat": "辰",
+          "xun": false,
+          "fall": false,
+          "xun_source": null,
+          "fall_source": null,
+          "match": true
+        },
+        {
+          "role": "第四课上神",
+          "h": "子",
+          "seat": "申",
+          "xun": false,
+          "fall": false,
+          "xun_source": null,
+          "fall_source": null,
+          "match": true
+        },
+        {
+          "role": "初传",
+          "h": "未",
+          "seat": "卯",
+          "xun": true,
+          "fall": false,
+          "xun_source": "未",
+          "fall_source": null,
+          "match": true
+        },
+        {
+          "role": "中传",
+          "h": "亥",
+          "seat": "未",
+          "xun": false,
+          "fall": true,
+          "xun_source": null,
+          "fall_source": "未",
+          "match": true
+        },
+        {
+          "role": "末传",
+          "h": "卯",
+          "seat": "亥",
+          "xun": false,
+          "fall": false,
+          "xun_source": null,
+          "fall_source": null,
+          "match": true
+        }
+      ],
+      "sharedPositions": [
+        {
+          "h": "卯",
+          "roles": [
+            "第一课上神",
+            "末传"
+          ]
+        },
+        {
+          "h": "未",
+          "roles": [
+            "第二课上神",
+            "初传"
+          ]
+        }
+      ],
+      "sharedSources": [
+        {
+          "source": "未",
+          "positions": [
+            "未",
+            "亥"
+          ]
+        }
+      ]
+    },
+    "D08": {
+      "main": "木",
+      "status": [
+        {
+          "element": "木",
+          "state": "旺"
+        },
+        {
+          "element": "火",
+          "state": "相"
+        },
+        {
+          "element": "土",
+          "state": "死"
+        },
+        {
+          "element": "金",
+          "state": "囚"
+        },
+        {
+          "element": "水",
+          "state": "休"
+        }
+      ],
+      "states_match": true,
+      "example": {
+        "upper": "申",
+        "seat": "丑",
+        "season": "囚",
+        "relationship": "下生上",
+        "stage": "墓"
+      }
+    }
+  },
+  "method": "独立数字表及有向关系研究脚本复算，自动核对A的四课课源和传值/条件候选、B全配将、C七角色逐字段、D五行状态；解释及其他项目逐条对照答卷及已有原页审读档案。自评非第三方盲测。",
+  "result": "PASS_WITHIN_FROZEN_SAMPLE",
+  "remaining_limits": [
+    "题目设计、作答、复核同一助手；知筛选类别和研究口径，存在上下文",
+    "有限29题（21+8），不穷尽720结构及所有时历、天将、类象或课体变体",
+    "T04柔日+4为候选规则；T03全不比仍未裁；辰顺为本书内证；季末土旺未裁",
+    "非独立版本校勘、现实占验或用户掌握考核",
+    "没有长期延迟复测或新的原页覆盖"
+  ],
+  "closure": "累计知识体系重建R1五批完成；现有样本未发现要求整卷重读的实质缺口，暂不启动C2；保留原规则/问题状态，恢复p105–106共同讨论，实际取得p107起原页再读卷三。"
+}
