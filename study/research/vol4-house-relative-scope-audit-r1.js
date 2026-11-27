@@ -1,0 +1,6 @@
+// SESSION-0217: abstract relative-scope enumeration; not full chart or forecast.
+const r=[2,4,5,7,5,7,8,10,11,1],be=[4,2,0,0,2,1,1,2,3,3,2,4],m=(x,n=12)=>(x%n+n)%n,sheng=(x,y)=>m(y-x,5)===1,ke=(x,y)=>m(y-x,5)===2;
+let dep=[0,0,0,0],ghost=[0,0,0,0],depSame=0,ghostSame=0,depVoid=[0,0,0,0],ghostVoid=[0,0,0,0],types=[0,0,0,0],roleRel=[{}, {}, {}, {}],trOverlap=0;
+for(let i=0;i<60;i++){let a=Math.floor(i%10/2),z=be[i%12];for(let D=0;D<12;D++){let p=m(r[i%10]+D),q=m(i%12+D),u=be[p],v=be[q],da=sheng(a,u)&&sheng(z,v),db=sheng(z,u)&&sheng(a,v),ga=ke(u,a)&&ke(v,z),gb=ke(u,z)&&ke(v,a),isVoid=h=>[m(10*Math.floor(i/10)+10),m(10*Math.floor(i/10)+11)].some(x=>x===h||x===m(h-D)),k1=Number(da)+2*Number(db),k2=Number(ga)+2*Number(gb);dep[k1]++;ghost[k2]++;if(isVoid(p)||isVoid(q)){depVoid[k1]++;ghostVoid[k2]++;}if(da&&db&&p===q)depSame++;if(ga&&gb&&p===q)ghostSame++;}
+for(let t=0;t<5;t++){let arr=[sheng(z,t)&&sheng(t,a),sheng(a,t)&&sheng(t,z),sheng(t,z)&&ke(t,a),sheng(t,a)&&ke(t,z)];if(arr.filter(Boolean).length>1)trOverlap++;arr.forEach((x,j)=>{if(x){types[j]++;let k=m(z-a,5);roleRel[j][k]=(roleRel[j][k]||0)+1;}});}}
+console.log({dep,ghost,depSame,ghostSame,depVoid,ghostVoid,types,roleRel,trOverlap});
