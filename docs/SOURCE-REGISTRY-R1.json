@@ -4818,6 +4818,45 @@
       "accessed_date": "2026-11-27",
       "limits": "在线资料，古籍未核古刻及传本独立性；历表非真实占时；均不构成预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0315",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://shuyuan.zhiming.life/read/%E5%BE%A1%E5%AE%9A%E5%85%AD%E5%A3%AC%E7%9B%B4%E6%8C%87/22",
+      "provider": "知命书院直指甲戌第十二局",
+      "facts_checked": [
+        "l51–62 知一进茹、交车六合、亥水制火、初财夹克及末生初、古仕宦另例"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性；历表非实际占时；非预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0316",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全/2",
+      "provider": "维基文库大全卷二",
+      "facts_checked": [
+        "l243–246 午丝绣衣服蚕丝，l281巳匹帛，l321–341卯类象，l351寅机杼，l386子丝布帛染匠"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性；历表非实际占时；非预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0317",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2005/rekiyou052.html",
+      "provider": "日本国立天文台2005历要项",
+      "facts_checked": [
+        "l25–28 清明谷雨日本标准时间，谷雨北京时间4月20日07:37"
+      ],
+      "evidence_grade": "ONLINE_OFFICIAL_ALMANAC_TARGETED_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性；历表非实际占时；非预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
