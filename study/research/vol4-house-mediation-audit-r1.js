@@ -1,0 +1,5 @@
+// SESSION-0223: finite structural candidates only; no prediction or medical validation.
+const r=[2,4,5,7,5,7,8,10,11,1],m=(x,n=12)=>(x%n+n)%n;
+let out={gengNight:0,wuSnake:0,wuSnakeInFour:0,wuSnakeInFirst:0,wuSnakeInThird:0,wuSnakeVoid:0,zhongDayChouOver:0,zhongDayChouVoid:0},matrix=[];
+for(let i=0;i<60;i++){let s=i%10,b=i%12,v=[m(10*Math.floor(i/10)+10),m(10*Math.floor(i/10)+11)];if(b%3===0){out.zhongDayChouOver++;if(v.includes(1)||v.includes(b))out.zhongDayChouVoid++;}if(s===6)for(let D=0;D<12;D++){out.gengNight++;let N=7,sgn=[0,1,2,3,4,11].includes(m(N-D))?1:-1,G=h=>m(sgn*(h-N)),a=m(r[s]+D),z=m(b+D),x=[a,m(a+D),z,m(z+D)];if(G(6)===1){out.wuSnake++;if(x.includes(6))out.wuSnakeInFour++;if(a===6)out.wuSnakeInFirst++;if(z===6)out.wuSnakeInThird++;if(v.includes(6)||v.includes(m(6-D)))out.wuSnakeVoid++;}}}
+for(let t=0;t<5;t++){let target=m(t+2,5),rescue=m(t+1,5),direct=m(t-2,5);matrix.push({t,target,rescue,direct,chain:m(rescue-t,5)===1&&m(target-rescue,5)===1,control:m(t-direct,5)===2});}console.log({out,matrix});
