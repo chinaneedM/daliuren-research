@@ -5000,6 +5000,58 @@
       "accessed_date": "2026-11-27",
       "limits": "在线录文未核古刻、传本独立性、实际反馈及预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0329",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://gushu.net.cn/guji/易藏/术数/六壬直指御定-2.html",
+      "provider": "古书网直指甲子第十二局",
+      "facts_checked": [
+        "l10–16 同型重审进茹、夹克、末助初、功名反例和春夏昼占限制"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性、事前记录或预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0330",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://wk.100ke.info/zh-hans/六壬大全_(四库全书本)/全览",
+      "provider": "四库大全全览",
+      "facts_checked": [
+        "l209–210 皇书四季及其他诏书神煞表"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性、事前记录或预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0331",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全/2",
+      "provider": "维基文库大全卷二",
+      "facts_checked": [
+        "l612–631 勾陈印信、官员旺衰条件、巳捧印"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性、事前记录或预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0332",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.qiwentop.com/yizang/shu-shu/liu-ren-da-quan/8/",
+      "provider": "法海经藏大全卷六终",
+      "facts_checked": [
+        "l1338、1366–1374 顺连茹及辰巳午升阶"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性、事前记录或预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
