@@ -1,0 +1,970 @@
+{
+  "schema": "DLR_C2_MASTERY_GRADING_R1",
+  "baseline_head": "8befa926af26928d88a1c86bdabbfcc5f931e0a1",
+  "exam": "study/JINZHEN-C2-MASTERY-EXAM-R1.json",
+  "original_answer": "study/JINZHEN-C2-MASTERY-ANSWERS-R1.md",
+  "reproduction_script": "study/research/c2-mastery-grading-r1.js",
+  "computed": {
+    "A": [
+      {
+        "id": "A01",
+        "d": 2,
+        "geometry": [
+          "甲→辰（寅）",
+          "辰→午（辰）",
+          "辰→午（辰）",
+          "午→申（午）"
+        ],
+        "relations": [
+          "下贼",
+          "上生下",
+          "上生下",
+          "下贼"
+        ],
+        "down": [
+          1,
+          4
+        ],
+        "up": [],
+        "candidates": "辰申",
+        "same": "辰申",
+        "remoteUp": "申",
+        "remoteDown": "辰",
+        "gate": "贼克/涉害",
+        "trans": "辰午申",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A02",
+        "d": 5,
+        "geometry": [
+          "辛→卯（戌）",
+          "卯→申（卯）",
+          "亥→辰（亥）",
+          "辰→酉（辰）"
+        ],
+        "relations": [
+          "下贼",
+          "上克",
+          "上克",
+          "下生上"
+        ],
+        "down": [
+          1
+        ],
+        "up": [
+          2,
+          3
+        ],
+        "candidates": "卯",
+        "same": "卯",
+        "remoteUp": "",
+        "remoteDown": "卯",
+        "gate": "贼克",
+        "trans": "卯申丑",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A03",
+        "d": 1,
+        "geometry": [
+          "丁→申（未）",
+          "申→酉（申）",
+          "卯→辰（卯）",
+          "辰→巳（辰）"
+        ],
+        "relations": [
+          "下贼",
+          "比和",
+          "下贼",
+          "上生下"
+        ],
+        "down": [
+          1,
+          3
+        ],
+        "up": [],
+        "candidates": "申辰",
+        "same": "",
+        "remoteUp": "",
+        "remoteDown": "申酉",
+        "gate": "贼克/全不比",
+        "trans": null,
+        "conditionals": [
+          "申酉戌",
+          "辰巳午"
+        ],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A04",
+        "d": 7,
+        "geometry": [
+          "戊→子（巳）",
+          "子→未（子）",
+          "辰→亥（辰）",
+          "亥→午（亥）"
+        ],
+        "relations": [
+          "下贼",
+          "上克",
+          "下贼",
+          "下贼"
+        ],
+        "down": [
+          1,
+          3,
+          4
+        ],
+        "up": [
+          2
+        ],
+        "candidates": "子亥午",
+        "same": "子午",
+        "remoteUp": "",
+        "remoteDown": "子亥",
+        "gate": "贼克/涉害/p43限定",
+        "trans": "子未寅",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A05",
+        "d": 0,
+        "geometry": [
+          "癸→丑（丑）",
+          "丑→丑（丑）",
+          "卯→卯（卯）",
+          "卯→卯（卯）"
+        ],
+        "relations": [
+          "上克",
+          "比和",
+          "比和",
+          "比和"
+        ],
+        "down": [],
+        "up": [
+          1
+        ],
+        "candidates": "丑",
+        "same": "丑",
+        "remoteUp": "丑",
+        "remoteDown": "",
+        "gate": "伏吟",
+        "trans": "丑戌未",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A06",
+        "d": 6,
+        "geometry": [
+          "乙→戌（辰）",
+          "戌→辰（戌）",
+          "未→丑（未）",
+          "丑→未（丑）"
+        ],
+        "relations": [
+          "下贼",
+          "比和",
+          "比和",
+          "比和"
+        ],
+        "down": [
+          1
+        ],
+        "up": [],
+        "candidates": "戌",
+        "same": "",
+        "remoteUp": "",
+        "remoteDown": "戌辰丑未",
+        "gate": "返吟有克",
+        "trans": "戌辰戌",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A07",
+        "d": 10,
+        "geometry": [
+          "己→巳（未）",
+          "巳→卯（巳）",
+          "未→巳（未）",
+          "巳→卯（巳）"
+        ],
+        "relations": [
+          "上生下",
+          "上生下",
+          "上生下",
+          "上生下"
+        ],
+        "down": [],
+        "up": [],
+        "candidates": "",
+        "same": "",
+        "remoteUp": "卯",
+        "remoteDown": "",
+        "gate": "八专",
+        "trans": "丑巳巳",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A08",
+        "d": 11,
+        "geometry": [
+          "辛→酉（戌）",
+          "酉→申（酉）",
+          "未→午（未）",
+          "午→巳（午）"
+        ],
+        "relations": [
+          "比和",
+          "比和",
+          "上生下",
+          "比和"
+        ],
+        "down": [],
+        "up": [],
+        "candidates": "",
+        "same": "",
+        "remoteUp": "午巳",
+        "remoteDown": "",
+        "gate": "蒿矢",
+        "trans": "巳辰卯",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A09",
+        "d": 8,
+        "geometry": [
+          "丙→丑（巳）",
+          "丑→酉（丑）",
+          "午→寅（午）",
+          "寅→戌（寅）"
+        ],
+        "relations": [
+          "下生上",
+          "下生上",
+          "上生下",
+          "下贼"
+        ],
+        "down": [
+          4
+        ],
+        "up": [],
+        "candidates": "戌",
+        "same": "戌",
+        "remoteUp": "",
+        "remoteDown": "酉",
+        "gate": "贼克",
+        "trans": "戌午寅",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A10",
+        "d": 6,
+        "geometry": [
+          "戊→亥（巳）",
+          "亥→巳（亥）",
+          "戌→辰（戌）",
+          "辰→戌（辰）"
+        ],
+        "relations": [
+          "下贼",
+          "下贼",
+          "比和",
+          "比和"
+        ],
+        "down": [
+          1,
+          2
+        ],
+        "up": [],
+        "candidates": "亥巳",
+        "same": "",
+        "remoteUp": "",
+        "remoteDown": "亥",
+        "gate": "返吟有克/全不比",
+        "trans": null,
+        "conditionals": [
+          "亥巳亥",
+          "巳亥巳"
+        ],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A11",
+        "d": 8,
+        "geometry": [
+          "戊→丑（巳）",
+          "丑→酉（丑）",
+          "子→申（子）",
+          "申→辰（申）"
+        ],
+        "relations": [
+          "比和",
+          "下生上",
+          "上生下",
+          "上生下"
+        ],
+        "down": [],
+        "up": [],
+        "candidates": "",
+        "same": "",
+        "remoteUp": "",
+        "remoteDown": "",
+        "gate": "昴星",
+        "trans": "巳申丑",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      },
+      {
+        "id": "A12",
+        "d": 10,
+        "geometry": [
+          "甲→子（寅）",
+          "子→戌（子）",
+          "申→午（申）",
+          "午→辰（午）"
+        ],
+        "relations": [
+          "上生下",
+          "上克",
+          "上克",
+          "下生上"
+        ],
+        "down": [],
+        "up": [
+          2,
+          3
+        ],
+        "candidates": "戌午",
+        "same": "戌午",
+        "remoteUp": "",
+        "remoteDown": "戌辰",
+        "gate": "贼克/涉害",
+        "trans": "午辰寅",
+        "conditionals": [],
+        "geometry_match": true,
+        "trans_match": true
+      }
+    ],
+    "B": [
+      {
+        "id": "B01",
+        "d": 7,
+        "noble": "未",
+        "seat": "子",
+        "direction": "顺",
+        "gmap": [
+          "青龙",
+          "天空",
+          "白虎",
+          "太常",
+          "玄武",
+          "太阴",
+          "天后",
+          "贵人",
+          "腾蛇",
+          "朱雀",
+          "六合",
+          "勾陈"
+        ],
+        "xun": "甲午",
+        "voids": "辰巳",
+        "headTailDing": "午卯酉",
+        "targets": [
+          {
+            "row": [
+              "丑",
+              "父母",
+              "辛兄弟",
+              "丁官鬼",
+              "午",
+              "否/无",
+              "否/无"
+            ],
+            "match": true
+          },
+          {
+            "row": [
+              "未",
+              "父母",
+              "乙妻财",
+              "癸子孙",
+              "子",
+              "否/无",
+              "否/无"
+            ],
+            "match": true
+          }
+        ],
+        "map_match": true,
+        "anchor_match": true,
+        "xun_match": true
+      },
+      {
+        "id": "B02",
+        "d": 8,
+        "noble": "子",
+        "seat": "辰",
+        "direction": "顺",
+        "gmap": [
+          "贵人",
+          "腾蛇",
+          "朱雀",
+          "六合",
+          "勾陈",
+          "青龙",
+          "天空",
+          "白虎",
+          "太常",
+          "玄武",
+          "太阴",
+          "天后"
+        ],
+        "xun": "甲辰",
+        "voids": "寅卯",
+        "headTailDing": "辰丑未",
+        "targets": [
+          {
+            "row": [
+              "寅",
+              "兄弟",
+              "无干/无适用六亲",
+              "戊妻财",
+              "午",
+              "是/寅",
+              "否/无"
+            ],
+            "match": true
+          },
+          {
+            "row": [
+              "戌",
+              "妻财",
+              "庚官鬼",
+              "丙子孙",
+              "寅",
+              "否/无",
+              "是/寅"
+            ],
+            "match": true
+          }
+        ],
+        "map_match": true,
+        "anchor_match": true,
+        "xun_match": true
+      }
+    ],
+    "C01": {
+      "geometry": [
+        "己→卯（未）",
+        "卯→亥（卯）",
+        "亥→未（亥）",
+        "未→卯（未）"
+      ],
+      "xun": "甲午",
+      "voids": "辰巳",
+      "rows": [
+        [
+          "子",
+          "否/无",
+          "是/辰"
+        ],
+        [
+          "丑",
+          "否/无",
+          "是/巳"
+        ],
+        [
+          "寅",
+          "否/无",
+          "否/无"
+        ],
+        [
+          "卯",
+          "否/无",
+          "否/无"
+        ],
+        [
+          "辰",
+          "是/辰",
+          "否/无"
+        ],
+        [
+          "巳",
+          "是/巳",
+          "否/无"
+        ],
+        [
+          "午",
+          "否/无",
+          "否/无"
+        ],
+        [
+          "未",
+          "否/无",
+          "否/无"
+        ],
+        [
+          "申",
+          "否/无",
+          "否/无"
+        ],
+        [
+          "酉",
+          "否/无",
+          "否/无"
+        ],
+        [
+          "戌",
+          "否/无",
+          "否/无"
+        ],
+        [
+          "亥",
+          "否/无",
+          "否/无"
+        ]
+      ],
+      "combos": [
+        [
+          "死",
+          "养"
+        ],
+        [
+          "养",
+          "死"
+        ],
+        [
+          "死",
+          "养"
+        ]
+      ],
+      "rev": [
+        "墓",
+        "临官"
+      ],
+      "season": [
+        "旺",
+        "相",
+        "死",
+        "囚",
+        "休"
+      ],
+      "shared": [
+        [
+          "辰",
+          "子"
+        ],
+        [
+          "巳",
+          "丑"
+        ]
+      ],
+      "geometry_match": true,
+      "empty_match": true,
+      "combo_match": true,
+      "xun_match": true
+    },
+    "C02": {
+      "id": "C02",
+      "d": 5,
+      "geometry": [
+        "丁→子（未）",
+        "子→巳（子）",
+        "丑→午（丑）",
+        "午→亥（午）"
+      ],
+      "relations": [
+        "上克",
+        "下贼",
+        "上生下",
+        "上克"
+      ],
+      "down": [
+        2
+      ],
+      "up": [
+        1,
+        4
+      ],
+      "candidates": "巳",
+      "same": "巳",
+      "remoteUp": "子亥",
+      "remoteDown": "",
+      "gate": "贼克",
+      "trans": "巳戌卯",
+      "conditionals": [],
+      "geometry_match": true,
+      "trans_match": true,
+      "lu": "午",
+      "wang": "午",
+      "wanglu": true,
+      "blade1": null,
+      "blade2": "未",
+      "forward": "胎",
+      "reverse": "养"
+    },
+    "D01": {
+      "born": 17,
+      "years": [
+        "乙酉",
+        "癸丑",
+        "乙未",
+        "癸亥"
+      ],
+      "coords": [
+        [
+          "巳",
+          "酉",
+          "丑",
+          "否",
+          "是",
+          "是"
+        ],
+        [
+          "酉",
+          "丑",
+          "巳",
+          "是",
+          "是",
+          "否"
+        ],
+        [
+          "未",
+          "亥",
+          "卯",
+          "否",
+          "否",
+          "否"
+        ]
+      ],
+      "geometry": [
+        "丙→酉（巳）",
+        "酉→丑（酉）",
+        "辰→申（辰）",
+        "申→子（申）"
+      ],
+      "year_match": true,
+      "coords_match": true,
+      "geometry_match": true
+    },
+    "D02": {
+      "d": 5,
+      "horse": "寅",
+      "virtue": "亥",
+      "virtueSeat": "午",
+      "virtueAtHai": false,
+      "yearBreak": "卯",
+      "monthDeath": "戌",
+      "shadows": "未巳",
+      "shadowRelation": "后者生前者",
+      "shadowRelationCode": 4,
+      "ageResidue": 5,
+      "standardYearBranch": "未"
+    },
+    "checks": {
+      "A_geometry_and_trans": true,
+      "B_full": true,
+      "C01_geometry_void_and_combos": true,
+      "C02_geometry_and_trans": true,
+      "D01_year_and_coords": true
+    }
+  },
+  "manual_grades": [
+    {
+      "id": "A01",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "两下贼均比，地盘寅孟午仲；辰午申",
+      "critical_errors": []
+    },
+    {
+      "id": "A02",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "下贼卯优先，另两上克；卯申丑",
+      "critical_errors": []
+    },
+    {
+      "id": "A03",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "申辰全不比，两条件传完整",
+      "critical_errors": []
+    },
+    {
+      "id": "A04",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "子亥午下贼；子午同比同孟，p43限定子未寅",
+      "critical_errors": []
+    },
+    {
+      "id": "A05",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "伏吟有克，丑刑戌、戌刑未；初次字符串检查未识别箭头，归一后通过，非答卷错误",
+      "critical_errors": []
+    },
+    {
+      "id": "A06",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "返吟单一下贼戌，不要求比用，戌辰戌",
+      "critical_errors": []
+    },
+    {
+      "id": "A07",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "无直接克两源阴八专，遥克排除，丑巳巳",
+      "critical_errors": []
+    },
+    {
+      "id": "A08",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "无直接克，午巳蒿矢，巳阴比辛，巳辰卯",
+      "critical_errors": []
+    },
+    {
+      "id": "A09",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "单一下贼戌，戌午寅",
+      "critical_errors": []
+    },
+    {
+      "id": "A10",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "返吟全不比亥巳，条件传完整",
+      "critical_errors": []
+    },
+    {
+      "id": "A11",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "四源无直接和遥克，阳昴星H酉巳，巳申丑",
+      "critical_errors": []
+    },
+    {
+      "id": "A12",
+      "items": [
+        1,
+        1,
+        1
+      ],
+      "score": 3,
+      "note": "戌午上克同比，申孟胜子仲，午辰寅",
+      "critical_errors": []
+    },
+    {
+      "id": "B01",
+      "items": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 8,
+      "note": "夜未临子顺，十二将、甲午旬首尾丁及丑未两行全部吻合",
+      "critical_errors": []
+    },
+    {
+      "id": "B02",
+      "items": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 8,
+      "note": "昼子临辰顺；甲辰旬寅卯空，寅无旬干、戌落空寅源，全部吻合",
+      "critical_errors": []
+    },
+    {
+      "id": "C01",
+      "items": [
+        1,
+        2,
+        3,
+        1,
+        1
+      ],
+      "score": 8,
+      "note": "甲午辰巳空；十二支双标记、同源；本位死养、交叉养死、统一死养；反向墓临官、春木五状态正确",
+      "critical_errors": []
+    },
+    {
+      "id": "C02",
+      "items": [
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "score": 8,
+      "note": "巳优先；丁午禄旺及阴刃两版，胎养，土胎帝旺戊刃区别；未知月建",
+      "critical_errors": []
+    },
+    {
+      "id": "D01",
+      "items": [
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "score": 8,
+      "note": "标准乙酉癸丑、分旬乙未癸亥，三坐标及搜索域全部正确",
+      "critical_errors": []
+    },
+    {
+      "id": "D02",
+      "items": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "score": 8,
+      "note": "D5日马寅、日德亥临午、岁破卯月死气戌、阴神未巳且巳生未，行年未而干未定，缺规则不补",
+      "critical_errors": []
+    },
+    {
+      "id": "E01",
+      "items": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 4,
+      "note": "四个不同目标及期限、角色和搜索域、类象来源与未知；举例双遁正确",
+      "critical_errors": []
+    },
+    {
+      "id": "E02",
+      "items": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 4,
+      "note": "身份、输入、天将、类神及同位区分，来源与引申验证条件",
+      "critical_errors": []
+    },
+    {
+      "id": "E03",
+      "items": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 4,
+      "note": "有序三传、分流、盘位角色、空源及依赖；结构适用效验分开",
+      "critical_errors": []
+    },
+    {
+      "id": "E04",
+      "items": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "score": 4,
+      "note": "双遁及无值、原印和冲突、事前版本、分歧样本与基准",
+      "critical_errors": []
+    }
+  ],
+  "section_scores": {
+    "A": 36,
+    "B": 16,
+    "C": 16,
+    "D": 16,
+    "E": 16
+  },
+  "total": 100,
+  "critical_errors": [],
+  "frozen_gate_pass": true,
+  "coverage_gaps": [
+    "A未覆盖别责、无克返吟、遥克弹射、无克伏吟自刑替代及普通直接比用唯一；八专仅阴、昴星仅阳。",
+    "B两题均顺行，未直接测试逆行布将；贵人临辰边界已测试。",
+    "C01日干土与日支水共用申长生起点，本位与统一结果偶合，未实测起点不同的阶段分歧。",
+    "D01非甲子旬已测算法分歧，但尚无两法同支的反向控制。"
+  ],
+  "scope": "本题组通过，非严格盲测、第三方评价、全规则覆盖或预测效验；同一助手出题作答复核。建议迁移补测；不关闭未决问题。"
+}
