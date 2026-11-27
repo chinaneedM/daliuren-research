@@ -2641,6 +2641,32 @@
       ],
       "limits": "未校版本与节月边界，不作疾病死亡断验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0149",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://book.taiyi.me/卜/注解大六壬指南/注解大六壬指南(卷三)-上",
+      "provider": "太乙书局《注解大六壬指南》卷三上在线录文",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_DIRECT_TEXT_NOT_EDITION_COLLATED",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "Lines 575–590 same case and 涉害 label; transmitted stems 乙未 戊子 癸巳; 夹龙 versus 金针 来龙."
+      ],
+      "limits": "Online text, not independently collated facsimile; no outcome evidence.",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0150",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.001h.cn/dianji/六壬指南/卷一/",
+      "provider": "001文学网《六壬指南》卷一在线录文",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_DIRECT_TEXT_NOT_EDITION_COLLATED",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "Lines 35–36 direct-overcoming priority and 比用 versus 涉害 selection."
+      ],
+      "limits": "Online transcription; no ruling on historical edition differences.",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
