@@ -4857,6 +4857,97 @@
       "accessed_date": "2026-11-27",
       "limits": "在线录文未核古刻、传本独立性；历表非实际占时；非预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0318",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://shuyuan.zhiming.life/read/%E5%BE%A1%E5%AE%9A%E5%85%AD%E5%A3%AC%E7%9B%B4%E6%8C%87/43",
+      "provider": "知命书院直指乙酉第六局",
+      "facts_checked": [
+        "l70–81 亥生日、比用不备、中末空、舍益就损"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "古籍数字录文未核原刻；历史报道非起课原始记录，不能验证事前预测。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0319",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.zhaosir.online/DocumentPage.aspx?did=32",
+      "provider": "赵氏六壬大全卷十一毕法赋上",
+      "facts_checked": [
+        "l215–217 舍益就损壬寅、舍就皆不可乙酉"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "古籍数字录文未核原刻；历史报道非起课原始记录，不能验证事前预测。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0320",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.nba.com/news/week-history-michael-jordan-retires-second-time?collection=blogtable",
+      "provider": "NBA官方历史",
+      "facts_checked": [
+        "l168–169 2001-09-25签约、两季及2003-04-16退役"
+      ],
+      "evidence_grade": "ONLINE_OFFICIAL_HISTORY_TARGETED_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "古籍数字录文未核原刻；历史报道非起课原始记录，不能验证事前预测。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0321",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.nba.com/news/history-top-moments-michael-jordan-returns-to-nba-at-38",
+      "provider": "NBA官方复出专题",
+      "facts_checked": [
+        "l179–181 60场、22.9分、单场51分"
+      ],
+      "evidence_grade": "ONLINE_OFFICIAL_HISTORY_TARGETED_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "古籍数字录文未核原刻；历史报道非起课原始记录，不能验证事前预测。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0322",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://a.espncdn.com/nba/news/2001/0925/1255032.html",
+      "provider": "ESPN同期AP 2001-09-25",
+      "facts_checked": [
+        "l31–37 球员合同至2003及管理角色退出"
+      ],
+      "evidence_grade": "ONLINE_CONTEMPORARY_REPORT_TARGETED_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "古籍数字录文未核原刻；历史报道非起课原始记录，不能验证事前预测。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0323",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://a.espncdn.com/nba/news/2003/0507/1550445.html",
+      "provider": "ESPN同期AP 2003-05-07",
+      "facts_checked": [
+        "l37–41 退役后管理层未续聘"
+      ],
+      "evidence_grade": "ONLINE_CONTEMPORARY_REPORT_TARGETED_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "古籍数字录文未核原刻；历史报道非起课原始记录，不能验证事前预测。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0324",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.cbsnews.com/news/report-michael-jordan-to-come-back/",
+      "provider": "CBS同期AP 2001-09-10",
+      "facts_checked": [
+        "l103–107 正式宣布前复出报道"
+      ],
+      "evidence_grade": "ONLINE_CONTEMPORARY_REPORT_TARGETED_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "古籍数字录文未核原刻；历史报道非起课原始记录，不能验证事前预测。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
