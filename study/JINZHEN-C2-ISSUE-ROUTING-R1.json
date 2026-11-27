@@ -1,0 +1,3275 @@
+{
+  "schema": "DLR-JINZHEN-C2-ISSUE-ROUTING-R1",
+  "baseline_head": "096f6c56e7f62b92004ce1a4475bce097c84f081",
+  "ledger": "docs/OPEN-QUESTIONS-R1.json",
+  "previous_routing": "study/JINZHEN-C1-ISSUE-ROUTING-R1.json",
+  "scope": "58项台账的研究路线快照；不覆盖台账、不更改状态或优先级；主路由非互斥问题本质分类",
+  "routes": {
+    "CALCULATION_BOUNDARY": "计算版本/唯一性边界",
+    "SOURCE_COLLATION": "版本、原典、题图及来源校勘",
+    "CONDITION_AND_INTERPRETATION": "适用条件、参照与解释",
+    "EMPIRICAL_VALIDATION": "独立事前效验",
+    "HISTORICAL_CLOSED": "历史关闭"
+  },
+  "counts": {
+    "all": 58,
+    "by_status": {
+      "OPEN": 57,
+      "CLOSED": 1
+    },
+    "by_primary_route": {
+      "SOURCE_COLLATION": 21,
+      "EMPIRICAL_VALIDATION": 3,
+      "CONDITION_AND_INTERPRETATION": 25,
+      "CALCULATION_BOUNDARY": 8,
+      "HISTORICAL_CLOSED": 1
+    },
+    "rule_linked": 55,
+    "concept_linked": 55,
+    "source_batch_linked": 55
+  },
+  "entries": [
+    {
+      "issue_id": "DLR-OPEN-0001",
+      "ledger_title": "可合法共同研读的两书数字文本与具体版次核实",
+      "ledger_priority": "P0",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [],
+      "focus": "资料版次、权限与实际备份",
+      "current_boundary": "已读143页与独立影像备份分账；不阻断已取得原页",
+      "resolution_gate": "取得可合法使用的准确印次及原始字节，验证私有读回；新页需真实取得",
+      "rule_ids": [
+        "DLR-C1-R006",
+        "DLR-C1-R009"
+      ],
+      "concept_ids": [
+        "DLR-C1-C010",
+        "DLR-C1-C011",
+        "DLR-C1-C014",
+        "DLR-C1-C015",
+        "DLR-C1-C018",
+        "DLR-C1-C021"
+      ],
+      "source_sessions": [
+        {
+          "session": 165,
+          "path": "study/SESSION-0165-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP1-5-R1.md"
+        },
+        {
+          "session": 202,
+          "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0001"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0002",
+      "ledger_title": "两书主题对照与首次共同研习专题",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [],
+      "focus": "两书主题与版本对照",
+      "current_boundary": "已有学习路线，不能用旧章节指针重启",
+      "resolution_gate": "逐版本核目录、专题交叉表及原页，不合并不同书籍",
+      "rule_ids": [
+        "DLR-C1-R058",
+        "DLR-C1-R062"
+      ],
+      "concept_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C044",
+        "DLR-C1-C053",
+        "DLR-C1-C087",
+        "DLR-C1-C089",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C095",
+        "DLR-C1-C096"
+      ],
+      "source_sessions": [],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0002"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0003",
+      "ledger_title": "大六壬指南五卷与四卷在线文本编排及版系关系",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [],
+      "focus": "指南卷次版系",
+      "current_boundary": "五卷与四卷对应仍待证，不阻断金针",
+      "resolution_gate": "核三得堂等可识别版本目录和章次，逐段对照",
+      "rule_ids": [],
+      "concept_ids": [],
+      "source_sessions": [],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0003"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0004",
+      "ledger_title": "《六壬金针》与《大六壬心法指要》的目录高度相似及正文/版本关系",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [],
+      "focus": "金针与心法指要书目身份",
+      "current_boundary": "目录相似不是同书或抄袭证据",
+      "resolution_gate": "核版权页、出版次序、授权范围及有限对应段",
+      "rule_ids": [],
+      "concept_ids": [],
+      "source_sessions": [],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0004"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0005",
+      "ledger_title": "占断预测能力的验证与适用边界：是否存在事前可测的准确性优势",
+      "ledger_priority": "P2",
+      "ledger_status": "OPEN",
+      "previous_route": "EMPIRICAL_VALIDATION",
+      "primary_route": "EMPIRICAL_VALIDATION",
+      "secondary_routes": [
+        "CONDITION_AND_INTERPRETATION"
+      ],
+      "focus": "预测有效性",
+      "current_boundary": "结构复算、解释一致与事前预测分账；不影响确定性数学",
+      "resolution_gate": "冻结目标、版本及评价，独立结果、基准和失败样本；不预设有效",
+      "rule_ids": [
+        "DLR-C1-R068",
+        "DLR-C1-R069",
+        "DLR-C2-R026",
+        "DLR-C2-R037"
+      ],
+      "concept_ids": [
+        "DLR-C1-C049",
+        "DLR-C1-C051",
+        "DLR-C1-C054",
+        "DLR-C1-C055",
+        "DLR-C1-C073",
+        "DLR-C1-C087",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C096",
+        "DLR-C1-C097",
+        "DLR-C1-C100",
+        "DLR-C1-C101",
+        "DLR-C1-C102",
+        "DLR-C2-C035",
+        "DLR-C2-C050"
+      ],
+      "source_sessions": [
+        {
+          "session": 165,
+          "path": "study/SESSION-0165-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP1-5-R1.md"
+        },
+        {
+          "session": 202,
+          "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0005"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉预测有效性、方法优劣或准确率结论",
+      "next_stage": "PREREGISTERED_FUTURE_VALIDATION"
+    },
+    {
+      "issue_id": "DLR-OPEN-0006",
+      "ledger_title": "《六壬金针》导论“理气法则”与《壬归》理气类象说及北海闲人课传气势的明确对应关系",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "理气与气势操作定义",
+      "current_boundary": "导论和后文未给可统一执行的权重",
+      "resolution_gate": "读卷四具体占类及理气条文，随后与版本绑定壬归逐项对照，建立可反驳定义",
+      "rule_ids": [
+        "DLR-C1-R055",
+        "DLR-C1-R068",
+        "DLR-C2-R026"
+      ],
+      "concept_ids": [
+        "DLR-C1-C073",
+        "DLR-C1-C085",
+        "DLR-C1-C086",
+        "DLR-C1-C087",
+        "DLR-C1-C090",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C1-C101",
+        "DLR-C1-C102",
+        "DLR-C2-C035"
+      ],
+      "source_sessions": [
+        {
+          "session": 165,
+          "path": "study/SESSION-0165-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP1-5-R1.md"
+        },
+        {
+          "session": 193,
+          "path": "study/SESSION-0193-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP102-106-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0006"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0007",
+      "ledger_title": "《六壬金针》实体本p9阴干无刃与p102–103阴干有刃、土胎额外子位的规则边界",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "CALCULATION_BOUNDARY",
+      "primary_route": "CALCULATION_BOUNDARY",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "CONDITION_AND_INTERPRETATION"
+      ],
+      "focus": "阴刃及土胎",
+      "current_boundary": "基础十二阶段与日禄仍可算；阴刃及额外土胎候选不能假唯一",
+      "resolution_gate": "分别核p9/p102–103、古籍阳阴刃及土胎表，完整比较版本与适用例",
+      "rule_ids": [
+        "DLR-C1-R048",
+        "DLR-C1-R049",
+        "DLR-C1-R050",
+        "DLR-C2-R022"
+      ],
+      "concept_ids": [
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C077",
+        "DLR-C1-C078",
+        "DLR-C1-C079",
+        "DLR-C1-C080",
+        "DLR-C1-C081",
+        "DLR-C1-C082",
+        "DLR-C1-C083",
+        "DLR-C1-C084",
+        "DLR-C2-C028",
+        "DLR-C2-C029",
+        "DLR-C2-C030"
+      ],
+      "source_sessions": [
+        {
+          "session": 193,
+          "path": "study/SESSION-0193-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP102-106-R1.md"
+        },
+        {
+          "session": 198,
+          "path": "study/SESSION-0198-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP127-130-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0007"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅依赖未裁版本的唯一计算输出",
+      "next_stage": "MASTERY_BOUNDARY_THEN_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0008",
+      "ledger_title": "《六壬金针》p8三刑在四课/天地盘与三传中的条件、方向和伏吟递刑之辨",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "CALCULATION_BOUNDARY",
+      "primary_route": "CALCULATION_BOUNDARY",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "CONDITION_AND_INTERPRETATION"
+      ],
+      "focus": "刑关系与伏吟递刑",
+      "current_boundary": "有向取传与结构刑分列；不同刑表仅阻断相关分支",
+      "resolution_gate": "锁定方向/自刑初中例外，按古籍版本逐条检验及反例",
+      "rule_ids": [
+        "DLR-C1-R025",
+        "DLR-C1-R040"
+      ],
+      "concept_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C058",
+        "DLR-C1-C059",
+        "DLR-C1-C062"
+      ],
+      "source_sessions": [
+        {
+          "session": 166,
+          "path": "study/SESSION-0166-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP6-9-R1.md"
+        },
+        {
+          "session": 173,
+          "path": "study/SESSION-0173-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP27-29-R1.md"
+        },
+        {
+          "session": 192,
+          "path": "study/SESSION-0192-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP98-101-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0008"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅依赖未裁版本的唯一计算输出",
+      "next_stage": "MASTERY_BOUNDARY_THEN_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0009",
+      "ledger_title": "九宗门列名次序、实质取传判定优先级与特殊课式例外的版本边界",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "CALCULATION_BOUNDARY",
+      "primary_route": "CALCULATION_BOUNDARY",
+      "secondary_routes": [
+        "SOURCE_COLLATION"
+      ],
+      "focus": "九门实际优先级",
+      "current_boundary": "列名次序不等于执行次序；已证特殊分支保留",
+      "resolution_gate": "按各本条件和冲突输入比较九门；保留未决候选，不凭名次猜",
+      "rule_ids": [
+        "DLR-C1-R014",
+        "DLR-C1-R020",
+        "DLR-C1-R022",
+        "DLR-C1-R023",
+        "DLR-C1-R024",
+        "DLR-C1-R025",
+        "DLR-C1-R026"
+      ],
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C009",
+        "DLR-C1-C022",
+        "DLR-C1-C023",
+        "DLR-C1-C025",
+        "DLR-C1-C031",
+        "DLR-C1-C032",
+        "DLR-C1-C033",
+        "DLR-C1-C036",
+        "DLR-C1-C038",
+        "DLR-C1-C039",
+        "DLR-C1-C040",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C062",
+        "DLR-C1-C063",
+        "DLR-C1-C095"
+      ],
+      "source_sessions": [
+        {
+          "session": 171,
+          "path": "study/SESSION-0171-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP23-24-R1.md"
+        },
+        {
+          "session": 172,
+          "path": "study/SESSION-0172-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP25-26-R1.md"
+        },
+        {
+          "session": 173,
+          "path": "study/SESSION-0173-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP27-29-R1.md"
+        },
+        {
+          "session": 174,
+          "path": "study/SESSION-0174-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP30-32-R1.md"
+        },
+        {
+          "session": 178,
+          "path": "study/SESSION-0178-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP42-44-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0009"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅依赖未裁版本的唯一计算输出",
+      "next_stage": "MASTERY_BOUNDARY_THEN_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0010",
+      "ledger_title": "贼克方向术语的伦理解释、始入课与重审课异名及九宗门/课体层级",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "始入重审元首称名",
+      "current_boundary": "窄义唯一贼与重审标签不同；优先下贼不因称名变动",
+      "resolution_gate": "核金针及直指等版本定义；p121辛丑原标重审另保留",
+      "rule_ids": [
+        "DLR-C1-R015",
+        "DLR-C1-R016"
+      ],
+      "concept_ids": [
+        "DLR-C1-C025",
+        "DLR-C1-C026",
+        "DLR-C1-C032",
+        "DLR-C1-C034",
+        "DLR-C1-C035",
+        "DLR-C1-C039",
+        "DLR-C1-C040",
+        "DLR-C1-C096"
+      ],
+      "source_sessions": [
+        {
+          "session": 169,
+          "path": "study/SESSION-0169-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP18-20-R1.md"
+        },
+        {
+          "session": 196,
+          "path": "study/SESSION-0196-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP120-123-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0010"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0011",
+      "ledger_title": "《六壬金针》p26八专「只有两课」：书写课列与寄宫归一后的课源等价性",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "CALCULATION_BOUNDARY",
+      "primary_route": "CALCULATION_BOUNDARY",
+      "secondary_routes": [
+        "SOURCE_COLLATION"
+      ],
+      "focus": "八专课源等价性",
+      "current_boundary": "四个书写列不等于四个独立课源；特殊重叠不泛化",
+      "resolution_gate": "对两源、寄宫同支、无直接克与伏返分流逐版本比对",
+      "rule_ids": [
+        "DLR-C1-R013",
+        "DLR-C1-R014",
+        "DLR-C1-R024"
+      ],
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C024",
+        "DLR-C1-C025",
+        "DLR-C1-C026",
+        "DLR-C1-C027",
+        "DLR-C1-C028",
+        "DLR-C1-C029",
+        "DLR-C1-C030",
+        "DLR-C1-C031",
+        "DLR-C1-C032",
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C040",
+        "DLR-C1-C041",
+        "DLR-C1-C042"
+      ],
+      "source_sessions": [
+        {
+          "session": 172,
+          "path": "study/SESSION-0172-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP25-26-R1.md"
+        },
+        {
+          "session": 198,
+          "path": "study/SESSION-0198-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP127-130-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0011"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅依赖未裁版本的唯一计算输出",
+      "next_stage": "MASTERY_BOUNDARY_THEN_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0012",
+      "ledger_title": "《六壬金针》p30返吟有克第二例：第二课巳／亥的印刷克向分类疑误",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "返吟第二课克向疑误",
+      "current_boundary": "亥水克巳火可算；原印分类不改",
+      "resolution_gate": "对照p30及其他版的课图和克向文字",
+      "rule_ids": [
+        "DLR-C1-R015",
+        "DLR-C1-R026"
+      ],
+      "concept_ids": [
+        "DLR-C1-C025",
+        "DLR-C1-C026",
+        "DLR-C1-C032",
+        "DLR-C1-C033",
+        "DLR-C1-C034",
+        "DLR-C1-C035",
+        "DLR-C1-C039",
+        "DLR-C1-C040",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C095"
+      ],
+      "source_sessions": [
+        {
+          "session": 174,
+          "path": "study/SESSION-0174-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP30-32-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0012"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0013",
+      "ledger_title": "《六壬金针》p31康熙时期引入西洋天文另创贵人歌诀的历史出处和规则差异",
+      "ledger_priority": "P2",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "贵人歌诀历史与版本",
+      "current_boundary": "现有候选可复算；康熙及西洋故事未获独立证实",
+      "resolution_gate": "核年代、可识别古本、两套贵人表及区别课例",
+      "rule_ids": [
+        "DLR-C1-R011",
+        "DLR-C1-R028"
+      ],
+      "concept_ids": [
+        "DLR-C1-C013",
+        "DLR-C1-C017",
+        "DLR-C1-C018",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C048"
+      ],
+      "source_sessions": [
+        {
+          "session": 175,
+          "path": "study/SESSION-0175-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP33-35-R1.md"
+        },
+        {
+          "session": 179,
+          "path": "study/SESSION-0179-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP45-47-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0013"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0014",
+      "ledger_title": "《六壬金针》p37丁日五子元遁四课：辰遁壬、酉遁丁与同页完整时干排列冲突",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "p37五子元遁疑字",
+      "current_boundary": "同页完整表与局部字段冲突；可用显式候选算法",
+      "resolution_gate": "核不同印本；保留原值与计算值，查两遁选择语境",
+      "rule_ids": [
+        "DLR-C1-R031",
+        "DLR-C1-R032",
+        "DLR-C1-R034",
+        "DLR-C2-R035"
+      ],
+      "concept_ids": [
+        "DLR-C1-C014",
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C051",
+        "DLR-C1-C052",
+        "DLR-C1-C054",
+        "DLR-C1-C055",
+        "DLR-C1-C069",
+        "DLR-C2-C048"
+      ],
+      "source_sessions": [
+        {
+          "session": 176,
+          "path": "study/SESSION-0176-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP36-38-R1.md"
+        },
+        {
+          "session": 202,
+          "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0014"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0015",
+      "ledger_title": "《六壬金针》p46甲午日丑将戌时例中将丑戌称作“四孟神”的分类疑误",
+      "ledger_priority": "P2",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "p46四孟误称",
+      "current_boundary": "丑戌属四季；不以称谓改盘",
+      "resolution_gate": "核完整原页及异版，检查是否只是文字错位",
+      "rule_ids": [
+        "DLR-C1-R004",
+        "DLR-C1-R012",
+        "DLR-C1-R013"
+      ],
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C008",
+        "DLR-C1-C013",
+        "DLR-C1-C015",
+        "DLR-C1-C019",
+        "DLR-C1-C020",
+        "DLR-C1-C021",
+        "DLR-C1-C022",
+        "DLR-C1-C023",
+        "DLR-C1-C024",
+        "DLR-C1-C025",
+        "DLR-C1-C026",
+        "DLR-C1-C027",
+        "DLR-C1-C028",
+        "DLR-C1-C029",
+        "DLR-C1-C030",
+        "DLR-C1-C031"
+      ],
+      "source_sessions": [
+        {
+          "session": 179,
+          "path": "study/SESSION-0179-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP45-47-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0015"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0016",
+      "ledger_title": "卷二p48–49：同一占问有多个类神时如何事前选主辅并处理矛盾",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "类神主辅与矛盾",
+      "current_boundary": "全盘及优先域分账；无事前唯一选择",
+      "resolution_gate": "按卷四占类建立目标、候选、反例与事前主辅协议，再验证",
+      "rule_ids": [
+        "DLR-C1-R056",
+        "DLR-C1-R058",
+        "DLR-C1-R059",
+        "DLR-C1-R068",
+        "DLR-C2-R008",
+        "DLR-C2-R009",
+        "DLR-C2-R020",
+        "DLR-C2-R032"
+      ],
+      "concept_ids": [
+        "DLR-C1-C025",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C044",
+        "DLR-C1-C053",
+        "DLR-C1-C087",
+        "DLR-C1-C088",
+        "DLR-C1-C089",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C092",
+        "DLR-C1-C094",
+        "DLR-C1-C095",
+        "DLR-C1-C100",
+        "DLR-C1-C101",
+        "DLR-C1-C102",
+        "DLR-C2-C009",
+        "DLR-C2-C010",
+        "DLR-C2-C011",
+        "DLR-C2-C012",
+        "DLR-C2-C026",
+        "DLR-C2-C027",
+        "DLR-C2-C043"
+      ],
+      "source_sessions": [
+        {
+          "session": 180,
+          "path": "study/SESSION-0180-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP48-52-R1.md"
+        },
+        {
+          "session": 196,
+          "path": "study/SESSION-0196-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP120-123-R1.md"
+        },
+        {
+          "session": 198,
+          "path": "study/SESSION-0198-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP127-130-R1.md"
+        },
+        {
+          "session": 201,
+          "path": "study/SESSION-0201-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP137-139-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0016"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0017",
+      "ledger_title": "卷二p50–51：课体灵活组合与事后附会的分界",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "EMPIRICAL_VALIDATION",
+        "SOURCE_COLLATION"
+      ],
+      "focus": "课体与事后附会",
+      "current_boundary": "高阶组合与构成信息同源；无权重已证",
+      "resolution_gate": "冻结结构、适用域、冲突及评价，比较独立案例",
+      "rule_ids": [
+        "DLR-C1-R062",
+        "DLR-C1-R067",
+        "DLR-C1-R068",
+        "DLR-C2-R024",
+        "DLR-C2-R025",
+        "DLR-C2-R026"
+      ],
+      "concept_ids": [
+        "DLR-C1-C031",
+        "DLR-C1-C032",
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C073",
+        "DLR-C1-C074",
+        "DLR-C1-C087",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C1-C101",
+        "DLR-C1-C102",
+        "DLR-C2-C032",
+        "DLR-C2-C033",
+        "DLR-C2-C034",
+        "DLR-C2-C035"
+      ],
+      "source_sessions": [
+        {
+          "session": 180,
+          "path": "study/SESSION-0180-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP48-52-R1.md"
+        },
+        {
+          "session": 200,
+          "path": "study/SESSION-0200-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP135-136-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0017"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0018",
+      "ledger_title": "卷二p50–52：《毕法赋》出处、课体数量与70%以上套用比例的证据级别",
+      "ledger_priority": "P2",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "毕法赋传承及套用率",
+      "current_boundary": "套用不是命中；出处及统计分母待证",
+      "resolution_gate": "核毕法赋古本、条目及来源；若验证比例另建样本",
+      "rule_ids": [
+        "DLR-C1-R062",
+        "DLR-C2-R025"
+      ],
+      "concept_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C074",
+        "DLR-C1-C087",
+        "DLR-C1-C091",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C1-C102",
+        "DLR-C2-C033",
+        "DLR-C2-C034"
+      ],
+      "source_sessions": [
+        {
+          "session": 180,
+          "path": "study/SESSION-0180-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP48-52-R1.md"
+        },
+        {
+          "session": 200,
+          "path": "study/SESSION-0200-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP135-136-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0018"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0019",
+      "ledger_title": "卷二p49：类神凶而休后的“则吉凶”疑似印刷脱误",
+      "ledger_priority": "P2",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CONDITION_AND_INTERPRETATION"
+      ],
+      "focus": "p49休后疑字",
+      "current_boundary": "原印保留，语义不强改",
+      "resolution_gate": "核异版及上下段，区分印误与解释候选",
+      "rule_ids": [
+        "DLR-C1-R058"
+      ],
+      "concept_ids": [
+        "DLR-C1-C044",
+        "DLR-C1-C053",
+        "DLR-C1-C087",
+        "DLR-C1-C089",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C095"
+      ],
+      "source_sessions": [
+        {
+          "session": 180,
+          "path": "study/SESSION-0180-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP48-52-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0019"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0020",
+      "ledger_title": "卷二p53–56：日辰角色映射、干上神六项判断与一课多义的事前选择规则",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "日辰角色与六项参照",
+      "current_boundary": "本体、寄宫及角色不恒等；同位关系可异",
+      "resolution_gate": "固定占问角色，按目标检查六项及例外；独立检验",
+      "rule_ids": [
+        "DLR-C1-R056",
+        "DLR-C1-R057",
+        "DLR-C2-R001",
+        "DLR-C2-R002",
+        "DLR-C2-R030"
+      ],
+      "concept_ids": [
+        "DLR-C1-C001",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C022",
+        "DLR-C1-C023",
+        "DLR-C1-C087",
+        "DLR-C1-C088",
+        "DLR-C1-C093",
+        "DLR-C1-C094",
+        "DLR-C1-C098",
+        "DLR-C1-C102",
+        "DLR-C2-C001",
+        "DLR-C2-C002",
+        "DLR-C2-C039"
+      ],
+      "source_sessions": [
+        {
+          "session": 181,
+          "path": "study/SESSION-0181-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP53-56-R1.md"
+        },
+        {
+          "session": 194,
+          "path": "study/SESSION-0194-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP107-113-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0020"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0021",
+      "ledger_title": "卷二p57–59宅墓与行人引例：干支俱生/脱气的取舍、重复相克及行年时序核验",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "俱生脱气及行年",
+      "current_boundary": "关系可共存；旧例年命原始输入未齐",
+      "resolution_gate": "核年命时序及古条；分别记录各生互生和占类优先",
+      "rule_ids": [
+        "DLR-C1-R044",
+        "DLR-C1-R045",
+        "DLR-C1-R060",
+        "DLR-C2-R022",
+        "DLR-C2-R027",
+        "DLR-C2-R031"
+      ],
+      "concept_ids": [
+        "DLR-C1-C003",
+        "DLR-C1-C004",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C020",
+        "DLR-C1-C022",
+        "DLR-C1-C023",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C057",
+        "DLR-C1-C067",
+        "DLR-C1-C068",
+        "DLR-C1-C075",
+        "DLR-C1-C083",
+        "DLR-C1-C084",
+        "DLR-C1-C093",
+        "DLR-C1-C094",
+        "DLR-C1-C095",
+        "DLR-C2-C028",
+        "DLR-C2-C029",
+        "DLR-C2-C030",
+        "DLR-C2-C036",
+        "DLR-C2-C040",
+        "DLR-C2-C041",
+        "DLR-C2-C042"
+      ],
+      "source_sessions": [
+        {
+          "session": 182,
+          "path": "study/SESSION-0182-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP57-59-R1.md"
+        },
+        {
+          "session": 194,
+          "path": "study/SESSION-0194-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP107-113-R1.md"
+        },
+        {
+          "session": 199,
+          "path": "study/SESSION-0199-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP131-134-R1.md"
+        },
+        {
+          "session": 201,
+          "path": "study/SESSION-0201-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP137-139-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0021"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0022",
+      "ledger_title": "卷二p60–68四课组合：天将／占事／生克／旺衰之间的优先条件及可成立性",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "四课多关系优先",
+      "current_boundary": "双德候选不可达、乘坐墓不同；非结构冲突即断法矛盾",
+      "resolution_gate": "逐占类固定各端点、旺衰、将与组合条件，检验反例",
+      "rule_ids": [
+        "DLR-C1-R044",
+        "DLR-C1-R046",
+        "DLR-C1-R051",
+        "DLR-C2-R011",
+        "DLR-C2-R022"
+      ],
+      "concept_ids": [
+        "DLR-C1-C003",
+        "DLR-C1-C004",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C053",
+        "DLR-C1-C057",
+        "DLR-C1-C067",
+        "DLR-C1-C075",
+        "DLR-C1-C079",
+        "DLR-C1-C082",
+        "DLR-C1-C083",
+        "DLR-C1-C084",
+        "DLR-C1-C086",
+        "DLR-C1-C090",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C2-C014",
+        "DLR-C2-C015",
+        "DLR-C2-C028",
+        "DLR-C2-C029",
+        "DLR-C2-C030"
+      ],
+      "source_sessions": [
+        {
+          "session": 183,
+          "path": "study/SESSION-0183-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP60-63-R1.md"
+        },
+        {
+          "session": 184,
+          "path": "study/SESSION-0184-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP64-68-R1.md"
+        },
+        {
+          "session": 196,
+          "path": "study/SESSION-0196-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP120-123-R1.md"
+        },
+        {
+          "session": 199,
+          "path": "study/SESSION-0199-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP131-134-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0022"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0023",
+      "ledger_title": "《六壬金针》印刷p62辛巳日俱生例：亥将申时题头与四课不一致（寅时候选）",
+      "ledger_priority": "P2",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "p62辛巳题图位移",
+      "current_boundary": "题头D3与图D9分别保留；寅时候选不是历史事实",
+      "resolution_gate": "取得异印和原例底本，独立核将时，勿倒推唯一真实时间",
+      "rule_ids": [
+        "DLR-C1-R012",
+        "DLR-C1-R013",
+        "DLR-C1-R028"
+      ],
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C013",
+        "DLR-C1-C015",
+        "DLR-C1-C017",
+        "DLR-C1-C019",
+        "DLR-C1-C020",
+        "DLR-C1-C021",
+        "DLR-C1-C022",
+        "DLR-C1-C023",
+        "DLR-C1-C024",
+        "DLR-C1-C025",
+        "DLR-C1-C026",
+        "DLR-C1-C027",
+        "DLR-C1-C028",
+        "DLR-C1-C029",
+        "DLR-C1-C030",
+        "DLR-C1-C031",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C048"
+      ],
+      "source_sessions": [
+        {
+          "session": 183,
+          "path": "study/SESSION-0183-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP60-63-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0023"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0024",
+      "ledger_title": "卷二第三节p69–76：类神与发用重合、初中末角色、三传多组取象及冲突取舍边界",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "三传及发用角色",
+      "current_boundary": "入课位置不等于取传课源；多角色与顺序完整保存",
+      "resolution_gate": "核卷四分类条件及组合、冲突、例外并设计事前任务",
+      "rule_ids": [
+        "DLR-C1-R059",
+        "DLR-C1-R063",
+        "DLR-C1-R064",
+        "DLR-C2-R009",
+        "DLR-C2-R024"
+      ],
+      "concept_ids": [
+        "DLR-C1-C025",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C032",
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C043",
+        "DLR-C1-C090",
+        "DLR-C1-C092",
+        "DLR-C1-C096",
+        "DLR-C1-C097",
+        "DLR-C1-C098",
+        "DLR-C1-C102",
+        "DLR-C2-C011",
+        "DLR-C2-C012",
+        "DLR-C2-C032"
+      ],
+      "source_sessions": [
+        {
+          "session": 185,
+          "path": "study/SESSION-0185-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP69-72-R1.md"
+        },
+        {
+          "session": 186,
+          "path": "study/SESSION-0186-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP73-76-R1.md"
+        },
+        {
+          "session": 200,
+          "path": "study/SESSION-0200-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP135-136-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0024"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0025",
+      "ledger_title": "《六壬金针》p69己丑日占行人例：亥将未时与亥丑卯三传及末传在支上不一致",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "p69己丑题图不合",
+      "current_boundary": "原题D4与原传及末在支上不合",
+      "resolution_gate": "对照版本与原例完整题头，逐输入分支复算",
+      "rule_ids": [
+        "DLR-C1-R012",
+        "DLR-C1-R013",
+        "DLR-C1-R021",
+        "DLR-C1-R063"
+      ],
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C013",
+        "DLR-C1-C015",
+        "DLR-C1-C019",
+        "DLR-C1-C020",
+        "DLR-C1-C021",
+        "DLR-C1-C022",
+        "DLR-C1-C023",
+        "DLR-C1-C024",
+        "DLR-C1-C025",
+        "DLR-C1-C026",
+        "DLR-C1-C027",
+        "DLR-C1-C028",
+        "DLR-C1-C029",
+        "DLR-C1-C030",
+        "DLR-C1-C031",
+        "DLR-C1-C032",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C043",
+        "DLR-C1-C097",
+        "DLR-C1-C098"
+      ],
+      "source_sessions": [
+        {
+          "session": 185,
+          "path": "study/SESSION-0185-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP69-72-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0025"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0026",
+      "ledger_title": "卷二p70作者占来意经验：发用／干上是否优于正时，如何建立可重复的对照验证",
+      "ledger_priority": "P2",
+      "ledger_status": "OPEN",
+      "previous_route": "EMPIRICAL_VALIDATION",
+      "primary_route": "EMPIRICAL_VALIDATION",
+      "secondary_routes": [
+        "CONDITION_AND_INTERPRETATION"
+      ],
+      "focus": "来意与正时比较",
+      "current_boundary": "当前只有作者偏好，不证明入口更优",
+      "resolution_gate": "同信息条件预先设正时、发用、干上比较及客观评价",
+      "rule_ids": [
+        "DLR-C1-R069",
+        "DLR-C2-R008"
+      ],
+      "concept_ids": [
+        "DLR-C1-C087",
+        "DLR-C1-C089",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C092",
+        "DLR-C1-C097",
+        "DLR-C1-C102",
+        "DLR-C2-C009",
+        "DLR-C2-C010"
+      ],
+      "source_sessions": [
+        {
+          "session": 185,
+          "path": "study/SESSION-0185-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP69-72-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0026"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉预测有效性、方法优劣或准确率结论",
+      "next_stage": "PREREGISTERED_FUTURE_VALIDATION"
+    },
+    {
+      "issue_id": "DLR-OPEN-0027",
+      "ledger_title": "第1—76页实体原图复审完整性：本轮第16页原照片尚未重新定位",
+      "ledger_priority": "P2",
+      "ledger_status": "CLOSED",
+      "previous_route": "HISTORICAL_CLOSED",
+      "primary_route": "HISTORICAL_CLOSED",
+      "secondary_routes": [],
+      "focus": "p16原页定位历史缺口",
+      "current_boundary": "已关闭；C1及C2覆盖链完整；不等于私人原图已备份",
+      "resolution_gate": "无需重复关闭；若新访问缺口另建事项",
+      "rule_ids": [],
+      "concept_ids": [],
+      "source_sessions": [
+        {
+          "session": 167,
+          "path": "study/SESSION-0167-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP10-14-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0027"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "无；保留历史关闭记录",
+      "next_stage": "HISTORICAL"
+    },
+    {
+      "issue_id": "DLR-OPEN-0028",
+      "ledger_title": "卷二p77–85神将分工、空陷参照及多义条件选择",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "神将分工、空陷与多义",
+      "current_boundary": "将身份、本体、乘支、地盘及象义可分；无普适选择",
+      "resolution_gate": "逐占类核古条及触发条件，验证有效性",
+      "rule_ids": [
+        "DLR-C1-R030",
+        "DLR-C1-R035",
+        "DLR-C1-R060",
+        "DLR-C1-R061",
+        "DLR-C2-R006",
+        "DLR-C2-R007",
+        "DLR-C2-R010",
+        "DLR-C2-R011"
+      ],
+      "concept_ids": [
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C047",
+        "DLR-C1-C053",
+        "DLR-C1-C056",
+        "DLR-C1-C057",
+        "DLR-C1-C072",
+        "DLR-C1-C074",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C093",
+        "DLR-C1-C094",
+        "DLR-C1-C095",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C2-C007",
+        "DLR-C2-C008",
+        "DLR-C2-C013",
+        "DLR-C2-C014",
+        "DLR-C2-C015"
+      ],
+      "source_sessions": [
+        {
+          "session": 187,
+          "path": "study/SESSION-0187-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP77-80-R1.md"
+        },
+        {
+          "session": 188,
+          "path": "study/SESSION-0188-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP81-85-R1.md"
+        },
+        {
+          "session": 195,
+          "path": "study/SESSION-0195-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP114-119-R1.md"
+        },
+        {
+          "session": 196,
+          "path": "study/SESSION-0196-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP120-123-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0028"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0029",
+      "ledger_title": "卷二p85–92六亲作用转换、局与单支、暗鬼、空亡及p90疑字",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "六亲作用、局、暗鬼与p90",
+      "current_boundary": "支/局/双遁分列，制鬼共现不等于作用；疑字待校",
+      "resolution_gate": "核原印异版、成局和暗鬼参照；按目标及作用域测试",
+      "rule_ids": [
+        "DLR-C1-R034",
+        "DLR-C1-R042",
+        "DLR-C1-R066",
+        "DLR-C2-R019",
+        "DLR-C2-R020",
+        "DLR-C2-R021",
+        "DLR-C2-R035",
+        "DLR-C2-R036"
+      ],
+      "concept_ids": [
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C051",
+        "DLR-C1-C052",
+        "DLR-C1-C053",
+        "DLR-C1-C054",
+        "DLR-C1-C055",
+        "DLR-C1-C063",
+        "DLR-C1-C064",
+        "DLR-C1-C072",
+        "DLR-C1-C085",
+        "DLR-C1-C087",
+        "DLR-C1-C088",
+        "DLR-C1-C089",
+        "DLR-C1-C091",
+        "DLR-C1-C100",
+        "DLR-C1-C102",
+        "DLR-C2-C025",
+        "DLR-C2-C026",
+        "DLR-C2-C027",
+        "DLR-C2-C048",
+        "DLR-C2-C049"
+      ],
+      "source_sessions": [
+        {
+          "session": 189,
+          "path": "study/SESSION-0189-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP86-89-R1.md"
+        },
+        {
+          "session": 190,
+          "path": "study/SESSION-0190-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP90-93-R1.md"
+        },
+        {
+          "session": 198,
+          "path": "study/SESSION-0198-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP127-130-R1.md"
+        },
+        {
+          "session": 202,
+          "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0029"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0030",
+      "ledger_title": "卷二p92–95旬空落空、整体局部优先级及乙丑课题头/盘式矛盾",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY",
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "双空解释及p94题图",
+      "current_boundary": "空态及空源可算；D9题头与D3图式冲突另留",
+      "resolution_gate": "分别核题图输入和空亡优先条件；不能用解释改结构",
+      "rule_ids": [
+        "DLR-C1-R047",
+        "DLR-C1-R053",
+        "DLR-C2-R009",
+        "DLR-C2-R010"
+      ],
+      "concept_ids": [
+        "DLR-C1-C023",
+        "DLR-C1-C069",
+        "DLR-C1-C070",
+        "DLR-C1-C071",
+        "DLR-C1-C072",
+        "DLR-C1-C073",
+        "DLR-C1-C074",
+        "DLR-C1-C087",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C092",
+        "DLR-C1-C101",
+        "DLR-C1-C102",
+        "DLR-C2-C011",
+        "DLR-C2-C012",
+        "DLR-C2-C013"
+      ],
+      "source_sessions": [
+        {
+          "session": 191,
+          "path": "study/SESSION-0191-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP94-97-R1.md"
+        },
+        {
+          "session": 202,
+          "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0030"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0031",
+      "ledger_title": "卷二p95–101合刑冲破害参照、三六相呼、中神、武科例与p101疑字",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY",
+        "SOURCE_COLLATION"
+      ],
+      "focus": "合刑冲害与三六相呼",
+      "current_boundary": "合破可并存，中神非中传；p101疑字未裁",
+      "resolution_gate": "核古籍关系方向、有效域、中神及三六合触发条件",
+      "rule_ids": [
+        "DLR-C1-R005",
+        "DLR-C1-R036",
+        "DLR-C1-R037",
+        "DLR-C1-R038",
+        "DLR-C1-R039",
+        "DLR-C1-R040",
+        "DLR-C1-R041",
+        "DLR-C1-R043"
+      ],
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C008",
+        "DLR-C1-C009",
+        "DLR-C1-C020",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C041",
+        "DLR-C1-C058",
+        "DLR-C1-C059",
+        "DLR-C1-C060",
+        "DLR-C1-C061",
+        "DLR-C1-C062",
+        "DLR-C1-C063",
+        "DLR-C1-C065",
+        "DLR-C1-C066"
+      ],
+      "source_sessions": [
+        {
+          "session": 192,
+          "path": "study/SESSION-0192-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP98-101-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0031"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0032",
+      "ledger_title": "卷二p101–103长生、生克、禄旺刃、病死墓绝及胎爻的取用条件",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY",
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "长生禄旺刃及胎象",
+      "current_boundary": "基础表、别名及状态可分；胎象或吉凶非阶段必然",
+      "resolution_gate": "按0007分版本查表；明确阶段参照与占类，检验反例",
+      "rule_ids": [
+        "DLR-C1-R048",
+        "DLR-C1-R049",
+        "DLR-C1-R050",
+        "DLR-C1-R054",
+        "DLR-C2-R022",
+        "DLR-C2-R023"
+      ],
+      "concept_ids": [
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C077",
+        "DLR-C1-C078",
+        "DLR-C1-C079",
+        "DLR-C1-C080",
+        "DLR-C1-C081",
+        "DLR-C1-C082",
+        "DLR-C1-C083",
+        "DLR-C1-C084",
+        "DLR-C1-C085",
+        "DLR-C1-C091",
+        "DLR-C2-C028",
+        "DLR-C2-C029",
+        "DLR-C2-C030",
+        "DLR-C2-C031"
+      ],
+      "source_sessions": [
+        {
+          "session": 193,
+          "path": "study/SESSION-0193-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP102-106-R1.md"
+        },
+        {
+          "session": 198,
+          "path": "study/SESSION-0198-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP127-130-R1.md"
+        },
+        {
+          "session": 199,
+          "path": "study/SESSION-0199-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP131-134-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0032"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0033",
+      "ledger_title": "卷二p103–106四时/天地盘旺衰、双向参照及癸酉课发用疑字",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "双向旺衰及p106发用",
+      "current_boundary": "季末土旺窗口缺；申/卯原印疑误不改字",
+      "resolution_gate": "核节令窗口、双向及时间尺度，查版本并对照短长目标",
+      "rule_ids": [
+        "DLR-C1-R010",
+        "DLR-C1-R051",
+        "DLR-C1-R052",
+        "DLR-C1-R055",
+        "DLR-C2-R022"
+      ],
+      "concept_ids": [
+        "DLR-C1-C016",
+        "DLR-C1-C075",
+        "DLR-C1-C079",
+        "DLR-C1-C082",
+        "DLR-C1-C083",
+        "DLR-C1-C084",
+        "DLR-C1-C085",
+        "DLR-C1-C086",
+        "DLR-C1-C087",
+        "DLR-C1-C101",
+        "DLR-C2-C028",
+        "DLR-C2-C029",
+        "DLR-C2-C030"
+      ],
+      "source_sessions": [
+        {
+          "session": 193,
+          "path": "study/SESSION-0193-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP102-106-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0033"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0034",
+      "ledger_title": "卷二p60–68俱生双义、寄宫与日干参照、p63辛丑及庚寅课式疑误",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "俱生双义与图式异常",
+      "current_boundary": "寄宫不替本体；多参照及p63庚寅疑点仍存",
+      "resolution_gate": "分离图式输入与各生互生条件，核底本后按限定域复算",
+      "rule_ids": [
+        "DLR-C1-R044",
+        "DLR-C1-R045",
+        "DLR-C1-R046",
+        "DLR-C2-R002",
+        "DLR-C2-R022"
+      ],
+      "concept_ids": [
+        "DLR-C1-C003",
+        "DLR-C1-C004",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C022",
+        "DLR-C1-C023",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C057",
+        "DLR-C1-C067",
+        "DLR-C1-C068",
+        "DLR-C1-C075",
+        "DLR-C1-C083",
+        "DLR-C1-C084",
+        "DLR-C1-C096",
+        "DLR-C2-C002",
+        "DLR-C2-C028",
+        "DLR-C2-C029",
+        "DLR-C2-C030"
+      ],
+      "source_sessions": [
+        {
+          "session": 183,
+          "path": "study/SESSION-0183-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP60-63-R1.md"
+        },
+        {
+          "session": 184,
+          "path": "study/SESSION-0184-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP64-68-R1.md"
+        },
+        {
+          "session": 194,
+          "path": "study/SESSION-0194-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP107-113-R1.md"
+        },
+        {
+          "session": 199,
+          "path": "study/SESSION-0199-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP131-134-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0034"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0035",
+      "ledger_title": "九宗门全不比回退、同层并列及旧493普通课统计口径",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "CALCULATION_BOUNDARY",
+      "primary_route": "CALCULATION_BOUNDARY",
+      "secondary_routes": [
+        "SOURCE_COLLATION"
+      ],
+      "focus": "全不比及同层候选",
+      "current_boundary": "p43限定戊辰D7可取；7个全不比仍未裁；旧712和补证713不得混作同口径",
+      "resolution_gate": "复核五普通及两返吟全不比，逐版本确定回退或并列；保留候选",
+      "rule_ids": [
+        "DLR-C1-R004",
+        "DLR-C1-R014",
+        "DLR-C1-R015",
+        "DLR-C1-R018",
+        "DLR-C1-R019",
+        "DLR-C1-R020",
+        "DLR-C1-R026",
+        "DLR-C2-R015"
+      ],
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C008",
+        "DLR-C1-C023",
+        "DLR-C1-C025",
+        "DLR-C1-C026",
+        "DLR-C1-C031",
+        "DLR-C1-C032",
+        "DLR-C1-C033",
+        "DLR-C1-C034",
+        "DLR-C1-C035",
+        "DLR-C1-C036",
+        "DLR-C1-C037",
+        "DLR-C1-C038",
+        "DLR-C1-C039",
+        "DLR-C1-C040",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C095",
+        "DLR-C2-C020",
+        "DLR-C2-C021"
+      ],
+      "source_sessions": [
+        {
+          "session": 178,
+          "path": "study/SESSION-0178-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP42-44-R1.md"
+        },
+        {
+          "session": 197,
+          "path": "study/SESSION-0197-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP124-126-R1.md"
+        },
+        {
+          "session": 200,
+          "path": "study/SESSION-0200-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP135-136-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0035"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅依赖未裁版本的唯一计算输出",
+      "next_stage": "MASTERY_BOUNDARY_THEN_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0036",
+      "ledger_title": "卷二p56–59参照对象与婚姻六合双克、父母兼败气的优先规则",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "婚姻合克与父母败气",
+      "current_boundary": "同位不同属性可并存，不预定吉凶优先",
+      "resolution_gate": "先定双方目标、参照及作用条件，再独立验证",
+      "rule_ids": [
+        "DLR-C1-R044",
+        "DLR-C1-R054",
+        "DLR-C1-R057",
+        "DLR-C2-R001",
+        "DLR-C2-R020",
+        "DLR-C2-R022"
+      ],
+      "concept_ids": [
+        "DLR-C1-C001",
+        "DLR-C1-C003",
+        "DLR-C1-C004",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C053",
+        "DLR-C1-C057",
+        "DLR-C1-C067",
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C082",
+        "DLR-C1-C083",
+        "DLR-C1-C084",
+        "DLR-C1-C085",
+        "DLR-C1-C087",
+        "DLR-C1-C088",
+        "DLR-C1-C089",
+        "DLR-C1-C091",
+        "DLR-C1-C098",
+        "DLR-C1-C102",
+        "DLR-C2-C001",
+        "DLR-C2-C026",
+        "DLR-C2-C027",
+        "DLR-C2-C028",
+        "DLR-C2-C029",
+        "DLR-C2-C030"
+      ],
+      "source_sessions": [
+        {
+          "session": 181,
+          "path": "study/SESSION-0181-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP53-56-R1.md"
+        },
+        {
+          "session": 182,
+          "path": "study/SESSION-0182-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP57-59-R1.md"
+        },
+        {
+          "session": 194,
+          "path": "study/SESSION-0194-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP107-113-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0036"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0037",
+      "ledger_title": "卷二p61丙辰及p61–62甲午配将与卷一起贵人顺逆、昼夜规则冲突",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "SOURCE_COLLATION",
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "p61–62及卷三配将冲突",
+      "current_boundary": "依卷一昼夜候选重排可算；部分题夜图昼，原图保留",
+      "resolution_gate": "核古例底本、昼夜制度与实际时，不能择一覆盖图",
+      "rule_ids": [
+        "DLR-C1-R028"
+      ],
+      "concept_ids": [
+        "DLR-C1-C017",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C048"
+      ],
+      "source_sessions": [
+        {
+          "session": 183,
+          "path": "study/SESSION-0183-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP60-63-R1.md"
+        },
+        {
+          "session": 194,
+          "path": "study/SESSION-0194-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP107-113-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0037"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0038",
+      "ledger_title": "卷二p75–76回环/透关计数、干支端点双向与传将递生递克的参照",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "回环透关及传将递生克",
+      "current_boundary": "有序端点、支传与天将本体链不同；残句待底本",
+      "resolution_gate": "核古条定义、查 p76 异版；用有向组合反例验证",
+      "rule_ids": [
+        "DLR-C1-R063",
+        "DLR-C1-R064",
+        "DLR-C2-R024"
+      ],
+      "concept_ids": [
+        "DLR-C1-C032",
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C043",
+        "DLR-C1-C096",
+        "DLR-C1-C097",
+        "DLR-C1-C098",
+        "DLR-C2-C032"
+      ],
+      "source_sessions": [
+        {
+          "session": 186,
+          "path": "study/SESSION-0186-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP73-76-R1.md"
+        },
+        {
+          "session": 195,
+          "path": "study/SESSION-0195-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP114-119-R1.md"
+        },
+        {
+          "session": 200,
+          "path": "study/SESSION-0200-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP135-136-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0038"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0039",
+      "ledger_title": "卷二p82–84天将参照与六合鬼绝、太常勾陈同鬼的结构不可达问题",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY",
+        "SOURCE_COLLATION"
+      ],
+      "focus": "六合鬼绝及双将同鬼",
+      "current_boundary": "乘支同鬼与将本体克日是不同谓词；官乡义待核",
+      "resolution_gate": "核六合鬼绝、太常勾陈及太常贵人原条的官乡参照",
+      "rule_ids": [
+        "DLR-C1-R030",
+        "DLR-C1-R035",
+        "DLR-C1-R061",
+        "DLR-C2-R011"
+      ],
+      "concept_ids": [
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C047",
+        "DLR-C1-C053",
+        "DLR-C1-C056",
+        "DLR-C1-C057",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C2-C014",
+        "DLR-C2-C015"
+      ],
+      "source_sessions": [
+        {
+          "session": 188,
+          "path": "study/SESSION-0188-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP81-85-R1.md"
+        },
+        {
+          "session": 196,
+          "path": "study/SESSION-0196-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP120-123-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0039"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0040",
+      "ledger_title": "卷二p86–90攒眉与鬼脱生重合、救神空陷及全财定义的取舍",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "攒眉救神与全财",
+      "current_boundary": "结构重叠及空态可算；有效制化非共现",
+      "resolution_gate": "核格局及全财定义，固定救神作用域与目标对照",
+      "rule_ids": [
+        "DLR-C1-R042",
+        "DLR-C1-R065",
+        "DLR-C1-R066",
+        "DLR-C2-R019",
+        "DLR-C2-R021"
+      ],
+      "concept_ids": [
+        "DLR-C1-C047",
+        "DLR-C1-C053",
+        "DLR-C1-C054",
+        "DLR-C1-C056",
+        "DLR-C1-C057",
+        "DLR-C1-C063",
+        "DLR-C1-C064",
+        "DLR-C1-C072",
+        "DLR-C1-C085",
+        "DLR-C1-C087",
+        "DLR-C1-C088",
+        "DLR-C1-C089",
+        "DLR-C1-C091",
+        "DLR-C1-C099",
+        "DLR-C1-C100",
+        "DLR-C2-C025",
+        "DLR-C2-C026"
+      ],
+      "source_sessions": [
+        {
+          "session": 189,
+          "path": "study/SESSION-0189-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP86-89-R1.md"
+        },
+        {
+          "session": 190,
+          "path": "study/SESSION-0190-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP90-93-R1.md"
+        },
+        {
+          "session": 198,
+          "path": "study/SESSION-0198-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP127-130-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0040"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0041",
+      "ledger_title": "卷二p93–95空亡五原则取舍、月将空与救神空亡来源依赖",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "空亡解释与同源",
+      "current_boundary": "双空状态与来源可算；吉凶例外未验证",
+      "resolution_gate": "分别核空源、作用对象、目标及填实条件，冻结解释候选",
+      "rule_ids": [
+        "DLR-C1-R047",
+        "DLR-C1-R053",
+        "DLR-C1-R066",
+        "DLR-C1-R067",
+        "DLR-C1-R068",
+        "DLR-C2-R010",
+        "DLR-C2-R026",
+        "DLR-C2-R035"
+      ],
+      "concept_ids": [
+        "DLR-C1-C023",
+        "DLR-C1-C031",
+        "DLR-C1-C032",
+        "DLR-C1-C049",
+        "DLR-C1-C051",
+        "DLR-C1-C053",
+        "DLR-C1-C054",
+        "DLR-C1-C055",
+        "DLR-C1-C064",
+        "DLR-C1-C069",
+        "DLR-C1-C070",
+        "DLR-C1-C071",
+        "DLR-C1-C072",
+        "DLR-C1-C073",
+        "DLR-C1-C074",
+        "DLR-C1-C085",
+        "DLR-C1-C087",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C1-C101",
+        "DLR-C1-C102",
+        "DLR-C2-C013",
+        "DLR-C2-C035",
+        "DLR-C2-C048"
+      ],
+      "source_sessions": [
+        {
+          "session": 191,
+          "path": "study/SESSION-0191-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP94-97-R1.md"
+        },
+        {
+          "session": 196,
+          "path": "study/SESSION-0196-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP120-123-R1.md"
+        },
+        {
+          "session": 201,
+          "path": "study/SESSION-0201-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP137-139-R1.md"
+        },
+        {
+          "session": 202,
+          "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0041"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0042",
+      "ledger_title": "卷二p95–101同心格合破重叠、三六相呼及三合冲神搜索域",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY",
+        "SOURCE_COLLATION"
+      ],
+      "focus": "同心格及三合冲神范围",
+      "current_boundary": "合破不互斥；中神与中传、搜索域分开",
+      "resolution_gate": "核三六合呼应、冲神入域及同心格古条，构造反例",
+      "rule_ids": [
+        "DLR-C1-R041",
+        "DLR-C1-R042",
+        "DLR-C1-R043"
+      ],
+      "concept_ids": [
+        "DLR-C1-C007",
+        "DLR-C1-C008",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C041",
+        "DLR-C1-C053",
+        "DLR-C1-C058",
+        "DLR-C1-C060",
+        "DLR-C1-C063",
+        "DLR-C1-C064",
+        "DLR-C1-C065",
+        "DLR-C1-C066"
+      ],
+      "source_sessions": [
+        {
+          "session": 192,
+          "path": "study/SESSION-0192-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP98-101-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0042"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0043",
+      "ledger_title": "卷二p101–106长生六亲同源、寄宫参照及季末土旺条件",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "LATER_VOLUME",
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY",
+        "SOURCE_COLLATION"
+      ],
+      "focus": "长生六亲与季末土旺",
+      "current_boundary": "同源五行关系不可重复计独立证据；季末窗口未裁",
+      "resolution_gate": "核季末土旺具体日界、长生本位与寄宫；各版本复算",
+      "rule_ids": [
+        "DLR-C1-R010",
+        "DLR-C1-R048",
+        "DLR-C1-R051",
+        "DLR-C1-R052",
+        "DLR-C1-R055",
+        "DLR-C1-R068",
+        "DLR-C2-R022",
+        "DLR-C2-R026"
+      ],
+      "concept_ids": [
+        "DLR-C1-C016",
+        "DLR-C1-C073",
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C077",
+        "DLR-C1-C078",
+        "DLR-C1-C079",
+        "DLR-C1-C082",
+        "DLR-C1-C083",
+        "DLR-C1-C084",
+        "DLR-C1-C085",
+        "DLR-C1-C086",
+        "DLR-C1-C087",
+        "DLR-C1-C090",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C1-C101",
+        "DLR-C1-C102",
+        "DLR-C2-C028",
+        "DLR-C2-C029",
+        "DLR-C2-C030",
+        "DLR-C2-C035"
+      ],
+      "source_sessions": [
+        {
+          "session": 193,
+          "path": "study/SESSION-0193-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP102-106-R1.md"
+        },
+        {
+          "session": 199,
+          "path": "study/SESSION-0199-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP131-134-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0043"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0044",
+      "ledger_title": "《六壬金针》p33贵人逆行地盘支序末尾疑似多印辰字",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": "CALCULATION_BOUNDARY",
+      "primary_route": "CALCULATION_BOUNDARY",
+      "secondary_routes": [
+        "SOURCE_COLLATION"
+      ],
+      "focus": "贵人逆行支序疑多辰",
+      "current_boundary": "候选六六互斥且辰顺；p33印文仍存",
+      "resolution_gate": "对照p33及p47、可靠异版，校验全12地盘方向",
+      "rule_ids": [
+        "DLR-C1-R028"
+      ],
+      "concept_ids": [
+        "DLR-C1-C017",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C048"
+      ],
+      "source_sessions": [
+        {
+          "session": 175,
+          "path": "study/SESSION-0175-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP33-35-R1.md"
+        },
+        {
+          "session": 179,
+          "path": "study/SESSION-0179-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP45-47-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0044"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅依赖未裁版本的唯一计算输出",
+      "next_stage": "MASTERY_BOUNDARY_THEN_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0045",
+      "ledger_title": "卷三p111癸酉婚例两处上神生本位与同五行比和冲突",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CONDITION_AND_INTERPRETATION"
+      ],
+      "focus": "p111两本位生/比和",
+      "current_boundary": "子癸同水、申酉同金；两上神半合相生另成立",
+      "resolution_gate": "核古例底本及作者生字的端点参照；不改原印",
+      "rule_ids": [
+        "DLR-C1-R002",
+        "DLR-C1-R044",
+        "DLR-C1-R057",
+        "DLR-C2-R001",
+        "DLR-C2-R002"
+      ],
+      "concept_ids": [
+        "DLR-C1-C001",
+        "DLR-C1-C002",
+        "DLR-C1-C003",
+        "DLR-C1-C004",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C022",
+        "DLR-C1-C023",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C057",
+        "DLR-C1-C067",
+        "DLR-C1-C088",
+        "DLR-C1-C098",
+        "DLR-C2-C001",
+        "DLR-C2-C002"
+      ],
+      "source_sessions": [
+        {
+          "session": 194,
+          "path": "study/SESSION-0194-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP107-113-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0045"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0046",
+      "ledger_title": "卷三p116丙寅古例涉害标名、昼夜贵人与同图四课配将矛盾",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "p116昼夜混配与涉害标签",
+      "current_boundary": "比用唯一子；主盘与三传昼、四课前二昼后二夜",
+      "resolution_gate": "核指南原典、异版及贵人规则，分别核取传标签和图式",
+      "rule_ids": [
+        "DLR-C1-R018",
+        "DLR-C1-R019",
+        "DLR-C1-R028"
+      ],
+      "concept_ids": [
+        "DLR-C1-C008",
+        "DLR-C1-C017",
+        "DLR-C1-C032",
+        "DLR-C1-C036",
+        "DLR-C1-C037",
+        "DLR-C1-C039",
+        "DLR-C1-C040",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C048"
+      ],
+      "source_sessions": [
+        {
+          "session": 195,
+          "path": "study/SESSION-0195-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP114-119-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0046"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0047",
+      "ledger_title": "十二支神基本象的历史形成依据及质气分工的可观察化",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CONDITION_AND_INTERPRETATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "支神基本象历史与质气",
+      "current_boundary": "印绶象与正式六亲可异；偏质气非排他",
+      "resolution_gate": "逐条追溯最早可核版本及演变；另定义可观察取象与验证",
+      "rule_ids": [
+        "DLR-C1-R058",
+        "DLR-C1-R061",
+        "DLR-C2-R003",
+        "DLR-C2-R004",
+        "DLR-C2-R006"
+      ],
+      "concept_ids": [
+        "DLR-C1-C015",
+        "DLR-C1-C020",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C047",
+        "DLR-C1-C053",
+        "DLR-C1-C087",
+        "DLR-C1-C089",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C095",
+        "DLR-C2-C003",
+        "DLR-C2-C004",
+        "DLR-C2-C005",
+        "DLR-C2-C007",
+        "DLR-C2-C008"
+      ],
+      "source_sessions": [
+        {
+          "session": 195,
+          "path": "study/SESSION-0195-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP114-119-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0047"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0048",
+      "ledger_title": "卷三p119–123类象隐显、虚实、复合象的作用域与有效条件",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "隐显虚实与复合象",
+      "current_boundary": "存在、域、状态、解释、成败分层；官乡不同参照结论异",
+      "resolution_gate": "核各占类原条、搜索域及空态；定义合会共入，冻结效验方案",
+      "rule_ids": [
+        "DLR-C1-R053",
+        "DLR-C1-R059",
+        "DLR-C1-R061",
+        "DLR-C1-R062",
+        "DLR-C2-R007",
+        "DLR-C2-R008",
+        "DLR-C2-R009",
+        "DLR-C2-R010",
+        "DLR-C2-R011",
+        "DLR-C2-R034"
+      ],
+      "concept_ids": [
+        "DLR-C1-C025",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C047",
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C053",
+        "DLR-C1-C069",
+        "DLR-C1-C072",
+        "DLR-C1-C073",
+        "DLR-C1-C074",
+        "DLR-C1-C087",
+        "DLR-C1-C089",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C092",
+        "DLR-C1-C095",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C1-C101",
+        "DLR-C1-C102",
+        "DLR-C2-C008",
+        "DLR-C2-C009",
+        "DLR-C2-C010",
+        "DLR-C2-C011",
+        "DLR-C2-C012",
+        "DLR-C2-C013",
+        "DLR-C2-C014",
+        "DLR-C2-C015",
+        "DLR-C2-C044",
+        "DLR-C2-C045",
+        "DLR-C2-C046"
+      ],
+      "source_sessions": [
+        {
+          "session": 196,
+          "path": "study/SESSION-0196-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP120-123-R1.md"
+        },
+        {
+          "session": 198,
+          "path": "study/SESSION-0198-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP127-130-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0048"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0049",
+      "ledger_title": "卷三p125–126现代匿名课公历日期与子月丙寅日课题矛盾",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "p125–126日期冲突",
+      "current_boundary": "11月19丙申与12月19丙寅候选分开；未核真实事件",
+      "resolution_gate": "核版次及原始日期口径，禁止按匿名事件身份倒推",
+      "rule_ids": [
+        "DLR-C1-R006",
+        "DLR-C1-R007",
+        "DLR-C1-R009",
+        "DLR-C1-R010"
+      ],
+      "concept_ids": [
+        "DLR-C1-C001",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C010",
+        "DLR-C1-C011",
+        "DLR-C1-C014",
+        "DLR-C1-C015",
+        "DLR-C1-C016",
+        "DLR-C1-C018",
+        "DLR-C1-C021",
+        "DLR-C1-C085"
+      ],
+      "source_sessions": [
+        {
+          "session": 197,
+          "path": "study/SESSION-0197-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP124-126-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0049"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0050",
+      "ledger_title": "神煞起算参照、基本象引申、组合与应期选择的依据",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "CALCULATION_BOUNDARY",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "CONDITION_AND_INTERPRETATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "神煞参照与应期",
+      "current_boundary": "日德马等可按候选算；死气月煞与本位不同，丧吊方向等待核",
+      "resolution_gate": "逐煞核版本、输入、方向和例外；时间目标事前固定",
+      "rule_ids": [
+        "DLR-C1-R060",
+        "DLR-C2-R012",
+        "DLR-C2-R013",
+        "DLR-C2-R014",
+        "DLR-C2-R015",
+        "DLR-C2-R016",
+        "DLR-C2-R017",
+        "DLR-C2-R018"
+      ],
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C014",
+        "DLR-C1-C015",
+        "DLR-C1-C016",
+        "DLR-C1-C023",
+        "DLR-C1-C059",
+        "DLR-C1-C063",
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C087",
+        "DLR-C1-C091",
+        "DLR-C1-C093",
+        "DLR-C1-C094",
+        "DLR-C1-C095",
+        "DLR-C1-C102",
+        "DLR-C2-C016",
+        "DLR-C2-C017",
+        "DLR-C2-C018",
+        "DLR-C2-C019",
+        "DLR-C2-C020",
+        "DLR-C2-C021",
+        "DLR-C2-C022",
+        "DLR-C2-C023",
+        "DLR-C2-C024"
+      ],
+      "source_sessions": [
+        {
+          "session": 197,
+          "path": "study/SESSION-0197-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP124-126-R1.md"
+        },
+        {
+          "session": 201,
+          "path": "study/SESSION-0201-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP137-139-R1.md"
+        },
+        {
+          "session": 202,
+          "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0050"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅依赖未裁版本的唯一计算输出",
+      "next_stage": "MASTERY_BOUNDARY_THEN_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0051",
+      "ledger_title": "卷三p129粹言官职例己未/丁未日干异文及配将六亲不一致",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "p129己未/丁未异文",
+      "current_boundary": "两候选同传不同将六亲和空态，均不能全符原图",
+      "resolution_gate": "核粹言及指南底本与原印，查日干、年命、贵人版本",
+      "rule_ids": [
+        "DLR-C1-R024",
+        "DLR-C1-R028",
+        "DLR-C1-R033",
+        "DLR-C1-R047",
+        "DLR-C2-R020"
+      ],
+      "concept_ids": [
+        "DLR-C1-C003",
+        "DLR-C1-C004",
+        "DLR-C1-C005",
+        "DLR-C1-C017",
+        "DLR-C1-C020",
+        "DLR-C1-C023",
+        "DLR-C1-C031",
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C048",
+        "DLR-C1-C053",
+        "DLR-C1-C069",
+        "DLR-C1-C070",
+        "DLR-C1-C071",
+        "DLR-C1-C072",
+        "DLR-C1-C073",
+        "DLR-C1-C087",
+        "DLR-C1-C088",
+        "DLR-C1-C089",
+        "DLR-C1-C091",
+        "DLR-C1-C102",
+        "DLR-C2-C026",
+        "DLR-C2-C027"
+      ],
+      "source_sessions": [
+        {
+          "session": 198,
+          "path": "study/SESSION-0198-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP127-130-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0051"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0052",
+      "ledger_title": "卷三p133戊申润下例败局/财局异文与取象依据",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CONDITION_AND_INTERPRETATION"
+      ],
+      "focus": "p133败局/财局",
+      "current_boundary": "原印败、后文纯财，水局日财可复算",
+      "resolution_gate": "核指南问答录等底本、异版及败局别义",
+      "rule_ids": [
+        "DLR-C1-R042",
+        "DLR-C2-R019"
+      ],
+      "concept_ids": [
+        "DLR-C1-C053",
+        "DLR-C1-C063",
+        "DLR-C1-C064",
+        "DLR-C2-C025"
+      ],
+      "source_sessions": [
+        {
+          "session": 199,
+          "path": "study/SESSION-0199-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP131-134-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0052"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0053",
+      "ledger_title": "卷三p131–132乙亥例月内与2005-01-09应期月份口径",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "p131–132月内应期",
+      "current_boundary": "两日同农历十一月、节月不同；历法可相容但事前口径未证",
+      "resolution_gate": "核作者原始记录与月份定义；固定应期时间尺度",
+      "rule_ids": [
+        "DLR-C1-R010",
+        "DLR-C1-R056",
+        "DLR-C2-R018",
+        "DLR-C2-R023"
+      ],
+      "concept_ids": [
+        "DLR-C1-C016",
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C085",
+        "DLR-C1-C087",
+        "DLR-C1-C088",
+        "DLR-C1-C091",
+        "DLR-C1-C102",
+        "DLR-C2-C024",
+        "DLR-C2-C031"
+      ],
+      "source_sessions": [
+        {
+          "session": 199,
+          "path": "study/SESSION-0199-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP131-134-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0053"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0054",
+      "ledger_title": "卷三p135–136课体直接判断的适用域、空亡例外及多课体冲突",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "课体直接断法边界",
+      "current_boundary": "有序结构可识别；六类直接断的适用/空亡例外待证",
+      "resolution_gate": "逐格核古典定义、占类与冲突，事前对比完整与简化模型",
+      "rule_ids": [
+        "DLR-C1-R053",
+        "DLR-C1-R062",
+        "DLR-C1-R068",
+        "DLR-C2-R024",
+        "DLR-C2-R025",
+        "DLR-C2-R026"
+      ],
+      "concept_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C072",
+        "DLR-C1-C073",
+        "DLR-C1-C074",
+        "DLR-C1-C087",
+        "DLR-C1-C090",
+        "DLR-C1-C091",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C1-C101",
+        "DLR-C1-C102",
+        "DLR-C2-C032",
+        "DLR-C2-C033",
+        "DLR-C2-C034",
+        "DLR-C2-C035"
+      ],
+      "source_sessions": [
+        {
+          "session": 200,
+          "path": "study/SESSION-0200-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP135-136-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0054"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    },
+    {
+      "issue_id": "DLR-OPEN-0055",
+      "ledger_title": "卷三p138行人例酉月巳月德与月建/农历参照差异",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "CALCULATION_BOUNDARY",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "CONDITION_AND_INTERPRETATION"
+      ],
+      "focus": "p138月德口径",
+      "current_boundary": "节酉候选申、农历九月巳；原印巳，不裁月界",
+      "resolution_gate": "核原书神煞指南及其他版月德规则和月份输入",
+      "rule_ids": [
+        "DLR-C1-R010",
+        "DLR-C1-R060",
+        "DLR-C2-R016"
+      ],
+      "concept_ids": [
+        "DLR-C1-C016",
+        "DLR-C1-C085",
+        "DLR-C1-C093",
+        "DLR-C1-C094",
+        "DLR-C1-C095",
+        "DLR-C2-C020",
+        "DLR-C2-C022"
+      ],
+      "source_sessions": [
+        {
+          "session": 201,
+          "path": "study/SESSION-0201-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP137-139-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0055"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅依赖未裁版本的唯一计算输出",
+      "next_stage": "MASTERY_BOUNDARY_THEN_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0056",
+      "ledger_title": "不同流派排法与解法的协同性、预测等效性及客观比较",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "EMPIRICAL_VALIDATION",
+      "secondary_routes": [
+        "SOURCE_COLLATION",
+        "CALCULATION_BOUNDARY",
+        "CONDITION_AND_INTERPRETATION"
+      ],
+      "focus": "跨流派等效性与实际比较",
+      "current_boundary": "结构差异已见；原庚戌行年例两法同支不能区分",
+      "resolution_gate": "先取得完整版本和匹配解法；同目标同信息比较分歧案例与基准",
+      "rule_ids": [
+        "DLR-C1-R069",
+        "DLR-C2-R012",
+        "DLR-C2-R014",
+        "DLR-C2-R027",
+        "DLR-C2-R028",
+        "DLR-C2-R029",
+        "DLR-C2-R030",
+        "DLR-C2-R032"
+      ],
+      "concept_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C014",
+        "DLR-C1-C015",
+        "DLR-C1-C016",
+        "DLR-C1-C029",
+        "DLR-C1-C063",
+        "DLR-C1-C087",
+        "DLR-C1-C088",
+        "DLR-C1-C091",
+        "DLR-C1-C092",
+        "DLR-C1-C093",
+        "DLR-C1-C094",
+        "DLR-C1-C095",
+        "DLR-C1-C097",
+        "DLR-C1-C102",
+        "DLR-C2-C016",
+        "DLR-C2-C019",
+        "DLR-C2-C020",
+        "DLR-C2-C036",
+        "DLR-C2-C037",
+        "DLR-C2-C038",
+        "DLR-C2-C039",
+        "DLR-C2-C043"
+      ],
+      "source_sessions": [
+        {
+          "session": 201,
+          "path": "study/SESSION-0201-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP137-139-R1.md"
+        },
+        {
+          "session": 202,
+          "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0056"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉预测有效性、方法优劣或准确率结论",
+      "next_stage": "PREREGISTERED_FUTURE_VALIDATION"
+    },
+    {
+      "issue_id": "DLR-OPEN-0057",
+      "ledger_title": "卷三p142乙酉课初传乙未与双遁干、旬空落空不一致",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "SOURCE_COLLATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY"
+      ],
+      "focus": "p142乙未配干及空态",
+      "current_boundary": "未旬无干、元癸；未旬空子落空，原印乙未及落空不符",
+      "resolution_gate": "核指南可靠底本及异印，分开原印与复算",
+      "rule_ids": [
+        "DLR-C1-R031",
+        "DLR-C1-R032",
+        "DLR-C1-R034",
+        "DLR-C1-R047",
+        "DLR-C2-R035",
+        "DLR-C2-R037"
+      ],
+      "concept_ids": [
+        "DLR-C1-C014",
+        "DLR-C1-C023",
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C051",
+        "DLR-C1-C052",
+        "DLR-C1-C054",
+        "DLR-C1-C055",
+        "DLR-C1-C069",
+        "DLR-C1-C070",
+        "DLR-C1-C071",
+        "DLR-C1-C072",
+        "DLR-C1-C073",
+        "DLR-C1-C102",
+        "DLR-C2-C048",
+        "DLR-C2-C050"
+      ],
+      "source_sessions": [
+        {
+          "session": 202,
+          "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0057"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉疑底本、版本归属或原例唯一还原",
+      "next_stage": "VERSION_BOUND_SOURCE_COMPARISON"
+    },
+    {
+      "issue_id": "DLR-OPEN-0058",
+      "ledger_title": "卷三p141–143旬遁与五子元遁暗六亲的事前适用条件",
+      "ledger_priority": "P1",
+      "ledger_status": "OPEN",
+      "previous_route": null,
+      "primary_route": "CONDITION_AND_INTERPRETATION",
+      "secondary_routes": [
+        "CALCULATION_BOUNDARY",
+        "SOURCE_COLLATION",
+        "EMPIRICAL_VALIDATION"
+      ],
+      "focus": "双遁暗六亲适用",
+      "current_boundary": "两法全量保留；混合额外24结构不证明有效，选择机制未裁",
+      "resolution_gate": "核暗鬼、明暗二鬼与元遁原条，冻结位置级选择并独立比较",
+      "rule_ids": [
+        "DLR-C1-R031",
+        "DLR-C1-R032",
+        "DLR-C1-R034",
+        "DLR-C1-R066",
+        "DLR-C2-R034",
+        "DLR-C2-R035",
+        "DLR-C2-R036",
+        "DLR-C2-R037"
+      ],
+      "concept_ids": [
+        "DLR-C1-C014",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C051",
+        "DLR-C1-C052",
+        "DLR-C1-C053",
+        "DLR-C1-C054",
+        "DLR-C1-C055",
+        "DLR-C1-C064",
+        "DLR-C1-C069",
+        "DLR-C1-C072",
+        "DLR-C1-C085",
+        "DLR-C1-C087",
+        "DLR-C1-C095",
+        "DLR-C1-C100",
+        "DLR-C1-C102",
+        "DLR-C2-C044",
+        "DLR-C2-C045",
+        "DLR-C2-C046",
+        "DLR-C2-C048",
+        "DLR-C2-C049",
+        "DLR-C2-C050"
+      ],
+      "source_sessions": [
+        {
+          "session": 202,
+          "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md"
+        }
+      ],
+      "ledger_evidence_ref": {
+        "path": "docs/OPEN-QUESTIONS-R1.json",
+        "field": "required_evidence",
+        "issue_id": "DLR-OPEN-0058"
+      },
+      "blocks_unrelated_learning": false,
+      "blocks_scope": "仅涉未裁条件的唯一解释或判断",
+      "next_stage": "VOL4_AND_LATER_CONDITION_RESEARCH"
+    }
+  ],
+  "validation": {
+    "exact_ledger_coverage": true,
+    "status_priority_preserved": true,
+    "rule_concept_source_refs_valid": true,
+    "closed_preserved": true,
+    "unrelated_learning_unblocked": true
+  },
+  "limits": "源档案索引及既有证据整理；未新读原页、未核新古籍、未重跑既有枚举、未开展预测验证。"
+}
