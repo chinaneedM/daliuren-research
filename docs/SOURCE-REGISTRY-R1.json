@@ -2537,6 +2537,45 @@
       ],
       "limits": "Not a facsimile, not another edition of 六壬金针, no full-text verification; cannot establish printed emendation independently.",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0141",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.001h.cn/dianji/壬占汇选/第5段/",
+      "provider": "《壬占汇选》网络录文第5段；殆知阁同文对照 https://daizhige.org/易藏/术数/壬占汇选.html",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_DIRECT_TEXT_NOT_EDITION_COLLATED",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "Direct text located same case chart, original orientation and editorial doubt; alternate 癸亥日卯时 explicitly mentioned."
+      ],
+      "limits": "Web transcriptions possibly same source; no facsimile, no independent verification of reported outcomes or alternative case chart.",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0142",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.qiwentop.com/yizang/shu-shu/ren-zhan-hui-xuan/6/",
+      "provider": "《壬占汇选》卷六网络检索摘要",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_SEARCH_SNIPPET_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "Search excerpt suggests 癸亥日卯将亥时 alternative with same biographical clues and differing reported details."
+      ],
+      "limits": "Full matching passage not located by find; conflicts with other transcription's editorial reference to 卯时. No verified alternate chart or version ruling.",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0143",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://ctext.org/wiki.pl?chapter=130164&if=gb",
+      "provider": "中国哲学书电子化计划《六壬断案》检索摘要",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_SEARCH_SNIPPET_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "Search excerpts support case input and 乙山辛向; English interface excerpt also 巳作贵."
+      ],
+      "limits": "Opening full text returned 403; no facsimile or independently collated textual version.",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
