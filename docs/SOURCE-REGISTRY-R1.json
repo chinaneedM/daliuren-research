@@ -4506,6 +4506,45 @@
       "facts_checked": [
         "l1 巳风门、未风伯固定支象及逐月风伯另例，属天气语境"
       ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、独立传本、作者引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0291",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lqkvtq4efe",
+      "provider": "识典大全铸印课",
+      "facts_checked": [
+        "l8–14 戌加巳中传、卯车、戊己印绶、空破旺衰条件"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、独立传本、作者引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0292",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/wiki/六壬大全/8",
+      "provider": "维基文库大全卷八",
+      "facts_checked": [
+        "l303–358 铸印课、订讹、观月经16日清单、袖中金真体条件"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、独立传本、作者引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0293",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://libokang.com/zh-hant/classics/liuren/六壬直指御定/",
+      "provider": "Libo直指庚子第八局古文夹白话",
+      "facts_checked": [
+        "l8255–8267 交合交克、末助初、官星入墓、支上巳空、仕宦与求财分目标"
+      ]
     }
   ]
 }
