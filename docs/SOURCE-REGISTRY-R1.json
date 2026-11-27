@@ -3271,6 +3271,71 @@
       "accessed_date": "2026-11-27",
       "limits": "本轮直接核可见网络录文，未核古刻影印、传本独立性或独立效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0196",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lql7vm2mgi",
+      "provider": "识典古籍六壬大全毕法赋上",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l212–216 纳音冲破之日、夹定三传、甲乙酉胎鬼及死气"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅实际可见数字录文或摘要；历法网站为外部计算旁证非金针原文，未核原刻、底本、真实占课记录及独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0197",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.mczwl.cn/guji/liuren_daquan/lrdq-402",
+      "provider": "天机策六壬大全毕法赋十二检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "甲乙日酉胎财异文，未校古本"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅实际可见数字录文或摘要；历法网站为外部计算旁证非金针原文，未核原刻、底本、真实占课记录及独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0198",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.rili.com.cn/wannianli/2001/1021.html",
+      "provider": "日历网2001年10月21日",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "辛巳戊戌丁巳；另年历表https://www.yinliyangli.com/huangli/2001/2001riqi.php同"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅实际可见数字录文或摘要；历法网站为外部计算旁证非金针原文，未核原刻、底本、真实占课记录及独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0199",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.rili.com.cn/wannianli/2001/0911.html",
+      "provider": "日历网2001年9月11日及9月14日历法检索",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "9-11辛巳丁酉丁丑；https://www.rili.com.cn/wannianli/2001/0914.html 9-14辛巳丁酉庚辰；https://www.yinliyangli.com/huangli/2001/2001riqi.php同"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅实际可见数字录文或摘要；历法网站为外部计算旁证非金针原文，未核原刻、底本、真实占课记录及独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0200",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://zh.wikisource.org/wiki/%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/1",
+      "provider": "维基文库六壬指南卷一检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "处暑后巳将、秋分后辰将、霜降后卯将"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅实际可见数字录文或摘要；历法网站为外部计算旁证非金针原文，未核原刻、底本、真实占课记录及独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
