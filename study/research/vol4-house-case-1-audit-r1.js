@@ -1,0 +1,5 @@
+// SESSION-0224: reproducible fixed-case calculation only; no interpretation or empirical verification.
+const br="子丑寅卯辰巳午未申酉戌亥",gs="甲乙丙丁戊己庚辛壬癸",e=[4,2,0,0,2,1,1,2,3,3,2,4],gen="贵人 腾蛇 朱雀 六合 勾陈 青龙 天空 白虎 太常 玄武 太阴 天后".split(" "),m=(x,n=12)=>(x%n+n)%n;
+const s=6,b=2,r=8,D=m(2-9),H=x=>m(x+D),E=x=>m(x-D),N=7,sgn=[0,1,2,3,4,11].includes(E(N))?1:-1,G=x=>gen[m(sgn*(x-N))],start=m(b-s),voids=[m(start+10),m(start+11)],V=x=>[voids.includes(x),voids.includes(E(x))],p=[H(r),H(H(r)),H(b),H(H(b))],low=[3,e[p[0]],e[b],e[p[2]]],down=p.filter((h,i)=>m(e[h]-low[i],5)===2),f=down.find(h=>h%2===s%2),tr=[f,H(f),H(H(f))],names=["兄弟","子孙","妻财","官鬼","父母"];
+const row=h=>({branch:br[h],ground:br[E(h)],general:G(h),relative:names[m(e[h]-3,5)],void:V(h),xun:m(h-start)<10?gs[m(h-start)]:null,yuan:gs[m(2*(s%5)+h,10)]});
+console.log({D,lessons:p.map(row),down:down.map(h=>br[h]),tr:tr.map(row),voids:voids.map(h=>br[h]),fall:voids.map(h=>br[H(h)]),nobleGround:br[E(N)],yearInterval:m(53-45,60)});
