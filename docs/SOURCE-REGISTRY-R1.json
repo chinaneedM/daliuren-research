@@ -4701,6 +4701,32 @@
       "facts_checked": [
         "现代招聘担保/收费限制，不追溯裁断2004史例"
       ]
+    },
+    {
+      "id": "DLR-WIT-0306",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://daizhige.org/易藏/术数/六壬直指御定.html",
+      "provider": "殆知阁直指甲戌第七局",
+      "facts_checked": [
+        "l890–896 官禄俱空、昼鬼龙、旧事/昼婚及马空限制、辰财生鬼和旬遁庚"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核古刻、传本独立性、引用路径和预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0307",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全/2",
+      "provider": "维基文库大全卷二天罡",
+      "facts_checked": [
+        "l292–315 狱师、狱讼官府、将军、玄武与盗贼，现代公安及行政层级未载"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核古刻、传本独立性、引用路径和预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
