@@ -2470,6 +2470,32 @@
       ],
       "limits": "未校版次或古籍原字",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0136",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/wiki/六壬大全/11",
+      "provider": "维基文库《六壬大全》卷十一网络转录搜索摘要",
+      "facts_checked": [
+        "外好里槎枒格及天盘六合地盘六害文字线索"
+      ],
+      "evidence_grade": "SEARCH_INDEX_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "未校影印原页、版本或断验",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0137",
+      "related_source": "DLR-SRC-0007",
+      "url": "https://www.shidianguji.com/zh/book/NCL06574A/chapter/1mjycluwkr3t5",
+      "provider": "识典古籍《六壬粹言》卷三网络转录搜索摘要",
+      "facts_checked": [
+        "外好里槎枒格及地盘六害文字线索"
+      ],
+      "evidence_grade": "SEARCH_INDEX_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "未校影印原页、版本或断验",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
