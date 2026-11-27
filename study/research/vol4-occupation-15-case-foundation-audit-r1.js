@@ -1,0 +1,5 @@
+const assert=require('node:assert/strict');
+const b="子丑寅卯辰巳午未申酉戌亥",s="甲乙丙丁戊己庚辛壬癸",l=[2,4,5,7,5,7,8,10,11,1];
+const cases=[["丁酉",2,"酉亥亥丑","酉亥丑"],["丁亥",6,"丑未巳亥","巳亥巳"],["癸巳",2,"卯巳未酉","未酉亥"],["庚子",5,"丑午巳戌","巳戌卯"],["庚戌",2,"戌子子寅","子寅辰"],["己未",8,"卯亥卯亥","卯亥未"],["壬子",2,"丑卯寅辰","辰午申"],["甲戌",6,"申寅辰戌","寅申寅"],["癸巳",9,"戌未寅亥","戌未辰"],["乙亥",1,"巳午子丑","丑寅卯"],["甲戌",1,"卯辰亥子","辰巳午"],["乙酉",7,"亥午辰亥","亥午丑"],["辛酉",9,"未辰午卯","午卯子"],["甲子",1,"卯辰丑寅","辰巳午"],["戊辰",0,"巳巳辰辰","巳申寅"]];
+for(const [day,d,u,t] of cases){const g=s.indexOf(day[0]),r=b.indexOf(day[1]),h=x=>(x+d)%12,A=h(l[g]),C=h(r);assert.equal([A,h(A),C,h(C)].map(x=>b[x]).join(""),u);if(d!==0){assert.equal(b[h(b.indexOf(t[0]))],t[1]);assert.equal(b[h(b.indexOf(t[1]))],t[2]);}else assert.equal(t,"巳申寅");}
+for(const [y,m,d,day] of [[2003,6,6,"庚戌"],[2003,8,14,"己未"],[2004,2,3,"壬子"],[2004,11,10,"癸巳"],[2004,12,22,"乙亥"],[2005,4,20,"甲戌"]]){const k=((Date.UTC(y,m-1,d)-Date.UTC(2000,0,7))/86400000%60+60)%60;assert.equal(s[k%10]+b[k%12],day);}console.log("15 four-lesson checks, 14 continuous transmission checks, six Gregorian day-pillar checks");
