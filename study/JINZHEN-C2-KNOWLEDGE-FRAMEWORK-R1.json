@@ -1,0 +1,771 @@
+{
+  "schema": "DLR-JINZHEN-C2-FRAMEWORK-R1",
+  "baseline_head": "b22dfa5d46362387c45aad2d9fb4551ca3c48e4b",
+  "status": "RESEARCH_ONLY",
+  "source_id": "DLR-SRC-0001",
+  "coverage": {
+    "pages": 143,
+    "batches": [
+      {
+        "session": 165,
+        "first": 1,
+        "last": 5,
+        "path": "study/SESSION-0165-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP1-5-R1.md",
+        "theme": "导论与信息容量"
+      },
+      {
+        "session": 166,
+        "first": 6,
+        "last": 9,
+        "path": "study/SESSION-0166-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP6-9-R1.md",
+        "theme": "阴阳五行与多关系"
+      },
+      {
+        "session": 167,
+        "first": 10,
+        "last": 14,
+        "path": "study/SESSION-0167-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP10-14-R1.md",
+        "theme": "天地盘与四课"
+      },
+      {
+        "session": 168,
+        "first": 15,
+        "last": 17,
+        "path": "study/SESSION-0168-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP15-17-R1.md",
+        "theme": "月将占时"
+      },
+      {
+        "session": 169,
+        "first": 18,
+        "last": 20,
+        "path": "study/SESSION-0169-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP18-20-R1.md",
+        "theme": "贼克优先"
+      },
+      {
+        "session": 170,
+        "first": 21,
+        "last": 22,
+        "path": "study/SESSION-0170-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP21-22-R1.md",
+        "theme": "比用涉害"
+      },
+      {
+        "session": 171,
+        "first": 23,
+        "last": 24,
+        "path": "study/SESSION-0171-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP23-24-R1.md",
+        "theme": "遥克昴星"
+      },
+      {
+        "session": 172,
+        "first": 25,
+        "last": 26,
+        "path": "study/SESSION-0172-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP25-26-R1.md",
+        "theme": "别责八专"
+      },
+      {
+        "session": 173,
+        "first": 27,
+        "last": 29,
+        "path": "study/SESSION-0173-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP27-29-R1.md",
+        "theme": "八专伏吟"
+      },
+      {
+        "session": 174,
+        "first": 30,
+        "last": 32,
+        "path": "study/SESSION-0174-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP30-32-R1.md",
+        "theme": "伏吟返吟"
+      },
+      {
+        "session": 175,
+        "first": 33,
+        "last": 35,
+        "path": "study/SESSION-0175-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP33-35-R1.md",
+        "theme": "天将六亲"
+      },
+      {
+        "session": 176,
+        "first": 36,
+        "last": 38,
+        "path": "study/SESSION-0176-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP36-38-R1.md",
+        "theme": "双遁干空亡"
+      },
+      {
+        "session": 177,
+        "first": 39,
+        "last": 41,
+        "path": "study/SESSION-0177-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP39-41-R1.md",
+        "theme": "天地盘方向"
+      },
+      {
+        "session": 178,
+        "first": 42,
+        "last": 44,
+        "path": "study/SESSION-0178-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP42-44-R1.md",
+        "theme": "涉害补证与天将"
+      },
+      {
+        "session": 179,
+        "first": 45,
+        "last": 47,
+        "path": "study/SESSION-0179-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP45-47-R1.md",
+        "theme": "完整课式与布将"
+      },
+      {
+        "session": 180,
+        "first": 48,
+        "last": 52,
+        "path": "study/SESSION-0180-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP48-52-R1.md",
+        "theme": "类神及课体"
+      },
+      {
+        "session": 181,
+        "first": 53,
+        "last": 56,
+        "path": "study/SESSION-0181-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP53-56-R1.md",
+        "theme": "日辰与组合依赖"
+      },
+      {
+        "session": 182,
+        "first": 57,
+        "last": 59,
+        "path": "study/SESSION-0182-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP57-59-R1.md",
+        "theme": "宅墓婚姻行年"
+      },
+      {
+        "session": 183,
+        "first": 60,
+        "last": 63,
+        "path": "study/SESSION-0183-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP60-63-R1.md",
+        "theme": "四课生克沐浴"
+      },
+      {
+        "session": 184,
+        "first": 64,
+        "last": 68,
+        "path": "study/SESSION-0184-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP64-68-R1.md",
+        "theme": "加临禄马"
+      },
+      {
+        "session": 185,
+        "first": 69,
+        "last": 72,
+        "path": "study/SESSION-0185-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP69-72-R1.md",
+        "theme": "发用九维"
+      },
+      {
+        "session": 186,
+        "first": 73,
+        "last": 76,
+        "path": "study/SESSION-0186-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP73-76-R1.md",
+        "theme": "三传合局"
+      },
+      {
+        "session": 187,
+        "first": 77,
+        "last": 80,
+        "path": "study/SESSION-0187-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP77-80-R1.md",
+        "theme": "天将三层"
+      },
+      {
+        "session": 188,
+        "first": 81,
+        "last": 85,
+        "path": "study/SESSION-0188-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP81-85-R1.md",
+        "theme": "天将制化顺序"
+      },
+      {
+        "session": 189,
+        "first": 86,
+        "last": 89,
+        "path": "study/SESSION-0189-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP86-89-R1.md",
+        "theme": "六亲制化"
+      },
+      {
+        "session": 190,
+        "first": 90,
+        "last": 93,
+        "path": "study/SESSION-0190-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP90-93-R1.md",
+        "theme": "父母兄弟空亡"
+      },
+      {
+        "session": 191,
+        "first": 94,
+        "last": 97,
+        "path": "study/SESSION-0191-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP94-97-R1.md",
+        "theme": "空亡及归支"
+      },
+      {
+        "session": 192,
+        "first": 98,
+        "last": 101,
+        "path": "study/SESSION-0192-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP98-101-R1.md",
+        "theme": "刑合关系"
+      },
+      {
+        "session": 193,
+        "first": 102,
+        "last": 106,
+        "path": "study/SESSION-0193-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP102-106-R1.md",
+        "theme": "长生旺衰"
+      },
+      {
+        "session": 194,
+        "first": 107,
+        "last": 113,
+        "path": "study/SESSION-0194-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP107-113-R1.md",
+        "theme": "类象总论与干支"
+      },
+      {
+        "session": 195,
+        "first": 114,
+        "last": 119,
+        "path": "study/SESSION-0195-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP114-119-R1.md",
+        "theme": "支神基本象"
+      },
+      {
+        "session": 196,
+        "first": 120,
+        "last": 123,
+        "path": "study/SESSION-0196-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP120-123-R1.md",
+        "theme": "天将复合象"
+      },
+      {
+        "session": 197,
+        "first": 124,
+        "last": 126,
+        "path": "study/SESSION-0197-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP124-126-R1.md",
+        "theme": "神煞"
+      },
+      {
+        "session": 198,
+        "first": 127,
+        "last": 130,
+        "path": "study/SESSION-0198-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP127-130-R1.md",
+        "theme": "六亲"
+      },
+      {
+        "session": 199,
+        "first": 131,
+        "last": 134,
+        "path": "study/SESSION-0199-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP131-134-R1.md",
+        "theme": "十二长生"
+      },
+      {
+        "session": 200,
+        "first": 135,
+        "last": 136,
+        "path": "study/SESSION-0200-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP135-136-R1.md",
+        "theme": "课体"
+      },
+      {
+        "session": 201,
+        "first": 137,
+        "last": 139,
+        "path": "study/SESSION-0201-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP137-139-R1.md",
+        "theme": "年命"
+      },
+      {
+        "session": 202,
+        "first": 140,
+        "last": 143,
+        "path": "study/SESSION-0202-JINZHEN-CUMULATIVE-ORIGINAL-PASS2-PP140-143-R1.md",
+        "theme": "遁干"
+      }
+    ],
+    "old_c1": 106,
+    "vol3_pass2": 37,
+    "private_backup_verified": false,
+    "next_unseen_page": 144
+  },
+  "layers": [
+    {
+      "id": "L1",
+      "name": "基础理论",
+      "scope": "干支、阴阳五行、寄宫、刑冲合害破、孟仲季、长生基础表",
+      "evidence": "0166–0167、0192–0193"
+    },
+    {
+      "id": "L2",
+      "name": "起课与个人输入",
+      "scope": "日历时间、月建月将、实际时间与选定占时、昼夜、出生年、岁序及未知输入",
+      "evidence": "0168、0177–0179、0197、0201"
+    },
+    {
+      "id": "L3",
+      "name": "课式结构",
+      "scope": "天地盘双向映射、四课课源、取传分流、有序三传、天将、双遁、年命及神煞定位",
+      "evidence": "0167–0179、0197、0201–0202"
+    },
+    {
+      "id": "L4",
+      "name": "关系分析",
+      "scope": "支本、将本体、遁干六亲及有向生克、合刑冲破害、合局和角色",
+      "evidence": "0175、0181–0189、0192、0194–0198、0202"
+    },
+    {
+      "id": "L5",
+      "name": "状态分析",
+      "scope": "旬空落空及源、四时与盘面旺衰、长生参照、禄刃、神煞条件",
+      "evidence": "0176、0190–0193、0196–0199"
+    },
+    {
+      "id": "L6",
+      "name": "占事与类象",
+      "scope": "主体对象、占类、目标期限、九系统象义、类神候选及显现域",
+      "evidence": "0180–0185、0194–0202"
+    },
+    {
+      "id": "L7",
+      "name": "综合判断",
+      "scope": "课体、组合、适用条件、冲突例外、事前筛选及独立评价",
+      "evidence": "0185–0193、0196–0202"
+    }
+  ],
+  "systems": [
+    {
+      "id": "X01",
+      "name": "干支定位",
+      "pages": [
+        108,
+        113
+      ],
+      "layer_ids": [
+        "L1",
+        "L3",
+        "L4",
+        "L6"
+      ],
+      "source_session": 194,
+      "boundary": "本体、寄宫、角色及上下位置分开",
+      "graph_nodes": [
+        "I_DAY",
+        "P_PLATE",
+        "P_LESSONS",
+        "I_QUERY",
+        "R_REL",
+        "F_ROLE"
+      ]
+    },
+    {
+      "id": "X02",
+      "name": "支神",
+      "pages": [
+        113,
+        119
+      ],
+      "layer_ids": [
+        "L1",
+        "L3",
+        "L4",
+        "L6"
+      ],
+      "source_session": 195,
+      "boundary": "基本象与引申象、阴神查向及占类条件",
+      "graph_nodes": [
+        "P_PLATE",
+        "I_QUERY",
+        "F_ROLE",
+        "F_STATE"
+      ]
+    },
+    {
+      "id": "X03",
+      "name": "天将",
+      "pages": [
+        119,
+        123
+      ],
+      "layer_ids": [
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "source_session": 196,
+      "boundary": "本体、乘支、所临地盘及象义分开",
+      "graph_nodes": [
+        "I_DAY",
+        "I_TIME",
+        "P_PLATE",
+        "P_GENERAL",
+        "R_REL",
+        "F_STATE"
+      ]
+    },
+    {
+      "id": "X04",
+      "name": "神煞",
+      "pages": [
+        123,
+        126
+      ],
+      "layer_ids": [
+        "L2",
+        "L3",
+        "L5",
+        "L6"
+      ],
+      "source_session": 197,
+      "boundary": "岁月季干支参照、同名异法、旬遁关联",
+      "graph_nodes": [
+        "I_DAY",
+        "I_CAL",
+        "I_TIME",
+        "P_PLATE",
+        "P_XUN",
+        "P_SHENSHA",
+        "F_STATE"
+      ]
+    },
+    {
+      "id": "X05",
+      "name": "六亲",
+      "pages": [
+        127,
+        130
+      ],
+      "layer_ids": [
+        "L1",
+        "L4",
+        "L6"
+      ],
+      "source_session": 198,
+      "boundary": "支本六亲、将本体、暗六亲及局六亲分列",
+      "graph_nodes": [
+        "I_DAY",
+        "P_PLATE",
+        "P_DUN",
+        "P_GENERAL",
+        "R_REL"
+      ]
+    },
+    {
+      "id": "X06",
+      "name": "十二长生",
+      "pages": [
+        130,
+        134
+      ],
+      "layer_ids": [
+        "L1",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "source_session": 199,
+      "boundary": "本位、交叉、统一日干、目标自身阶段；禄刃另列",
+      "graph_nodes": [
+        "I_DAY",
+        "P_PLATE",
+        "P_STAGE",
+        "F_STATE"
+      ]
+    },
+    {
+      "id": "X07",
+      "name": "课体",
+      "pages": [
+        135,
+        136
+      ],
+      "layer_ids": [
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7"
+      ],
+      "source_session": 200,
+      "boundary": "有序组合、分流、来源及例外，非独立观测",
+      "graph_nodes": [
+        "P_LESSONS",
+        "P_TRANS",
+        "P_GENERAL",
+        "R_REL",
+        "F_STATE",
+        "P_YEAR",
+        "P_SHENSHA",
+        "P_DUN",
+        "F_PATTERN"
+      ]
+    },
+    {
+      "id": "X08",
+      "name": "年命",
+      "pages": [
+        136,
+        139
+      ],
+      "layer_ids": [
+        "L2",
+        "L3",
+        "L4",
+        "L6"
+      ],
+      "source_session": 201,
+      "boundary": "本命行年及本支、上神、所临地盘；代占角色",
+      "graph_nodes": [
+        "I_PERSON",
+        "I_CAL",
+        "P_PLATE",
+        "I_QUERY",
+        "P_YEAR",
+        "F_ROLE"
+      ]
+    },
+    {
+      "id": "X09",
+      "name": "遁干",
+      "pages": [
+        139,
+        143
+      ],
+      "layer_ids": [
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "source_session": 202,
+      "boundary": "旬遁与元遁并列，空值不填，混合规则须事前固定",
+      "graph_nodes": [
+        "I_DAY",
+        "P_XUN",
+        "P_PLATE",
+        "P_DUN",
+        "R_REL",
+        "F_STATE"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "I_DAY",
+      "name": "日柱",
+      "deps": []
+    },
+    {
+      "id": "I_CAL",
+      "name": "年月节令历法",
+      "deps": []
+    },
+    {
+      "id": "I_TIME",
+      "name": "月将选定时昼夜",
+      "deps": []
+    },
+    {
+      "id": "I_PERSON",
+      "name": "个人出生年岁序",
+      "deps": []
+    },
+    {
+      "id": "I_QUERY",
+      "name": "占问目标对象期限",
+      "deps": []
+    },
+    {
+      "id": "I_RULE",
+      "name": "规则版本",
+      "deps": []
+    },
+    {
+      "id": "P_PLATE",
+      "name": "天地盘",
+      "deps": [
+        "I_TIME",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "P_LESSONS",
+      "name": "四课",
+      "deps": [
+        "I_DAY",
+        "P_PLATE",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "P_TRANS",
+      "name": "取传分流三传",
+      "deps": [
+        "P_LESSONS",
+        "I_DAY",
+        "P_PLATE",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "P_GENERAL",
+      "name": "天将",
+      "deps": [
+        "I_DAY",
+        "I_TIME",
+        "P_PLATE",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "P_XUN",
+      "name": "旬首尾空支",
+      "deps": [
+        "I_DAY",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "P_DUN",
+      "name": "双遁干",
+      "deps": [
+        "I_DAY",
+        "P_XUN",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "P_YEAR",
+      "name": "年命坐标",
+      "deps": [
+        "I_PERSON",
+        "I_CAL",
+        "P_PLATE",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "P_SHENSHA",
+      "name": "神煞定位",
+      "deps": [
+        "I_DAY",
+        "I_CAL",
+        "I_TIME",
+        "P_XUN",
+        "P_PLATE",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "P_STAGE",
+      "name": "长生参照",
+      "deps": [
+        "I_DAY",
+        "P_PLATE",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "R_REL",
+      "name": "有向关系及六亲",
+      "deps": [
+        "I_DAY",
+        "P_PLATE",
+        "P_LESSONS",
+        "P_TRANS",
+        "P_GENERAL",
+        "P_DUN",
+        "P_YEAR",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "F_STATE",
+      "name": "空亡旺衰状态",
+      "deps": [
+        "P_XUN",
+        "P_PLATE",
+        "P_STAGE",
+        "I_CAL",
+        "P_SHENSHA",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "F_ROLE",
+      "name": "类象实例",
+      "deps": [
+        "I_QUERY",
+        "P_PLATE",
+        "P_LESSONS",
+        "P_TRANS",
+        "P_YEAR",
+        "P_GENERAL",
+        "R_REL",
+        "F_STATE",
+        "P_SHENSHA",
+        "P_DUN"
+      ]
+    },
+    {
+      "id": "F_PATTERN",
+      "name": "课体结构",
+      "deps": [
+        "P_LESSONS",
+        "P_TRANS",
+        "P_GENERAL",
+        "R_REL",
+        "F_STATE",
+        "P_YEAR",
+        "P_SHENSHA",
+        "P_DUN",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "F_SELECT",
+      "name": "事前筛选",
+      "deps": [
+        "I_QUERY",
+        "F_ROLE",
+        "F_PATTERN",
+        "F_STATE",
+        "R_REL",
+        "I_RULE"
+      ]
+    },
+    {
+      "id": "F_PRED",
+      "name": "冻结断语",
+      "deps": [
+        "F_SELECT",
+        "I_QUERY"
+      ]
+    },
+    {
+      "id": "I_OUTCOME",
+      "name": "独立实际结果",
+      "deps": []
+    },
+    {
+      "id": "V_EVAL",
+      "name": "独立评价",
+      "deps": [
+        "F_PRED",
+        "I_OUTCOME",
+        "I_QUERY"
+      ]
+    }
+  ],
+  "axes": [
+    "来源版本与证据等级",
+    "角色坐标参照方向与派生依赖",
+    "输入充分性与未决状态",
+    "占事适用与事前验证"
+  ],
+  "validation": {
+    "page_ranges_exact_once": true,
+    "batch_count": 38,
+    "dag_acyclic": true,
+    "dependency_nodes": 23,
+    "dependency_edges": 75,
+    "system_references_valid": true,
+    "outcome_excluded_from_prediction_dependencies": true,
+    "issue_counts": {
+      "OPEN": 57,
+      "CLOSED": 1
+    }
+  },
+  "limitations": "粗粒度候选信息流，非每条规则必需输入列表；不重开原页，不裁历史或效验，不改生产。"
+}
