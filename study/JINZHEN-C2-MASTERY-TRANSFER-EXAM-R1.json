@@ -1,0 +1,229 @@
+{
+  "schema": "DLR_C2_MASTERY_TRANSFER_EXAM_R1",
+  "frozen_date": "2026-11-27",
+  "scope": "13道教学迁移题，抽象日柱、月将、占时与指定昼夜，不验证真实历日、不预测具体事件",
+  "rule_baseline": {
+    "baseline_head": "5b2b865572bdb7e52a062fec58d155cc38dc14f6",
+    "paths": [
+      "study/JINZHEN-C1-CONCEPT-REFERENCE-INDEX-R1.json",
+      "study/JINZHEN-C2-CONCEPT-REFERENCE-DELTA-R1.json",
+      "study/JINZHEN-C1-RULE-INDEX-R1.json",
+      "study/JINZHEN-C2-RULE-INDEX-DELTA-R1.json",
+      "study/JINZHEN-C2-ISSUE-ROUTING-R1.json",
+      "study/JINZHEN-C2-KNOWLEDGE-FRAMEWORK-R1.json"
+    ],
+    "forward_supplement": "0133核表；0132、0113及0178确认戊辰D7同孟课序限定；全不比保留未裁；C2候选神煞、行年及双遁按冻结规则索引，未裁适用条件不猜唯一。B题昼夜直接给定。所有相对输入为抽象组合，不检查真实历日。",
+    "original_exam": "study/JINZHEN-C2-MASTERY-EXAM-R1.json",
+    "original_grading": "study/JINZHEN-C2-MASTERY-GRADING-R1.json",
+    "unchanged_rule_source_head": "777fd0b08db088358af3acdd87e474b94687dd6d"
+  },
+  "design": "针对首测覆盖缺口分层取样。只用候选算法的分流分类、贵人地盘顺逆条件、长生起点和出生旬筛题，不生成或保存初中末/全将盘/完整答案键。13题日柱+位移与已冻结的C1首测、C1补测、C2首测均不重复；未遍历所有历史研习例课，不能保证从未见。题目顺序不按分支排列。设计者已知测试目标且同一助手作答、复核，非严格盲测。",
+  "procedure": "本轮先冻结题面和评分；下一单元只读取题面与必要远端状态，不主动查阅选择审计、旧答案、规则索引或运行求解器，手工推演后保存完整原始答卷。再另轮脚本复算和逐项评分，不回改原题、原答、标准。覆盖只代表给定候选规则下有限结构，未裁保留、题面缺陷另记，不作真实预测或第三方独立评价。",
+  "sections": [
+    {
+      "id": "A",
+      "title": "取传分流迁移",
+      "points": 45,
+      "cases": [
+        {
+          "id": "T01",
+          "day": "丙寅",
+          "month_general": "酉",
+          "chosen_hour": "辰",
+          "points": 5
+        },
+        {
+          "id": "T02",
+          "day": "辛未",
+          "month_general": "丑",
+          "chosen_hour": "辰",
+          "points": 5
+        },
+        {
+          "id": "T03",
+          "day": "癸未",
+          "month_general": "酉",
+          "chosen_hour": "申",
+          "points": 5
+        },
+        {
+          "id": "T04",
+          "day": "壬午",
+          "month_general": "未",
+          "chosen_hour": "未",
+          "points": 5
+        },
+        {
+          "id": "T05",
+          "day": "己巳",
+          "month_general": "辰",
+          "chosen_hour": "寅",
+          "points": 5
+        },
+        {
+          "id": "T06",
+          "day": "戊辰",
+          "month_general": "午",
+          "chosen_hour": "巳",
+          "points": 5
+        },
+        {
+          "id": "T07",
+          "day": "庚申",
+          "month_general": "戌",
+          "chosen_hour": "巳",
+          "points": 5
+        },
+        {
+          "id": "T08",
+          "day": "丁未",
+          "month_general": "申",
+          "chosen_hour": "寅",
+          "points": 5
+        },
+        {
+          "id": "T09",
+          "day": "己酉",
+          "month_general": "卯",
+          "chosen_hour": "卯",
+          "points": 5
+        }
+      ],
+      "question": "逐题列D、四课下→上与地盘课源；列课内克贼方向、优先候选及必要筛选。若无直接克，说明按冻结版本的分流条件（源数、遥克、伏吟/返吟等）。给出初中末和理由；未裁保留所有候选及条件传，不强定。",
+      "rubric": [
+        "1分：D及四课上下正确",
+        "1分：地盘课源及克贼方向正确",
+        "1分：优先候选及分流正确",
+        "1分：初传或完整未裁候选正确",
+        "1分：中末与特殊法的坐标、方向或条件传正确"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "贵人逆行、双遁与六亲",
+      "points": 10,
+      "cases": [
+        {
+          "id": "T10",
+          "day": "丙子",
+          "month_general": "申",
+          "chosen_hour": "辰",
+          "noble_period": "夜",
+          "target_branches": [
+            "申",
+            "寅"
+          ],
+          "points": 5
+        },
+        {
+          "id": "T11",
+          "day": "辛巳",
+          "month_general": "酉",
+          "chosen_hour": "丑",
+          "noble_period": "昼",
+          "target_branches": [
+            "卯",
+            "酉"
+          ],
+          "points": 5
+        }
+      ],
+      "question": "按题设昼夜求D、贵人支、所临地盘及布将方向；列子至亥完整十二天将；求日旬、空支及旬首尾丁。对两目标天盘支列支六亲、旬遁干及暗六亲、元遁干及暗六亲、所临地盘本宫、旬空落空及来源。",
+      "rubric": [
+        "1分：D、贵人、所临地盘及方向正确",
+        "1分：十二天将完整正确",
+        "1分：日旬、空支、旬首尾丁正确",
+        "1分：第一目标完整字段正确",
+        "1分：第二目标完整字段正确"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "长生不同起点与旺衰参照",
+      "points": 5,
+      "cases": [
+        {
+          "id": "T12",
+          "day": "甲戌",
+          "month_general": "未",
+          "chosen_hour": "寅",
+          "month_build": "午",
+          "season_main_element": "火",
+          "season_boundary": "已给夏火主令，非季末土旺窗口",
+          "points": 5,
+          "question": "列D与四课上下及课源；分别以干支本位、交叉、统一日干求第一和第三课上神的长生组合，并求两上神各自五行临地盘本宫的反向阶段；计算日旬、旬空落空及第一第三课上神的空源，列夏火主令五行旺相休囚死。说明本位与统一何时不等价以及状态不自动决定吉凶。",
+          "rubric": [
+            "1分：D与四课上下、课源正确",
+            "1分：三种参照均正确",
+            "1分：两反向阶段均正确",
+            "1分：日旬、空支及第一第三课双空标记与来源正确",
+            "1分：五行四时状态及参照与吉凶边界"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "title": "行年算法同值控制",
+      "points": 5,
+      "cases": [
+        {
+          "id": "T13",
+          "day": "丁巳",
+          "month_general": "午",
+          "chosen_hour": "卯",
+          "birth_year": "丙寅",
+          "current_year": "己卯",
+          "elapsed_year_steps": 13,
+          "age_convention": "一岁起点，已经给定经过岁序13，不另换年界",
+          "persons": [
+            "男",
+            "女"
+          ],
+          "points": 5,
+          "question": "按标准与分旬行年候选求男女四组完整干支。对女命，本命及两算法行年分别列N、H(N)、P(N)，列四课上神并核N与H(N)是否入课，P(N)仅字值匹配。若两算法结果一致，能否据此裁定算法优劣？若只知本命支、当前太岁支与男女，能否恢复唯一完整行年干支？说明出生旬和完整岁序对不同候选的意义。",
+          "rubric": [
+            "1分：标准男女干支均正确",
+            "1分：分旬男女干支均正确",
+            "1分：D、四课及三组三坐标正确",
+            "1分：本支、上神及地盘字值匹配正确",
+            "1分：同结果不可裁优劣、仅支输入的不足及出生旬区分"
+          ]
+        }
+      ]
+    }
+  ],
+  "grading": {
+    "total": 65,
+    "pass_threshold": {
+      "total_min": 56,
+      "each_question_min": 4,
+      "no_critical_errors": true
+    },
+    "critical_errors": [
+      "以日干寄宫五行替代日干本体",
+      "下贼优先、阴阳比用或特殊门原则混用导致取传错误",
+      "全不比或并列未裁却伪造唯一三传",
+      "贵人顺逆按天盘支而非所临地盘",
+      "旬空落空天空混同或无旬干被元遁填补",
+      "将日禄替换为临官、未裁阴刃土胎硬定唯一",
+      "将本位、交叉、统一日干长生当同一计算",
+      "年命N、H(N)、P(N)混同或仅凭支恢复唯一行年干",
+      "使用事后结果选择遁法、流派、类神或修改评价标准",
+      "把传统象义、数学结构或本考核分数写成实际预测事实或准确率"
+    ],
+    "failure_policy": "每个关键错误即触发专项复核，不能仅凭总分通过。按冻结细项给分，后续错误若只沿用同一前置误算，应同时报告原始错误和传播，不另创评分细则；有客观题面缺陷则原题与新题分别归档，先记录影响再决定复测，不把缺证的传统断法当唯一答案。通过只代表本次教学任务表现，未决问题不因得分关闭。 首测100/100独立保留，不合并成预测准确率；若补测未达标，按缺口专项回查及新题复测。"
+  },
+  "freeze_validation": {
+    "unique_question_ids": true,
+    "legal_symbols": true,
+    "points_total": 65,
+    "prior_structural_overlap_count": 0,
+    "within_exam_structural_overlap_count": 0,
+    "target_branch_coverage": 9,
+    "reverse_boundary_coverage": 2,
+    "different_lifecycle_start_control": true,
+    "same_xun_year_control": true,
+    "answer_key_created": false
+  }
+}
