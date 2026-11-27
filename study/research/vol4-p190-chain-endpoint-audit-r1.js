@@ -1,0 +1,6 @@
+const assert=require('node:assert/strict');
+const e=[4,2,0,0,2,1,1,2,3,3,2,4],l=[2,4,5,7,5,7,8,10,11,1],m=(x,n=12)=>(x%n+n)%n,b="子丑寅卯辰巳午未申酉戌亥",s="甲乙丙丁戊己庚辛壬癸";
+let o={n:0,chain:{},引干:[0,0],引支:[0,0],examples:{}};
+// Ordinary unique direct-ke domain; excludes special methods. Pure structural counts.
+for(let i=0;i<60;i++)for(let d=1;d<12;d++){if(d===6)continue;let g=i%10,r=i%12,h=x=>m(x+d),A=h(l[g]),C=h(r),U=[A,h(A),C,h(C)],L=[Math.floor(g/2),e[A],e[r],e[C]],lo=U.filter((x,k)=>m(e[x]-L[k],5)===2),up=U.filter((x,k)=>m(L[k]-e[x],5)===2),cand=[...new Set(lo.length?lo:up)];if(cand.length!==1)continue;let T=[cand[0],h(cand[0]),h(h(cand[0]))],f=m(e[T[1]]-e[T[0]],5),j=m(e[T[2]]-e[T[1]],5);o.n++;if(f===j&&f!==0){let key=["","顺生","顺克","逆克","逆生"][f];let end=f<=2?T[2]:T[0],hits=m(Math.floor(g/2)-e[end],5)===(f===1||f===4?1:2);let row=o.chain[key]??=[0,0];row[+hits]++;if(!hits&&!o.examples[key])o.examples[key]={day:s[g]+b[r],d,T:T.map(x=>b[x]).join("")};}for(let [k,x] of [["引干",l[g]],["引支",r]]){let a=m(T[0]-d),c=m(T[2]-d);if(a===m(x+1)&&c===m(x-1))o[k][0]++;if(a===m(x-1)&&c===m(x+1))o[k][1]++;}}
+assert.equal(o.n,337);assert.deepEqual(o.chain,{"顺生":[39,18],"逆生":[56,3],"顺克":[7,1],"逆克":[8,0]});assert.deepEqual(o.引干,[4,3]);assert.deepEqual(o.引支,[2,3]);console.log(JSON.stringify(o,null,2));
