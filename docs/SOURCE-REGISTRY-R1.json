@@ -27,7 +27,7 @@
       "digital_status": "CLASSICAL_ONLINE_TEXT_PARTIAL_EDITION_UNBOUND",
       "redistribution_rights": "MODERN_EDITION_UNVERIFIED",
       "full_text_stored": false,
-      "notes": "Verified a 2013 华龄 publisher catalog edition (222 pages, ISBN 9787516902271, 郑同编校) with five-part volume outline, but user physical printing not matched. Separately, classical online site lists four volumes and notes its current accessible text lacks last two; cannot equate. 2026-11-18 RESEARCH-0002: 2016 心一堂书目称以1790三得堂木刻本为底本，清文德堂五卷另有馆藏目录；未阅原页。四卷网文的合卷或缺漏性质未裁决。 2026-11-18 SESSION-0020: user provided photographed printed p1 headed 六壬指南卷一 / 大六壬心印赋. Text maps the twelve mid-qi to month generals, traditional branch aliases, and describes adding month general to 正时. The edition/imprint/printing is not established from this single print page, which appears to include a printed editorial footnote. This image is NOT independently verified as a historical original/facsimile; photos with handwritten annotations remain private and handwriting is not read."
+      "notes": "Verified a 2013 华龄 publisher catalog edition (222 pages, ISBN 9787516902271, 郑同编校) with five-part volume outline, but user physical printing not matched. Separately, classical online site lists four volumes and notes its current accessible text lacks last two; cannot equate. 2026-11-18 RESEARCH-0002: 2016 心一堂书目称以1790三得堂木刻本为底本，清文德堂五卷另有馆藏目录；未阅原页。四卷网文的合卷或缺漏性质未裁决。 2026-11-18 SESSION-0020: user provided photographed printed p1 headed 六壬指南卷一 / 大六壬心印赋. Text maps the twelve mid-qi to month generals, traditional branch aliases, and describes adding month general to 正时. The edition/imprint/printing is not established from this single print page, which appears to include a printed editorial footnote. This image is NOT independently verified as a historical original/facsimile; photos with handwritten annotations remain private and handwriting is not read.\nSESSION-0214：p144作者强调会纂指南为分类占范本，读者确认后续重点。会纂是指南内部组成，不能因别名另作独立著作；国图民国本目录与电子转录卷三标题不同，保留版本分卷差异，不裁原文。"
     },
     {
       "id": "DLR-SRC-0003",
@@ -106,6 +106,19 @@
       "redistribution_rights": "NOT_ESTABLISHED_FOR_DIGITAL_PAGE_CONTENT",
       "full_text_stored": false,
       "notes": "SESSION-0058: related full section opened, confirms water-earth shared burial argument and alternative soil lifecycle, not full water-earth cycle proof. No source lineage or facsimile collation."
+    },
+    {
+      "id": "DLR-SRC-0009",
+      "work_title": "大六壬玉藻金英（阳宅阴宅秘旨）",
+      "author_attribution": "现存商户书目及网络转录署刘日新著、李崇仰重编；原作者时代与传本未核",
+      "user_holds_physical": false,
+      "user_edition": "UNVERIFIED",
+      "source_class": "BIBLIOGRAPHIC_AND_UNBOUND_TEXT_LEAD",
+      "online_location": "https://nangwol.com/post/2770",
+      "digital_status": "PUBLIC_TRANSCRIPTION_LEAD_EDITION_AND_LICENSE_UNVERIFIED",
+      "redistribution_rights": "UNKNOWN",
+      "full_text_stored": false,
+      "notes": "p144作者明确列为阴阳宅专门研究书目。书商目录与网络转录线索涉及阳宅、阴宅、门户、墙垣、井灶、来龙及穴位等；本轮只核搜索结果与书目，未校完整原书、古本或现代整理权利，不付费、不上传全文。另见 https://www.ncc.com.tw/books/goods.php?id=899 与 https://nangwol.com/post/2771 。"
     }
   ],
   "external_witnesses": [
@@ -2405,6 +2418,58 @@
       ],
       "limits": "No independent backup or edition collation, no empirical validation.",
       "rights": "PRIVATE_PHOTO_ONLY_ORIGINAL_SUMMARY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0132",
+      "related_source": "DLR-SRC-0009",
+      "url": "https://www.ncc.com.tw/books/goods.php?id=899",
+      "provider": "星僑網路書店目录搜索结果",
+      "evidence_grade": "CATALOG_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "阳宅阴宅秘旨及家宅、来龙砂水等目录线索"
+      ],
+      "limits": "未核原刻、重编底本、版次和授权",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0133",
+      "related_source": "DLR-SRC-0009",
+      "url": "https://nangwol.com/post/2770",
+      "provider": "韩国낭월명리학당网络转录搜索结果",
+      "evidence_grade": "SEARCH_INDEX_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "刘日新著李崇仰重编署名、阳宅家宅条目"
+      ],
+      "limits": "未实际通读转录或版本校合",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0134",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://commons.wikimedia.org/wiki/File:NLC416-12jh005348-45347_%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97.pdf",
+      "provider": "Wikimedia Commons 国图影印文件说明目录搜索结果",
+      "evidence_grade": "CATALOG_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "卷三六壬会纂、卷四六壬占验分列"
+      ],
+      "limits": "本轮未开影像核页或核权利",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0135",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://ctext.org/wiki.pl?chapter=935353&if=gb",
+      "provider": "中国哲学书电子化计划目录及序搜索结果",
+      "evidence_grade": "SEARCH_INDEX_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "卷三六壬会纂占验指南标题"
+      ],
+      "limits": "未校版次或古籍原字",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
