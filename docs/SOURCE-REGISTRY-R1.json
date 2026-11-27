@@ -4467,6 +4467,45 @@
       "accessed_date": "2026-11-27",
       "limits": "数字录文，未核古刻、独立版本、引用路径、应期或实际效验；粹言仅检索摘要不计直接证据。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、版本独立性、引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0288",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.shidianguji.com/book/SDZJ0728/chapter/1kve3iwlm2r67",
+      "provider": "识典直指癸巳日第十一课",
+      "facts_checked": [
+        "l10–18 蒿矢、源消根断、旬空、逐传脱耗、吉凶俱轻"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、版本独立性、引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0289",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.shidianguji.com/book/SDZJ0628/chapter/1lctml9grec6c",
+      "provider": "识典大六壬秘本卷十三（独立作品的对读见证，非金针传本）",
+      "facts_checked": [
+        "l72 天盘空、地盘坐空、天空、空格及三空格例"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、版本独立性、引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0290",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://lhw828.github.io/GuWen/易藏/术数/六壬兵占_page9.html",
+      "provider": "六壬兵占网页第9页（页尾题大全卷五终，作品归属待核）",
+      "facts_checked": [
+        "l1 巳风门、未风伯固定支象及逐月风伯另例，属天气语境"
+      ]
     }
   ]
 }
