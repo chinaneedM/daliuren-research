@@ -2840,6 +2840,45 @@
       ],
       "limits": "历法规则旁证，非原案实际日期核验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0163",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://libokang.com/classics/liuren/%E6%B3%A8%E8%A7%A3%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/",
+      "provider": "Libo注解大六壬指南搜索摘要",
+      "facts_checked": [
+        "乙酉伏吟题头、辰酉卯及旬遁"
+      ],
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "仅检索摘要，未核影印、具体版本及独立效验；第三条为规则旁证而非金针来源。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0164",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.scribd.com/document/840072191/",
+      "provider": "Scribd鲁国山人版搜索摘要",
+      "facts_checked": [
+        "乙酉古例胎财生气、日鬼死气"
+      ],
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "仅检索摘要，未核影印、具体版本及独立效验；第三条为规则旁证而非金针来源。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0165",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=897",
+      "provider": "赵氏大六壬详解神煞搜索摘要",
+      "facts_checked": [
+        "生气与死气对冲、正月午死气顺行"
+      ],
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "仅检索摘要，未核影印、具体版本及独立效验；第三条为规则旁证而非金针来源。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
