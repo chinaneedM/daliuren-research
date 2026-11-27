@@ -3037,6 +3037,84 @@
       "accessed_date": "2026-11-27",
       "limits": "未核古籍影印、原刻及独立效验，证据限实际可见录文或摘要。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0178",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://libokang.com/classics/liuren/%E6%B3%A8%E8%A7%A3%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/",
+      "provider": "Libo指南检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "败病衰绝诀及现代译释长生/衰绝参照不符"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻或独立效验；限实际可见录文/检索摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0179",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://luckclub.cn/daliuren/005/005/",
+      "provider": "古籍典藏指南卷三搜索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "败病衰绝原诀"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻或独立效验；限实际可见录文/检索摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0180",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1m1g2fhoop8nd",
+      "provider": "识典古籍六壬大全玄胎",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l8–10四孟加临生病绝胎及条件"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻或独立效验；限实际可见录文/检索摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0181",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/%E5%85%AD%E5%A3%AC%E5%A4%A7%E5%85%A8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B709",
+      "provider": "维基文库四库六壬大全卷九搜索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "三玄胎格及乙未昴星衰胎；打开查找未命中"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻或独立效验；限实际可见录文/检索摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0182",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lql7vm2mgi",
+      "provider": "识典古籍六壬大全毕法赋上",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l177–179胎财生气、土胎子/午，l186互胎定义，l199三玄胎"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻或独立效验；限实际可见录文/检索摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0183",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://wlwyj.com/show.asp?ArticleID=296",
+      "provider": "周易数理研究指南检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "恋胎五等、败病衰绝诀"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻或独立效验；限实际可见录文/检索摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
