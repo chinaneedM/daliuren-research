@@ -1,0 +1,6 @@
+const assert=require('node:assert/strict');
+// Structural multiplicity only. No pregnancy, biological or medical inference.
+const lod=[2,4,5,7,5,7,8,10,11,1],el=[4,2,0,0,2,1,1,2,3,3,2,4],tai=[9,0,0,3,6];let o={n:0,repeat:{zero:0,one:0,two:0,three:0,four:0},bothSources:{same:0,different:0},bothPresent:{same:0,different:0},dayMonth:{same:0,different:0}};
+for(let i=0;i<60;i++)for(let d=0;d<12;d++){const H=x=>(x+d)%12,R=i%12,A=H(lod[i%10]),S=H(R),U=[A,H(A),S,H(S)],t1=tai[Math.floor(i%10/2)],t2=tai[el[R]];o.bothSources[t1===t2?"same":"different"]++;if(U.includes(t1)&&U.includes(t2))o.bothPresent[t1===t2?"same":"different"]++;for(let M=0;M<12;M++){o.n++;const n=U.filter(x=>x===M).length;o.repeat[["zero","one","two","three","four"][n]]++;if(U.includes(R)&&U.includes(M))o.dayMonth[R===M?"same":"different"]++;}}
+assert.deepEqual(o,{n:8640,repeat:{zero:6105,one:2200,two:330,three:0,four:5},bothSources:{same:216,different:504},bothPresent:{same:48,different:45},dayMonth:{same:220,different:455}});
+console.log(JSON.stringify(o,null,2));
