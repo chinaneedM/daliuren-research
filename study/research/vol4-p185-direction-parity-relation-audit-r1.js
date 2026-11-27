@@ -1,0 +1,8 @@
+const assert=require('node:assert/strict');
+const e=[4,2,0,0,2,1,1,2,3,3,2,4],l=[2,4,5,7,5,7,8,10,11,1],m=(x,n=12)=>(x%n+n)%n,b="子丑寅卯辰巳午未申酉戌亥",s="甲乙丙丁戊己庚辛壬癸";
+let o={total:0,rows:{},example:{}};
+// Exclude fuyin/fanyin and nonunique direct-ke candidates; not a full nine-method engine.
+for(let i=0;i<60;i++)for(let d=1;d<12;d++){if(d===6)continue;let g=i%10,r=i%12,h=x=>m(x+d),A=h(l[g]),C=h(r),U=[A,h(A),C,h(C)],L=[Math.floor(g/2),e[A],e[r],e[C]],lo=U.filter((x,k)=>m(e[x]-L[k],5)===2),up=U.filter((x,k)=>m(L[k]-e[x],5)===2),cand=[...new Set(lo.length?lo:up)];if(cand.length!==1)continue;let T=[cand[0],h(cand[0]),h(h(cand[0]))],p=[g%2,r%2,...U.map(x=>x%2),...T.map(x=>x%2)],pure=p.every(x=>x===p[0])?(p[0]?"yin":"yang"):"mixed",f=m(e[T[1]]-e[T[0]],5),j=m(e[T[2]]-e[T[1]],5),k=f===j?["same","forward_sheng","forward_ke","reverse_ke","reverse_sheng"][f]:"mixed";o.total++;let row=o.rows[d]??={n:0,yang:0,yin:0,mixed:0,relations:{}};row.n++;row[pure]++;row.relations[k]=(row.relations[k]??0)+1;if(!o.example[d+":"+pure])o.example[d+":"+pure]={day:s[g]+b[r],U:U.map(x=>b[x]).join(""),T:T.map(x=>b[x]).join("")};}
+assert.equal(o.total,337);assert.deepEqual(Object.entries(o.rows).map(([d,r])=>[+d,r.n,r.yang,r.yin,r.mixed]),[[1,36,0,0,36],[2,40,4,10,26],[3,32,0,0,32],[4,37,8,7,22],[5,27,0,0,27],[7,28,0,0,28],[8,34,8,9,17],[9,34,0,0,34],[10,35,4,6,25],[11,34,0,0,34]]);
+assert.deepEqual(o.rows[2].relations,{mixed:37,forward_sheng:3});assert.deepEqual(o.rows[10].relations,{mixed:30,reverse_sheng:5});assert.deepEqual(o.rows[1].relations,{mixed:36});assert.deepEqual(o.rows[11].relations,{mixed:34});
+console.log(JSON.stringify(o,null,2));
