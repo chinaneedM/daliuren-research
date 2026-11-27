@@ -1,0 +1,1695 @@
+{
+  "schema": "DLR-JINZHEN-C2-CONCEPT-REFERENCE-DELTA-R1",
+  "baseline_head": "8aa5902424850d68f1c679178be2f23d3bbff687",
+  "base_index": "study/JINZHEN-C1-CONCEPT-REFERENCE-INDEX-R1.json",
+  "framework": "study/JINZHEN-C2-KNOWLEDGE-FRAMEWORK-R1.json",
+  "source_id": "DLR-SRC-0001",
+  "scope": "前三卷核心概念增量；不宣称全部神煞、天将象义、口诀穷尽",
+  "designation_definitions": {
+    "APPROVED_CONTEXT_OR_DISPLAY": "既有双方约定的语境/显示名称或分层要求，不代表该规则已验收",
+    "RESEARCH_DEFINITION": "本轮原创研究定义，依既有档案",
+    "CANDIDATE_OR_UNRESOLVED": "有歧义或须补后文、文献、规则及效验；不作唯一裁决"
+  },
+  "existing_contracts": [
+    "docs/JOINT-STUDY-METHOD-R1.md",
+    "docs/TIANJIANG-TERMINOLOGY-UI-STANDARD-R1.md",
+    "docs/DUNGAN-DUAL-ALGORITHM-DATA-CONTRACT-R1.md"
+  ],
+  "counts": {
+    "new": 50,
+    "base": 102,
+    "effective": 152,
+    "annotations": 22,
+    "by_layer": {
+      "L6": 17,
+      "L4": 3,
+      "L3": 8,
+      "L7": 8,
+      "L5": 12,
+      "L2": 2
+    },
+    "by_system": {
+      "X01": 2,
+      "X02": 5,
+      "X03": 8,
+      "X04": 9,
+      "X05": 3,
+      "X06": 4,
+      "X07": 4,
+      "X08": 8,
+      "X09": 7
+    },
+    "by_designation": {
+      "RESEARCH_DEFINITION": 24,
+      "CANDIDATE_OR_UNRESOLVED": 26
+    }
+  },
+  "entries": [
+    {
+      "id": "DLR-C2-C001",
+      "layer": "L6",
+      "name": "日辰角色绑定",
+      "source_aliases_or_context": "日辰、两仪、干支定位",
+      "entity_type": "角色映射",
+      "subject_reference_direction": "按占事分别绑定日干与日支的角色；保留本体和盘位",
+      "boundary": "夫妻、客主等为候选映射，不是固定阴阳或吉凶",
+      "source_pages": [
+        108,
+        113
+      ],
+      "c2_sessions": [
+        194
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C088",
+        "DLR-C1-C098"
+      ],
+      "system_ids": [
+        "X01"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C002",
+      "layer": "L4",
+      "name": "干支空间互临",
+      "source_aliases_or_context": "干临支、支临干",
+      "entity_type": "有向空间谓词",
+      "subject_reference_direction": "查天盘寄宫支所临日支或天盘日支所临寄宫",
+      "boundary": "不同于日干本体生克或干支角色交换",
+      "source_pages": [
+        108,
+        113
+      ],
+      "c2_sessions": [
+        194
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C022",
+        "DLR-C1-C023"
+      ],
+      "system_ids": [
+        "X01"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C003",
+      "layer": "L6",
+      "name": "支神取象身份",
+      "source_aliases_or_context": "天神、月将（十二支名称语境）",
+      "entity_type": "象义索引",
+      "subject_reference_direction": "十二地支各自的传统取象身份",
+      "boundary": "不等同当下所选月将或十二天将",
+      "source_pages": [
+        114,
+        119
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C015",
+        "DLR-C1-C020",
+        "DLR-C1-C044",
+        "DLR-C1-C091"
+      ],
+      "system_ids": [
+        "X02"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0047"
+      ],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C004",
+      "layer": "L6",
+      "name": "基本象",
+      "source_aliases_or_context": "基础象、基本类象",
+      "entity_type": "传统关联",
+      "subject_reference_direction": "支神或天将与事物类别的原始映射",
+      "boundary": "来源和占类必留；并非实体必有属性",
+      "source_pages": [
+        114,
+        115
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C089",
+        "DLR-C1-C091"
+      ],
+      "system_ids": [
+        "X02"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0047"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C005",
+      "layer": "L6",
+      "name": "引申象",
+      "source_aliases_or_context": "扩展象",
+      "entity_type": "解释候选",
+      "subject_reference_direction": "从基本象经明确语义桥梁至目标对象",
+      "boundary": "记录引申依据及反例，不任意联想",
+      "source_pages": [
+        114,
+        119
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C091"
+      ],
+      "system_ids": [
+        "X02"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0047"
+      ],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C006",
+      "layer": "L3",
+      "name": "阴神查位",
+      "source_aliases_or_context": "某支阴神",
+      "entity_type": "有向查询",
+      "subject_reference_direction": "给定天盘支字值x，以地盘x查询H(x)",
+      "boundary": "不误用逆查P(x)；阴神不等于阴性地支",
+      "source_pages": [
+        119,
+        119
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C019",
+        "DLR-C1-C020",
+        "DLR-C1-C022",
+        "DLR-C1-C023"
+      ],
+      "system_ids": [
+        "X02"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C007",
+      "layer": "L6",
+      "name": "质气取象倾向",
+      "source_aliases_or_context": "质、气",
+      "entity_type": "传统解释分类",
+      "subject_reference_direction": "对象物质形态与行为/气质等象义维度",
+      "boundary": "偏质偏气非排他分类，不能据象断现实人格",
+      "source_pages": [
+        115,
+        115
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C044",
+        "DLR-C1-C091"
+      ],
+      "system_ids": [
+        "X02"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0047"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C008",
+      "layer": "L6",
+      "name": "天将基本象",
+      "source_aliases_or_context": "将象",
+      "entity_type": "传统关联",
+      "subject_reference_direction": "指定天将身份、状态、占类及位置",
+      "boundary": "不以将名直接推断事实或吉凶",
+      "source_pages": [
+        120,
+        123
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C047",
+        "DLR-C1-C091"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0048"
+      ],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C009",
+      "layer": "L6",
+      "name": "见象推事",
+      "source_aliases_or_context": "由象推事",
+      "entity_type": "解释方向",
+      "subject_reference_direction": "由已见结构生成候选事象",
+      "boundary": "与已知占问逆向选类区别，不可视为独立验证",
+      "source_pages": [
+        119,
+        119
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C087",
+        "DLR-C1-C091"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0048"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C010",
+      "layer": "L6",
+      "name": "依占取类",
+      "source_aliases_or_context": "按事取类",
+      "entity_type": "解释方向",
+      "subject_reference_direction": "由事前占问目标筛选类神及象义",
+      "boundary": "不在结果已知后倒选",
+      "source_pages": [
+        120,
+        120
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C087",
+        "DLR-C1-C089",
+        "DLR-C1-C090",
+        "DLR-C1-C092"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0048"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C011",
+      "layer": "L6",
+      "name": "类象存在",
+      "source_aliases_or_context": "全盘有无",
+      "entity_type": "范围谓词",
+      "subject_reference_direction": "给定实体/属性与完整课盘或已知子域",
+      "boundary": "与入课传及解释有效性分别判断",
+      "source_pages": [
+        120,
+        120
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C090",
+        "DLR-C1-C092",
+        "DLR-C1-C102"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0048"
+      ],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C012",
+      "layer": "L6",
+      "name": "类象显现",
+      "source_aliases_or_context": "隐显、入课传",
+      "entity_type": "范围谓词",
+      "subject_reference_direction": "指定搜索域与实体坐标、课传角色",
+      "boundary": "不现于优先域不等于全盘不存在",
+      "source_pages": [
+        120,
+        120
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C090",
+        "DLR-C1-C092"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0048"
+      ],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C013",
+      "layer": "L6",
+      "name": "类象虚实",
+      "source_aliases_or_context": "虚、实",
+      "entity_type": "传统解释候选",
+      "subject_reference_direction": "给定类象、占类及空亡等条件",
+      "boundary": "非单一布尔空亡状态或目标成败",
+      "source_pages": [
+        120,
+        120
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C072",
+        "DLR-C1-C074",
+        "DLR-C1-C091"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0048"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C014",
+      "layer": "L7",
+      "name": "同位复合象",
+      "source_aliases_or_context": "一支兼将煞六亲",
+      "entity_type": "组合谓词",
+      "subject_reference_direction": "同一盘位多个有来源属性并存",
+      "boundary": "多标签不等于多个独立证据",
+      "source_pages": [
+        122,
+        123
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C045",
+        "DLR-C1-C053",
+        "DLR-C1-C090",
+        "DLR-C1-C096"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0048"
+      ],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C015",
+      "layer": "L7",
+      "name": "跨位复合象",
+      "source_aliases_or_context": "两象或多象组合",
+      "entity_type": "有向组合谓词",
+      "subject_reference_direction": "指定不同坐标、关系、方向及搜索域",
+      "boundary": "不同天将不能同占一支；共现不等于有效",
+      "source_pages": [
+        123,
+        123
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C044",
+        "DLR-C1-C090",
+        "DLR-C1-C096",
+        "DLR-C1-C100"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0048"
+      ],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C016",
+      "layer": "L5",
+      "name": "神煞起算参照",
+      "source_aliases_or_context": "岁煞、月煞、季煞、干煞、支煞",
+      "entity_type": "派生规则分类",
+      "subject_reference_direction": "每煞明确年/月/季/干/支等输入及版本",
+      "boundary": "不是互斥全集；同名跨术数不自动同法",
+      "source_pages": [
+        124,
+        126
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C014",
+        "DLR-C1-C015",
+        "DLR-C1-C016",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0050",
+        "DLR-OPEN-0056"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C017",
+      "layer": "L2",
+      "name": "太岁",
+      "source_aliases_or_context": "岁君（语境）",
+      "entity_type": "年输入及取象角色",
+      "subject_reference_direction": "指定年界所得年支及其象义角色",
+      "boundary": "与实际年龄、月建、岁煞派生项区分",
+      "source_pages": [
+        124,
+        126
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C014",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0050"
+      ],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C018",
+      "layer": "L5",
+      "name": "岁破",
+      "source_aliases_or_context": "岁冲（候选语境）",
+      "entity_type": "神煞候选",
+      "subject_reference_direction": "按指定太岁支及岁破规则查目标支",
+      "boundary": "不等于任意两支冲；算法细节待规则阶段",
+      "source_pages": [
+        126,
+        126
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C059",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0050"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C019",
+      "layer": "L5",
+      "name": "日支驿马",
+      "source_aliases_or_context": "驿马、马（此口径）",
+      "entity_type": "神煞候选",
+      "subject_reference_direction": "以日支三合组查马支，保留输入参照",
+      "boundary": "不替代年马、月马或其他马煞",
+      "source_pages": [
+        124,
+        125
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C006",
+        "DLR-C1-C063",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0050",
+        "DLR-OPEN-0056"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C020",
+      "layer": "L5",
+      "name": "德神类别",
+      "source_aliases_or_context": "德神",
+      "entity_type": "神煞类别",
+      "subject_reference_direction": "区分日德、月德等各自起算依据",
+      "boundary": "总类不等于具体日德；月份口径待核",
+      "source_pages": [
+        124,
+        125
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0050",
+        "DLR-OPEN-0055"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C021",
+      "layer": "L5",
+      "name": "日德",
+      "source_aliases_or_context": "日德临亥、德入天门",
+      "entity_type": "神煞候选",
+      "subject_reference_direction": "由日干查日德支，临亥为附加位置条件",
+      "boundary": "不能自动消除空亡；不等于月德",
+      "source_pages": [
+        125,
+        125
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C023",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0050"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C022",
+      "layer": "L5",
+      "name": "月德",
+      "source_aliases_or_context": "月德",
+      "entity_type": "神煞候选",
+      "subject_reference_direction": "指定月份口径、规则及所得支",
+      "boundary": "节月与农历月的作者使用未裁",
+      "source_pages": [
+        138,
+        139
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C016",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0050",
+        "DLR-OPEN-0055"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C023",
+      "layer": "L5",
+      "name": "月煞死气",
+      "source_aliases_or_context": "死气（月煞口径）",
+      "entity_type": "神煞候选",
+      "subject_reference_direction": "指定月建、起算表及方向",
+      "boundary": "不等于日干或日支十二长生死位",
+      "source_pages": [
+        125,
+        126
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C016",
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0050"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C024",
+      "layer": "L6",
+      "name": "应期候选",
+      "source_aliases_or_context": "应期、归期",
+      "entity_type": "时间解释候选",
+      "subject_reference_direction": "固定目标与时间尺度，记录各推导路径及候选日期",
+      "boundary": "同日期多路径不等于独立命中；不以结果选路径",
+      "source_pages": [
+        124,
+        126
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C087",
+        "DLR-C1-C091",
+        "DLR-C1-C102"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0050"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C025",
+      "layer": "L4",
+      "name": "局六亲",
+      "source_aliases_or_context": "合局作财鬼等",
+      "entity_type": "有向分类",
+      "subject_reference_direction": "合局五行相对日干五行",
+      "boundary": "不覆盖各支的正式六亲",
+      "source_pages": [
+        127,
+        130
+      ],
+      "c2_sessions": [
+        198
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C053",
+        "DLR-C1-C064"
+      ],
+      "system_ids": [
+        "X05"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C026",
+      "layer": "L6",
+      "name": "六亲象义角色",
+      "source_aliases_or_context": "官职、子息、收益等",
+      "entity_type": "语义映射",
+      "subject_reference_direction": "形式六亲在特定占问下绑定实际目标",
+      "boundary": "官鬼非必凶，子孙非必吉；不等同实际亲属",
+      "source_pages": [
+        127,
+        130
+      ],
+      "c2_sessions": [
+        198
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C053",
+        "DLR-C1-C088",
+        "DLR-C1-C089",
+        "DLR-C1-C091"
+      ],
+      "system_ids": [
+        "X05"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C027",
+      "layer": "L6",
+      "name": "占事子目标",
+      "source_aliases_or_context": "收入、利润、回本等",
+      "entity_type": "任务维度",
+      "subject_reference_direction": "把可区分的实际目标与期限分别登记",
+      "boundary": "不得事后改指标以选择类神或宣称命中",
+      "source_pages": [
+        127,
+        130
+      ],
+      "c2_sessions": [
+        198
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C087",
+        "DLR-C1-C088",
+        "DLR-C1-C102"
+      ],
+      "system_ids": [
+        "X05"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C028",
+      "layer": "L5",
+      "name": "本位长生组合",
+      "source_aliases_or_context": "各自本位、俱（候选）",
+      "entity_type": "有序状态组",
+      "subject_reference_direction": "日干对第一课上神；日支对第三课上神",
+      "boundary": "不直接裁定古籍俱生俱旺的全部定义",
+      "source_pages": [
+        131,
+        134
+      ],
+      "c2_sessions": [
+        199
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C075",
+        "DLR-C1-C083",
+        "DLR-C1-C084"
+      ],
+      "system_ids": [
+        "X06"
+      ],
+      "open_question_ids": [],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C029",
+      "layer": "L5",
+      "name": "交叉长生组合",
+      "source_aliases_or_context": "互（候选）",
+      "entity_type": "有序状态组",
+      "subject_reference_direction": "日干对第三课上神；日支对第一课上神",
+      "boundary": "与本位和统一日干参照分开，古义仍待核",
+      "source_pages": [
+        132,
+        134
+      ],
+      "c2_sessions": [
+        199
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C075",
+        "DLR-C1-C083",
+        "DLR-C1-C084"
+      ],
+      "system_ids": [
+        "X06"
+      ],
+      "open_question_ids": [],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C030",
+      "layer": "L5",
+      "name": "统一日干长生组合",
+      "source_aliases_or_context": "日干统一参照",
+      "entity_type": "有序状态组",
+      "subject_reference_direction": "日干分别对第一及第三课上神",
+      "boundary": "不替代日支本位；同阶段偶合不等价",
+      "source_pages": [
+        131,
+        134
+      ],
+      "c2_sessions": [
+        199
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C075",
+        "DLR-C1-C083",
+        "DLR-C1-C084"
+      ],
+      "system_ids": [
+        "X06"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C031",
+      "layer": "L6",
+      "name": "长生阶段象义",
+      "source_aliases_or_context": "胎象、墓象、绝象等",
+      "entity_type": "传统解释",
+      "subject_reference_direction": "绑定所查支、主体参照、阶段及占类",
+      "boundary": "阶段计算不直接证明孕产、病情或结果",
+      "source_pages": [
+        131,
+        134
+      ],
+      "c2_sessions": [
+        199
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C091"
+      ],
+      "system_ids": [
+        "X06"
+      ],
+      "open_question_ids": [],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C032",
+      "layer": "L7",
+      "name": "课体构成谓词",
+      "source_aliases_or_context": "格局成立条件",
+      "entity_type": "有序组合规则",
+      "subject_reference_direction": "记录各角色、位置、关系、分流、顺序及版本",
+      "boundary": "不使用无序三传作为唯一识别键",
+      "source_pages": [
+        135,
+        136
+      ],
+      "c2_sessions": [
+        200
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C096"
+      ],
+      "system_ids": [
+        "X07"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0054"
+      ],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C033",
+      "layer": "L7",
+      "name": "课体适用域",
+      "source_aliases_or_context": "适用占类、适用条件",
+      "entity_type": "解释范围",
+      "subject_reference_direction": "指定目标、所占类型、期限及附加条件",
+      "boundary": "结构成立不代表适用于所有问题",
+      "source_pages": [
+        135,
+        136
+      ],
+      "c2_sessions": [
+        200
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C087",
+        "DLR-C1-C096",
+        "DLR-C1-C102"
+      ],
+      "system_ids": [
+        "X07"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0054"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C034",
+      "layer": "L7",
+      "name": "课体直接判断候选",
+      "source_aliases_or_context": "以课体直接断吉凶",
+      "entity_type": "传统解释候选",
+      "subject_reference_direction": "明确格局、占类、空亡例外、其他冲突",
+      "boundary": "作者一般性主张非公认算法或验证结论",
+      "source_pages": [
+        135,
+        136
+      ],
+      "c2_sessions": [
+        200
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C074",
+        "DLR-C1-C096",
+        "DLR-C1-C100",
+        "DLR-C1-C102"
+      ],
+      "system_ids": [
+        "X07"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0054"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C035",
+      "layer": "L7",
+      "name": "派生信息依赖",
+      "source_aliases_or_context": "同源、多角色、组合依赖",
+      "entity_type": "研究元数据",
+      "subject_reference_direction": "保存输入、计算规则及共享坐标和空源",
+      "boundary": "不等同统计独立性，不据此预设权重",
+      "source_pages": [
+        135,
+        136
+      ],
+      "c2_sessions": [
+        200
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C073",
+        "DLR-C1-C090",
+        "DLR-C1-C096",
+        "DLR-C1-C101"
+      ],
+      "system_ids": [
+        "X07"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C036",
+      "layer": "L2",
+      "name": "行年岁序",
+      "source_aliases_or_context": "虚岁、经过岁序",
+      "entity_type": "算法输入",
+      "subject_reference_direction": "起算年、当前年、年界及年龄约定",
+      "boundary": "未确定年界不能假造年龄，支值不恢复完整干",
+      "source_pages": [
+        137,
+        139
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0056"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C037",
+      "layer": "L3",
+      "name": "标准行年起法",
+      "source_aliases_or_context": "男丙寅顺、女壬申逆",
+      "entity_type": "算法候选",
+      "subject_reference_direction": "按书内一岁起点及岁序顺逆推进干支",
+      "boundary": "非跨派唯一；支捷法信息不足不能求唯一干",
+      "source_pages": [
+        137,
+        137
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0056"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C038",
+      "layer": "L3",
+      "name": "分旬行年起法",
+      "source_aliases_or_context": "六旬起法",
+      "entity_type": "算法候选",
+      "subject_reference_direction": "按出生旬与男女起点及岁序顺逆",
+      "boundary": "保留作者金口诀来源主张待考，不混合标准法",
+      "source_pages": [
+        137,
+        137
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0056"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C039",
+      "layer": "L6",
+      "name": "三身",
+      "source_aliases_or_context": "日干、行年、本命",
+      "entity_type": "角色集合",
+      "subject_reference_direction": "逐一指定问者、占者、对象及三身关系",
+      "boundary": "代占及多人不能强令主体相同",
+      "source_pages": [
+        137,
+        137
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C005",
+        "DLR-C1-C088",
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C040",
+      "layer": "L3",
+      "name": "年命本支",
+      "source_aliases_or_context": "年命本身",
+      "entity_type": "角色坐标",
+      "subject_reference_direction": "已知本命或行年支N，天盘出现时查其位置",
+      "boundary": "不能以H(N)或P(N)替代",
+      "source_pages": [
+        137,
+        139
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C020",
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C041",
+      "layer": "L3",
+      "name": "年命天盘上神",
+      "source_aliases_or_context": "年命上神",
+      "entity_type": "有向查询",
+      "subject_reference_direction": "地盘年命支N查H(N)",
+      "boundary": "不同于本支N或天盘N所临地盘",
+      "source_pages": [
+        137,
+        139
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C022",
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C042",
+      "layer": "L3",
+      "name": "年命所临地盘本宫",
+      "source_aliases_or_context": "年命临某支",
+      "entity_type": "逆向查询",
+      "subject_reference_direction": "天盘年命支N逆查P(N)",
+      "boundary": "地盘字值匹配四课不等于入课",
+      "source_pages": [
+        137,
+        139
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C023",
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C043",
+      "layer": "L6",
+      "name": "行年缺失退选",
+      "source_aliases_or_context": "不知行年察支上",
+      "entity_type": "条件候选",
+      "subject_reference_direction": "确认行年未知后按特定占类另取支上",
+      "boundary": "不填充原行年，不为配合结果而换",
+      "source_pages": [
+        137,
+        139
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C029",
+        "DLR-C1-C092",
+        "DLR-C1-C094"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "open_question_ids": [],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C044",
+      "layer": "L3",
+      "name": "旬首",
+      "source_aliases_or_context": "六甲旬首、仪神（神煞语境）",
+      "entity_type": "旬定位及角色",
+      "subject_reference_direction": "日旬首甲所配支；仪神为此语义",
+      "boundary": "非元遁甲支；不自动成立六仪课",
+      "source_pages": [
+        140,
+        140
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C069",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C045",
+      "layer": "L3",
+      "name": "旬尾",
+      "source_aliases_or_context": "旬癸、闭口（神煞语境）",
+      "entity_type": "旬定位及角色",
+      "subject_reference_direction": "日旬末癸所配支",
+      "boundary": "非元遁癸支；闭口象义另判",
+      "source_pages": [
+        140,
+        141
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C046",
+      "layer": "L5",
+      "name": "闭口神煞候选",
+      "source_aliases_or_context": "闭口",
+      "entity_type": "神煞条件",
+      "subject_reference_direction": "本书该段旬尾身份与指定乘临/占类",
+      "boundary": "不能把缄默直接当现实行为，也不等于旬空",
+      "source_pages": [
+        140,
+        141
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C050",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "open_question_ids": [],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C047",
+      "layer": "L5",
+      "name": "旬丁神煞",
+      "source_aliases_or_context": "丁神、旬丁",
+      "entity_type": "神煞条件",
+      "subject_reference_direction": "旬遁丁所配支；暗六亲另按日干计算",
+      "boundary": "不是五子元遁丁，也非固定六亲",
+      "source_pages": [
+        140,
+        141
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C050",
+        "DLR-C1-C054",
+        "DLR-C1-C095"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "open_question_ids": [],
+      "designation": "RESEARCH_DEFINITION"
+    },
+    {
+      "id": "DLR-C2-C048",
+      "layer": "L4",
+      "name": "暗六亲算法标识",
+      "source_aliases_or_context": "暗鬼、暗财、遁鬼、遁财等",
+      "entity_type": "计算来源约束",
+      "subject_reference_direction": "分别绑定旬遁六亲与五子元遁六亲；完整五类",
+      "boundary": "不因作者少用删除父母兄弟，不将无旬干判为非鬼",
+      "source_pages": [
+        141,
+        143
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C049",
+        "DLR-C1-C051",
+        "DLR-C1-C054",
+        "DLR-C1-C055"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0058"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C049",
+      "layer": "L7",
+      "name": "明暗二鬼候选",
+      "source_aliases_or_context": "明鬼暗鬼",
+      "entity_type": "有向组合谓词",
+      "subject_reference_direction": "狭义第一课支本官鬼及第三课旬遁官鬼",
+      "boundary": "元遁扩展另设版本；不等于测试双暗鬼",
+      "source_pages": [
+        141,
+        143
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C053",
+        "DLR-C1-C054"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0058"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    },
+    {
+      "id": "DLR-C2-C050",
+      "layer": "L7",
+      "name": "逐位置双遁选择",
+      "source_aliases_or_context": "同课混用双遁",
+      "entity_type": "未决解释规则",
+      "subject_reference_direction": "每个规则、位置固定所用算法及事前选择依据",
+      "boundary": "不能事后按符合断语任选，不改变两原始字段",
+      "source_pages": [
+        142,
+        143
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "related_c1_ids": [
+        "DLR-C1-C049",
+        "DLR-C1-C051",
+        "DLR-C1-C054",
+        "DLR-C1-C055",
+        "DLR-C1-C102"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "open_question_ids": [
+        "DLR-OPEN-0057",
+        "DLR-OPEN-0058"
+      ],
+      "designation": "CANDIDATE_OR_UNRESOLVED"
+    }
+  ],
+  "annotations": [
+    {
+      "c1_id": "DLR-C1-C015",
+      "c2_sessions": [
+        195
+      ],
+      "source_pages": [
+        114,
+        114
+      ],
+      "note": "月将的输入角色与十二支神别称、太阳象义分开；原换将候选不改。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C044",
+      "c2_sessions": [
+        196
+      ],
+      "source_pages": [
+        120,
+        123
+      ],
+      "note": "沿12将稳定ID；天将本体、所乘支、所临地盘及象义分开，不新增简称ID。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C049",
+      "c2_sessions": [
+        202
+      ],
+      "source_pages": [
+        140,
+        143
+      ],
+      "note": "旬遁输出保持空值；旬首尾神煞不得由元遁同干替代。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C051",
+      "c2_sessions": [
+        202
+      ],
+      "source_pages": [
+        140,
+        143
+      ],
+      "note": "作者确有应用层元遁例，规则级来源须显式标记，仍不覆盖旬遁。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C053",
+      "c2_sessions": [
+        198
+      ],
+      "source_pages": [
+        127,
+        130
+      ],
+      "note": "正式支六亲仍按日干与天盘支五行；局六亲、暗六亲、现实人物另列。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C054",
+      "c2_sessions": [
+        202
+      ],
+      "source_pages": [
+        141,
+        143
+      ],
+      "note": "暗鬼等简称只在指定旬遁语境与本字段等义；无旬干不赋六亲。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C055",
+      "c2_sessions": [
+        202
+      ],
+      "source_pages": [
+        141,
+        143
+      ],
+      "note": "p143明确元遁官鬼案例，历史事前适用条件仍未裁。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C070",
+      "c2_sessions": [
+        202
+      ],
+      "source_pages": [
+        142,
+        143
+      ],
+      "note": "显示旬空；乙酉未旬空非落空，原印疑点不改术语。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C071",
+      "c2_sessions": [
+        202
+      ],
+      "source_pages": [
+        142,
+        143
+      ],
+      "note": "落空须查所临地盘空支；有旬遁干不排除落空。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C075",
+      "c2_sessions": [
+        199
+      ],
+      "source_pages": [
+        131,
+        134
+      ],
+      "note": "增本位、交叉、统一日干组合，不修改五行顺起候选。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C081",
+      "c2_sessions": [
+        198
+      ],
+      "source_pages": [
+        130,
+        130
+      ],
+      "note": "帝旺与羊刃原书别称复见，不合并计算；阴刃争议继续。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C087",
+      "c2_sessions": [
+        198
+      ],
+      "source_pages": [
+        127,
+        130
+      ],
+      "note": "细分收入、净利润、回本等目标并冻结期限。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C090",
+      "c2_sessions": [
+        194
+      ],
+      "source_pages": [
+        108,
+        113
+      ],
+      "note": "同一位置可绑定多个占事角色；不能重复当独立证据。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C091",
+      "c2_sessions": [
+        196
+      ],
+      "source_pages": [
+        120,
+        123
+      ],
+      "note": "存在、显现、状态、虚实、成败分别记录。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C092",
+      "c2_sessions": [
+        201
+      ],
+      "source_pages": [
+        137,
+        139
+      ],
+      "note": "行年未知的退选需明确占类，不将优先域视为排他。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C093",
+      "c2_sessions": [
+        201
+      ],
+      "source_pages": [
+        137,
+        139
+      ],
+      "note": "本书命为本命属相；保留完整出生年与只知支的区别。旧候选状态不升级为跨派共识。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C094",
+      "c2_sessions": [
+        201
+      ],
+      "source_pages": [
+        137,
+        139
+      ],
+      "note": "本书行年标准及分旬候选已记录；年界及跨派比较仍开放。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C095",
+      "c2_sessions": [
+        197
+      ],
+      "source_pages": [
+        124,
+        126
+      ],
+      "note": "分类及已见神煞起算参照扩展，不称全表。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C096",
+      "c2_sessions": [
+        200
+      ],
+      "source_pages": [
+        135,
+        136
+      ],
+      "note": "课体构成有序，区分取传分流、结构成立与解释范围。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C098",
+      "c2_sessions": [
+        194
+      ],
+      "source_pages": [
+        108,
+        113
+      ],
+      "note": "内外角色随参照与占事改变，不设全局属性。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C100",
+      "c2_sessions": [
+        198
+      ],
+      "source_pages": [
+        127,
+        130
+      ],
+      "note": "子孙克官鬼为五行关系；共现、空间作用与实际制化分别判。",
+      "original_designation_unchanged": true
+    },
+    {
+      "c1_id": "DLR-C1-C102",
+      "c2_sessions": [
+        200
+      ],
+      "source_pages": [
+        135,
+        136
+      ],
+      "note": "结构判定、适用性、效验与未决理由分账。",
+      "original_designation_unchanged": true
+    }
+  ],
+  "validation": {
+    "unique_ids_names": true,
+    "base_unchanged": true,
+    "source_page_batch_alignment": true,
+    "all_nine_systems_covered": true,
+    "layer_parent_question_refs_valid": true
+  }
+}
