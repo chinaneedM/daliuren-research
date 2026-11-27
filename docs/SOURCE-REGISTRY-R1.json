@@ -4948,6 +4948,58 @@
       "accessed_date": "2026-11-27",
       "limits": "古籍数字录文未核原刻；历史报道非起课原始记录，不能验证事前预测。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0325",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.39017.com/a/22486k/283934p.html",
+      "provider": "国学大师直指辛酉第四局",
+      "facts_checked": [
+        "l33–39 元首高盖励德三交、午克干支、子空、财鬼乡与出行"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性、实际反馈及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0326",
+      "related_source": "DLR-SRC-0006",
+      "url": "https://book.taiyi.me/卜/壬归",
+      "provider": "太乙书局壬归卷六",
+      "facts_checked": [
+        "l1079–1088 日干为行者日支为目的地，制化及仕宦例外"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性、实际反馈及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0327",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://wk.100ke.info/zh-hans/六壬大全_(四库全书本)/卷06",
+      "provider": "维基镜像四库大全卷六",
+      "facts_checked": [
+        "l160–174 轩盖午卯子、月马、空刑凶煞限制及九日清单"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性、实际反馈及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0328",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://zh.wikisource.org/zh-hans/六壬指南/2",
+      "provider": "维基文库指南卷二",
+      "facts_checked": [
+        "l920–934 财入鬼乡、子孙制克条件"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文未核古刻、传本独立性、实际反馈及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
