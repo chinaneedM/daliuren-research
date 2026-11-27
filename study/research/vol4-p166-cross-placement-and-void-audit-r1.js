@@ -1,0 +1,5 @@
+const assert=require('node:assert/strict');
+const b="子丑寅卯辰巳午未申酉戌亥",s="甲乙丙丁戊己庚辛壬癸",m=x=>(x%12+12)%12,lod=[2,4,5,7,5,7,8,10,11,1];
+const out={n:0,cross:[0,0,0,0],crossExamples:[],voidAbd:[0,0,0,0],voidAbdOrVsSupport:[0,0,0,0],supportVoid:[0,0,0,0],voidExample:null};
+for(let i=0;i<60;i++){const r=i%12,g=lod[i%10],q=Math.floor(i/10)*10,V=new Set([m(q+10),m(q+11)]);for(let D=0;D<12;D++){const H=x=>m(x+D),P=x=>m(x-D),S=H(r),a=H(g)===r,c=H(r)===g;out.n++;out.cross[+a+2*+c]++;if(a&&c)out.crossExamples.push({day:s[i%10]+b[r],D});const va=V.has(1),vb=V.has(P(1)),u=V.has(S),v=V.has(r);out.voidAbd[+va+2*+vb]++;out.voidAbdOrVsSupport[+(va||vb)+2*+u]++;out.supportVoid[+u+2*+v]++;if(!out.voidExample&&vb&&!va&&!u)out.voidExample={day:s[i%10]+b[r],D,voids:[...V].map(x=>b[x]),S:b[S],abdGround:b[P(1)]};}}
+assert.equal(out.n,720);assert.deepEqual(out.cross,[610,50,50,10]);assert.equal(out.crossExamples.filter(x=>x.D===0).length,5);assert.equal(out.crossExamples.filter(x=>x.D===6).length,5);assert.deepEqual(out.voidAbd,[500,100,100,20]);assert.deepEqual(out.voidAbdOrVsSupport,[419,181,81,39]);assert.deepEqual(out.supportVoid,[600,120,0,0]);console.log(JSON.stringify(out,null,2));
