@@ -4727,6 +4727,58 @@
       "accessed_date": "2026-11-27",
       "limits": "数字录文，未核古刻、传本独立性、引用路径和预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0308",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.shidianguji.com/book/SDZJ0728/chapter/1kve3iwlm0aof",
+      "provider": "识典直指癸巳第四课",
+      "facts_checked": [
+        "l10–18 同型昼鬼虎、支寅制鬼、中末空、元首稼穑闭口"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核古刻、传本独立性、引用路径、实际反馈和预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0309",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全/8",
+      "provider": "维基文库大全卷八",
+      "facts_checked": [
+        "l303–306、330–345 戌印、巳炉、生日之印、太常绶与真体条件"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核古刻、传本独立性、引用路径、实际反馈和预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0310",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全/11",
+      "provider": "维基文库大全卷十一",
+      "facts_checked": [
+        "l278–286 催官使者赴任域及空亡限制、催官符三传生官星"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核古刻、传本独立性、引用路径、实际反馈和预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0311",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.shidianguji.com/book/SDZJ0728/chapter/1kg328b67xgcr",
+      "provider": "识典直指起例",
+      "facts_checked": [
+        "l39–46 贵人配将、六亲、本命行年"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核古刻、传本独立性、引用路径、实际反馈和预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
