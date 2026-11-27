@@ -119,6 +119,19 @@
       "redistribution_rights": "UNKNOWN",
       "full_text_stored": false,
       "notes": "p144作者明确列为阴阳宅专门研究书目。书商目录与网络转录线索涉及阳宅、阴宅、门户、墙垣、井灶、来龙及穴位等；本轮只核搜索结果与书目，未校完整原书、古本或现代整理权利，不付费、不上传全文。另见 https://www.ncc.com.tw/books/goods.php?id=899 与 https://nangwol.com/post/2771 。"
+    },
+    {
+      "id": "DLR-SRC-0010",
+      "work_title": "壬学琐记",
+      "author_attribution": "清·程树勋（网络录文署名，未核原刻）",
+      "user_holds_physical": false,
+      "user_edition": "UNVERIFIED",
+      "source_class": "UNBOUND_ONLINE_TRANSCRIPTION",
+      "online_location": "https://www.qiwentop.com/yizang/shu-shu/ren-xue-suo-ji/",
+      "digital_status": "PUBLIC_TRANSCRIPTION_TARGETED_PASSAGE_READ_EDITION_UNVERIFIED",
+      "redistribution_rights": "UNKNOWN",
+      "full_text_stored": false,
+      "notes": "SESSION-0252 实读网络录文l131三合局与方位辨析及两则作者自述，l134舆地过细取象的保留意见。原刻、版本、原始案例及效验未核；不存全文。"
     }
   ],
   "external_witnesses": [
@@ -2763,7 +2776,7 @@
     },
     {
       "id": "DLR-WIT-0158",
-      "related_source": "DLR-SRC-0001",
+      "related_source": "DLR-SRC-0010",
       "url": "https://www.qiwentop.com/yizang/shu-shu/ren-xue-suo-ji/",
       "provider": "网络录文/索引",
       "evidence_grade": "ONLINE_TRANSCRIPTION_OR_SEARCH_EXCERPT",
@@ -2771,7 +2784,7 @@
       "facts_checked": [
         "l131局非方，仲支坎离解释，作者自述一败一验；l134舆地类象过细的保留意见"
       ],
-      "limits": "数字录文，未校影印，未核独立事件和完整课式。",
+      "limits": "数字录文，未校影印，未核独立事件和完整课式。 0252登记纠偏：首次暂挂教材ID不当，改为独立著作ID，保留首次提交历史。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
