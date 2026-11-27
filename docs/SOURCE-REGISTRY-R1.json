@@ -2510,6 +2510,20 @@
       ],
       "limits": "No independent original-image backup, edition collation or empirical validation.",
       "rights": "PRIVATE_PHOTO_ONLY_ORIGINAL_SUMMARY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0139",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned private physical printed 六壬金针 pp155–165",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "Complete second section including two charts and cross-page conclusion; p165 next heading marks boundary.",
+        "p156 reflexive relation, p158 impossible chart pair, p160–165 charts and commentary inspected."
+      ],
+      "limits": "No independent source image backup, edition collation or empirical validation.",
+      "rights": "PRIVATE_PHOTO_ONLY_ORIGINAL_SUMMARY_NO_PUBLIC_REPRODUCTION"
     }
   ]
 }
