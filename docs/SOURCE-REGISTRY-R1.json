@@ -3167,6 +3167,71 @@
       "accessed_date": "2026-11-27",
       "limits": "直接核可见数字录文或现代解释，未核古刻影印、传本归属或独立效验；0187为现代解释非古法原文。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0188",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lql7vm2mgi",
+      "provider": "识典古籍六壬大全毕法赋上",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l192–199子恋母腹、损孕、月厌、二血空亡例外、三玄胎"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅本轮可见数字录文或摘要；现代资料为规则旁证而非金针原文，未核古刻影印、传本及独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0189",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://shuyuan.zhiming.life/read/%E5%85%AD%E5%A3%AC%E5%A4%A7%E5%85%A8/66",
+      "provider": "知命书院六壬大全卷九5",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l29–36损孕完整夹注、三玄胎与乙未昴星；巳/己字形疑误"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅本轮可见数字录文或摘要；现代资料为规则旁证而非金针原文，未核古刻影印、传本及独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0190",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=897",
+      "provider": "赵氏大六壬详解神煞现代解释",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l153–176生气死气、血支与月厌起法；不含血忌完整序列"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅本轮可见数字录文或摘要；现代资料为规则旁证而非金针原文，未核古刻影印、传本及独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0191",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://shuyuan.zhiming.life/read/%E6%B3%A8%E8%A7%A3%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/19",
+      "provider": "知命书院指南卷三6搜索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "血忌首六月及血支正月丑顺行"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅本轮可见数字录文或摘要；现代资料为规则旁证而非金针原文，未核古刻影印、传本及独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0192",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.getit01.com/p201806092840110/",
+      "provider": "GetIt01神煞现代转录搜索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "血忌12月完整序列候选"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅本轮可见数字录文或摘要；现代资料为规则旁证而非金针原文，未核古刻影印、传本及独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
