@@ -4545,6 +4545,45 @@
       "facts_checked": [
         "l8255–8267 交合交克、末助初、官星入墓、支上巳空、仕宦与求财分目标"
       ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、独立传本、作者引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0294",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://shuyuan.zhiming.life/read/%E5%BE%A1%E5%AE%9A%E5%85%AD%E5%A3%AC%E7%9B%B4%E6%8C%87/94",
+      "provider": "知命书院直指庚戌第十一局",
+      "facts_checked": [
+        "l40–51 间传、不备、向阳、支生干坐守、中财空末生落空与功名"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、独立传本、作者引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0295",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lql7vm2mgi",
+      "provider": "识典大全毕法赋上",
+      "facts_checked": [
+        "l35–58 帘幕不同占类，l70 六阳，l255–260 初支末干及反向条件"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "交节旁证，未独立核历表算法、占时精度及地点。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0296",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://inobams.com/cn/a-reki/sekki-2003.html",
+      "provider": "2003节气网络历表，辅以xiaorili及其他历表检索摘要",
+      "facts_checked": [
+        "2003-06-06 芒种约北京时间10:19–10:20；非起课地点核验"
+      ]
     }
   ]
 }
