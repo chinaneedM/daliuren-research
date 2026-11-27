@@ -4779,6 +4779,45 @@
       "accessed_date": "2026-11-27",
       "limits": "数字录文，未核古刻、传本独立性、引用路径、实际反馈和预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0312",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://shuyuan.zhiming.life/read/%E5%BE%A1%E5%AE%9A%E5%85%AD%E5%A3%AC%E7%9B%B4%E6%8C%87/24",
+      "provider": "知命书院直指乙亥第十二局",
+      "facts_checked": [
+        "l53–64 元首连茹三奇、缺辰、春占功名、贵人临支、禄临传及罗网限制"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线资料，古籍未核古刻及传本独立性；历表非真实占时；均不构成预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0313",
+      "related_source": "DLR-SRC-0007",
+      "url": "https://book.taiyi.me/%E5%8D%9C/%E5%85%AD%E5%A3%AC%E7%B2%B9%E8%A8%80/%E5%85%AD%E5%A3%AC%E7%B2%B9%E8%A8%80(%E5%8D%B7%E4%BA%94)",
+      "provider": "太乙书局粹言卷五",
+      "facts_checked": [
+        "l491–493 丁神或驿马、乙亥丑丁财及二者同位条件"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线资料，古籍未核古刻及传本独立性；历表非真实占时；均不构成预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0314",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2004/rekiyou042.html",
+      "provider": "日本国立天文台2004历要项（独立历法旁证）",
+      "facts_checked": [
+        "l45–46 大雪冬至日本标准时间、换算北京时间，非实际占时核验"
+      ],
+      "evidence_grade": "ONLINE_OFFICIAL_ALMANAC_TARGETED_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线资料，古籍未核古刻及传本独立性；历表非真实占时；均不构成预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
