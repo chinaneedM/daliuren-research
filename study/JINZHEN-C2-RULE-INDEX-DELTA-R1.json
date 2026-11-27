@@ -1,0 +1,1579 @@
+{
+  "schema": "DLR-JINZHEN-C2-RULE-INDEX-DELTA-R1",
+  "baseline_head": "9494feb29c5c2b3b6a9de29c11fb0b73f5bb523b",
+  "base_rule_index": "study/JINZHEN-C1-RULE-INDEX-R1.json",
+  "concept_indexes": [
+    "study/JINZHEN-C1-CONCEPT-REFERENCE-INDEX-R1.json",
+    "study/JINZHEN-C2-CONCEPT-REFERENCE-DELTA-R1.json"
+  ],
+  "framework": "study/JINZHEN-C2-KNOWLEDGE-FRAMEWORK-R1.json",
+  "source_id": "DLR-SRC-0001",
+  "scope": "研究性规则增量，未覆盖每条古诀及神煞表，局部算例和旧审计不代表当前重跑",
+  "kind_definitions": {
+    "DETERMINISTIC_WITHIN_RULESET": "在给定规则版本及充分输入内可重复计算，不保证历史唯一或占验",
+    "STRUCTURAL_CANDIDATE": "结构定义或前提有候选、争议、解释边界",
+    "TRADITIONAL_INTERPRETATION": "书内经验和条件解释，未独立实证",
+    "RESEARCH_HYPOTHESIS": "现代研究方案待检验"
+  },
+  "verification_definitions": {
+    "TABLE": "归档查表",
+    "DERIVED": "有限推导",
+    "IMPLEMENTED": "现有有限生产功能及既有测试",
+    "CHECKED": "既有档案有局部例课或有限结构检查，不代表本轮新跑或全域验证",
+    "PARTIAL": "规则或证据存在缺口",
+    "UNVALIDATED": "传统解释未独立实证",
+    "PROPOSED": "研究提案未实证"
+  },
+  "counts": {
+    "base": 69,
+    "new": 37,
+    "effective": 106,
+    "concept_coverage": 152,
+    "by_kind": {
+      "TRADITIONAL_INTERPRETATION": 10,
+      "DETERMINISTIC_WITHIN_RULESET": 12,
+      "STRUCTURAL_CANDIDATE": 11,
+      "RESEARCH_HYPOTHESIS": 4
+    },
+    "by_verification": {
+      "UNVALIDATED": 9,
+      "CHECKED": 20,
+      "PROPOSED": 4,
+      "PARTIAL": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "DLR-C2-R001",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "占事干支角色映射",
+      "concept_ids": [
+        "DLR-C2-C001",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C088",
+        "DLR-C1-C098"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R057"
+      ],
+      "system_ids": [
+        "X01"
+      ],
+      "inputs": "事前占问、日干日支、人物角色、已知背景",
+      "rule_or_condition": "按占类保存日干/日支角色候选；明确选用依据",
+      "output": "角色绑定及其参照",
+      "exceptions_and_limits": "无普适主客优先级；不按事后反馈换角色",
+      "source_pages": [
+        108,
+        113
+      ],
+      "c2_sessions": [
+        194
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0020",
+        "DLR-OPEN-0045"
+      ],
+      "example_or_counterexample": "己未交易干买方支店方；同亥位不等于同一角色",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R002",
+      "layer": "L4",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "干支互临空间谓词",
+      "concept_ids": [
+        "DLR-C2-C002",
+        "DLR-C1-C005",
+        "DLR-C1-C006",
+        "DLR-C1-C007",
+        "DLR-C1-C022",
+        "DLR-C1-C023"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R012",
+        "DLR-C1-R046"
+      ],
+      "system_ids": [
+        "X01"
+      ],
+      "inputs": "合法日柱、位移D，寄宫R、日支B",
+      "rule_or_condition": "H(x)=x+D mod12；A=H(R),C=H(B)；支临干A=B，干临支C=R",
+      "output": "两个有向真值、原坐标及是否退化同位",
+      "exceptions_and_limits": "不可替代本体相克；R=B且D0不是不同坐标交换",
+      "source_pages": [
+        108,
+        113
+      ],
+      "c2_sessions": [
+        194
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0020"
+      ],
+      "example_or_counterexample": "720域00/10/01/11=610/50/50/10，真实不同位双真5",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R003",
+      "layer": "L6",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "十二支神身份索引",
+      "concept_ids": [
+        "DLR-C2-C003",
+        "DLR-C1-C015",
+        "DLR-C1-C020",
+        "DLR-C1-C044",
+        "DLR-C1-C091"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R009",
+        "DLR-C1-R012",
+        "DLR-C1-R058"
+      ],
+      "system_ids": [
+        "X02"
+      ],
+      "inputs": "地支值及术语语境",
+      "rule_or_condition": "将支神取象身份绑定地支；选定月将与天将分别引用原字段",
+      "output": "带来源的身份索引",
+      "exceptions_and_limits": "神后子不等于天后；十二支神不是当前选定月将",
+      "source_pages": [
+        114,
+        119
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0047"
+      ],
+      "example_or_counterexample": "癸亥例戌犬、亥猪、戌乘白虎三种来源",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R004",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "基本象与引申象记录",
+      "concept_ids": [
+        "DLR-C2-C004",
+        "DLR-C2-C005",
+        "DLR-C1-C089",
+        "DLR-C1-C091"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R058"
+      ],
+      "system_ids": [
+        "X02"
+      ],
+      "inputs": "支神或天将、原始象义、占类、附加条件",
+      "rule_or_condition": "保留原映射；引申须列语义桥梁及适用对象",
+      "output": "基本象、引申候选及反例",
+      "exceptions_and_limits": "无历史证明不得称固定原义；不能从象断现实人格",
+      "source_pages": [
+        114,
+        119
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0047"
+      ],
+      "example_or_counterexample": "河魁印绶象不等于其支六亲父母",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R005",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "阴神正向查位",
+      "concept_ids": [
+        "DLR-C2-C006",
+        "DLR-C1-C019",
+        "DLR-C1-C020",
+        "DLR-C1-C022",
+        "DLR-C1-C023"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R012"
+      ],
+      "system_ids": [
+        "X02"
+      ],
+      "inputs": "已知天盘支字值x、位移D",
+      "rule_or_condition": "按地盘x查H(x)，保存起点角色及结果盘位",
+      "output": "阴神候选及来源坐标",
+      "exceptions_and_limits": "不采用逆查P(x)，不等于支阴阳",
+      "source_pages": [
+        119,
+        119
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "issue_ids": [],
+      "example_or_counterexample": "癸亥D11寅阴丑、子阴亥；错误P在总数相同仍逐例不同",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R006",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "质气取象的非排他分工",
+      "concept_ids": [
+        "DLR-C2-C007",
+        "DLR-C2-C008",
+        "DLR-C1-C044",
+        "DLR-C1-C091",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C047"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R061"
+      ],
+      "system_ids": [
+        "X02",
+        "X03"
+      ],
+      "inputs": "支神、天将、状态及占类",
+      "rule_or_condition": "记录支偏质、将偏气的作者经验倾向；允许各自其他象义",
+      "output": "带条件的两组象义候选",
+      "exceptions_and_limits": "不得由外貌或类象断真实品性；没有定量权重",
+      "source_pages": [
+        115,
+        115
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0047"
+      ],
+      "example_or_counterexample": "辰乘玄武的物象与气质解释分层",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R007",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "天将基本象及状态约束",
+      "concept_ids": [
+        "DLR-C2-C008",
+        "DLR-C1-C044",
+        "DLR-C1-C045",
+        "DLR-C1-C046",
+        "DLR-C1-C047",
+        "DLR-C1-C091"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R027",
+        "DLR-C1-R030",
+        "DLR-C1-R061"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "inputs": "将身份、乘支、所临地盘、旺衰、占问",
+      "rule_or_condition": "按已登记天将基本象生成候选，同时保留将本体生克和乘支状态",
+      "output": "将象候选和条件",
+      "exceptions_and_limits": "吉将不保证目标吉，不凭将断实际犯罪或疾病",
+      "source_pages": [
+        120,
+        123
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0028",
+        "DLR-OPEN-0048"
+      ],
+      "example_or_counterexample": "辛丑酉白虎本体及乘支均金，克辛的是旬遁丁",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R008",
+      "layer": "L6",
+      "kind": "RESEARCH_HYPOTHESIS",
+      "name": "见象推事与依占取类分流",
+      "concept_ids": [
+        "DLR-C2-C009",
+        "DLR-C2-C010",
+        "DLR-C1-C087",
+        "DLR-C1-C091",
+        "DLR-C1-C089",
+        "DLR-C1-C090",
+        "DLR-C1-C092"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R056",
+        "DLR-C1-R058",
+        "DLR-C1-R069"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "inputs": "已冻结占问或明确来意检验任务、课盘、版本",
+      "rule_or_condition": "标记解释方向；已知占问依占取类，来意任务见象推事，分别评价",
+      "output": "候选列表与任务标签",
+      "exceptions_and_limits": "不可使用反馈倒选；两方向不构成独立证据",
+      "source_pages": [
+        119,
+        119
+      ],
+      "c2_sessions": [
+        195
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0016",
+        "DLR-OPEN-0026",
+        "DLR-OPEN-0048"
+      ],
+      "example_or_counterexample": "p119–120两方向；未提供比较准确率",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PROPOSED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R009",
+      "layer": "L6",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "存在与显现的搜索域判定",
+      "concept_ids": [
+        "DLR-C2-C011",
+        "DLR-C2-C012",
+        "DLR-C1-C090",
+        "DLR-C1-C092",
+        "DLR-C1-C102"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R059"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "inputs": "实体/属性、盘位、已知全盘或明确搜索域及完整性",
+      "rule_or_condition": "分别查全盘存在和域内匹配；去重盘位但保留课传角色",
+      "output": "存在、显现、域及未知原因",
+      "exceptions_and_limits": "域不完整且无匹配只能未知；不现不等于不存在",
+      "source_pages": [
+        120,
+        120
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0016",
+        "DLR-OPEN-0048"
+      ],
+      "example_or_counterexample": "丁酉官鬼俱空只针对所述范围，不推出全盘皆空",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R010",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "类象虚实条件候选",
+      "concept_ids": [
+        "DLR-C2-C013",
+        "DLR-C1-C072",
+        "DLR-C1-C074",
+        "DLR-C1-C091"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R047",
+        "DLR-C1-R053"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "inputs": "目标、类象、空态、天空、遁干及适用条文",
+      "rule_or_condition": "各虚实因子独立登记；限定求财等语境再生成解释",
+      "output": "虚实解释及触发属性",
+      "exceptions_and_limits": "虚实非空亡布尔值，更非目标实际成败",
+      "source_pages": [
+        120,
+        120
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0041",
+        "DLR-OPEN-0048"
+      ],
+      "example_or_counterexample": "财遁鬼与财阴神为鬼是不同谓词",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R011",
+      "layer": "L7",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "同位与跨位复合象",
+      "concept_ids": [
+        "DLR-C2-C014",
+        "DLR-C2-C015",
+        "DLR-C1-C045",
+        "DLR-C1-C053",
+        "DLR-C1-C090",
+        "DLR-C1-C096",
+        "DLR-C1-C044",
+        "DLR-C1-C100"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R035",
+        "DLR-C1-R062",
+        "DLR-C1-R067"
+      ],
+      "system_ids": [
+        "X03"
+      ],
+      "inputs": "盘位、各属性来源、两端关系及搜索域",
+      "rule_or_condition": "同位按盘位ID合并属性但保留角色；跨位明确两端和有向关系",
+      "output": "结构组合及派生依赖",
+      "exceptions_and_limits": "不同天将不能同占一支；不得由共现直接认定有效",
+      "source_pages": [
+        122,
+        123
+      ],
+      "c2_sessions": [
+        196
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0039",
+        "DLR-OPEN-0048"
+      ],
+      "example_or_counterexample": "1440域贵人太常所乘支同为官鬼0，但本体土对水日可同时为克",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R012",
+      "layer": "L5",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "神煞起算及输入缺失",
+      "concept_ids": [
+        "DLR-C2-C016",
+        "DLR-C2-C020",
+        "DLR-C1-C014",
+        "DLR-C1-C015",
+        "DLR-C1-C016",
+        "DLR-C1-C095"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "inputs": "指定神煞、年/月/季/干/支/旬等实际输入、算法版本",
+      "rule_or_condition": "记录每煞的参照、表、方向、结果；缺任一必需输入留未知",
+      "output": "候选神煞及来源",
+      "exceptions_and_limits": "岁月季干支分类并非完备或互斥；不把同名跨术数等同",
+      "source_pages": [
+        124,
+        126
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0050",
+        "DLR-OPEN-0056"
+      ],
+      "example_or_counterexample": "月将输入和取象标签同源；德神是类别",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R013",
+      "layer": "L2",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "太岁及岁破定位候选",
+      "concept_ids": [
+        "DLR-C2-C017",
+        "DLR-C2-C018",
+        "DLR-C1-C014",
+        "DLR-C1-C095",
+        "DLR-C1-C059"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R006",
+        "DLR-C1-R037",
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "inputs": "已选年界与年支y",
+      "rule_or_condition": "太岁取该年支；岁破候选为(y+6) mod12",
+      "output": "太岁、岁破两个定位标签",
+      "exceptions_and_limits": "年界未裁则候选并列；不把任意地支六冲称岁破",
+      "source_pages": [
+        124,
+        126
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0050"
+      ],
+      "example_or_counterexample": "卯年岁破酉仅为固定候选查法",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R014",
+      "layer": "L5",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "日支驿马三合查表候选",
+      "concept_ids": [
+        "DLR-C2-C019",
+        "DLR-C1-C006",
+        "DLR-C1-C063",
+        "DLR-C1-C095"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R041",
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "inputs": "已知日支b、指定日支驿马表",
+      "rule_or_condition": "申子辰取寅，寅午戌取申，巳酉丑取亥，亥卯未取巳",
+      "output": "马支及参照日支",
+      "exceptions_and_limits": "不替代年马月马；不证明迁动或应期",
+      "source_pages": [
+        124,
+        125
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0050",
+        "DLR-OPEN-0056"
+      ],
+      "example_or_counterexample": "辛巳日马亥；临戌另由逆查获得",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R015",
+      "layer": "L5",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "日德定位与临亥谓词",
+      "concept_ids": [
+        "DLR-C2-C020",
+        "DLR-C2-C021",
+        "DLR-C1-C095",
+        "DLR-C1-C005",
+        "DLR-C1-C023"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R012",
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "inputs": "日干、位移及指定日德表",
+      "rule_or_condition": "甲己寅、乙庚申、丙辛巳、丁壬亥、戊癸巳；P(德支)=亥单列",
+      "output": "日德支、临亥真值",
+      "exceptions_and_limits": "不因日德取消空亡；不据此裁取传",
+      "source_pages": [
+        125,
+        125
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0035",
+        "DLR-OPEN-0050"
+      ],
+      "example_or_counterexample": "720域日德临亥60，至少一种空18",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R016",
+      "layer": "L5",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "月德月份口径候选",
+      "concept_ids": [
+        "DLR-C2-C022",
+        "DLR-C1-C016",
+        "DLR-C1-C095"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R010",
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "inputs": "节月或农历月候选、各自月德查表版本",
+      "rule_or_condition": "逐版本查得月德；没有已核表或月输入保留未知",
+      "output": "月德候选及月份来源",
+      "exceptions_and_limits": "不反推月份以迎合原图；本条不宣称完整月德表",
+      "source_pages": [
+        138,
+        139
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0050",
+        "DLR-OPEN-0055"
+      ],
+      "example_or_counterexample": "庚戌原题酉月，书称巳德，节月候选申与农历九月巳不同",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R017",
+      "layer": "L5",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "月煞死气候选查法",
+      "concept_ids": [
+        "DLR-C2-C023",
+        "DLR-C1-C016",
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C095"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R048",
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "inputs": "明确月建m及正月午顺行候选版本",
+      "rule_or_condition": "死气=(m+4) mod12；分别与本位长生死位比较",
+      "output": "月煞死气支及各谓词",
+      "exceptions_and_limits": "仅该候选；不等同日支或日干死位",
+      "source_pages": [
+        125,
+        126
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0050"
+      ],
+      "example_or_counterexample": "8640抽象域双本位死156、双月煞死60、交4",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R018",
+      "layer": "L6",
+      "kind": "RESEARCH_HYPOTHESIS",
+      "name": "应期候选生成与同目标归并",
+      "concept_ids": [
+        "DLR-C2-C024",
+        "DLR-C1-C087",
+        "DLR-C1-C091",
+        "DLR-C1-C102"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R056",
+        "DLR-C1-R067",
+        "DLR-C1-R069"
+      ],
+      "system_ids": [
+        "X04"
+      ],
+      "inputs": "冻结目标、期限、候选规则与日期历法",
+      "rule_or_condition": "分别产生马落宫、墓、三合补支等日期候选；同日期保留多个推导链",
+      "output": "日期候选、推导及冲突",
+      "exceptions_and_limits": "不自动优先最近日期；同日期多路径不计独立命中",
+      "source_pages": [
+        124,
+        126
+      ],
+      "c2_sessions": [
+        197
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0050",
+        "DLR-OPEN-0053"
+      ],
+      "example_or_counterexample": "辛巳课戌候选三条路径，下一丙戌为五日后",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PROPOSED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R019",
+      "layer": "L4",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "合局相对六亲映射",
+      "concept_ids": [
+        "DLR-C2-C025",
+        "DLR-C1-C053",
+        "DLR-C1-C064"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R033",
+        "DLR-C1-R041",
+        "DLR-C1-R042"
+      ],
+      "system_ids": [
+        "X05"
+      ],
+      "inputs": "指定成局候选及已知局五行、日干",
+      "rule_or_condition": "将局五行与日干按五类映射；各支六亲独立存",
+      "output": "局六亲和各支六亲",
+      "exceptions_and_limits": "是否成局、化气按版本未裁；不以局属性覆盖支",
+      "source_pages": [
+        132,
+        133
+      ],
+      "c2_sessions": [
+        199
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0029",
+        "DLR-OPEN-0052"
+      ],
+      "example_or_counterexample": "戊申辰申子水局为妻财，逐支兄弟子孙妻财",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R020",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "六亲角色与目标相关解释",
+      "concept_ids": [
+        "DLR-C2-C026",
+        "DLR-C2-C027",
+        "DLR-C1-C053",
+        "DLR-C1-C088",
+        "DLR-C1-C089",
+        "DLR-C1-C091",
+        "DLR-C1-C087",
+        "DLR-C1-C102"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R033",
+        "DLR-C1-R056",
+        "DLR-C1-R058",
+        "DLR-C1-R066"
+      ],
+      "system_ids": [
+        "X05"
+      ],
+      "inputs": "支/暗/局六亲、实际问题子目标及期限",
+      "rule_or_condition": "逐目标绑定类神和解释条件；同六亲可有多个候选语义",
+      "output": "类神—目标候选关系",
+      "exceptions_and_limits": "官鬼不必凶、子孙不必吉；收入与利润不互代",
+      "source_pages": [
+        127,
+        130
+      ],
+      "c2_sessions": [
+        198
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0016",
+        "DLR-OPEN-0029"
+      ],
+      "example_or_counterexample": "求官时制鬼可能与目标相冲；父母生气和妻财收入为不同候选",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R021",
+      "layer": "L7",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "制鬼共现与直接临加分离",
+      "concept_ids": [
+        "DLR-C2-C026",
+        "DLR-C1-C053",
+        "DLR-C1-C088",
+        "DLR-C1-C089",
+        "DLR-C1-C091"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R002",
+        "DLR-C1-R033",
+        "DLR-C1-R066"
+      ],
+      "system_ids": [
+        "X05"
+      ],
+      "inputs": "日干、四课三传集合U、H映射及空态",
+      "rule_or_condition": "取U内子孙S与官鬼G；分别查共现、存在H(g)=s、存在H(s)=g及状态",
+      "output": "形式五行关系、空间谓词及解释候选",
+      "exceptions_and_limits": "临加不是有效制化的已证充分或必要条件",
+      "source_pages": [
+        130,
+        130
+      ],
+      "c2_sessions": [
+        198
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0029",
+        "DLR-OPEN-0040"
+      ],
+      "example_or_counterexample": "418限定域共现237，其中107无直接临加",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R022",
+      "layer": "L5",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "三类长生参照组合",
+      "concept_ids": [
+        "DLR-C2-C028",
+        "DLR-C2-C029",
+        "DLR-C2-C030",
+        "DLR-C1-C075",
+        "DLR-C1-C083",
+        "DLR-C1-C084"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R048",
+        "DLR-C1-R051"
+      ],
+      "system_ids": [
+        "X06"
+      ],
+      "inputs": "日干五行e、日支五行f、第一/第三课A/C及指定长生起点",
+      "rule_or_condition": "p(e,x)=(x-起点[e]) mod12；本位(p(e,A),p(f,C))、交叉(p(e,C),p(f,A))、统一(p(e,A),p(e,C))",
+      "output": "三组有序阶段及参照",
+      "exceptions_and_limits": "不认定互/俱的完整古义；土胎及羊刃异法另存",
+      "source_pages": [
+        131,
+        134
+      ],
+      "c2_sessions": [
+        199
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0007",
+        "DLR-OPEN-0032",
+        "DLR-OPEN-0043"
+      ],
+      "example_or_counterexample": "乙未D1本位病长生、交叉双绝、统一病绝；720域第三课参照异504",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R023",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "长生阶段的占类解释",
+      "concept_ids": [
+        "DLR-C2-C031",
+        "DLR-C1-C075",
+        "DLR-C1-C076",
+        "DLR-C1-C091"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R054"
+      ],
+      "system_ids": [
+        "X06"
+      ],
+      "inputs": "阶段、参照、对象、占类及旺衰空亡",
+      "rule_or_condition": "以明确条件登记胎、墓、绝等象义；附其他候选",
+      "output": "传统象义及条件",
+      "exceptions_and_limits": "不得从阶段断现实孕产、疾病或死亡；不以禄代临官",
+      "source_pages": [
+        131,
+        134
+      ],
+      "c2_sessions": [
+        199
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0032",
+        "DLR-OPEN-0053"
+      ],
+      "example_or_counterexample": "辛卯两个胎位的选择仍待证",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R024",
+      "layer": "L7",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "课体有序构成与取传来源",
+      "concept_ids": [
+        "DLR-C2-C032",
+        "DLR-C1-C033",
+        "DLR-C1-C039",
+        "DLR-C1-C041",
+        "DLR-C1-C042",
+        "DLR-C1-C096"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R014",
+        "DLR-C1-R062",
+        "DLR-C1-R063",
+        "DLR-C1-R064"
+      ],
+      "system_ids": [
+        "X07"
+      ],
+      "inputs": "候选课体版本、取传分流、有序三传及构成谓词",
+      "rule_or_condition": "保存有序角色、重复位置、相关状态；逐条件比对",
+      "output": "结构成立/不成立/未知及证据",
+      "exceptions_and_limits": "无序多重集仅检索键；古典课名定义待校",
+      "source_pages": [
+        135,
+        136
+      ],
+      "c2_sessions": [
+        200
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0017",
+        "DLR-OPEN-0054"
+      ],
+      "example_or_counterexample": "712已取传结构有序144键无序98键，31无序键多分流",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R025",
+      "layer": "L7",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "课体适用与直接判断例外",
+      "concept_ids": [
+        "DLR-C2-C033",
+        "DLR-C2-C034",
+        "DLR-C1-C087",
+        "DLR-C1-C096",
+        "DLR-C1-C102",
+        "DLR-C1-C074",
+        "DLR-C1-C100"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R053",
+        "DLR-C1-R062",
+        "DLR-C1-R068"
+      ],
+      "system_ids": [
+        "X07"
+      ],
+      "inputs": "课体成立状态、占类、目标、空亡类型与冲突",
+      "rule_or_condition": "独立记录原书直接判断主张及例外；未裁优先级保留候选",
+      "output": "条件解释或未知",
+      "exceptions_and_limits": "非全占类适用，非排除所有其他因素；不把古断作现实医疗判断",
+      "source_pages": [
+        135,
+        136
+      ],
+      "c2_sessions": [
+        200
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0018",
+        "DLR-OPEN-0054"
+      ],
+      "example_or_counterexample": "三传皆土39结构有10种有序空态签名",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R026",
+      "layer": "L7",
+      "kind": "RESEARCH_HYPOTHESIS",
+      "name": "派生依赖及证据去重",
+      "concept_ids": [
+        "DLR-C2-C035",
+        "DLR-C1-C073",
+        "DLR-C1-C090",
+        "DLR-C1-C096",
+        "DLR-C1-C101"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R067",
+        "DLR-C1-R068",
+        "DLR-C1-R069"
+      ],
+      "system_ids": [
+        "X07"
+      ],
+      "inputs": "盘位/角色、派生规则、空源、组合谓词及来源",
+      "rule_or_condition": "记录有向依赖、共享属性、角色分别保留；结果仅进评价",
+      "output": "依赖记录与候选解释",
+      "exceptions_and_limits": "同源不等于统计相关度已知，不设权重",
+      "source_pages": [
+        135,
+        136
+      ],
+      "c2_sessions": [
+        200
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0005",
+        "DLR-OPEN-0017",
+        "DLR-OPEN-0054"
+      ],
+      "example_or_counterexample": "课体与构成要素不可反向自证",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PROPOSED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R027",
+      "layer": "L2",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "行年岁序与年界输入",
+      "concept_ids": [
+        "DLR-C2-C036",
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R006",
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "inputs": "出生完整年份、当前年份、各自年界、年龄口径",
+      "rule_or_condition": "按选定年界得经过岁序e；虚岁候选为e+1；缺完整年份保留模12信息",
+      "output": "岁序及输入充分性",
+      "exceptions_and_limits": "年界、历法未裁不得补造；只知支不能确定完整行年干",
+      "source_pages": [
+        137,
+        139
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0056"
+      ],
+      "example_or_counterexample": "本命支太岁支相同信息组仍有五个可能行年天干",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R028",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "标准行年起法候选",
+      "concept_ids": [
+        "DLR-C2-C037",
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "inputs": "经过岁序e≥0、书内男/女起法",
+      "rule_or_condition": "男丙寅加e，女壬申减e，天干模10地支模12",
+      "output": "完整行年干支",
+      "exceptions_and_limits": "输入年界未裁；不以日干取行年",
+      "source_pages": [
+        137,
+        137
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0056"
+      ],
+      "example_or_counterexample": "乙卯生丙戌年e31，男酉女丑",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R029",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "分旬行年起法候选",
+      "concept_ids": [
+        "DLR-C2-C038",
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "inputs": "出生年六十序n、e≥0及男女方向",
+      "rule_or_condition": "按标准起干；起支再减2×floor(n/10)，随后按方向推进e",
+      "output": "分旬候选行年干支",
+      "exceptions_and_limits": "不替代标准；作者称金口诀未作传承定论",
+      "source_pages": [
+        137,
+        137
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0056"
+      ],
+      "example_or_counterexample": "7200抽象组合1200全同，6000支异干同",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R030",
+      "layer": "L6",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "三身及代占角色绑定",
+      "concept_ids": [
+        "DLR-C2-C039",
+        "DLR-C1-C005",
+        "DLR-C1-C088",
+        "DLR-C1-C093",
+        "DLR-C1-C094"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R057",
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "inputs": "问者、占者、所问对象、日干、本命行年",
+      "rule_or_condition": "三身分别绑定主体与个人信息来源；代占先记录关系",
+      "output": "角色绑定及缺项",
+      "exceptions_and_limits": "不设全部占类统一优先级",
+      "source_pages": [
+        137,
+        137
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0020",
+        "DLR-OPEN-0056"
+      ],
+      "example_or_counterexample": "多人占不能将所有年命归同一对象",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PARTIAL",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R031",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "年命三坐标查询",
+      "concept_ids": [
+        "DLR-C2-C040",
+        "DLR-C2-C041",
+        "DLR-C2-C042",
+        "DLR-C1-C020",
+        "DLR-C1-C093",
+        "DLR-C1-C094",
+        "DLR-C1-C022",
+        "DLR-C1-C023"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R012",
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "inputs": "明确对象年命支N、D",
+      "rule_or_condition": "保留N、H(N)、P(N)；分别查课传角色及字值匹配",
+      "output": "三坐标及各域匹配",
+      "exceptions_and_limits": "P(N)地盘字值匹配不是天盘入课；未知N不计算",
+      "source_pages": [
+        137,
+        139
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "issue_ids": [],
+      "example_or_counterexample": "庚戌D9本命寅亥巳、行年未辰戌；8640域本支不现而其他匹配1630",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R032",
+      "layer": "L6",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "行年未知的限定退选",
+      "concept_ids": [
+        "DLR-C2-C043",
+        "DLR-C1-C029",
+        "DLR-C1-C092",
+        "DLR-C1-C094"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R059",
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X08"
+      ],
+      "inputs": "行年未知标记、行人占类及支上神",
+      "rule_or_condition": "按书引句保留支上候选替代，注明触发条件",
+      "output": "退选类神及原行年未知",
+      "exceptions_and_limits": "非所有占类，不写回行年；不因结果切换",
+      "source_pages": [
+        137,
+        139
+      ],
+      "c2_sessions": [
+        201
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0016",
+        "DLR-OPEN-0056"
+      ],
+      "example_or_counterexample": "庚戌已知行年未，不触发未知退选",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R033",
+      "layer": "L3",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "旬首旬尾旬丁定位",
+      "concept_ids": [
+        "DLR-C2-C044",
+        "DLR-C2-C045",
+        "DLR-C2-C047",
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C069",
+        "DLR-C1-C095",
+        "DLR-C1-C054"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R031",
+        "DLR-C1-R060"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "inputs": "合法日柱及日旬起支a",
+      "rule_or_condition": "旬首a、旬尾(a+9) mod12、旬丁(a+3) mod12；各绑定旬遁方法",
+      "output": "三支及神煞身份",
+      "exceptions_and_limits": "元遁甲癸丁不能替代；六仪课另需条件",
+      "source_pages": [
+        140,
+        141
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "issue_ids": [],
+      "example_or_counterexample": "癸亥属甲寅旬，旬首寅、旬尾亥、旬丁巳",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R034",
+      "layer": "L5",
+      "kind": "TRADITIONAL_INTERPRETATION",
+      "name": "闭口与六仪条件解释",
+      "concept_ids": [
+        "DLR-C2-C044",
+        "DLR-C2-C045",
+        "DLR-C2-C046",
+        "DLR-C1-C049",
+        "DLR-C1-C050",
+        "DLR-C1-C069",
+        "DLR-C1-C095"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R053",
+        "DLR-C1-R060",
+        "DLR-C1-R062"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "inputs": "旬首尾身份、课传、天将及占类",
+      "rule_or_condition": "旬尾闭口象按条文条件登记；六仪课发用/入传与富贵六仪的贵人条件分版本",
+      "output": "传统解释或结构候选",
+      "exceptions_and_limits": "不把闭口等于现实缄默；不把旬首存在等于六仪格成立",
+      "source_pages": [
+        140,
+        141
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0048",
+        "DLR-OPEN-0058"
+      ],
+      "example_or_counterexample": "癸亥旬首寅在第三课而不在三传",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "UNVALIDATED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R035",
+      "layer": "L4",
+      "kind": "DETERMINISTIC_WITHIN_RULESET",
+      "name": "暗六亲并列及空值处理",
+      "concept_ids": [
+        "DLR-C2-C048",
+        "DLR-C1-C049",
+        "DLR-C1-C051",
+        "DLR-C1-C054",
+        "DLR-C1-C055"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R031",
+        "DLR-C1-R032",
+        "DLR-C1-R034"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "inputs": "日干、支x、旬遁天干及元遁天干",
+      "rule_or_condition": "各配干分别求六亲；旬遁无干输出无适用值，非布尔非鬼；元遁保留",
+      "output": "两套暗六亲与来源",
+      "exceptions_and_limits": "算法标签必留；不删父母兄弟；不把元遁补旬空",
+      "source_pages": [
+        141,
+        143
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0014",
+        "DLR-OPEN-0057",
+        "DLR-OPEN-0058"
+      ],
+      "example_or_counterexample": "乙酉寅旬庚官鬼/元戊妻财，未旬无干/元癸父母",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R036",
+      "layer": "L7",
+      "kind": "STRUCTURAL_CANDIDATE",
+      "name": "明暗二鬼狭义结构",
+      "concept_ids": [
+        "DLR-C2-C049",
+        "DLR-C1-C027",
+        "DLR-C1-C029",
+        "DLR-C1-C053",
+        "DLR-C1-C054"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R033",
+        "DLR-C1-R034",
+        "DLR-C1-R066"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "inputs": "第一课支六亲、第三课指定旬遁六亲",
+      "rule_or_condition": "第一课支本官鬼且第三课旬遁官鬼；无旬干为无适用值，结构谓词不满足；输入缺失为未知",
+      "output": "狭义结构及元遁扩展候选",
+      "exceptions_and_limits": "不等同双暗鬼；暗强于明未验证",
+      "source_pages": [
+        141,
+        143
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0058"
+      ],
+      "example_or_counterexample": "144第一课明鬼结构，旬/元第三课暗鬼00/10/01/11=54/62/12/16",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "CHECKED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    },
+    {
+      "id": "DLR-C2-R037",
+      "layer": "L7",
+      "kind": "RESEARCH_HYPOTHESIS",
+      "name": "双遁逐位置选择协议",
+      "concept_ids": [
+        "DLR-C2-C050",
+        "DLR-C1-C049",
+        "DLR-C1-C051",
+        "DLR-C1-C054",
+        "DLR-C1-C055",
+        "DLR-C1-C102"
+      ],
+      "related_c1_rule_ids": [
+        "DLR-C1-R034",
+        "DLR-C1-R067",
+        "DLR-C1-R069"
+      ],
+      "system_ids": [
+        "X09"
+      ],
+      "inputs": "已冻结规则版本、各位置算法及选择前提",
+      "rule_or_condition": "统一旬、统一元、显式混合分别测试；混合法事前指定，不得使用反馈挑选",
+      "output": "算法选择记录及可达结构",
+      "exceptions_and_limits": "仅研究方案；不同候选不能合并为一个命中；原始字段不改",
+      "source_pages": [
+        142,
+        143
+      ],
+      "c2_sessions": [
+        202
+      ],
+      "issue_ids": [
+        "DLR-OPEN-0057",
+        "DLR-OPEN-0058"
+      ],
+      "example_or_counterexample": "720域双暗鬼任一统一50、逐位置混用74，额外24",
+      "evidence_status": "C2_ARCHIVED_ORIGINAL_REVIEW",
+      "implementation_status": "RESEARCH_ONLY",
+      "verification_status": "PROPOSED",
+      "prediction_validation": "NOT_ESTABLISHED",
+      "version_scope": "C2_R1_CANDIDATE_OR_RESEARCH_RECORD"
+    }
+  ],
+  "validation": {
+    "baseline_counts": true,
+    "unique_ids_and_names": true,
+    "all_references_valid": true,
+    "source_page_batch_alignment": true,
+    "all_152_concepts_linked": true,
+    "nine_systems_linked": true,
+    "required_fields_and_boundaries": true
+  }
+}
