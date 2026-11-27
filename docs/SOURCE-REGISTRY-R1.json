@@ -2971,6 +2971,72 @@
       "accessed_date": "2026-11-27",
       "limits": "未核原刻影印或独立案例反馈；仅支持实际可见文字。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0173",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lqlbemcave",
+      "provider": "识典古籍六壬大全毕法赋下",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l7–19魁度须发用、神藏煞没、两蛇夹墓及空救限制",
+        "l22–30罗网、互网、空亡破网与墓覆日"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻及独立效验，证据限实际可见录文或摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0174",
+      "related_source": "DLR-SRC-0007",
+      "url": "https://www.qiwentop.com/yizang/shu-shu/liu-ren-cui-yan/8/",
+      "provider": "法海经藏六壬粹言卷八",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l74–79夹定、虚一、透出及庚子课上神端点"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻及独立效验，证据限实际可见录文或摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0175",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://luckclub.cn/daliuren/005/005/",
+      "provider": "古籍典藏指南卷三搜索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "卯戌、两仪夹传、罗网月厌等诀；页面查找未命中"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻及独立效验，证据限实际可见录文或摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0176",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.taiyi.me/book/index?id=214254518968389",
+      "provider": "太乙书局指南卷三搜索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "辛丑课古注疑墓未发用，若寅月子天狱煞；打开跳至异书，不作正文核读"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻及独立效验，证据限实际可见录文或摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0177",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://libokang.com/classics/liuren/%E6%B3%A8%E8%A7%A3%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/",
+      "provider": "Libo指南检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "现代译释戌加卯与金针解释差异，非古本异文"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核古籍影印、原刻及独立效验，证据限实际可见录文或摘要。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
