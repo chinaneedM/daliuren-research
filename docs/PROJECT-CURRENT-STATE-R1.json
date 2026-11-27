@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "state_version": "0.5.286",
+  "state_version": "0.5.287",
   "last_updated_date": "2026-11-27",
   "project": "大六壬·共同研习、历史考据与软件构建",
   "repository": "chinaneedM/daliuren-research",
   "default_branch": "main",
   "phase": "FOUNDATION",
-  "last_completed_work_unit": "STUDY-0214_VOL4_P144_JOINT_VERSE_AND_CLASSIFICATION_BOUNDARY",
+  "last_completed_work_unit": "STUDY-0215_VOL4_P144_HOUSE_QUERY_AND_ROLE_JOINT",
   "statuses": {
     "repository_authorized": true,
     "foundational_docs": "CI_VERIFIED_AT_INIT_R1",
@@ -301,7 +301,8 @@
     "study/SESSION-0212-JINZHEN-C2-MASTERY-TRANSFER-GRADING-CLOSE-R1.md",
     "study/SESSION-0213-JINZHEN-VOL4-PP144-154-HOUSE-FIRST-READ-R1.md",
     "study/research/vol4-house-structure-audit-r1.js",
-    "study/SESSION-0214-JINZHEN-VOL4-P144-JOINT-VERSE-CLASSIFICATION-BOUNDARY-R1.md"
+    "study/SESSION-0214-JINZHEN-VOL4-P144-JOINT-VERSE-CLASSIFICATION-BOUNDARY-R1.md",
+    "study/SESSION-0215-JINZHEN-VOL4-P144-HOUSE-ROLE-AND-QUERY-JOINT-R1.md"
   ],
   "pending_issue_ids": [
     "DLR-OPEN-0001",
@@ -365,10 +366,10 @@
     "DLR-OPEN-0060",
     "DLR-OPEN-0061"
   ],
-  "highest_priority_next_action": "卷四第一节p144–154初读完成；双方讨论已至p144家宅古籍引介，下一段家宅占的内容及干支类象，逐词逐句研习歌诀，之后继续p145–154。会纂与玉藻书目后续考据，保持60 OPEN、1 CLOSED、C2与生产范围不变。",
+  "highest_priority_next_action": "卷四第一节完整初读已完成；共同研习p144四类占问及三种干支类象已展开，下一段p145家宅环境（本宅景物、左右邻及对门、旺衰和神将）。保留0059–0061及60 OPEN、1 CLOSED；C2、生产不变，原图独立备份未核验。",
   "important_note": "User's long-term aspiration: complete traditional study, inspect possible gaps and improve methods toward higher demonstrable reliability; no presumption that ancient rules or future new rules achieve perfect accuracy. Keep history, rules, novel hypotheses separate. Do not alter Tianwen CLOSED core. This is vision only, not a new verified algorithm. Revalidate exact HEAD Actions. 2026-11-22 added a limited, independently unit-tested Earth/Heaven plate and four-lesson module without advancing reading beyond p47. CI check must still match each live HEAD. 2026-11-24 user approved mandatory end-of-volume spiral rereading and whole-book synthesis, documented in JOINT-STUDY-METHOD-R1 and continuity protocol. Prior SESSION-0051 exact HEAD CI verified successful before this method-only update. Joint page frontier unchanged.\n2026-11-26 读者要求补齐私人Drive定位。实查索引原有p21–106共86条、缺p1–20；本轮从历史Library实际重开p1–20二十张实体印刷原页，核实页码（p1由导论标题、目录及p2承接定位），逐页补建私人索引。分页列举复核共106条、106个不同正文页码、无缺无重。原始影像目录实查为空；对历史p106原文件授权原始字节提取测试被拒，实际独立影像备份仍0/106；索引不是备份，不公开私人标识、不改变权限。此为资料管理检查点，不新增C1复读页数，不改变共同讨论与累计知识重建优先级。\n2026-11-27 新原页p107–108实际核读，私人独立定位尚未补登、原图独立备份仍未核验；历史原页108，C1累计复读106，分别记录。\n2026-11-27 SESSION-0147 新增p109–113，私有定位与独立备份未核验。\nSESSION-0148 新p114–119私人独立定位及备份未核验。\nSESSION-0149 新p120–123私人独立定位及备份未核验。\nSESSION-0150 新p124–126私人独立定位及备份未核验。\nSESSION-0151 新p127–130私人定位及独立备份未核验。\nSESSION-0152 新p131–134实际读，私人定位与独立备份未核验；p135缺。\nSESSION-0153 新p135–136直接核读，第八节完整，私人定位及独立备份未核验。\nSESSION-0154 新p137–139私人定位与备份未核验。\nSESSION-0155 新p140–143直接核读，私人定位/独立备份未核验，p144未见。\nSESSION-0213 新p144–154直接核读，新增私人定位及独立原图备份未核验。",
   "study_covenant": "FULL_COVER_TO_COVER_LIUREN_JINZHEN_CoSTUDY_IN_SOURCE_ORDER_DEEP_MUTUAL_LEARNING",
-  "current_study_location": "[object Object]\nSESSION-0213 家宅占p144–154完整独立初读，庚寅D5课传配将与原图一致，午未旬空、亥子落空；1440配置宅虎或蛇各120全盘必对冲对应将，各28对冲见四课；720日/D双向交加10至少一向110，马禄6；庚巳辛午双遁丁神歧义、p149同义并列，新增0059–0061；待用户共同讨论，未开始舆地占。\nSESSION-0214 p144导言与家宅古籍引介共同讨论，分类歌诀研究规范追加，会纂指南重点与玉藻金英来源0009登记；未新增原页、效验或生产。",
+  "current_study_location": "[object Object]\nSESSION-0213 家宅占p144–154完整独立初读，庚寅D5课传配将与原图一致，午未旬空、亥子落空；1440配置宅虎或蛇各120全盘必对冲对应将，各28对冲见四课；720日/D双向交加10至少一向110，马禄6；庚巳辛午双遁丁神歧义、p149同义并列，新增0059–0061；待用户共同讨论，未开始舆地占。\nSESSION-0214 p144导言与家宅古籍引介共同讨论，分类歌诀研究规范追加，会纂指南重点与玉藻金英来源0009登记；未新增原页、效验或生产。\nSESSION-0215 p144占问内容及类象共同研习展开，角色与三组空间轴分离；720日/D直接互加二谓词00/10/01/11=610/50/50/10，双真D0、D6各5，须与干神归支另核；下一段p145环境。",
   "research_vision": "HISTORICAL_INHERITANCE_PLUS_SKEPTICAL_TESTING_PLUS_VERSIONED_INNOVATION_NO_PREASSUMED_100_PERCENT_PREDICTION",
   "software_last_completed_work_unit": "SOFTWARE-0001-PLATE-FOUR-LESSONS-PURE-FUNCTIONS-AND-UNIT-TESTS"
 }
