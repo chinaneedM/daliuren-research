@@ -1,0 +1,5 @@
+// SESSION-0218: structural candidates only, no outcome validation.
+const lu=[2,3,5,6,5,6,8,9,11,0],r=[2,4,5,7,5,7,8,10,11,1],be=[4,2,0,0,2,1,1,2,3,3,2,4],m=(x,n=12)=>(x%n+n)%n;let rel=[0,0,0,0,0],nv=[0,0,0,0,0],voidMasks=[0,0,0,0],luAboveBoth=0,masks=[0,0,0,0],ghostDayBoth=0,ghostDayBothSame=0,ghostDifferentBoth=0;
+for(let i=0;i<60;i++){let s=i%10,z=i%12,l=lu[s],P=Math.floor(s/2),D=m(l-z),voids=[m(10*Math.floor(i/10)+10),m(10*Math.floor(i/10)+11)],k=m(be[z]-be[l],5),mask=Number(voids.includes(l))+2*Number(voids.includes(z));rel[k]++;voidMasks[mask]++;if(mask===0)nv[k]++;if(m(r[s]+D)===l)luAboveBoth++;
+for(let d=0;d<12;d++){let a=m(r[s]+d),c=m(z+d),both=m(P-be[a],5)===2&&m(P-be[c],5)===2,own=m(P-be[a],5)===2&&m(be[z]-be[c],5)===2;masks[Number(both)+2*Number(own)]++;if(both){ghostDayBoth++;if(a===c)ghostDayBothSame++;if(!own)ghostDifferentBoth++;}}}
+console.log({rel,nv,voidMasks,luAboveBoth,masks,ghostDayBoth,ghostDayBothSame,ghostDifferentBoth});
