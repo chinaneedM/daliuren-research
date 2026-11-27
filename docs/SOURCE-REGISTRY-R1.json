@@ -3336,6 +3336,71 @@
       "accessed_date": "2026-11-27",
       "limits": "仅实际可见数字录文或摘要；历法网站为外部计算旁证非金针原文，未核原刻、底本、真实占课记录及独立效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0201",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.rili.com.cn/wannianli/2005/0308.html",
+      "provider": "日历网及黄历8历表搜索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "2005-03-08乙酉己卯辛卯；https://www.huangli8.com/nongli/2005/2005riqi.php同"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅核实际可见摘要或录文；日历为计算旁证，现代译释非古本证据，未核原刻、独立效验或原始占课记录。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0202",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://zh.wikisource.org/wiki/%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/1",
+      "provider": "维基文库指南卷一检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "雨水后亥将、春分后戌将"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅核实际可见摘要或录文；日历为计算旁证，现代译释非古本证据，未核原刻、独立效验或原始占课记录。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0203",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://shuyuan.zhiming.life/read/%E6%B3%A8%E8%A7%A3%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/12",
+      "provider": "知命书院指南卷二指掌赋",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l57–60从魁金刃、从魁天魁六合逃亡与相邻条文语境"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅核实际可见摘要或录文；日历为计算旁证，现代译释非古本证据，未核原刻、独立效验或原始占课记录。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0204",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://libokang.com/classics/liuren/%E5%85%AD%E5%A3%AC%E5%A4%A7%E5%85%A8/",
+      "provider": "Libo六壬大全及指南现代译释检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "日支破碎三类；https://libokang.com/classics/liuren/%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/ 月支破碎三类；现代译释不裁古义"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅核实际可见摘要或录文；日历为计算旁证，现代译释非古本证据，未核原刻、独立效验或原始占课记录。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0205",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://shuyuan.zhiming.life/read/%E5%A4%A7%E5%85%AD%E5%A3%AC%E7%A7%98%E6%9C%AC/26",
+      "provider": "知命书院大六壬秘本卷十五检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "破碎四孟酉四仲巳四季丑"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "仅核实际可见摘要或录文；日历为计算旁证，现代译释非古本证据，未核原刻、独立效验或原始占课记录。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
