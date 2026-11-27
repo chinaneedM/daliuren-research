@@ -4389,6 +4389,45 @@
       "accessed_date": "2026-11-27",
       "limits": "数字录文，未核古刻、引用路径、独立传本及预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核古刻、独立传本、引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0282",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全_(四庫全書本)/卷02",
+      "provider": "维基文库四库本大全卷二",
+      "facts_checked": [
+        "l393–429 太常玄武太阴天后及条件"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核古刻、独立传本、引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0283",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全_(四庫全書本)/卷01",
+      "provider": "维基文库四库本大全卷一",
+      "facts_checked": [
+        "l195–199、205–230 天马、医煞及月表排版交错"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核古刻、独立传本、引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0284",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://qingyxinxi.cn/cangjingge/shu/daliuren-zhinan/18",
+      "provider": "网络录文大六壬神煞指南",
+      "facts_checked": [
+        "l50–52、128–139、161–163、229–231、325–327 四煞条件及月例"
+      ]
     }
   ]
 }
