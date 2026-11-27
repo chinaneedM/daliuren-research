@@ -2576,6 +2576,71 @@
       ],
       "limits": "Opening full text returned 403; no facsimile or independently collated textual version.",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0144",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://zh.wikisource.org/zh-hans/宋史/卷052",
+      "provider": "《宋史》卷52天文志网络转录及检索摘录",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_SEARCH_SNIPPET_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "建炎三年九月丙午朔日食；独立于占案的历日约束。"
+      ],
+      "limits": "非影印校勘；仅条件历日证据。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0145",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://ctext.org/date.pl?entityid=926676&if=gb&year=3",
+      "provider": "中国哲学书电子化计划建炎三年历日表及建炎年号历表",
+      "evidence_grade": "ONLINE_CALENDAR_SEARCH_SNIPPET_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "九月丙午起，癸亥第18日；年号历表九月大、十月丙子朔。"
+      ],
+      "limits": "CTP再次打开403；不报未确认公历日及月将。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0146",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.scribd.com/document/1032121334/壬占汇选与针见血邵案对比-1",
+      "provider": "壬占汇选与针见血邵案对比网络整理HTML文字",
+      "evidence_grade": "ONLINE_COMPARATIVE_TRANSCRIPTION_DIRECT_TEXT_NOT_EDITION_COLLATED",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "定位两案连续文字1517–1556；癸亥卯将亥时及酉丑巳图、七月葬妻。"
+      ],
+      "limits": "现代整理非古本影印；按语卯时与题头亥时矛盾，不作独立断验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0147",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.shidianguji.com/book/SDZJ0728/chapter/1kjnhb18vfw9f",
+      "provider": "识典古籍《御定六壬直指》毕法赋",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_SEARCH_SNIPPET_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "昼占夜贵、夜占昼贵帘幕官及临年命日干考试条件。"
+      ],
+      "limits": "未校影印，不外推阴宅科举效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0148",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.shidianguji.com/book/SDZJ0628/chapter/1mdly3dyhoj76",
+      "provider": "识典古籍《大六壬秘本》",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_SEARCH_SNIPPET_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "正月生气子、死气午；另网络神煞资料顺行至九月寅。"
+      ],
+      "limits": "未校版本与节月边界，不作疾病死亡断验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
