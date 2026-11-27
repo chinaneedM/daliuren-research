@@ -3115,6 +3115,58 @@
       "accessed_date": "2026-11-27",
       "limits": "未核古籍影印、原刻或独立效验；限实际可见录文/检索摘要。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0184",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lql7vm2mgi",
+      "provider": "识典古籍六壬大全毕法赋上",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l179–190三生气条件、损胎格、互胎又作年命、忧子忧母"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "直接核可见数字录文或现代解释，未核古刻影印、传本归属或独立效验；0187为现代解释非古法原文。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0185",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.shidianguji.com/ens/book/SDZJ0728/chapter/1kjnhb18vfw9f",
+      "provider": "识典古籍御定六壬直指毕法赋",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l40互胎或作年命、合后临死气、支胎生气"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "直接核可见数字录文或现代解释，未核古刻影印、传本归属或独立效验；0187为现代解释非古法原文。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0186",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.zhaosir.online/DocumentPage.aspx?did=32",
+      "provider": "赵氏六壬大全卷十一录文",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l297互胎全列含己未两组及己丑干上午，l299–301忧子忧母"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "直接核可见数字录文或现代解释，未核古刻影印、传本归属或独立效验；0187为现代解释非古法原文。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0187",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=1558",
+      "provider": "赵氏毕法赋全解第十九法现代解释",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l78–82死气地盘克天将乘神解释，与本支克天将本五行候选不同"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "直接核可见数字录文或现代解释，未核古刻影印、传本归属或独立效验；0187为现代解释非古法原文。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
