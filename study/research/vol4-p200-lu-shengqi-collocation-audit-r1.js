@@ -1,0 +1,6 @@
+const assert=require('node:assert/strict');
+const e=[4,2,0,0,2,1,1,2,3,3,2,4],l=[2,4,5,7,5,7,8,10,11,1],lu=[2,3,5,6,5,6,8,9,11,0],cs=[11,2,8,5,8],m=(x,n=12)=>(x%n+n)%n;
+let o={n:0,luElementMatch:0,luParent:0,luChangsheng:0,sameMonthly:0,sameMonthlyAndInTwoUpper:0,bothMonthlyAndLuInTwoUpper:0,distinctBoth:0,luInTwoUpper:0,monthlyInTwoUpper:0,luAndChangshengInTwoUpper:0};
+for(let g=0;g<10;g++){let E=Math.floor(g/2);o.luElementMatch+=+(e[lu[g]]===E);o.luParent+=+(m(E-e[lu[g]],5)===1);o.luChangsheng+=+(lu[g]===cs[E]);}
+for(let i=0;i<60;i++)for(let d=0;d<12;d++)for(let mo=0;mo<12;mo++){let g=i%10,r=i%12,P=lu[g],Q=mo,A=m(l[g]+d),C=m(r+d),set=new Set([A,C]);o.n++;o.sameMonthly+=+(P===Q);o.sameMonthlyAndInTwoUpper+=+(P===Q&&set.has(P));o.luInTwoUpper+=+set.has(P);o.monthlyInTwoUpper+=+set.has(Q);o.bothMonthlyAndLuInTwoUpper+=+(set.has(P)&&set.has(Q));o.distinctBoth+=+(P!==Q&&set.has(P)&&set.has(Q));o.luAndChangshengInTwoUpper+=+(set.has(P)&&set.has(cs[Math.floor(g/2)]));}
+assert.deepEqual(o,{n:8640,luElementMatch:8,luParent:2,luChangsheng:0,sameMonthly:720,sameMonthlyAndInTwoUpper:115,bothMonthlyAndLuInTwoUpper:225,distinctBoth:110,luInTwoUpper:1380,monthlyInTwoUpper:1380,luAndChangshengInTwoUpper:144});console.log(JSON.stringify(o,null,2));
