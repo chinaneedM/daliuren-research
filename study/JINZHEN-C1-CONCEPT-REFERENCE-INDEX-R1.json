@@ -973,13 +973,13 @@
     {
       "id": "DLR-C1-C080",
       "layer": "L5",
-      "name": "旺禄",
-      "source_aliases_or_context": "旺（禄表语境）",
+      "name": "日干旺位与旺禄",
+      "source_aliases_or_context": "旺（p9日干旺位表）；旺禄（p102禄旺同位）",
       "entity_type": "日干派生位置",
-      "subject_reference_direction": "以日干查询本书旺位",
-      "boundary": "与帝旺重合不意味着定义相同",
+      "subject_reference_direction": "依日干查本书旺位，再独立比较日禄位",
+      "boundary": "旺位不等于旺禄，禄旺同位才称旺禄（乙卯丁午辛酉癸子）；己禄午而旺子，戊旺子但羊刃午；不把帝旺、羊刃或四时旺衰当同一字段",
       "source_pages": "9,102",
-      "c1_sessions": "0099,0128",
+      "c1_sessions": "0099,0128,0133",
       "designation": "RESEARCH_DEFINITION"
     },
     {

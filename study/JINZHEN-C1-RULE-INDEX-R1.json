@@ -1274,7 +1274,7 @@
       "output": "日禄支",
       "exceptions_and_limits": "临官不能代禄",
       "source_pages": "9,65–66,102–105",
-      "c1_sessions": "0099,0119,0128",
+      "c1_sessions": "0099,0119,0128,0133",
       "issue_ids": [
         "DLR-OPEN-0032"
       ],
@@ -1287,24 +1287,25 @@
       "id": "DLR-C1-R050",
       "layer": "L5",
       "kind": "STRUCTURAL_CANDIDATE",
-      "name": "旺禄、羊刃与土胎争议",
+      "name": "日干旺位、旺禄、羊刃与土胎版本",
       "concept_ids": [
         "DLR-C1-C080",
         "DLR-C1-C081",
         "DLR-C1-C075",
-        "DLR-C1-C078"
+        "DLR-C1-C078",
+        "DLR-C1-C079"
       ],
       "inputs": "日干及书内版本",
-      "rule_or_condition": "旺禄与帝旺单列；p9戊己旺子，具体全表回原页；p9阴干无刃，p102–103阴刃乙辰丁己未辛戌癸丑；土常规午胎与额外子胎并列",
+      "rule_or_condition": "按甲乙丙丁戊己庚辛壬癸顺序，p9日干旺位卯卯午午子子酉酉子子；日禄独立查R049，旺禄仅乙卯、丁午、辛酉、癸子。阳刃甲卯丙午戊午庚酉壬子；阴刃p9无、p102–103乙辰丁己未辛戌癸丑。土常规午胎及额外子胎并存为书内候选。",
       "output": "版本候选标签",
-      "exceptions_and_limits": "不擅定旺禄/阳刃未核表项，不取版本并集",
+      "exceptions_and_limits": "p9/p102–103已实际核表；阴刃及土胎适用边界仍未裁，不取版本并集，不以旺位替代羊刃，不以额外土胎覆盖帝旺阶段",
       "source_pages": "9,102–103",
-      "c1_sessions": "0099,0128",
+      "c1_sessions": "0099,0128,0133",
       "issue_ids": [
         "DLR-OPEN-0007",
         "DLR-OPEN-0032"
       ],
-      "example_or_counterexample": "阴干寄宫刃首课D0命中30，另口径0",
+      "example_or_counterexample": "戊旺子刃午；己禄午旺子；阴干寄宫刃首课D0命中30，另一口径0",
       "evidence_status": "C1_ARCHIVED_ORIGINAL_REVIEW",
       "implementation_status": "RESEARCH_ONLY",
       "verification_status": "PARTIAL"
