@@ -4376,6 +4376,19 @@
       "accessed_date": "2026-11-27",
       "limits": "数字录文，未核古刻、北海直接引用路径、独立传本及预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0281",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/wiki/六壬大全_(四庫全書本)/卷02",
+      "provider": "维基文库四库本大全卷二四将释及申、六合旁证",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "facts_checked": [
+        "l357–392 勾陈青龙天空白虎；l180–181 申乘虎/常；l356 六合术士类象"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核古刻、引用路径、独立传本及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
