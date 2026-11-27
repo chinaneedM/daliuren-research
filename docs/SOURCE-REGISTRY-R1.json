@@ -2496,6 +2496,20 @@
       "accessed_date": "2026-11-27",
       "limits": "未校影印原页、版本或断验",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0138",
+      "related_source": "DLR-SRC-0001",
+      "url": null,
+      "provider": "User-owned private physical printed 六壬金针 pp144–154",
+      "evidence_grade": "USER_PHYSICAL_PHOTO_PRINT_DIRECTLY_VIEWED_EDITION_UNBOUND",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "All eleven original pages reopened for section review; cross-page continuity and p154 next heading verified.",
+        "p146 丁神 location wording, p149 duplicated relationship and p153–154 case rechecked."
+      ],
+      "limits": "No independent original-image backup, edition collation or empirical validation.",
+      "rights": "PRIVATE_PHOTO_ONLY_ORIGINAL_SUMMARY_NO_PUBLIC_REPRODUCTION"
     }
   ]
 }
