@@ -3232,6 +3232,45 @@
       "accessed_date": "2026-11-27",
       "limits": "仅本轮可见数字录文或摘要；现代资料为规则旁证而非金针原文，未核古刻影印、传本及独立效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0193",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lql7vm2mgi",
+      "provider": "识典古籍六壬大全毕法赋上",
+      "facts_checked": [
+        "l199–212 昴星、胎受克绝、小产、长生、腹胎、腹空、全伤应期；部分夹注省略"
+      ],
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "accessed_date": "2026-11-27",
+      "limits": "本轮直接核可见网络录文，未核古刻影印、传本独立性或独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0194",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/wiki/%E5%85%AD%E5%A3%AC%E5%A4%A7%E5%85%A8/11",
+      "provider": "维基文库六壬大全卷十一",
+      "facts_checked": [
+        "l421–436 上述格局完整加临举例及应期，戊己土胎两口径"
+      ],
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "accessed_date": "2026-11-27",
+      "limits": "本轮直接核可见网络录文，未核古刻影印、传本独立性或独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0195",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.zhaosir.online/DocumentPage.aspx?did=32",
+      "provider": "赵氏六壬大全卷十一录文",
+      "facts_checked": [
+        "l312–327 同组加临例式及应期，右子等字疑误"
+      ],
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "accessed_date": "2026-11-27",
+      "limits": "本轮直接核可见网络录文，未核古刻影印、传本独立性或独立效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
