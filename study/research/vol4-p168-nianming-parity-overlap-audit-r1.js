@@ -1,0 +1,3 @@
+const assert=require('node:assert/strict');
+// Abstract symbol parity only; no sex or pregnancy prediction.
+const lod=[2,4,5,7,5,7,8,10,11,1];let x={total:0,gate:0,agree:0,disagree:0,gateOff:0};for(let i=0;i<60;i++)for(let d=0;d<12;d++)for(let n=0;n<12;n++){x.total++;let p=i%10%2,a=(lod[i%10]+d)%12%2,q=(n+d)%12%2;if(p===a){x.gate++;x[p===q?"agree":"disagree"]++}else x.gateOff++}assert.deepEqual(x,{total:8640,gate:4320,agree:2160,disagree:2160,gateOff:4320});console.log(JSON.stringify(x,null,2));
