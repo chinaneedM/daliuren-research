@@ -1,0 +1,7 @@
+// Abstract day/branch domain; two candidate stem methods, not actual divination outcomes.
+const m=(x,n=12)=>(x%n+n)%n,br="子丑寅卯辰巳午未申酉戌亥",gs="甲乙丙丁戊己庚辛壬癸";
+const names=["海中金","炉中火","大林木","路旁土","剑锋金","山头火","涧下水","城头土","白蜡金","杨柳木","泉中水","屋上土","霹雳火","松柏木","长流水","砂中金","山下火","平地木","壁上土","金箔金","覆灯火","天河水","大驿土","钗钏金","桑柘木","大溪水","沙中土","天上火","石榴木","大海水"];
+const na=(s,b)=>{for(let j=0;j<60;j++)if(j%10===s&&j%12===b)return names[Math.floor(j/2)];throw Error("invalid")};
+let a={total:0,xunAbsent:0,equal:0,unequal:0,sameElementDifferentStem:0,differentElement:0,xunWaterStem:0,yuanWaterStem:0,xunWaterStemWaterNayin:0,yuanWaterStemWaterNayin:0,bothNayinWater:0,xunNayinWater:0,yuanNayinWater:0,example:null};
+for(let i=0;i<60;i++)for(let b=0;b<12;b++){let s=i%10,dayb=i%12,x=m(b-m(dayb-s)),y=m(2*(s%5)+b,10);a.total++;let yn=na(y,b),yw=yn.endsWith("水");a.yuanNayinWater+=+yw;a.yuanWaterStem+=+(y>=8);a.yuanWaterStemWaterNayin+=+(y>=8&&yw);if(x>=10){a.xunAbsent++;continue}let xn=na(x,b),xw=xn.endsWith("水");a.xunNayinWater+=+xw;a.xunWaterStem+=+(x>=8);a.xunWaterStemWaterNayin+=+(x>=8&&xw);a.bothNayinWater+=+(xw&&yw);a.equal+=+(x===y);a.unequal+=+(x!==y);a.sameElementDifferentStem+=+(x!==y&&Math.floor(x/2)===Math.floor(y/2));a.differentElement+=+(Math.floor(x/2)!==Math.floor(y/2));if(i===20&&b===4)a.example={day:gs[s]+br[dayb],branch:br[b],xun:gs[x]+br[b],xunNayin:xn,yuan:gs[y]+br[b],yuanNayin:yn}}
+console.log(a);
