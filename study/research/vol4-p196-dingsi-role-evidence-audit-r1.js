@@ -1,0 +1,7 @@
+const assert=require('node:assert/strict');
+const B="子丑寅卯辰巳午未申酉戌亥",G="甲乙丙丁戊己庚辛壬癸",J=["贵人","腾蛇","朱雀","六合","勾陈","青龙","天空","白虎","太常","玄武","太阴","天后"],E=[4,2,0,0,2,1,1,2,3,3,2,4],L=[2,4,5,7,5,7,8,10,11,1],m=(x,n=12)=>(x%n+n)%n;
+let i=m(Math.floor(Date.UTC(2004,11,4)/86400000)+2440588+49,60),d=9,g=i%10,b=i%12,H=x=>m(x+d),low=[L[g],H(L[g]),b,H(b)],up=low.map(H),f=Math.floor(g/2),le=low.map((x,k)=>k===0?f:E[x]),ke=up.map((x,k)=>m(E[x]-le[k],5)),remote=up.filter(x=>m(f-E[x],5)===2),V=[m(b-g+10),m(b-g+11)],row=x=>({branch:B[x],stem:V.includes(x)?null:G[m(x-(b-g))],general:J[m(x-11)],ground:B[m(x-d)],void:V.includes(x),fallen:V.includes(m(x-d)),relative:["兄弟","子孙","妻财","官鬼","父母"][m(E[x]-f,5)]});
+assert.equal(i,53);assert.deepEqual(up,[4,1,2,11]);assert.deepEqual(ke,[1,0,4,4]);assert.deepEqual(remote,[11]);assert.deepEqual(V,[0,1]);assert.deepEqual([11,8,5].map(row).map(x=>[x.stem,x.general,x.relative]),[["癸","贵人","官鬼"],["庚","玄武","妻财"],["丁","天空","兄弟"]]);assert([11,8,5].map(row).every(x=>!x.void&&!x.fallen));assert.deepEqual([m(2+50),m(2+54)],[4,8]);
+let c=[0,0,0,0],days=[];for(let i=0;i<60;i++){let a=m(L[i%10]+9)===4,b=m(i%12+9)===2;c[+a+2*+b]++;if(a&&b)days.push(i)}assert.deepEqual(c,[45,10,3,2]);assert.deepEqual(days,[5,53]);
+let cnt=0;for(let i=0;i<60;i++)for(let h=0;h<12;h++)for(let d=0;d<12;d++){let a=m(i%12+d)===m(h+d);assert.equal(a,i%12===h);cnt+=+a}assert.equal(cnt,720);
+console.log(JSON.stringify({lessons:up.map(row),trans:[11,8,5].map(row),plate:[...B].map((_,x)=>row(x)),c,days,cnt},null,2));
