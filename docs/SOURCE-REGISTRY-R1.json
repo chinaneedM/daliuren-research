@@ -5052,6 +5052,58 @@
       "accessed_date": "2026-11-27",
       "limits": "在线录文未核古刻、传本独立性、事前记录或预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0333",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.shidianguji.com/book/SDZJ0728/chapter/1kve3i41tgobm",
+      "provider": "识典直指戊辰第一课",
+      "facts_checked": [
+        "l13–19 递克与末助初生、昼虎长生及夜龙鬼、谨慎官占例外"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文或检索摘录，未核古刻、传本独立性及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0334",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全/2",
+      "provider": "维基文库大全卷二",
+      "facts_checked": [
+        "l473–498 腾蛇传统取象、寅位生角的旺衰条件；未见现代微机"
+      ],
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文或检索摘录，未核古刻、传本独立性及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0335",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全_(四库全书本)/卷05",
+      "provider": "维基文库四库大全卷五",
+      "facts_checked": [
+        "搜索摘录：自任格、丙戊巳申寅，旺衰条件；直接定位未成功"
+      ],
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文或检索摘录，未核古刻、传本独立性及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0336",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全_(四库全书本)/卷08",
+      "provider": "维基文库四库大全卷八",
+      "facts_checked": [
+        "搜索摘录：殃咎三传递克、末克日干及官占自慎限制；直接定位未成功"
+      ],
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "在线录文或检索摘录，未核古刻、传本独立性及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
