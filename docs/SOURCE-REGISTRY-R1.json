@@ -2667,6 +2667,19 @@
       ],
       "limits": "Online transcription; no ruling on historical edition differences.",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0151",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.qiwentop.com/yizang/shu-shu/ren-xue-suo-ji/",
+      "provider": "《壬学琐记》网络录文检索摘要（另见 https://yimatrix.com/ja/academy/books/51/chapter/12368）",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_SEARCH_SNIPPET_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "Search excerpt includes all six unreachable Xuanwu ground branches 寅卯辰巳午未 and an objection about thieves' 行年."
+      ],
+      "limits": "Full text find did not match; cannot establish whether the specific geomancy question quoted in 金针 is verbatim; no independent edition collation.",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
