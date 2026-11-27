@@ -2919,6 +2919,58 @@
       "accessed_date": "2026-11-27",
       "limits": "未校原刻影印、具体传本、独立案例反馈；只支持可见文字及本次访问等级。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0169",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lqkzm8oug5",
+      "provider": "识典古籍六壬大全天狱课",
+      "evidence_grade": "TARGETED_ONLINE_TRANSCRIPTION_NO_FACSIMILE",
+      "facts_checked": [
+        "l7–9 日本日干长生、囚死墓神发用、斗系日本、时令及相对克关系"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核原刻影印或独立案例反馈；仅支持实际可见文字。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0170",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://shuyuan.zhiming.life/read/%E6%B3%A8%E8%A7%A3%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/16",
+      "provider": "知命书院指南卷三检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "辛丑案题头、天狱重审退茹、天后母受寅制克；网页查找未命中"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核原刻影印或独立案例反馈；仅支持实际可见文字。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0171",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.shidianguji.com/book/SDZJ0728/chapter/1kg328b67xgcr",
+      "provider": "识典古籍御定六壬直指起例检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "游魂正月亥顺行，二月子"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核原刻影印或独立案例反馈；仅支持实际可见文字。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0172",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://libokang.com/classics/liuren/%E6%B3%A8%E8%A7%A3%E5%A4%A7%E5%85%AD%E5%A3%AC%E6%8C%87%E5%8D%97/",
+      "provider": "Libo指南检索摘要",
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "facts_checked": [
+        "辛丑古例题头、白虎遁鬼与天后母受制、田妃参看"
+      ],
+      "accessed_date": "2026-11-27",
+      "limits": "未核原刻影印或独立案例反馈；仅支持实际可见文字。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
