@@ -4636,6 +4636,71 @@
       "facts_checked": [
         "检索摘录巳数四、旺衰乘减、十百位数不定；正文查词未定位"
       ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、独立传本、作者引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0301",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.guoxuedashi.com/a/22486k/283925w.html",
+      "provider": "国学大师直指壬子第十一局",
+      "facts_checked": [
+        "l81–87 登三天、间传、六仪、自墓传生、交合、末申受克及不同占问"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_TRANSCRIPTION_TARGETED_PASSAGE_READ",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、独立传本、作者引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0302",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/wiki/六壬大全_(四庫全書本)/卷02",
+      "provider": "维基文库四库大全卷二",
+      "facts_checked": [
+        "l116–118 寅申道路及上下神参照"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、独立传本、作者引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0303",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.guoxuedashi.com/a/22436y/283052r.html",
+      "provider": "大六壬说约卷末（独立作品对读线索）",
+      "facts_checked": [
+        "地盘寅申走道、辰戌墙、宅邻方向，检索摘录"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "数字录文，未核原刻、独立传本、作者引用路径及预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0304",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://shuyuan.zhiming.life/read/注解大六壬指南/15",
+      "provider": "知命书院指南会纂占验地理篇检索摘录",
+      "facts_checked": [
+        "青龙左白虎右、墙垣及地理语境"
+      ]
+    },
+    {
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-27",
+      "limits": "仅现代法律旁证，不是传统术数来源或预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY",
+      "id": "DLR-WIT-0305",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_0abfdd261c03417b949df19d869add8d.html",
+      "provider": "国家市场监管总局劳动合同法（现代风险旁证）",
+      "facts_checked": [
+        "现代招聘担保/收费限制，不追溯裁断2004史例"
+      ]
     }
   ]
 }
