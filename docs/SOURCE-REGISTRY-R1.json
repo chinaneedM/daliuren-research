@@ -2524,6 +2524,19 @@
       ],
       "limits": "No independent source image backup, edition collation or empirical validation.",
       "rights": "PRIVATE_PHOTO_ONLY_ORIGINAL_SUMMARY_NO_PUBLIC_REPRODUCTION"
+    },
+    {
+      "id": "DLR-WIT-0140",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://m.dushu.com/guoxue/105400/1144500.html",
+      "provider": "读书网 大六壬720课 网络文本检索摘要",
+      "evidence_grade": "ONLINE_TRANSCRIPTION_SEARCH_SNIPPET_ONLY",
+      "accessed_date": "2026-11-27",
+      "facts_checked": [
+        "Search excerpt places 甲午三局 under 子, consistent with D10 calculation."
+      ],
+      "limits": "Not a facsimile, not another edition of 六壬金针, no full-text verification; cannot establish printed emendation independently.",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }

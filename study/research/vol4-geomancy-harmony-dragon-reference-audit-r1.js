@@ -1,0 +1,6 @@
+// Abstract positional relations, not actual terrain or divination outcomes.
+const e=[4,2,0,0,2,1,1,2,3,3,2,4],lod=[2,4,5,7,5,7,8,10,11,1],nb=[[1,7],[0,8],[11,9],[11,9],[1,7],[0,8],[1,7],[6,2],[5,3],[5,3]],m=(x,n=12)=>(x%n+n)%n;
+let a={n:0,basePair:0,upperPair:0,bothPair:0,baseLiu:0,upperLiu:0,bothLiu:0,bothAny:0,bothVerticalKe:0,bothAnyAndKe:0,baseTrineUpperLiu:0},g={n:0,upperKe:[0,0,0,0,0],groundKe:[0,0,0,0,0],same:0,opposite:0,void:[0,0,0,0]};
+const tri=(x,y)=>x!==y&&m(x-y,4)===0,liu=(x,y)=>m(x+y)===1;
+for(let i=0;i<60;i++)for(let D=0;D<12;D++){let s=i%10,b=i%12,L=lod[s],A=m(L+D),S=m(b+D),BT=tri(L,b),UT=tri(A,S),BL=liu(L,b),UL=liu(A,S),K=m(e[A]-Math.floor(s/2),5)===3&&m(e[S]-e[b],5)===3;a.n++;a.basePair+=+BT;a.upperPair+=+UT;a.bothPair+=+(BT&&UT);a.baseLiu+=+BL;a.upperLiu+=+UL;a.bothLiu+=+(BL&&UL);a.bothAny+=+((BT||BL)&&(UT||UL));a.bothVerticalKe+=+K;a.bothAnyAndKe+=+(K&&(BT||BL)&&(UT||UL));a.baseTrineUpperLiu+=+(BT&&UL);for(const N of nb[s]){let sign=[11,0,1,2,3,4].includes(m(N-D))?1:-1,G=m(N+sign*5),U=m(G+D),P=m(G-D),r=m(e[U]-e[G],5),q=m(e[G]-e[P],5),vs=[m(b-s+10),m(b-s+11)];g.n++;g.upperKe[r]++;g.groundKe[q]++;g.same+=+(r===q);g.opposite+=+((r===2&&q===3)||(r===3&&q===2));g.void[(vs.includes(G)?1:0)+(vs.includes(P)?2:0)]++}}
+console.log({a,g});
