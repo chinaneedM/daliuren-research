@@ -5715,6 +5715,45 @@
       "accessed_date": "2026-11-28",
       "limits": "网络录文/摘录未校古刻或实体版，非独立预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0383",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=1784",
+      "provider": "指南卷三会纂行人章",
+      "facts_checked": [
+        "实际web打开l756–759，游子斩关及应期层次"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻或实体版，不是独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0384",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lqkvtq8m4q",
+      "provider": "识典六壬大全游子课",
+      "facts_checked": [
+        "实际web打开l8–14，三传俱土旬丁天马及实例"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻或实体版，不是独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0385",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=1670",
+      "provider": "课经斩关课网络录文",
+      "facts_checked": [
+        "实际web打开l7–10、65–70，魁罡临日辰发用及异文；未确证数字版底本"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻或实体版，不是独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
