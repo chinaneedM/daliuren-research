@@ -5390,6 +5390,32 @@
       "accessed_date": "2026-11-28",
       "limits": "网络录文未校实体版或古刻，不证文本独立或预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0359",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=1784",
+      "provider": "指南卷三会纂行人章",
+      "facts_checked": [
+        "实际直读l704–759、l777；l706二马，l708逆传逆贵，l725/727/729/737定位，l740/744/777二马及天马例外"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻及用户实体版本，不证预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0360",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全_(四庫全書本)/卷10",
+      "provider": "六壬大全四库卷十毕法赋",
+      "facts_checked": [
+        "实际直读l292–306、309–310、346–349；第91法鬼虎及例外、第93法错传、第97/98法类象范围"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻及用户实体版本，不证预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
