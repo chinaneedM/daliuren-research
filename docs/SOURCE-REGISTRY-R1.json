@@ -5845,6 +5845,32 @@
       "accessed_date": "2026-11-28",
       "limits": "历史报道或基金回顾，非交易所原始逐日序列、独立事前断课或效验；原书指数名称未明。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0393",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://finance.sina.com.cn/roll/20050203/09321345106.shtml",
+      "provider": "上海青年报2005-02-03市场回顾",
+      "facts_checked": [
+        "直接读l7–10，1/21反弹后2/1盘中约1187新低，2/2再反弹"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "历史媒体行情旁证，非交易所原始行情、实际成交记录或独立事前预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0394",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://finance.sina.com.cn/roll/20050201/101759764t.shtml",
+      "provider": "上海证券报2005-02-01月报",
+      "facts_checked": [
+        "直接读l9–10，1月沪指收1191.82，月跌5.90%"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "历史媒体行情旁证，非交易所原始行情、实际成交记录或独立事前预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
