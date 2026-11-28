@@ -5793,6 +5793,19 @@
       "accessed_date": "2026-11-28",
       "limits": "历史媒体行情旁证，非交易所原始行情、实际交易记录、独立事前断课或预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0389",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://www.shidianguji.com/book/SK1599/chapter/1k1lql3rdk55n",
+      "provider": "识典古籍《六壬大全》杂状课",
+      "facts_checked": [
+        "直接读l8–12：数目日期、五行纯杂及旺相休囚调整的传统论述"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻；传统数量、应期解释不证明彩票开奖可预测，不提供选号算法。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
