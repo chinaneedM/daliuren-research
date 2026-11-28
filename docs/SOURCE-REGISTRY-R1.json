@@ -132,6 +132,19 @@
       "redistribution_rights": "UNKNOWN",
       "full_text_stored": false,
       "notes": "SESSION-0252 实读网络录文l131三合局与方位辨析及两则作者自述，l134舆地过细取象的保留意见。原刻、版本、原始案例及效验未核；不存全文。"
+    },
+    {
+      "id": "DLR-SRC-0011",
+      "work_title": "大六壬五变中黄经正文及释义",
+      "author_attribution": "待考",
+      "user_holds_physical": false,
+      "user_edition": "未核",
+      "source_class": "ONLINE_TEXT_LOCATOR",
+      "online_location": "https://www.shidianguji.com/book/CADAL02055501/chapter/1lai9rinpzcpy",
+      "digital_status": "ONLINE_TRANSCRIPTION_TARGETED_READ",
+      "redistribution_rights": "UNKNOWN",
+      "full_text_stored": false,
+      "notes": "SESSION-0339 释义卷二网页l255游神取法见证，未校古刻及具体版本，不存全文。"
     }
   ],
   "external_witnesses": [
@@ -5480,6 +5493,84 @@
       "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
       "accessed_date": "2026-11-28",
       "limits": "网络录文未校古刻、实体版，可能互有承袭，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0366",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=1784",
+      "provider": "指南卷三会纂行人章",
+      "facts_checked": [
+        "实际直读l729–735，日年、河井、支前四位、阳墓阴绝及游神"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻或实体版，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0367",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=838",
+      "provider": "金针行人占网络转录",
+      "facts_checked": [
+        "实际直读l157–176，与p226原页对照，连根计数及游神"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻或实体版，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0368",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://shuyuan.zhiming.life/read/六壬指南注解/30",
+      "provider": "指南卷四神煞表",
+      "facts_checked": [
+        "实际直读l11–35，游神春丑夏子秋亥冬戌"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻或实体版，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0369",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hans/六壬大全/1",
+      "provider": "六壬大全卷一维基文库录文",
+      "facts_checked": [
+        "实际直读l308，秋戌冬亥"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻或实体版，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0370",
+      "related_source": "DLR-SRC-0011",
+      "url": "https://www.shidianguji.com/book/CADAL02055501/chapter/1lai9rinpzcpy",
+      "provider": "五变中黄经释义卷二",
+      "facts_checked": [
+        "实际直读l255，秋亥冬戌"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻或实体版，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0371",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/zh-hant/六壬大全_(四庫全書本)/卷03",
+      "provider": "大全四库卷三网络录文检索片段",
+      "facts_checked": [
+        "天河地井相加释义、辰未与子卯、旺水玄武及落空条件；搜索片段未全页核查"
+      ],
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻或实体版，非独立预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
