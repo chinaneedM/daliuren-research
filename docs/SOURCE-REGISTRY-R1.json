@@ -5299,6 +5299,45 @@
       "accessed_date": "2026-11-28",
       "limits": "古籍数字录文未校古刻、版本独立性；历表仅核节气日期；均不构成预测效验。关联为研究对照。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0352",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=1784",
+      "provider": "指南卷三会纂行人章",
+      "facts_checked": [
+        "l704–746直接录文；l710双向传、l716刚日四绝、l742间传阻隔"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络转录未与用户版或古刻校勘，非独立效验；仅作对照。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0353",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=1782",
+      "provider": "指南卷一注释心印赋",
+      "facts_checked": [
+        "l49–66昴星中末、返本释、别责与八专中末归干上"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络转录未与用户版或古刻校勘，非独立效验；仅作对照。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0354",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=838",
+      "provider": "金针行人占网络转录",
+      "facts_checked": [
+        "l17–27八传及l42八专并存，与私人p219/p220对照"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络转录未与用户版或古刻校勘，非独立效验；仅作对照。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
