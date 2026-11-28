@@ -5806,6 +5806,45 @@
       "accessed_date": "2026-11-28",
       "limits": "网络录文未校古刻；传统数量、应期解释不证明彩票开奖可预测，不提供选号算法。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0390",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://finance.sina.com.cn/stock/t/20050201/13241339233.shtml",
+      "provider": "2005-02-01国九条周年回顾",
+      "facts_checked": [
+        "直接读l10，起课前1590.73、2/2收1623.88涨2.08%"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "历史报道或基金回顾，非交易所原始逐日序列、独立事前断课或效验；原书指数名称未明。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0391",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://finance.sina.com.cn/stock/t/20041001/10421060685.shtml",
+      "provider": "2004-10-01政策与市场回顾",
+      "facts_checked": [
+        "直接读l10，阶段高1783、9/9收1284.31"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "历史报道或基金回顾，非交易所原始逐日序列、独立事前断课或效验；原书指数名称未明。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0392",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://finance.sina.com.cn/nz/fundco/jjzj/20041019/20531090837.shtml",
+      "provider": "国联安基金2004年9月市场回顾",
+      "facts_checked": [
+        "直接读l11–19，9/13低1259.43；月末表与正文数字不一致，暂不裁定"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "历史报道或基金回顾，非交易所原始逐日序列、独立事前断课或效验；原书指数名称未明。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
