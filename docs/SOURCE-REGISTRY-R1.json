@@ -5455,6 +5455,32 @@
       "accessed_date": "2026-11-28",
       "limits": "网络录文未校古刻及用户实体版，非独立预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0364",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=1784",
+      "provider": "指南卷三会纂行人章",
+      "facts_checked": [
+        "本轮实际web直读l719–733；l721吐/干校注，l723行年生旺，l725远近与巳亥寅申，l727未知行年看辰上，l729跨页"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻、实体版，可能互有承袭，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0365",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=838",
+      "provider": "金针行人占网络转录",
+      "facts_checked": [
+        "本轮实际web直读l132–163，p225诸句与p226首释对照，原吐及作者校改保留"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文未校古刻、实体版，可能互有承袭，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
