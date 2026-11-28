@@ -5650,6 +5650,71 @@
       "accessed_date": "2026-11-28",
       "limits": "网络录文未校古刻或实体版，书载反馈非独立预测效验。",
       "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0378",
+      "related_source": "DLR-SRC-0002",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=1784",
+      "provider": "指南卷三会纂行人章",
+      "facts_checked": [
+        "web直接打开l748–758；l752天日"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文/摘录未校古刻或实体版，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0379",
+      "related_source": "DLR-SRC-0001",
+      "url": "https://www.zhaosir.online/Books/BookChapterDetail.aspx?did=838",
+      "provider": "金针行人占网络录文",
+      "facts_checked": [
+        "web直接打开l222–244；l231天耳，与p229对照"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文/摘录未校古刻或实体版，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0380",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/wiki/六壬大全/11",
+      "provider": "大全卷十一毕法赋",
+      "facts_checked": [
+        "web find l244–250周遍两向及回还结构、占问差异"
+      ],
+      "evidence_grade": "ONLINE_TEXT_DIRECT_READ",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文/摘录未校古刻或实体版，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0381",
+      "related_source": "DLR-SRC-0003",
+      "url": "https://www.shidianguji.com/book/SDZJ0728/chapter/1kg328b67xszv",
+      "provider": "直指总论分论",
+      "facts_checked": [
+        "搜索摘录天罡四关格；打开及find未返回原句"
+      ],
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文/摘录未校古刻或实体版，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
+    },
+    {
+      "id": "DLR-WIT-0382",
+      "related_source": "DLR-SRC-0004",
+      "url": "https://zh.wikisource.org/wiki/六壬大全/8",
+      "provider": "大全卷八",
+      "facts_checked": [
+        "搜索摘录子天关卯天格午地关酉地格；find未显示正文"
+      ],
+      "evidence_grade": "ONLINE_SEARCH_EXCERPT_ONLY",
+      "accessed_date": "2026-11-28",
+      "limits": "网络录文/摘录未校古刻或实体版，非独立预测效验。",
+      "rights": "LINK_AND_ORIGINAL_SUMMARY_ONLY"
     }
   ]
 }
